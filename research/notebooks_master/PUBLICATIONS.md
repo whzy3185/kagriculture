@@ -8,6 +8,34 @@ Scope: public research Notebooks, not competition prediction submissions.
 | EV-A | [S6E9 - Data Audit and ID-Aware Drift](https://www.kaggle.com/code/muelsyse111/s6e9-data-audit-and-id-aware-drift) | 2 | PUBLIC_RUN_VERIFIED |
 | EV-B | [Validation Stability and ID-Order Tests](https://www.kaggle.com/code/muelsyse111/s6e9-validation-stability-and-id-order-tests) | 3 | PUBLIC_RUN_VERIFIED |
 | EV-C | [CPU Baselines and Paired AUC](https://www.kaggle.com/code/muelsyse111/s6e9-cpu-baselines-and-paired-auc) | 4 | PUBLIC_RUN_VERIFIED |
+| ARC-A | [Task Atlas and Grid Viewer](https://www.kaggle.com/code/muelsyse111/arc-agi-2-task-atlas-and-grid-viewer) | 3 | PUBLIC_RUN_VERIFIED |
+| BIO-A | [Zarr Metadata and Memory Planner](https://www.kaggle.com/code/muelsyse111/biohub-zarr-metadata-and-memory-planner) | 3 | PUBLIC_RUN_VERIFIED |
+| KAG-A | [Crop Timing and Labor Budget](https://www.kaggle.com/code/muelsyse111/kaggriculture-crop-timing-and-labor-budget) | 3 | PUBLIC_RUN_VERIFIED |
+
+## Multi-Competition Batch
+
+Three distinct utility notebooks, not leaderboard baselines. Public version 3 retains all computation
+from verified private version 2; only results-first prose, attribution and license material were added.
+All three public runs reached COMPLETE. Visibility and source were read back; all artifact hashes
+match the private v2 artifacts, with distinct public run IDs. Receipts: `runs/ARC-A-v3.json`,
+`runs/BIO-A-v3.json`, `runs/KAG-A-v3.json`; source notebooks are in `notebooks/`.
+CPU only, internet/GPU/TPU off. RSNA remains PRIVATE_PREPARATION_HOLD due to MIRA redistribution uncertainty.
+No RSNA notebook or data-derived outputs were published in this batch.
+
+- ARC: 1,000 training tasks, 3,232 demonstrations, 1,076 training queries; 1,118 shape-changing
+  demonstrations and 320 affected tasks. Input file hashes verified locally and on Kaggle.
+- Biohub: all 199 training image stores scanned at metadata level, distinct from 199 graph stores.
+  All observed arrays: uint16, 100x64x256x256, 800 MiB logical array, 8 MiB raw frame/chunk.
+  Raw frame plus two float32 scratch frames: 40 MiB, excluding runtime overhead.
+- Kaggriculture: pinned official source bbda347572cf5134e56f0eb49e8058e2560f9844, parameter-only analysis.
+  One-time crop cumulative counting fixed before publication; known-answer assertions added.
+  12 hires cost 376, with optimistic 298 daily unit-action slots including farmer.
+- Retained failures: ARC/Biohub private v1 failed on a missing `/competitions/` mount-path alternative.
+  This was a path-resolution bug, not evidence that competition sources were rejected.
+  Kaggriculture private v1 ran but had incorrect repeated one-time harvest counting and a mislabeled shed chart;
+  completion alone was not accepted as validation. Both were fixed and privately rerun as v2.
+- No prediction submissions, final submission selection, production agent changes or medal-zone claims.
+  Public notebook votes/medals and competition leaderboard rankings are separate and not guaranteed.
 
 ## EV-A Publication Receipt
 

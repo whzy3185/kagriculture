@@ -1,0 +1,26 @@
+{
+  "ref": "muelsyse111/arc-agi-2-task-atlas-and-grid-viewer",
+  "version_label": 2,
+  "visibility": "private",
+  "status": "COMPLETE",
+  "source_verified": true,
+  "artifact_run_ids": [
+    "347899033"
+  ],
+  "summary": {
+    "competition": "arc-prize-2026-arc-agi-2",
+    "split": "training only",
+    "task_count": 1000,
+    "demo_pair_count": 3232,
+    "query_count": 1076,
+    "shape_changing_demo_pairs": 1118,
+    "tasks_with_any_shape_change": 320,
+    "challenge_sha256": "779eaba89790ebad9af02514a7efc0aefaf2cf8236f046a31bbf8b9ec48f20f5",
+    "solutions_sha256": "9f07a38bd25af5e83aa5bf85c5cb1a1fefdb30f6a755256fa65429e697ca97f9"
+  },
+  "artifacts": {
+    "arc_task_aggregates.csv": "8fe8460bae1d01049b838d1c41b5f0864fbe479671040411a4c2dd337e669d93",
+    "arc_task_atlas.png": "9bab0143b8f8c163daa83e56fd7f876eaac50f9c2dbc37072d0507bb55a3d760",
+    "summary.json": "8c80a20c8d8cc6502b2eff39f5c20a0a22dbc53799eda68a1d252881aa97cb0f"
+  }
+}

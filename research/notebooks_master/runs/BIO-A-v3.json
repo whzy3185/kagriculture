@@ -1,0 +1,30 @@
+{
+  "ref": "muelsyse111/biohub-zarr-metadata-and-memory-planner",
+  "version_label": 3,
+  "visibility": "public",
+  "status": "COMPLETE",
+  "source_verified": true,
+  "artifact_run_ids": [
+    "347899761"
+  ],
+  "summary": {
+    "competition": "biohub-cell-tracking-during-development",
+    "metadata_only": true,
+    "zarr_stores_observed": 199,
+    "dtype_counts": {
+      "uint16": 199
+    },
+    "shape_counts": {
+      "100x64x256x256": 199
+    },
+    "median_raw_mib": 800.0,
+    "max_raw_mib": 800.0,
+    "median_chunk_mib": 8.0,
+    "median_frame_mib": 8.0
+  },
+  "artifacts": {
+    "biohub_memory_planner.png": "ff79f867ca226d55034c96eabfbaf3ff7a0d27c55214d8a8cbed1ce4c0a2bff2",
+    "biohub_memory_scenarios.csv": "075964a1b29eca8680ef9103735b9773e99b68b1751ce0a1abdb4bc0131fe64b",
+    "summary.json": "fcd25cc7da6ffc0b7c4181833dcd41ec52d75819b6b483d822c2a90921d1ea05"
+  }
+}

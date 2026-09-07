@@ -1,0 +1,41 @@
+{
+  "ref": "muelsyse111/kaggriculture-crop-timing-and-labor-budget",
+  "version_label": 3,
+  "visibility": "public",
+  "status": "COMPLETE",
+  "source_verified": true,
+  "artifact_run_ids": [
+    "347899777"
+  ],
+  "summary": {
+    "competition": "kaggriculture",
+    "source_commit": "bbda347572cf5134e56f0eb49e8058e2560f9844",
+    "apache_2_0_parameter_excerpt": true,
+    "defaults": {
+      "episodeSteps": 720,
+      "turnsPerDay": 24,
+      "shedCapacity": 100,
+      "maxMarketOrdersPerTurn": 10,
+      "farmHandCostMult": 1
+    },
+    "crop_order_by_net_per_occupied_day": [
+      "MELON",
+      "STRAWBERRY",
+      "CARROT",
+      "WHEAT",
+      "TOMATO"
+    ],
+    "twelve_hires_daily_cost": 376,
+    "twelve_hires_optimistic_actions": 298,
+    "submission_created": false,
+    "leaderboard_score": null
+  },
+  "artifacts": {
+    "kaggriculture_crop_summary.csv": "27a8cfd226844c97b863822d0c482064ba40e5dcd941ce6ff266680331da3aef",
+    "kaggriculture_crop_timing.png": "e9601e5cd78181f567eeccac47ef067da21fdb923817ffd18c503365d6741750",
+    "kaggriculture_labor_budget.csv": "33c5e0381153dcbca80efe1fcb05d3cc25e99d13cbfa735e4929dbdda279bddb",
+    "kaggriculture_labor_budget.png": "2bc8b85567d3f4c5125d60b8cab4767c718aaea5d1657bc46446e926703b9956",
+    "kaggriculture_market_params.csv": "4b583353af68c89a37791589140b2af5e16dec3fdac77403665e89c2e2e2c8b9",
+    "summary.json": "ae82eb3951ee487df405a405de8fe5f52648e313f2a7ff43e20ca00974ea48c3"
+  }
+}
