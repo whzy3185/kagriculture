@@ -6,11 +6,11 @@
   "episodes": 8,
   "faults": 0,
   "tests": 11,
-  "runtime_max": 0.1423048020000124,
+  "runtime_max": 0.16137075799997547,
   "raw_evidence": {
-    "cloud-runtime.json": "b08f972b3ceeb96290ad306a095d829764630662697082702dccc860bc96203e",
-    "cloud-tests.xml": "cfdd5aff6cd1a6b4dacb03103871025e86609573e453bf9407fce087969a33c8",
-    "runtime-verification.json": "4a2efd0a7fadb471c40dd5062dff39d30aa506489cc99e30d7289bd9d116c5a4"
+    "cloud-runtime.json": "b07a3ae14bb676005732c79554630ba0d28fddcc85475b35711ddfedd6f40938",
+    "cloud-tests.xml": "677e24ea088c60d0bdbfa55c5956a99d5fe0c3942e3020447ad157512150f7b6",
+    "runtime-verification.json": "bdab74d3806a2d535aeae7fd342514a94344994f862764184c444815281426f0"
   },
   "publication_verified": false
 }

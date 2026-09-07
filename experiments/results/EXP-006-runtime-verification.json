@@ -6,6 +6,6 @@
   "tests": 11,
   "episodes": 8,
   "faults": 0,
-  "runtime_max": 0.1423048020000124,
+  "runtime_max": 0.16137075799997547,
   "scope": "Runtime and baseline validation, not evidence of beating strong public agents"
 }

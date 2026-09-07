@@ -1,0 +1,77 @@
+{
+  "exp_id": "EXP-006",
+  "date": "2026-09-07T07:50:09.112738+00:00",
+  "purpose": "first_baseline_calibration",
+  "approval": "BASELINE_CALIBRATION_ONLY",
+  "hypothesis": "Independent feasible crop control improves legacy paired points; calibrate online only.",
+  "parent_submission": null,
+  "parent_score": null,
+  "parent_agent_sha": "712be5af7888bb489c95417e6eb3d16875def7fcaaed31c47715d85e9ad9ae7d",
+  "git_sha": "b968c37227404c84349ee380b5bd106c57e7b594",
+  "github_git_sha": "298d2074be9be6d8ecf3f00ee45dbfd625993612",
+  "source_tree_sha": "1fb2ef632ff0d664d4cf618e62539a16f955af90",
+  "source_file": "agents/candidates/exp006_independent.py",
+  "artifact_file": "submissions/artifacts/EXP-006/submission.tar.gz",
+  "artifact_sha": "43b21c72bd05da3a9c2e97a748758afdabcc1e44b85fe7a92ea7879edd9bdb42",
+  "agent_sha": "84f11eaeceb1f2053c51947d7369b71ef6c7bdebfc66b815fbc0d04d62ecbd77",
+  "tests": {
+    "path": "experiments/results/EXP-006-local-tests.json",
+    "sha256": "368828d4a1841625d84560e0f9915c015381b1cf2345c54c6fd9a151d37fae0f"
+  },
+  "development": {
+    "path": "experiments/results/EXP-006-development-full.json",
+    "sha256": "866bc0fe85f45fcfe4d4040bf6c146d188ebacd913bf907848242f4a538a4599"
+  },
+  "holdout": {
+    "path": "experiments/results/EXP-006-holdout.json",
+    "sha256": "d48eaedbd3b3a53e5ea6d4a154e972bec5807b04d9f703ea458e0f2f89bbc515"
+  },
+  "kaggle_runtime": {
+    "path": "experiments/results/EXP-006-cloud-verified.json",
+    "sha256": "07f956aa89c83d49d970d370b2c7deca718b003d804e1a261b28e19d598a210f"
+  },
+  "kernel_ref": "muelsyse111/kaggriculture-exp006-independent-baseline-audit",
+  "kernel_version": 2,
+  "publication": {
+    "is_private": false,
+    "status": "COMPLETE",
+    "competition_sources": [
+      "kaggriculture"
+    ],
+    "authorization": "User authorized Kaggle submission and GitHub synchronization after explicit public-release question."
+  },
+  "seed_suite": {
+    "development": [
+      201,
+      216
+    ],
+    "holdout": [
+      3001,
+      3032
+    ],
+    "seat_swapped": true
+  },
+  "local_games": 96,
+  "holdout_games": 192,
+  "local_win_rate_by_opponent": {
+    "main": 1.0,
+    "starter": 1.0,
+    "shape_shop_v11": 0.0
+  },
+  "holdout_win_rate_by_opponent": {
+    "main": 1.0,
+    "starter": 1.0,
+    "shape_shop_v11": 0.0
+  },
+  "runtime": {
+    "cloud_max_seconds": 0.16137075799997547
+  },
+  "expected_delta": null,
+  "limitations": [
+    "Shape v11 holdout: 0/64 wins; no champion promotion.",
+    "Ablations improved cash margins, not win/loss classifications.",
+    "No parent online rating; first submission is calibration only.",
+    "Local and GitHub commits differ; exact source tree identity verified."
+  ],
+  "submission_message": "EXP-006 first-baseline parent=none git=298d2074 local=b968c37; independent crop calibration"
+}
