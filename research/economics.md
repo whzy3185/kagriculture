@@ -5,6 +5,26 @@ Evidence: official Kaggriculture 1.32.7 source, hash
 current Overview; original Code/Discussion sources in CODE_DISCUSSION_REVIEW.md.
 No agent improvement is inferred merely from this model.
 
+## Measured Strategy Update
+
+See STRATEGY_DEPTH_20260907.md: an exact four-game diagnostic of two existing
+development seeds found zero EXP-006 sales in [0,180), versus 7315/7336 for
+Shape. Similar on-hand cash concealed very different productive assets.
+This is not a controlled effect of early income or livestock, and not new
+independent evaluation evidence. It motivates testing an early-income bridge.
+
+Tomato/strawberry have four lifetime production events. Under ideal eligible
+fertilization and timely harvest, these can supply eight total units rather
+than four, but held stock caps at four. Fertilizer acquisition, transport,
+application, watering and displaced work must all be priced; a theoretical
+doubling is not automatic profit. Fertilizer use also forgoes sale revenue
+and can change a rival's sale prices in the shared market.
+
+For uncertain future shops/supply, integrate E[p(I)] rather than assuming
+p(E[I]) is equivalent. Use a distribution over continuation outcomes and a
+liquidity constraint at each payment, not terminal cash alone. Scenario inputs
+must be public/legitimate history; hidden replay information is audit-only.
+
 ## Objective And State
 
 Let M = our terminal bank minus opponent terminal bank. Target expected points

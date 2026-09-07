@@ -1,0 +1,7425 @@
+{
+  "timestamp": "2026-09-07T08:37:48.720017+00:00",
+  "scope": "Descriptive remeasurement of four existing development games; not independent evidence",
+  "agent_sha": "84f11eaeceb1f2053c51947d7369b71ef6c7bdebfc66b815fbc0d04d62ecbd77",
+  "opponent_sha": "2b97e2c653018ac4aeffb8463ec91c8f26b097b4cef81289acc25ccdbc68f916",
+  "engine_version": "1.32.7",
+  "engine_sha": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+  "diagnostic_sha": "af4e1f2ec54fbc9efcb36c21d9b85259b6e3ec4ca7481aadecd66e209f27067b",
+  "evaluator_sha": "6d8f9052738e661ee6cd923e4dcb639d8cefefc351dc802a22000b7a385d4e2b",
+  "source_development_sha": "866bc0fe85f45fcfe4d4040bf6c146d188ebacd913bf907848242f4a538a4599",
+  "rows": [
+    {
+      "evaluation": {
+        "seed": 201,
+        "seat": 0,
+        "opponent": "shape_shop_v11",
+        "ours": 52936.0,
+        "theirs": 137016.0,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "valid_terminal": true,
+        "faults": {
+          "atomic_plant_rejections": 0,
+          "unfilled_requested_market_units": 0,
+          "overflow_units": 0
+        },
+        "actions": {
+          "PASS": 1666,
+          "PLANT": 152,
+          "WEST": 991,
+          "WATER": 903,
+          "NORTH": 604,
+          "SOUTH": 442,
+          "EAST": 596,
+          "HARVEST": 314,
+          "DROP": 13,
+          "DIG": 22
+        },
+        "calls": 719,
+        "runtime_mean": 0.00010125232247686887,
+        "runtime_p95": 0.0001781919985660352,
+        "runtime_p99": 0.00021408200205769406,
+        "runtime_max": 0.0002672080008778721,
+        "wall_seconds": 3.549557749996893,
+        "terminal_carried_units": 0,
+        "terminal_shed_units": 0,
+        "margin": -84080.0,
+        "points": 0.0
+      },
+      "snapshots": {
+        "0": [
+          {
+            "cash": 3000.0,
+            "hands": 0,
+            "quadrants": 1,
+            "tiles": {},
+            "empty_tiles": 25,
+            "carried_units": 0,
+            "shed_units": 0,
+            "shops": []
+          },
+          {
+            "cash": 3000.0,
+            "hands": 0,
+            "quadrants": 1,
+            "tiles": {},
+            "empty_tiles": 25,
+            "carried_units": 0,
+            "shed_units": 0,
+            "shops": []
+          }
+        ],
+        "72": [
+          {
+            "cash": 302.0,
+            "hands": 0,
+            "quadrants": 1,
+            "tiles": {
+              "STRAWBERRY": 8,
+              "MELON": 17
+            },
+            "empty_tiles": 0,
+            "carried_units": 0,
+            "shed_units": 0,
+            "shops": [
+              "SMOOTHIE_SHOP"
+            ]
+          },
+          {
+            "cash": 160.0,
+            "hands": 0,
+            "quadrants": 1,
+            "tiles": {
+              "WHEAT": 7,
+              "MELON": 12,
+              "COW": 3,
+              "SHEEP": 2,
+              "PASTURE": 1
+            },
+            "empty_tiles": 0,
+            "carried_units": 0,
+            "shed_units": 8,
+            "shops": [
+              "SMOOTHIE_SHOP"
+            ]
+          }
+        ],
+        "144": [
+          {
+            "cash": 281.0,
+            "hands": 0,
+            "quadrants": 1,
+            "tiles": {
+              "STRAWBERRY": 8,
+              "MELON": 17
+            },
+            "empty_tiles": 0,
+            "carried_units": 0,
+            "shed_units": 0,
+            "shops": [
+              "SMOOTHIE_SHOP",
+              "BAKERY"
+            ]
+          },
+          {
+            "cash": 279.0,
+            "hands": 0,
+            "quadrants": 1,
+            "tiles": {
+              "WHEAT": 3,
+              "STRAWBERRY": 4,
+              "MELON": 12,
+              "COW": 4,
+              "SHEEP": 2
+            },
+            "empty_tiles": 0,
+            "carried_units": 0,
+            "shed_units": 21,
+            "shops": [
+              "SMOOTHIE_SHOP",
+              "BAKERY"
+            ]
+          }
+        ],
+        "180": [
+          {
+            "cash": 267.0,
+            "hands": 4,
+            "quadrants": 1,
+            "tiles": {
+              "STRAWBERRY": 8,
+              "MELON": 17
+            },
+            "empty_tiles": 0,
+            "carried_units": 0,
+            "shed_units": 0,
+            "shops": [
+              "SMOOTHIE_SHOP",
+              "BAKERY"
+            ]
+          },
+          {
+            "cash": 374.0,
+            "hands": 8,
+            "quadrants": 2,
+            "tiles": {
+              "STRAWBERRY": 13,
+              "MELON": 12,
+              "WHEAT": 5,
+              "COW": 7,
+              "PASTURE": 4,
+              "SHEEP": 2
+            },
+            "empty_tiles": 7,
+            "carried_units": 0,
+            "shed_units": 14,
+            "shops": [
+              "SMOOTHIE_SHOP",
+              "BAKERY"
+            ]
+          }
+        ],
+        "360": [
+          {
+            "cash": 7181.0,
+            "hands": 0,
+            "quadrants": 3,
+            "tiles": {
+              "STRAWBERRY": 65,
+              "WHEAT": 6,
+              "MELON": 2
+            },
+            "empty_tiles": 2,
+            "carried_units": 0,
+            "shed_units": 7,
+            "shops": [
+              "SMOOTHIE_SHOP",
+              "BAKERY",
+              "BRUNCH_SPOT",
+              "PET_CAFE",
+              "FARMERS_MARKET"
+            ]
+          },
+          {
+            "cash": 29669.0,
+            "hands": 0,
+            "quadrants": 3,
+            "tiles": {
+              "WHEAT": 24,
+              "STRAWBERRY": 33,
+              "COOP": 1,
+              "GOOSE": 3,
+              "COW": 9,
+              "SHEEP": 5
+            },
+            "empty_tiles": 0,
+            "carried_units": 0,
+            "shed_units": 72,
+            "shops": [
+              "SMOOTHIE_SHOP",
+              "BAKERY",
+              "BRUNCH_SPOT",
+              "PET_CAFE",
+              "FARMERS_MARKET"
+            ]
+          }
+        ],
+        "540": [
+          {
+            "cash": 17128.0,
+            "hands": 10,
+            "quadrants": 3,
+            "tiles": {
+              "CARROT": 11,
+              "WHEAT": 4,
+              "STRAWBERRY": 55,
+              "WEED": 5
+            },
+            "empty_tiles": 0,
+            "carried_units": 23,
+            "shed_units": 0,
+            "shops": [
+              "SMOOTHIE_SHOP",
+              "BAKERY",
+              "BRUNCH_SPOT",
+              "PET_CAFE",
+              "FARMERS_MARKET",
+              "BRUNCH_SPOT",
+              "BRUNCH_SPOT"
+            ]
+          },
+          {
+            "cash": 90785.0,
+            "hands": 12,
+            "quadrants": 3,
+            "tiles": {
+              "WHEAT": 26,
+              "STRAWBERRY": 29,
+              "WEED": 3,
+              "GOOSE": 3,
+              "COW": 9,
+              "SHEEP": 5
+            },
+            "empty_tiles": 0,
+            "carried_units": 53,
+            "shed_units": 14,
+            "shops": [
+              "SMOOTHIE_SHOP",
+              "BAKERY",
+              "BRUNCH_SPOT",
+              "PET_CAFE",
+              "FARMERS_MARKET",
+              "BRUNCH_SPOT",
+              "BRUNCH_SPOT"
+            ]
+          }
+        ],
+        "719": [
+          {
+            "cash": 52936.0,
+            "hands": 4,
+            "quadrants": 3,
+            "tiles": {
+              "WEED": 54,
+              "STRAWBERRY": 4
+            },
+            "empty_tiles": 17,
+            "carried_units": 0,
+            "shed_units": 0,
+            "shops": [
+              "SMOOTHIE_SHOP",
+              "BAKERY",
+              "BRUNCH_SPOT",
+              "PET_CAFE",
+              "FARMERS_MARKET",
+              "BRUNCH_SPOT",
+              "BRUNCH_SPOT",
+              "PIZZA_SHOP"
+            ]
+          },
+          {
+            "cash": 137016.0,
+            "hands": 9,
+            "quadrants": 3,
+            "tiles": {
+              "WEED": 1,
+              "GOOSE": 3,
+              "COW": 9,
+              "SHEEP": 5
+            },
+            "empty_tiles": 57,
+            "carried_units": 0,
+            "shed_units": 0,
+            "shops": [
+              "SMOOTHIE_SHOP",
+              "BAKERY",
+              "BRUNCH_SPOT",
+              "PET_CAFE",
+              "FARMERS_MARKET",
+              "BRUNCH_SPOT",
+              "BRUNCH_SPOT",
+              "PIZZA_SHOP"
+            ]
+          }
+        ],
+        "240": [
+          {
+            "cash": 253.0,
+            "hands": 0,
+            "quadrants": 1,
+            "tiles": {
+              "STRAWBERRY": 8,
+              "MELON": 17
+            },
+            "empty_tiles": 0,
+            "carried_units": 0,
+            "shed_units": 0,
+            "shops": [
+              "SMOOTHIE_SHOP",
+              "BAKERY",
+              "BRUNCH_SPOT"
+            ]
+          },
+          {
+            "cash": 2429.0,
+            "hands": 0,
+            "quadrants": 2,
+            "tiles": {
+              "WHEAT": 5,
+              "STRAWBERRY": 20,
+              "MELON": 12,
+              "COW": 9,
+              "SHEEP": 4
+            },
+            "empty_tiles": 0,
+            "carried_units": 0,
+            "shed_units": 47,
+            "shops": [
+              "SMOOTHIE_SHOP",
+              "BAKERY",
+              "BRUNCH_SPOT"
+            ]
+          }
+        ]
+      },
+      "flows": [
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "BUY_SEED",
+          "item": "MELON",
+          "cash_delta": -1680.0,
+          "filled_units_or_events": 21
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "BUY_SEED",
+          "item": "STRAWBERRY",
+          "cash_delta": -1000.0,
+          "filled_units_or_events": 10
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -18.0,
+          "filled_units_or_events": 11
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -14.0,
+          "filled_units_or_events": 8
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "BUY_LAND",
+          "item": "",
+          "cash_delta": -3000.0,
+          "filled_units_or_events": 2
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "BUY_SEED",
+          "item": "STRAWBERRY",
+          "cash_delta": -6000.0,
+          "filled_units_or_events": 60
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "BUY_SEED",
+          "item": "WHEAT",
+          "cash_delta": -120.0,
+          "filled_units_or_events": 12
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -373.0,
+          "filled_units_or_events": 45
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "SELL",
+          "item": "MELON",
+          "cash_delta": 13688.0,
+          "filled_units_or_events": 102
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "SELL",
+          "item": "STRAWBERRY",
+          "cash_delta": 2719.0,
+          "filled_units_or_events": 14
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "BUY_SEED",
+          "item": "CARROT",
+          "cash_delta": -440.0,
+          "filled_units_or_events": 22
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "BUY_SEED",
+          "item": "WHEAT",
+          "cash_delta": -60.0,
+          "filled_units_or_events": 6
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -1144.0,
+          "filled_units_or_events": 80
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "SELL",
+          "item": "CARROT",
+          "cash_delta": 851.0,
+          "filled_units_or_events": 18
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "SELL",
+          "item": "MELON",
+          "cash_delta": 147.0,
+          "filled_units_or_events": 12
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "SELL",
+          "item": "STRAWBERRY",
+          "cash_delta": 9195.0,
+          "filled_units_or_events": 44
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "SELL",
+          "item": "WHEAT",
+          "cash_delta": 1398.0,
+          "filled_units_or_events": 35
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "BUY_SEED",
+          "item": "CARROT",
+          "cash_delta": -520.0,
+          "filled_units_or_events": 26
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "BUY_SEED",
+          "item": "WHEAT",
+          "cash_delta": -20.0,
+          "filled_units_or_events": 2
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -776.0,
+          "filled_units_or_events": 62
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "SELL",
+          "item": "CARROT",
+          "cash_delta": 4667.0,
+          "filled_units_or_events": 91
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "SELL",
+          "item": "STRAWBERRY",
+          "cash_delta": 31715.0,
+          "filled_units_or_events": 184
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "SELL",
+          "item": "WHEAT",
+          "cash_delta": 742.0,
+          "filled_units_or_events": 17
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -21.0,
+          "filled_units_or_events": 12
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "BUY_ANIMAL",
+          "item": "COW",
+          "cash_delta": -1200.0,
+          "filled_units_or_events": 3
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "BUY_ANIMAL",
+          "item": "SHEEP",
+          "cash_delta": -1000.0,
+          "filled_units_or_events": 2
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "BUY_PRODUCT",
+          "item": "WHEAT",
+          "cash_delta": -856.0,
+          "filled_units_or_events": 31
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "BUY_SEED",
+          "item": "MELON",
+          "cash_delta": -960.0,
+          "filled_units_or_events": 12
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "BUY_SEED",
+          "item": "WHEAT",
+          "cash_delta": -120.0,
+          "filled_units_or_events": 12
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -26.0,
+          "filled_units_or_events": 13
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "SELL",
+          "item": "FERTILIZER",
+          "cash_delta": 795.0,
+          "filled_units_or_events": 8
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "SELL",
+          "item": "WHEAT",
+          "cash_delta": 527.0,
+          "filled_units_or_events": 19
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "BUY_ANIMAL",
+          "item": "COW",
+          "cash_delta": -1600.0,
+          "filled_units_or_events": 4
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "BUY_LAND",
+          "item": "",
+          "cash_delta": -1000.0,
+          "filled_units_or_events": 1
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "BUY_PRODUCT",
+          "item": "FERTILIZER",
+          "cash_delta": -284.0,
+          "filled_units_or_events": 3
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "BUY_PRODUCT",
+          "item": "WHEAT",
+          "cash_delta": -302.0,
+          "filled_units_or_events": 10
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "BUY_SEED",
+          "item": "CARROT",
+          "cash_delta": -20.0,
+          "filled_units_or_events": 1
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "BUY_SEED",
+          "item": "STRAWBERRY",
+          "cash_delta": -800.0,
+          "filled_units_or_events": 8
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "BUY_SEED",
+          "item": "WHEAT",
+          "cash_delta": -60.0,
+          "filled_units_or_events": 6
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -108.0,
+          "filled_units_or_events": 16
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "SELL",
+          "item": "FERTILIZER",
+          "cash_delta": 1506.0,
+          "filled_units_or_events": 16
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "SELL",
+          "item": "WHEAT",
+          "cash_delta": 274.0,
+          "filled_units_or_events": 9
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "SELL",
+          "item": "WOOL",
+          "cash_delta": 2489.0,
+          "filled_units_or_events": 12
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "BUY_ANIMAL",
+          "item": "COW",
+          "cash_delta": -400.0,
+          "filled_units_or_events": 1
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "BUY_ANIMAL",
+          "item": "GOOSE",
+          "cash_delta": -900.0,
+          "filled_units_or_events": 3
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "BUY_ANIMAL",
+          "item": "SHEEP",
+          "cash_delta": -1500.0,
+          "filled_units_or_events": 3
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "BUY_LAND",
+          "item": "",
+          "cash_delta": -2000.0,
+          "filled_units_or_events": 1
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "BUY_PRODUCT",
+          "item": "FERTILIZER",
+          "cash_delta": -1039.0,
+          "filled_units_or_events": 12
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "BUY_PRODUCT",
+          "item": "WHEAT",
+          "cash_delta": -3599.0,
+          "filled_units_or_events": 103
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "BUY_SEED",
+          "item": "CARROT",
+          "cash_delta": -20.0,
+          "filled_units_or_events": 1
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "BUY_SEED",
+          "item": "STRAWBERRY",
+          "cash_delta": -1700.0,
+          "filled_units_or_events": 17
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "BUY_SEED",
+          "item": "WHEAT",
+          "cash_delta": -410.0,
+          "filled_units_or_events": 41
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -1069.0,
+          "filled_units_or_events": 70
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "SELL",
+          "item": "FERTILIZER",
+          "cash_delta": 7507.0,
+          "filled_units_or_events": 88
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "SELL",
+          "item": "MELON",
+          "cash_delta": 15858.0,
+          "filled_units_or_events": 72
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "SELL",
+          "item": "MILK",
+          "cash_delta": 12706.0,
+          "filled_units_or_events": 60
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "SELL",
+          "item": "WHEAT",
+          "cash_delta": 1617.0,
+          "filled_units_or_events": 43
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "SELL",
+          "item": "WOOL",
+          "cash_delta": 4244.0,
+          "filled_units_or_events": 22
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "BUY_PRODUCT",
+          "item": "FERTILIZER",
+          "cash_delta": -1444.0,
+          "filled_units_or_events": 21
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "BUY_SEED",
+          "item": "WHEAT",
+          "cash_delta": -730.0,
+          "filled_units_or_events": 73
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -2576.0,
+          "filled_units_or_events": 93
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "SELL",
+          "item": "EGG",
+          "cash_delta": 2224.0,
+          "filled_units_or_events": 38
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "SELL",
+          "item": "FERTILIZER",
+          "cash_delta": 7489.0,
+          "filled_units_or_events": 109
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "SELL",
+          "item": "MILK",
+          "cash_delta": 17456.0,
+          "filled_units_or_events": 102
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "SELL",
+          "item": "STRAWBERRY",
+          "cash_delta": 31088.0,
+          "filled_units_or_events": 146
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "SELL",
+          "item": "WHEAT",
+          "cash_delta": 2491.0,
+          "filled_units_or_events": 62
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "SELL",
+          "item": "WOOL",
+          "cash_delta": 5118.0,
+          "filled_units_or_events": 56
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "BUY_PRODUCT",
+          "item": "FERTILIZER",
+          "cash_delta": -1490.0,
+          "filled_units_or_events": 30
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "BUY_SEED",
+          "item": "CARROT",
+          "cash_delta": -520.0,
+          "filled_units_or_events": 26
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "BUY_SEED",
+          "item": "WHEAT",
+          "cash_delta": -420.0,
+          "filled_units_or_events": 42
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -1768.0,
+          "filled_units_or_events": 77
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "SELL",
+          "item": "CARROT",
+          "cash_delta": 4561.0,
+          "filled_units_or_events": 93
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "SELL",
+          "item": "EGG",
+          "cash_delta": 2735.0,
+          "filled_units_or_events": 41
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "SELL",
+          "item": "FERTILIZER",
+          "cash_delta": 5773.0,
+          "filled_units_or_events": 113
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "SELL",
+          "item": "MILK",
+          "cash_delta": 9325.0,
+          "filled_units_or_events": 99
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "SELL",
+          "item": "STRAWBERRY",
+          "cash_delta": 20441.0,
+          "filled_units_or_events": 116
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "SELL",
+          "item": "WHEAT",
+          "cash_delta": 7513.0,
+          "filled_units_or_events": 172
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "SELL",
+          "item": "WOOL",
+          "cash_delta": 81.0,
+          "filled_units_or_events": 41
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "BUY_ANIMAL",
+          "item": "COW",
+          "cash_delta": -400.0,
+          "filled_units_or_events": 1
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "BUY_PRODUCT",
+          "item": "WHEAT",
+          "cash_delta": -174.0,
+          "filled_units_or_events": 6
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "BUY_SEED",
+          "item": "CARROT",
+          "cash_delta": -60.0,
+          "filled_units_or_events": 3
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "BUY_SEED",
+          "item": "STRAWBERRY",
+          "cash_delta": -800.0,
+          "filled_units_or_events": 8
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "BUY_SEED",
+          "item": "WHEAT",
+          "cash_delta": -140.0,
+          "filled_units_or_events": 14
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -31.0,
+          "filled_units_or_events": 14
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "SELL",
+          "item": "FERTILIZER",
+          "cash_delta": 1550.0,
+          "filled_units_or_events": 16
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "SELL",
+          "item": "WHEAT",
+          "cash_delta": 174.0,
+          "filled_units_or_events": 6
+        }
+      ],
+      "requested_unit_actions": [
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "NORTH",
+          "count": 30
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "PASS",
+          "count": 179
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "PLANT",
+          "count": 25
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "SOUTH",
+          "count": 2
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "WATER",
+          "count": 50
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "WEST",
+          "count": 39
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "NORTH",
+          "count": 32
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "PASS",
+          "count": 65
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "SOUTH",
+          "count": 1
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "WATER",
+          "count": 42
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "WEST",
+          "count": 32
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "DIG",
+          "count": 1
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "DROP",
+          "count": 4
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "EAST",
+          "count": 159
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "HARVEST",
+          "count": 38
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "NORTH",
+          "count": 164
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "PASS",
+          "count": 283
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "PLANT",
+          "count": 66
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "SOUTH",
+          "count": 122
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "WATER",
+          "count": 208
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "WEST",
+          "count": 215
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "DIG",
+          "count": 12
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "DROP",
+          "count": 2
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "EAST",
+          "count": 255
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "HARVEST",
+          "count": 77
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "NORTH",
+          "count": 208
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "PASS",
+          "count": 441
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "PLANT",
+          "count": 31
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "SOUTH",
+          "count": 161
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "WATER",
+          "count": 318
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "WEST",
+          "count": 384
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "DIG",
+          "count": 9
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "DROP",
+          "count": 7
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "EAST",
+          "count": 182
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "HARVEST",
+          "count": 199
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "NORTH",
+          "count": 154
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "PASS",
+          "count": 413
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "PLANT",
+          "count": 30
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "SOUTH",
+          "count": 155
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "WATER",
+          "count": 260
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "WEST",
+          "count": 300
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "NORTH",
+          "count": 16
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "PASS",
+          "count": 285
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "SOUTH",
+          "count": 1
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "WATER",
+          "count": 25
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "WEST",
+          "count": 21
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "BUILD_PASTURE",
+          "count": 6
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "CARE",
+          "count": 15
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "COLLECT_FERTILIZER",
+          "count": 8
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "DROP",
+          "count": 1
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "EAST",
+          "count": 20
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "FEED",
+          "count": 10
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "HARVEST",
+          "count": 3
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "NORTH",
+          "count": 49
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "PASS",
+          "count": 91
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "PICKUP",
+          "count": 12
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "PLACE",
+          "count": 9
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "PLANT",
+          "count": 22
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "SOUTH",
+          "count": 10
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "WATER",
+          "count": 51
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "WEST",
+          "count": 59
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "BUILD_PASTURE",
+          "count": 7
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "CARE",
+          "count": 16
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "COLLECT_FERTILIZER",
+          "count": 13
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "EAST",
+          "count": 47
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "FEED",
+          "count": 15
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "HARVEST",
+          "count": 5
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "NORTH",
+          "count": 47
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "PASS",
+          "count": 16
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "PICKUP",
+          "count": 15
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "PLACE",
+          "count": 15
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "PLANT",
+          "count": 14
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "SOUTH",
+          "count": 9
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "WATER",
+          "count": 31
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "WEST",
+          "count": 55
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "BUILD_COOP",
+          "count": 4
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "BUILD_PASTURE",
+          "count": 1
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "CARE",
+          "count": 113
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "COLLECT_FERTILIZER",
+          "count": 103
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "DROP",
+          "count": 1
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "EAST",
+          "count": 192
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "FEED",
+          "count": 104
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "FERTILIZE",
+          "count": 4
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "HARVEST",
+          "count": 63
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "NORTH",
+          "count": 266
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "PASS",
+          "count": 177
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "PICKUP",
+          "count": 39
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "PLACE",
+          "count": 40
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "PLANT",
+          "count": 68
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "SOUTH",
+          "count": 137
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "WATER",
+          "count": 318
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "WEST",
+          "count": 237
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "CARE",
+          "count": 126
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "COLLECT_FERTILIZER",
+          "count": 129
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "DIG",
+          "count": 3
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "DROP",
+          "count": 3
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "EAST",
+          "count": 217
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "FEED",
+          "count": 126
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "FERTILIZE",
+          "count": 55
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "HARVEST",
+          "count": 190
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "NORTH",
+          "count": 311
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "PASS",
+          "count": 45
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "PICKUP",
+          "count": 54
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "PLACE",
+          "count": 23
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "PLANT",
+          "count": 53
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "SOUTH",
+          "count": 193
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "WATER",
+          "count": 321
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "WEST",
+          "count": 305
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "CARE",
+          "count": 88
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "COLLECT_FERTILIZER",
+          "count": 114
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "DIG",
+          "count": 32
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "DROP",
+          "count": 10
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "EAST",
+          "count": 200
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "FEED",
+          "count": 92
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "FERTILIZE",
+          "count": 39
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "HARVEST",
+          "count": 209
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "NORTH",
+          "count": 245
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "PASS",
+          "count": 149
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "PICKUP",
+          "count": 37
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "PLACE",
+          "count": 14
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "PLANT",
+          "count": 72
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "SOUTH",
+          "count": 163
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "WATER",
+          "count": 342
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "WEST",
+          "count": 259
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "CARE",
+          "count": 23
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "COLLECT_FERTILIZER",
+          "count": 17
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "DROP",
+          "count": 4
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "EAST",
+          "count": 28
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "FEED",
+          "count": 14
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "HARVEST",
+          "count": 11
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "NORTH",
+          "count": 64
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "PASS",
+          "count": 50
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "PICKUP",
+          "count": 5
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "PLACE",
+          "count": 7
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "PLANT",
+          "count": 11
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "SOUTH",
+          "count": 38
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "WATER",
+          "count": 59
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "WEST",
+          "count": 61
+        }
+      ]
+    },
+    {
+      "evaluation": {
+        "seed": 201,
+        "seat": 1,
+        "opponent": "shape_shop_v11",
+        "ours": 52936.0,
+        "theirs": 137016.0,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "valid_terminal": true,
+        "faults": {
+          "atomic_plant_rejections": 0,
+          "unfilled_requested_market_units": 0,
+          "overflow_units": 0
+        },
+        "actions": {
+          "PASS": 1666,
+          "PLANT": 152,
+          "WEST": 991,
+          "WATER": 903,
+          "NORTH": 604,
+          "SOUTH": 442,
+          "EAST": 596,
+          "HARVEST": 314,
+          "DROP": 13,
+          "DIG": 22
+        },
+        "calls": 719,
+        "runtime_mean": 0.00010477058285952874,
+        "runtime_p95": 0.00018676250911084936,
+        "runtime_p99": 0.00021674617921235042,
+        "runtime_max": 0.0005697080050595105,
+        "wall_seconds": 3.6689343329926487,
+        "terminal_carried_units": 0,
+        "terminal_shed_units": 0,
+        "margin": -84080.0,
+        "points": 0.0
+      },
+      "snapshots": {
+        "0": [
+          {
+            "cash": 3000.0,
+            "hands": 0,
+            "quadrants": 1,
+            "tiles": {},
+            "empty_tiles": 25,
+            "carried_units": 0,
+            "shed_units": 0,
+            "shops": []
+          },
+          {
+            "cash": 3000.0,
+            "hands": 0,
+            "quadrants": 1,
+            "tiles": {},
+            "empty_tiles": 25,
+            "carried_units": 0,
+            "shed_units": 0,
+            "shops": []
+          }
+        ],
+        "72": [
+          {
+            "cash": 160.0,
+            "hands": 0,
+            "quadrants": 1,
+            "tiles": {
+              "WHEAT": 7,
+              "MELON": 12,
+              "COW": 3,
+              "SHEEP": 2,
+              "PASTURE": 1
+            },
+            "empty_tiles": 0,
+            "carried_units": 0,
+            "shed_units": 8,
+            "shops": [
+              "SMOOTHIE_SHOP"
+            ]
+          },
+          {
+            "cash": 302.0,
+            "hands": 0,
+            "quadrants": 1,
+            "tiles": {
+              "STRAWBERRY": 8,
+              "MELON": 17
+            },
+            "empty_tiles": 0,
+            "carried_units": 0,
+            "shed_units": 0,
+            "shops": [
+              "SMOOTHIE_SHOP"
+            ]
+          }
+        ],
+        "144": [
+          {
+            "cash": 279.0,
+            "hands": 0,
+            "quadrants": 1,
+            "tiles": {
+              "WHEAT": 3,
+              "STRAWBERRY": 4,
+              "MELON": 12,
+              "COW": 4,
+              "SHEEP": 2
+            },
+            "empty_tiles": 0,
+            "carried_units": 0,
+            "shed_units": 21,
+            "shops": [
+              "SMOOTHIE_SHOP",
+              "BAKERY"
+            ]
+          },
+          {
+            "cash": 281.0,
+            "hands": 0,
+            "quadrants": 1,
+            "tiles": {
+              "STRAWBERRY": 8,
+              "MELON": 17
+            },
+            "empty_tiles": 0,
+            "carried_units": 0,
+            "shed_units": 0,
+            "shops": [
+              "SMOOTHIE_SHOP",
+              "BAKERY"
+            ]
+          }
+        ],
+        "180": [
+          {
+            "cash": 374.0,
+            "hands": 8,
+            "quadrants": 2,
+            "tiles": {
+              "STRAWBERRY": 13,
+              "MELON": 12,
+              "WHEAT": 5,
+              "COW": 7,
+              "PASTURE": 4,
+              "SHEEP": 2
+            },
+            "empty_tiles": 7,
+            "carried_units": 0,
+            "shed_units": 14,
+            "shops": [
+              "SMOOTHIE_SHOP",
+              "BAKERY"
+            ]
+          },
+          {
+            "cash": 267.0,
+            "hands": 4,
+            "quadrants": 1,
+            "tiles": {
+              "STRAWBERRY": 8,
+              "MELON": 17
+            },
+            "empty_tiles": 0,
+            "carried_units": 0,
+            "shed_units": 0,
+            "shops": [
+              "SMOOTHIE_SHOP",
+              "BAKERY"
+            ]
+          }
+        ],
+        "360": [
+          {
+            "cash": 29669.0,
+            "hands": 0,
+            "quadrants": 3,
+            "tiles": {
+              "WHEAT": 24,
+              "STRAWBERRY": 33,
+              "COOP": 1,
+              "GOOSE": 3,
+              "COW": 9,
+              "SHEEP": 5
+            },
+            "empty_tiles": 0,
+            "carried_units": 0,
+            "shed_units": 72,
+            "shops": [
+              "SMOOTHIE_SHOP",
+              "BAKERY",
+              "BRUNCH_SPOT",
+              "PET_CAFE",
+              "FARMERS_MARKET"
+            ]
+          },
+          {
+            "cash": 7181.0,
+            "hands": 0,
+            "quadrants": 3,
+            "tiles": {
+              "STRAWBERRY": 65,
+              "WHEAT": 6,
+              "MELON": 2
+            },
+            "empty_tiles": 2,
+            "carried_units": 0,
+            "shed_units": 7,
+            "shops": [
+              "SMOOTHIE_SHOP",
+              "BAKERY",
+              "BRUNCH_SPOT",
+              "PET_CAFE",
+              "FARMERS_MARKET"
+            ]
+          }
+        ],
+        "540": [
+          {
+            "cash": 90785.0,
+            "hands": 12,
+            "quadrants": 3,
+            "tiles": {
+              "WHEAT": 26,
+              "STRAWBERRY": 29,
+              "WEED": 3,
+              "GOOSE": 3,
+              "COW": 9,
+              "SHEEP": 5
+            },
+            "empty_tiles": 0,
+            "carried_units": 53,
+            "shed_units": 14,
+            "shops": [
+              "SMOOTHIE_SHOP",
+              "BAKERY",
+              "BRUNCH_SPOT",
+              "PET_CAFE",
+              "FARMERS_MARKET",
+              "BRUNCH_SPOT",
+              "BRUNCH_SPOT"
+            ]
+          },
+          {
+            "cash": 17128.0,
+            "hands": 10,
+            "quadrants": 3,
+            "tiles": {
+              "CARROT": 11,
+              "WHEAT": 4,
+              "STRAWBERRY": 55,
+              "WEED": 5
+            },
+            "empty_tiles": 0,
+            "carried_units": 23,
+            "shed_units": 0,
+            "shops": [
+              "SMOOTHIE_SHOP",
+              "BAKERY",
+              "BRUNCH_SPOT",
+              "PET_CAFE",
+              "FARMERS_MARKET",
+              "BRUNCH_SPOT",
+              "BRUNCH_SPOT"
+            ]
+          }
+        ],
+        "719": [
+          {
+            "cash": 137016.0,
+            "hands": 9,
+            "quadrants": 3,
+            "tiles": {
+              "WEED": 1,
+              "GOOSE": 3,
+              "COW": 9,
+              "SHEEP": 5
+            },
+            "empty_tiles": 57,
+            "carried_units": 0,
+            "shed_units": 0,
+            "shops": [
+              "SMOOTHIE_SHOP",
+              "BAKERY",
+              "BRUNCH_SPOT",
+              "PET_CAFE",
+              "FARMERS_MARKET",
+              "BRUNCH_SPOT",
+              "BRUNCH_SPOT",
+              "PIZZA_SHOP"
+            ]
+          },
+          {
+            "cash": 52936.0,
+            "hands": 4,
+            "quadrants": 3,
+            "tiles": {
+              "WEED": 54,
+              "STRAWBERRY": 4
+            },
+            "empty_tiles": 17,
+            "carried_units": 0,
+            "shed_units": 0,
+            "shops": [
+              "SMOOTHIE_SHOP",
+              "BAKERY",
+              "BRUNCH_SPOT",
+              "PET_CAFE",
+              "FARMERS_MARKET",
+              "BRUNCH_SPOT",
+              "BRUNCH_SPOT",
+              "PIZZA_SHOP"
+            ]
+          }
+        ],
+        "240": [
+          {
+            "cash": 2429.0,
+            "hands": 0,
+            "quadrants": 2,
+            "tiles": {
+              "WHEAT": 5,
+              "STRAWBERRY": 20,
+              "MELON": 12,
+              "COW": 9,
+              "SHEEP": 4
+            },
+            "empty_tiles": 0,
+            "carried_units": 0,
+            "shed_units": 47,
+            "shops": [
+              "SMOOTHIE_SHOP",
+              "BAKERY",
+              "BRUNCH_SPOT"
+            ]
+          },
+          {
+            "cash": 253.0,
+            "hands": 0,
+            "quadrants": 1,
+            "tiles": {
+              "STRAWBERRY": 8,
+              "MELON": 17
+            },
+            "empty_tiles": 0,
+            "carried_units": 0,
+            "shed_units": 0,
+            "shops": [
+              "SMOOTHIE_SHOP",
+              "BAKERY",
+              "BRUNCH_SPOT"
+            ]
+          }
+        ]
+      },
+      "flows": [
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "BUY_ANIMAL",
+          "item": "COW",
+          "cash_delta": -1200.0,
+          "filled_units_or_events": 3
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "BUY_ANIMAL",
+          "item": "SHEEP",
+          "cash_delta": -1000.0,
+          "filled_units_or_events": 2
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "BUY_PRODUCT",
+          "item": "WHEAT",
+          "cash_delta": -856.0,
+          "filled_units_or_events": 31
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "BUY_SEED",
+          "item": "MELON",
+          "cash_delta": -960.0,
+          "filled_units_or_events": 12
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "BUY_SEED",
+          "item": "WHEAT",
+          "cash_delta": -120.0,
+          "filled_units_or_events": 12
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -26.0,
+          "filled_units_or_events": 13
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "SELL",
+          "item": "FERTILIZER",
+          "cash_delta": 795.0,
+          "filled_units_or_events": 8
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "SELL",
+          "item": "WHEAT",
+          "cash_delta": 527.0,
+          "filled_units_or_events": 19
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "BUY_ANIMAL",
+          "item": "COW",
+          "cash_delta": -1600.0,
+          "filled_units_or_events": 4
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "BUY_LAND",
+          "item": "",
+          "cash_delta": -1000.0,
+          "filled_units_or_events": 1
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "BUY_PRODUCT",
+          "item": "FERTILIZER",
+          "cash_delta": -284.0,
+          "filled_units_or_events": 3
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "BUY_PRODUCT",
+          "item": "WHEAT",
+          "cash_delta": -302.0,
+          "filled_units_or_events": 10
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "BUY_SEED",
+          "item": "CARROT",
+          "cash_delta": -20.0,
+          "filled_units_or_events": 1
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "BUY_SEED",
+          "item": "STRAWBERRY",
+          "cash_delta": -800.0,
+          "filled_units_or_events": 8
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "BUY_SEED",
+          "item": "WHEAT",
+          "cash_delta": -60.0,
+          "filled_units_or_events": 6
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -108.0,
+          "filled_units_or_events": 16
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "SELL",
+          "item": "FERTILIZER",
+          "cash_delta": 1506.0,
+          "filled_units_or_events": 16
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "SELL",
+          "item": "WHEAT",
+          "cash_delta": 274.0,
+          "filled_units_or_events": 9
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "SELL",
+          "item": "WOOL",
+          "cash_delta": 2489.0,
+          "filled_units_or_events": 12
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "BUY_ANIMAL",
+          "item": "COW",
+          "cash_delta": -400.0,
+          "filled_units_or_events": 1
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "BUY_ANIMAL",
+          "item": "GOOSE",
+          "cash_delta": -900.0,
+          "filled_units_or_events": 3
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "BUY_ANIMAL",
+          "item": "SHEEP",
+          "cash_delta": -1500.0,
+          "filled_units_or_events": 3
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "BUY_LAND",
+          "item": "",
+          "cash_delta": -2000.0,
+          "filled_units_or_events": 1
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "BUY_PRODUCT",
+          "item": "FERTILIZER",
+          "cash_delta": -1039.0,
+          "filled_units_or_events": 12
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "BUY_PRODUCT",
+          "item": "WHEAT",
+          "cash_delta": -3599.0,
+          "filled_units_or_events": 103
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "BUY_SEED",
+          "item": "CARROT",
+          "cash_delta": -20.0,
+          "filled_units_or_events": 1
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "BUY_SEED",
+          "item": "STRAWBERRY",
+          "cash_delta": -1700.0,
+          "filled_units_or_events": 17
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "BUY_SEED",
+          "item": "WHEAT",
+          "cash_delta": -410.0,
+          "filled_units_or_events": 41
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -1069.0,
+          "filled_units_or_events": 70
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "SELL",
+          "item": "FERTILIZER",
+          "cash_delta": 7507.0,
+          "filled_units_or_events": 88
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "SELL",
+          "item": "MELON",
+          "cash_delta": 15858.0,
+          "filled_units_or_events": 72
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "SELL",
+          "item": "MILK",
+          "cash_delta": 12706.0,
+          "filled_units_or_events": 60
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "SELL",
+          "item": "WHEAT",
+          "cash_delta": 1617.0,
+          "filled_units_or_events": 43
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "SELL",
+          "item": "WOOL",
+          "cash_delta": 4244.0,
+          "filled_units_or_events": 22
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "BUY_PRODUCT",
+          "item": "FERTILIZER",
+          "cash_delta": -1444.0,
+          "filled_units_or_events": 21
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "BUY_SEED",
+          "item": "WHEAT",
+          "cash_delta": -730.0,
+          "filled_units_or_events": 73
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -2576.0,
+          "filled_units_or_events": 93
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "SELL",
+          "item": "EGG",
+          "cash_delta": 2224.0,
+          "filled_units_or_events": 38
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "SELL",
+          "item": "FERTILIZER",
+          "cash_delta": 7489.0,
+          "filled_units_or_events": 109
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "SELL",
+          "item": "MILK",
+          "cash_delta": 17456.0,
+          "filled_units_or_events": 102
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "SELL",
+          "item": "STRAWBERRY",
+          "cash_delta": 31088.0,
+          "filled_units_or_events": 146
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "SELL",
+          "item": "WHEAT",
+          "cash_delta": 2491.0,
+          "filled_units_or_events": 62
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "SELL",
+          "item": "WOOL",
+          "cash_delta": 5118.0,
+          "filled_units_or_events": 56
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "BUY_PRODUCT",
+          "item": "FERTILIZER",
+          "cash_delta": -1490.0,
+          "filled_units_or_events": 30
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "BUY_SEED",
+          "item": "CARROT",
+          "cash_delta": -520.0,
+          "filled_units_or_events": 26
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "BUY_SEED",
+          "item": "WHEAT",
+          "cash_delta": -420.0,
+          "filled_units_or_events": 42
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -1768.0,
+          "filled_units_or_events": 77
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "SELL",
+          "item": "CARROT",
+          "cash_delta": 4561.0,
+          "filled_units_or_events": 93
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "SELL",
+          "item": "EGG",
+          "cash_delta": 2735.0,
+          "filled_units_or_events": 41
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "SELL",
+          "item": "FERTILIZER",
+          "cash_delta": 5773.0,
+          "filled_units_or_events": 113
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "SELL",
+          "item": "MILK",
+          "cash_delta": 9325.0,
+          "filled_units_or_events": 99
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "SELL",
+          "item": "STRAWBERRY",
+          "cash_delta": 20441.0,
+          "filled_units_or_events": 116
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "SELL",
+          "item": "WHEAT",
+          "cash_delta": 7513.0,
+          "filled_units_or_events": 172
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "SELL",
+          "item": "WOOL",
+          "cash_delta": 81.0,
+          "filled_units_or_events": 41
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "BUY_ANIMAL",
+          "item": "COW",
+          "cash_delta": -400.0,
+          "filled_units_or_events": 1
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "BUY_PRODUCT",
+          "item": "WHEAT",
+          "cash_delta": -174.0,
+          "filled_units_or_events": 6
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "BUY_SEED",
+          "item": "CARROT",
+          "cash_delta": -60.0,
+          "filled_units_or_events": 3
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "BUY_SEED",
+          "item": "STRAWBERRY",
+          "cash_delta": -800.0,
+          "filled_units_or_events": 8
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "BUY_SEED",
+          "item": "WHEAT",
+          "cash_delta": -140.0,
+          "filled_units_or_events": 14
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -31.0,
+          "filled_units_or_events": 14
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "SELL",
+          "item": "FERTILIZER",
+          "cash_delta": 1550.0,
+          "filled_units_or_events": 16
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "SELL",
+          "item": "WHEAT",
+          "cash_delta": 174.0,
+          "filled_units_or_events": 6
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "BUY_SEED",
+          "item": "MELON",
+          "cash_delta": -1680.0,
+          "filled_units_or_events": 21
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "BUY_SEED",
+          "item": "STRAWBERRY",
+          "cash_delta": -1000.0,
+          "filled_units_or_events": 10
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -18.0,
+          "filled_units_or_events": 11
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -14.0,
+          "filled_units_or_events": 8
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "BUY_LAND",
+          "item": "",
+          "cash_delta": -3000.0,
+          "filled_units_or_events": 2
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "BUY_SEED",
+          "item": "STRAWBERRY",
+          "cash_delta": -6000.0,
+          "filled_units_or_events": 60
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "BUY_SEED",
+          "item": "WHEAT",
+          "cash_delta": -120.0,
+          "filled_units_or_events": 12
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -373.0,
+          "filled_units_or_events": 45
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "SELL",
+          "item": "MELON",
+          "cash_delta": 13688.0,
+          "filled_units_or_events": 102
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "SELL",
+          "item": "STRAWBERRY",
+          "cash_delta": 2719.0,
+          "filled_units_or_events": 14
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "BUY_SEED",
+          "item": "CARROT",
+          "cash_delta": -440.0,
+          "filled_units_or_events": 22
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "BUY_SEED",
+          "item": "WHEAT",
+          "cash_delta": -60.0,
+          "filled_units_or_events": 6
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -1144.0,
+          "filled_units_or_events": 80
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "SELL",
+          "item": "CARROT",
+          "cash_delta": 851.0,
+          "filled_units_or_events": 18
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "SELL",
+          "item": "MELON",
+          "cash_delta": 147.0,
+          "filled_units_or_events": 12
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "SELL",
+          "item": "STRAWBERRY",
+          "cash_delta": 9195.0,
+          "filled_units_or_events": 44
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "SELL",
+          "item": "WHEAT",
+          "cash_delta": 1398.0,
+          "filled_units_or_events": 35
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "BUY_SEED",
+          "item": "CARROT",
+          "cash_delta": -520.0,
+          "filled_units_or_events": 26
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "BUY_SEED",
+          "item": "WHEAT",
+          "cash_delta": -20.0,
+          "filled_units_or_events": 2
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -776.0,
+          "filled_units_or_events": 62
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "SELL",
+          "item": "CARROT",
+          "cash_delta": 4667.0,
+          "filled_units_or_events": 91
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "SELL",
+          "item": "STRAWBERRY",
+          "cash_delta": 31715.0,
+          "filled_units_or_events": 184
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "SELL",
+          "item": "WHEAT",
+          "cash_delta": 742.0,
+          "filled_units_or_events": 17
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -21.0,
+          "filled_units_or_events": 12
+        }
+      ],
+      "requested_unit_actions": [
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "BUILD_PASTURE",
+          "count": 6
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "CARE",
+          "count": 15
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "COLLECT_FERTILIZER",
+          "count": 8
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "DROP",
+          "count": 1
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "EAST",
+          "count": 20
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "FEED",
+          "count": 10
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "HARVEST",
+          "count": 3
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "NORTH",
+          "count": 49
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "PASS",
+          "count": 91
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "PICKUP",
+          "count": 12
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "PLACE",
+          "count": 9
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "PLANT",
+          "count": 22
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "SOUTH",
+          "count": 10
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "WATER",
+          "count": 51
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "WEST",
+          "count": 59
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "BUILD_PASTURE",
+          "count": 7
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "CARE",
+          "count": 16
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "COLLECT_FERTILIZER",
+          "count": 13
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "EAST",
+          "count": 47
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "FEED",
+          "count": 15
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "HARVEST",
+          "count": 5
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "NORTH",
+          "count": 47
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "PASS",
+          "count": 16
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "PICKUP",
+          "count": 15
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "PLACE",
+          "count": 15
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "PLANT",
+          "count": 14
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "SOUTH",
+          "count": 9
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "WATER",
+          "count": 31
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "WEST",
+          "count": 55
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "BUILD_COOP",
+          "count": 4
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "BUILD_PASTURE",
+          "count": 1
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "CARE",
+          "count": 113
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "COLLECT_FERTILIZER",
+          "count": 103
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "DROP",
+          "count": 1
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "EAST",
+          "count": 192
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "FEED",
+          "count": 104
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "FERTILIZE",
+          "count": 4
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "HARVEST",
+          "count": 63
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "NORTH",
+          "count": 266
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "PASS",
+          "count": 177
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "PICKUP",
+          "count": 39
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "PLACE",
+          "count": 40
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "PLANT",
+          "count": 68
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "SOUTH",
+          "count": 137
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "WATER",
+          "count": 318
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "WEST",
+          "count": 237
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "CARE",
+          "count": 126
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "COLLECT_FERTILIZER",
+          "count": 129
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "DIG",
+          "count": 3
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "DROP",
+          "count": 3
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "EAST",
+          "count": 217
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "FEED",
+          "count": 126
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "FERTILIZE",
+          "count": 55
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "HARVEST",
+          "count": 190
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "NORTH",
+          "count": 311
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "PASS",
+          "count": 45
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "PICKUP",
+          "count": 54
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "PLACE",
+          "count": 23
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "PLANT",
+          "count": 53
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "SOUTH",
+          "count": 193
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "WATER",
+          "count": 321
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "WEST",
+          "count": 305
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "CARE",
+          "count": 88
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "COLLECT_FERTILIZER",
+          "count": 114
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "DIG",
+          "count": 32
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "DROP",
+          "count": 10
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "EAST",
+          "count": 200
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "FEED",
+          "count": 92
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "FERTILIZE",
+          "count": 39
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "HARVEST",
+          "count": 209
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "NORTH",
+          "count": 245
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "PASS",
+          "count": 149
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "PICKUP",
+          "count": 37
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "PLACE",
+          "count": 14
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "PLANT",
+          "count": 72
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "SOUTH",
+          "count": 163
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "WATER",
+          "count": 342
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "WEST",
+          "count": 259
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "CARE",
+          "count": 23
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "COLLECT_FERTILIZER",
+          "count": 17
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "DROP",
+          "count": 4
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "EAST",
+          "count": 28
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "FEED",
+          "count": 14
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "HARVEST",
+          "count": 11
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "NORTH",
+          "count": 64
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "PASS",
+          "count": 50
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "PICKUP",
+          "count": 5
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "PLACE",
+          "count": 7
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "PLANT",
+          "count": 11
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "SOUTH",
+          "count": 38
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "WATER",
+          "count": 59
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "WEST",
+          "count": 61
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "NORTH",
+          "count": 30
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "PASS",
+          "count": 179
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "PLANT",
+          "count": 25
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "SOUTH",
+          "count": 2
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "WATER",
+          "count": 50
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "WEST",
+          "count": 39
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "NORTH",
+          "count": 32
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "PASS",
+          "count": 65
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "SOUTH",
+          "count": 1
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "WATER",
+          "count": 42
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "WEST",
+          "count": 32
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "DIG",
+          "count": 1
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "DROP",
+          "count": 4
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "EAST",
+          "count": 159
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "HARVEST",
+          "count": 38
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "NORTH",
+          "count": 164
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "PASS",
+          "count": 283
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "PLANT",
+          "count": 66
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "SOUTH",
+          "count": 122
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "WATER",
+          "count": 208
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "WEST",
+          "count": 215
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "DIG",
+          "count": 12
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "DROP",
+          "count": 2
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "EAST",
+          "count": 255
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "HARVEST",
+          "count": 77
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "NORTH",
+          "count": 208
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "PASS",
+          "count": 441
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "PLANT",
+          "count": 31
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "SOUTH",
+          "count": 161
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "WATER",
+          "count": 318
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "WEST",
+          "count": 384
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "DIG",
+          "count": 9
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "DROP",
+          "count": 7
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "EAST",
+          "count": 182
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "HARVEST",
+          "count": 199
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "NORTH",
+          "count": 154
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "PASS",
+          "count": 413
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "PLANT",
+          "count": 30
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "SOUTH",
+          "count": 155
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "WATER",
+          "count": 260
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "WEST",
+          "count": 300
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "NORTH",
+          "count": 16
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "PASS",
+          "count": 285
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "SOUTH",
+          "count": 1
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "WATER",
+          "count": 25
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "WEST",
+          "count": 21
+        }
+      ]
+    },
+    {
+      "evaluation": {
+        "seed": 202,
+        "seat": 0,
+        "opponent": "shape_shop_v11",
+        "ours": 58310.0,
+        "theirs": 189123.0,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "valid_terminal": true,
+        "faults": {
+          "atomic_plant_rejections": 0,
+          "unfilled_requested_market_units": 0,
+          "overflow_units": 0
+        },
+        "actions": {
+          "PASS": 1854,
+          "PLANT": 119,
+          "WEST": 988,
+          "WATER": 869,
+          "NORTH": 611,
+          "SOUTH": 427,
+          "EAST": 527,
+          "HARVEST": 313,
+          "DROP": 13,
+          "DIG": 12
+        },
+        "calls": 719,
+        "runtime_mean": 0.00010065747037907526,
+        "runtime_p95": 0.00018074549734592438,
+        "runtime_p99": 0.00022126949595985935,
+        "runtime_max": 0.00026754100690595806,
+        "wall_seconds": 3.6185295000032056,
+        "terminal_carried_units": 0,
+        "terminal_shed_units": 0,
+        "margin": -130813.0,
+        "points": 0.0
+      },
+      "snapshots": {
+        "0": [
+          {
+            "cash": 3000.0,
+            "hands": 0,
+            "quadrants": 1,
+            "tiles": {},
+            "empty_tiles": 25,
+            "carried_units": 0,
+            "shed_units": 0,
+            "shops": []
+          },
+          {
+            "cash": 3000.0,
+            "hands": 0,
+            "quadrants": 1,
+            "tiles": {},
+            "empty_tiles": 25,
+            "carried_units": 0,
+            "shed_units": 0,
+            "shops": []
+          }
+        ],
+        "72": [
+          {
+            "cash": 302.0,
+            "hands": 0,
+            "quadrants": 1,
+            "tiles": {
+              "STRAWBERRY": 8,
+              "MELON": 17
+            },
+            "empty_tiles": 0,
+            "carried_units": 0,
+            "shed_units": 0,
+            "shops": [
+              "ICE_CREAM_SHOP"
+            ]
+          },
+          {
+            "cash": 160.0,
+            "hands": 0,
+            "quadrants": 1,
+            "tiles": {
+              "WHEAT": 7,
+              "MELON": 12,
+              "COW": 3,
+              "SHEEP": 2,
+              "PASTURE": 1
+            },
+            "empty_tiles": 0,
+            "carried_units": 0,
+            "shed_units": 8,
+            "shops": [
+              "ICE_CREAM_SHOP"
+            ]
+          }
+        ],
+        "144": [
+          {
+            "cash": 281.0,
+            "hands": 0,
+            "quadrants": 1,
+            "tiles": {
+              "STRAWBERRY": 8,
+              "MELON": 17
+            },
+            "empty_tiles": 0,
+            "carried_units": 0,
+            "shed_units": 0,
+            "shops": [
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP"
+            ]
+          },
+          {
+            "cash": 278.0,
+            "hands": 0,
+            "quadrants": 1,
+            "tiles": {
+              "WHEAT": 3,
+              "STRAWBERRY": 4,
+              "MELON": 12,
+              "COW": 4,
+              "SHEEP": 2
+            },
+            "empty_tiles": 0,
+            "carried_units": 0,
+            "shed_units": 21,
+            "shops": [
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP"
+            ]
+          }
+        ],
+        "180": [
+          {
+            "cash": 267.0,
+            "hands": 4,
+            "quadrants": 1,
+            "tiles": {
+              "STRAWBERRY": 8,
+              "MELON": 17
+            },
+            "empty_tiles": 0,
+            "carried_units": 0,
+            "shed_units": 0,
+            "shops": [
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP"
+            ]
+          },
+          {
+            "cash": 371.0,
+            "hands": 8,
+            "quadrants": 2,
+            "tiles": {
+              "STRAWBERRY": 13,
+              "MELON": 12,
+              "WHEAT": 5,
+              "COW": 7,
+              "PASTURE": 4,
+              "SHEEP": 2
+            },
+            "empty_tiles": 7,
+            "carried_units": 0,
+            "shed_units": 14,
+            "shops": [
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP"
+            ]
+          }
+        ],
+        "360": [
+          {
+            "cash": 6920.0,
+            "hands": 0,
+            "quadrants": 3,
+            "tiles": {
+              "STRAWBERRY": 71,
+              "MELON": 2
+            },
+            "empty_tiles": 2,
+            "carried_units": 0,
+            "shed_units": 7,
+            "shops": [
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP",
+              "SMOOTHIE_SHOP",
+              "YARN_STORE",
+              "BAKERY"
+            ]
+          },
+          {
+            "cash": 31543.0,
+            "hands": 0,
+            "quadrants": 3,
+            "tiles": {
+              "WHEAT": 24,
+              "STRAWBERRY": 33,
+              "COOP": 1,
+              "GOOSE": 3,
+              "COW": 9,
+              "SHEEP": 5
+            },
+            "empty_tiles": 0,
+            "carried_units": 0,
+            "shed_units": 72,
+            "shops": [
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP",
+              "SMOOTHIE_SHOP",
+              "YARN_STORE",
+              "BAKERY"
+            ]
+          }
+        ],
+        "540": [
+          {
+            "cash": 16723.0,
+            "hands": 10,
+            "quadrants": 3,
+            "tiles": {
+              "WHEAT": 9,
+              "STRAWBERRY": 64,
+              "WEED": 1
+            },
+            "empty_tiles": 1,
+            "carried_units": 24,
+            "shed_units": 0,
+            "shops": [
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP",
+              "SMOOTHIE_SHOP",
+              "YARN_STORE",
+              "BAKERY",
+              "ICE_CREAM_SHOP",
+              "PIZZA_SHOP"
+            ]
+          },
+          {
+            "cash": 112779.0,
+            "hands": 12,
+            "quadrants": 3,
+            "tiles": {
+              "WHEAT": 26,
+              "STRAWBERRY": 29,
+              "WEED": 3,
+              "GOOSE": 3,
+              "COW": 9,
+              "SHEEP": 5
+            },
+            "empty_tiles": 0,
+            "carried_units": 53,
+            "shed_units": 14,
+            "shops": [
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP",
+              "SMOOTHIE_SHOP",
+              "YARN_STORE",
+              "BAKERY",
+              "ICE_CREAM_SHOP",
+              "PIZZA_SHOP"
+            ]
+          }
+        ],
+        "719": [
+          {
+            "cash": 58310.0,
+            "hands": 5,
+            "quadrants": 3,
+            "tiles": {
+              "STRAWBERRY": 11,
+              "WEED": 54
+            },
+            "empty_tiles": 10,
+            "carried_units": 0,
+            "shed_units": 0,
+            "shops": [
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP",
+              "SMOOTHIE_SHOP",
+              "YARN_STORE",
+              "BAKERY",
+              "ICE_CREAM_SHOP",
+              "PIZZA_SHOP",
+              "FARMERS_MARKET"
+            ]
+          },
+          {
+            "cash": 189123.0,
+            "hands": 9,
+            "quadrants": 3,
+            "tiles": {
+              "WEED": 2,
+              "GOOSE": 3,
+              "COW": 9,
+              "SHEEP": 5
+            },
+            "empty_tiles": 56,
+            "carried_units": 0,
+            "shed_units": 0,
+            "shops": [
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP",
+              "SMOOTHIE_SHOP",
+              "YARN_STORE",
+              "BAKERY",
+              "ICE_CREAM_SHOP",
+              "PIZZA_SHOP",
+              "FARMERS_MARKET"
+            ]
+          }
+        ],
+        "240": [
+          {
+            "cash": 253.0,
+            "hands": 0,
+            "quadrants": 1,
+            "tiles": {
+              "STRAWBERRY": 8,
+              "MELON": 17
+            },
+            "empty_tiles": 0,
+            "carried_units": 0,
+            "shed_units": 0,
+            "shops": [
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP",
+              "SMOOTHIE_SHOP"
+            ]
+          },
+          {
+            "cash": 2457.0,
+            "hands": 0,
+            "quadrants": 2,
+            "tiles": {
+              "WHEAT": 5,
+              "STRAWBERRY": 20,
+              "MELON": 12,
+              "COW": 9,
+              "SHEEP": 4
+            },
+            "empty_tiles": 0,
+            "carried_units": 0,
+            "shed_units": 47,
+            "shops": [
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP",
+              "SMOOTHIE_SHOP"
+            ]
+          }
+        ]
+      },
+      "flows": [
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "BUY_SEED",
+          "item": "MELON",
+          "cash_delta": -1680.0,
+          "filled_units_or_events": 21
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "BUY_SEED",
+          "item": "STRAWBERRY",
+          "cash_delta": -1000.0,
+          "filled_units_or_events": 10
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -18.0,
+          "filled_units_or_events": 11
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -14.0,
+          "filled_units_or_events": 8
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "BUY_LAND",
+          "item": "",
+          "cash_delta": -3000.0,
+          "filled_units_or_events": 2
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "BUY_SEED",
+          "item": "STRAWBERRY",
+          "cash_delta": -6600.0,
+          "filled_units_or_events": 66
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -373.0,
+          "filled_units_or_events": 45
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "SELL",
+          "item": "MELON",
+          "cash_delta": 13688.0,
+          "filled_units_or_events": 102
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "SELL",
+          "item": "STRAWBERRY",
+          "cash_delta": 2938.0,
+          "filled_units_or_events": 14
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "BUY_SEED",
+          "item": "WHEAT",
+          "cash_delta": -180.0,
+          "filled_units_or_events": 18
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -1144.0,
+          "filled_units_or_events": 80
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "SELL",
+          "item": "MELON",
+          "cash_delta": 146.0,
+          "filled_units_or_events": 11
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "SELL",
+          "item": "STRAWBERRY",
+          "cash_delta": 10006.0,
+          "filled_units_or_events": 44
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "SELL",
+          "item": "WHEAT",
+          "cash_delta": 975.0,
+          "filled_units_or_events": 23
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "BUY_SEED",
+          "item": "WHEAT",
+          "cash_delta": -110.0,
+          "filled_units_or_events": 11
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -781.0,
+          "filled_units_or_events": 63
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "SELL",
+          "item": "STRAWBERRY",
+          "cash_delta": 39783.0,
+          "filled_units_or_events": 213
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "SELL",
+          "item": "WHEAT",
+          "cash_delta": 2695.0,
+          "filled_units_or_events": 61
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -21.0,
+          "filled_units_or_events": 12
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "BUY_ANIMAL",
+          "item": "COW",
+          "cash_delta": -1200.0,
+          "filled_units_or_events": 3
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "BUY_ANIMAL",
+          "item": "SHEEP",
+          "cash_delta": -1000.0,
+          "filled_units_or_events": 2
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "BUY_PRODUCT",
+          "item": "WHEAT",
+          "cash_delta": -856.0,
+          "filled_units_or_events": 31
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "BUY_SEED",
+          "item": "MELON",
+          "cash_delta": -960.0,
+          "filled_units_or_events": 12
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "BUY_SEED",
+          "item": "WHEAT",
+          "cash_delta": -120.0,
+          "filled_units_or_events": 12
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -26.0,
+          "filled_units_or_events": 13
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "SELL",
+          "item": "FERTILIZER",
+          "cash_delta": 795.0,
+          "filled_units_or_events": 8
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "SELL",
+          "item": "WHEAT",
+          "cash_delta": 527.0,
+          "filled_units_or_events": 19
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "BUY_ANIMAL",
+          "item": "COW",
+          "cash_delta": -1600.0,
+          "filled_units_or_events": 4
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "BUY_LAND",
+          "item": "",
+          "cash_delta": -1000.0,
+          "filled_units_or_events": 1
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "BUY_PRODUCT",
+          "item": "FERTILIZER",
+          "cash_delta": -284.0,
+          "filled_units_or_events": 3
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "BUY_PRODUCT",
+          "item": "WHEAT",
+          "cash_delta": -319.0,
+          "filled_units_or_events": 10
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "BUY_SEED",
+          "item": "CARROT",
+          "cash_delta": -20.0,
+          "filled_units_or_events": 1
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "BUY_SEED",
+          "item": "STRAWBERRY",
+          "cash_delta": -800.0,
+          "filled_units_or_events": 8
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "BUY_SEED",
+          "item": "WHEAT",
+          "cash_delta": -60.0,
+          "filled_units_or_events": 6
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -108.0,
+          "filled_units_or_events": 16
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "SELL",
+          "item": "FERTILIZER",
+          "cash_delta": 1506.0,
+          "filled_units_or_events": 16
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "SELL",
+          "item": "WHEAT",
+          "cash_delta": 289.0,
+          "filled_units_or_events": 9
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "SELL",
+          "item": "WOOL",
+          "cash_delta": 2489.0,
+          "filled_units_or_events": 12
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "BUY_ANIMAL",
+          "item": "COW",
+          "cash_delta": -400.0,
+          "filled_units_or_events": 1
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "BUY_ANIMAL",
+          "item": "GOOSE",
+          "cash_delta": -900.0,
+          "filled_units_or_events": 3
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "BUY_ANIMAL",
+          "item": "SHEEP",
+          "cash_delta": -1500.0,
+          "filled_units_or_events": 3
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "BUY_LAND",
+          "item": "",
+          "cash_delta": -2000.0,
+          "filled_units_or_events": 1
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "BUY_PRODUCT",
+          "item": "FERTILIZER",
+          "cash_delta": -1039.0,
+          "filled_units_or_events": 12
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "BUY_PRODUCT",
+          "item": "WHEAT",
+          "cash_delta": -3770.0,
+          "filled_units_or_events": 103
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "BUY_SEED",
+          "item": "CARROT",
+          "cash_delta": -20.0,
+          "filled_units_or_events": 1
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "BUY_SEED",
+          "item": "STRAWBERRY",
+          "cash_delta": -1700.0,
+          "filled_units_or_events": 17
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "BUY_SEED",
+          "item": "WHEAT",
+          "cash_delta": -410.0,
+          "filled_units_or_events": 41
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -1069.0,
+          "filled_units_or_events": 70
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "SELL",
+          "item": "FERTILIZER",
+          "cash_delta": 7507.0,
+          "filled_units_or_events": 88
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "SELL",
+          "item": "MELON",
+          "cash_delta": 15858.0,
+          "filled_units_or_events": 72
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "SELL",
+          "item": "MILK",
+          "cash_delta": 14442.0,
+          "filled_units_or_events": 60
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "SELL",
+          "item": "WHEAT",
+          "cash_delta": 1679.0,
+          "filled_units_or_events": 43
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "SELL",
+          "item": "WOOL",
+          "cash_delta": 4494.0,
+          "filled_units_or_events": 22
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "BUY_PRODUCT",
+          "item": "FERTILIZER",
+          "cash_delta": -1444.0,
+          "filled_units_or_events": 21
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "BUY_SEED",
+          "item": "WHEAT",
+          "cash_delta": -730.0,
+          "filled_units_or_events": 73
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -2576.0,
+          "filled_units_or_events": 93
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "SELL",
+          "item": "EGG",
+          "cash_delta": 1952.0,
+          "filled_units_or_events": 38
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "SELL",
+          "item": "FERTILIZER",
+          "cash_delta": 7489.0,
+          "filled_units_or_events": 109
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "SELL",
+          "item": "MILK",
+          "cash_delta": 27290.0,
+          "filled_units_or_events": 102
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "SELL",
+          "item": "STRAWBERRY",
+          "cash_delta": 33729.0,
+          "filled_units_or_events": 146
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "SELL",
+          "item": "WHEAT",
+          "cash_delta": 2593.0,
+          "filled_units_or_events": 62
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "SELL",
+          "item": "WOOL",
+          "cash_delta": 12933.0,
+          "filled_units_or_events": 56
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "BUY_PRODUCT",
+          "item": "FERTILIZER",
+          "cash_delta": -1490.0,
+          "filled_units_or_events": 30
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "BUY_SEED",
+          "item": "CARROT",
+          "cash_delta": -520.0,
+          "filled_units_or_events": 26
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "BUY_SEED",
+          "item": "WHEAT",
+          "cash_delta": -420.0,
+          "filled_units_or_events": 42
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -1768.0,
+          "filled_units_or_events": 77
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "SELL",
+          "item": "CARROT",
+          "cash_delta": 3311.0,
+          "filled_units_or_events": 93
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "SELL",
+          "item": "EGG",
+          "cash_delta": 2145.0,
+          "filled_units_or_events": 41
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "SELL",
+          "item": "FERTILIZER",
+          "cash_delta": 5773.0,
+          "filled_units_or_events": 113
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "SELL",
+          "item": "MILK",
+          "cash_delta": 29651.0,
+          "filled_units_or_events": 99
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "SELL",
+          "item": "STRAWBERRY",
+          "cash_delta": 22268.0,
+          "filled_units_or_events": 116
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "SELL",
+          "item": "WHEAT",
+          "cash_delta": 7623.0,
+          "filled_units_or_events": 172
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "SELL",
+          "item": "WOOL",
+          "cash_delta": 9771.0,
+          "filled_units_or_events": 41
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "BUY_ANIMAL",
+          "item": "COW",
+          "cash_delta": -400.0,
+          "filled_units_or_events": 1
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "BUY_PRODUCT",
+          "item": "WHEAT",
+          "cash_delta": -181.0,
+          "filled_units_or_events": 6
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "BUY_SEED",
+          "item": "CARROT",
+          "cash_delta": -60.0,
+          "filled_units_or_events": 3
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "BUY_SEED",
+          "item": "STRAWBERRY",
+          "cash_delta": -800.0,
+          "filled_units_or_events": 8
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "BUY_SEED",
+          "item": "WHEAT",
+          "cash_delta": -140.0,
+          "filled_units_or_events": 14
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -31.0,
+          "filled_units_or_events": 14
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "SELL",
+          "item": "FERTILIZER",
+          "cash_delta": 1550.0,
+          "filled_units_or_events": 16
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "SELL",
+          "item": "WHEAT",
+          "cash_delta": 180.0,
+          "filled_units_or_events": 6
+        }
+      ],
+      "requested_unit_actions": [
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "NORTH",
+          "count": 30
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "PASS",
+          "count": 179
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "PLANT",
+          "count": 25
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "SOUTH",
+          "count": 2
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "WATER",
+          "count": 50
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "WEST",
+          "count": 39
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "NORTH",
+          "count": 32
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "PASS",
+          "count": 65
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "SOUTH",
+          "count": 1
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "WATER",
+          "count": 42
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "WEST",
+          "count": 32
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "DIG",
+          "count": 1
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "DROP",
+          "count": 4
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "EAST",
+          "count": 159
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "HARVEST",
+          "count": 38
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "NORTH",
+          "count": 164
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "PASS",
+          "count": 283
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "PLANT",
+          "count": 66
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "SOUTH",
+          "count": 122
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "WATER",
+          "count": 208
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "WEST",
+          "count": 215
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "DIG",
+          "count": 9
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "EAST",
+          "count": 187
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "HARVEST",
+          "count": 69
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "NORTH",
+          "count": 194
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "PASS",
+          "count": 604
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "PLANT",
+          "count": 18
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "SOUTH",
+          "count": 147
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "WATER",
+          "count": 305
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "WEST",
+          "count": 360
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "DIG",
+          "count": 2
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "DROP",
+          "count": 9
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "EAST",
+          "count": 181
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "HARVEST",
+          "count": 206
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "NORTH",
+          "count": 175
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "PASS",
+          "count": 438
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "PLANT",
+          "count": 10
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "SOUTH",
+          "count": 154
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "WATER",
+          "count": 239
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "WEST",
+          "count": 321
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "NORTH",
+          "count": 16
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "PASS",
+          "count": 285
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "SOUTH",
+          "count": 1
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "WATER",
+          "count": 25
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "WEST",
+          "count": 21
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "BUILD_PASTURE",
+          "count": 6
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "CARE",
+          "count": 15
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "COLLECT_FERTILIZER",
+          "count": 8
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "DROP",
+          "count": 1
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "EAST",
+          "count": 20
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "FEED",
+          "count": 10
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "HARVEST",
+          "count": 3
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "NORTH",
+          "count": 49
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "PASS",
+          "count": 91
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "PICKUP",
+          "count": 12
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "PLACE",
+          "count": 9
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "PLANT",
+          "count": 22
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "SOUTH",
+          "count": 10
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "WATER",
+          "count": 51
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "WEST",
+          "count": 59
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "BUILD_PASTURE",
+          "count": 7
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "CARE",
+          "count": 16
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "COLLECT_FERTILIZER",
+          "count": 13
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "EAST",
+          "count": 47
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "FEED",
+          "count": 15
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "HARVEST",
+          "count": 5
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "NORTH",
+          "count": 47
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "PASS",
+          "count": 16
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "PICKUP",
+          "count": 15
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "PLACE",
+          "count": 15
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "PLANT",
+          "count": 14
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "SOUTH",
+          "count": 9
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "WATER",
+          "count": 31
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "WEST",
+          "count": 55
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "BUILD_COOP",
+          "count": 4
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "BUILD_PASTURE",
+          "count": 1
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "CARE",
+          "count": 113
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "COLLECT_FERTILIZER",
+          "count": 103
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "DROP",
+          "count": 1
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "EAST",
+          "count": 192
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "FEED",
+          "count": 104
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "FERTILIZE",
+          "count": 4
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "HARVEST",
+          "count": 63
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "NORTH",
+          "count": 266
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "PASS",
+          "count": 177
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "PICKUP",
+          "count": 39
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "PLACE",
+          "count": 40
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "PLANT",
+          "count": 68
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "SOUTH",
+          "count": 137
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "WATER",
+          "count": 318
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "WEST",
+          "count": 237
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "CARE",
+          "count": 126
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "COLLECT_FERTILIZER",
+          "count": 129
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "DIG",
+          "count": 3
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "DROP",
+          "count": 3
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "EAST",
+          "count": 217
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "FEED",
+          "count": 126
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "FERTILIZE",
+          "count": 55
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "HARVEST",
+          "count": 190
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "NORTH",
+          "count": 311
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "PASS",
+          "count": 45
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "PICKUP",
+          "count": 54
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "PLACE",
+          "count": 23
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "PLANT",
+          "count": 53
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "SOUTH",
+          "count": 193
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "WATER",
+          "count": 321
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "WEST",
+          "count": 305
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "CARE",
+          "count": 88
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "COLLECT_FERTILIZER",
+          "count": 114
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "DIG",
+          "count": 32
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "DROP",
+          "count": 10
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "EAST",
+          "count": 200
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "FEED",
+          "count": 92
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "FERTILIZE",
+          "count": 39
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "HARVEST",
+          "count": 209
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "NORTH",
+          "count": 245
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "PASS",
+          "count": 149
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "PICKUP",
+          "count": 37
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "PLACE",
+          "count": 14
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "PLANT",
+          "count": 72
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "SOUTH",
+          "count": 163
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "WATER",
+          "count": 342
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "WEST",
+          "count": 259
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "CARE",
+          "count": 23
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "COLLECT_FERTILIZER",
+          "count": 17
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "DROP",
+          "count": 4
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "EAST",
+          "count": 28
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "FEED",
+          "count": 14
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "HARVEST",
+          "count": 11
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "NORTH",
+          "count": 64
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "PASS",
+          "count": 50
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "PICKUP",
+          "count": 5
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "PLACE",
+          "count": 7
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "PLANT",
+          "count": 11
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "SOUTH",
+          "count": 38
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "WATER",
+          "count": 59
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "WEST",
+          "count": 61
+        }
+      ]
+    },
+    {
+      "evaluation": {
+        "seed": 202,
+        "seat": 1,
+        "opponent": "shape_shop_v11",
+        "ours": 58310.0,
+        "theirs": 189123.0,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "valid_terminal": true,
+        "faults": {
+          "atomic_plant_rejections": 0,
+          "unfilled_requested_market_units": 0,
+          "overflow_units": 0
+        },
+        "actions": {
+          "PASS": 1854,
+          "PLANT": 119,
+          "WEST": 988,
+          "WATER": 869,
+          "NORTH": 611,
+          "SOUTH": 427,
+          "EAST": 527,
+          "HARVEST": 313,
+          "DROP": 13,
+          "DIG": 12
+        },
+        "calls": 719,
+        "runtime_mean": 9.986724746520391e-05,
+        "runtime_p95": 0.00018098750879289586,
+        "runtime_p99": 0.0002209150113048965,
+        "runtime_max": 0.0004705419996753335,
+        "wall_seconds": 3.6089748329977738,
+        "terminal_carried_units": 0,
+        "terminal_shed_units": 0,
+        "margin": -130813.0,
+        "points": 0.0
+      },
+      "snapshots": {
+        "0": [
+          {
+            "cash": 3000.0,
+            "hands": 0,
+            "quadrants": 1,
+            "tiles": {},
+            "empty_tiles": 25,
+            "carried_units": 0,
+            "shed_units": 0,
+            "shops": []
+          },
+          {
+            "cash": 3000.0,
+            "hands": 0,
+            "quadrants": 1,
+            "tiles": {},
+            "empty_tiles": 25,
+            "carried_units": 0,
+            "shed_units": 0,
+            "shops": []
+          }
+        ],
+        "72": [
+          {
+            "cash": 160.0,
+            "hands": 0,
+            "quadrants": 1,
+            "tiles": {
+              "WHEAT": 7,
+              "MELON": 12,
+              "COW": 3,
+              "SHEEP": 2,
+              "PASTURE": 1
+            },
+            "empty_tiles": 0,
+            "carried_units": 0,
+            "shed_units": 8,
+            "shops": [
+              "ICE_CREAM_SHOP"
+            ]
+          },
+          {
+            "cash": 302.0,
+            "hands": 0,
+            "quadrants": 1,
+            "tiles": {
+              "STRAWBERRY": 8,
+              "MELON": 17
+            },
+            "empty_tiles": 0,
+            "carried_units": 0,
+            "shed_units": 0,
+            "shops": [
+              "ICE_CREAM_SHOP"
+            ]
+          }
+        ],
+        "144": [
+          {
+            "cash": 278.0,
+            "hands": 0,
+            "quadrants": 1,
+            "tiles": {
+              "WHEAT": 3,
+              "STRAWBERRY": 4,
+              "MELON": 12,
+              "COW": 4,
+              "SHEEP": 2
+            },
+            "empty_tiles": 0,
+            "carried_units": 0,
+            "shed_units": 21,
+            "shops": [
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP"
+            ]
+          },
+          {
+            "cash": 281.0,
+            "hands": 0,
+            "quadrants": 1,
+            "tiles": {
+              "STRAWBERRY": 8,
+              "MELON": 17
+            },
+            "empty_tiles": 0,
+            "carried_units": 0,
+            "shed_units": 0,
+            "shops": [
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP"
+            ]
+          }
+        ],
+        "180": [
+          {
+            "cash": 371.0,
+            "hands": 8,
+            "quadrants": 2,
+            "tiles": {
+              "STRAWBERRY": 13,
+              "MELON": 12,
+              "WHEAT": 5,
+              "COW": 7,
+              "PASTURE": 4,
+              "SHEEP": 2
+            },
+            "empty_tiles": 7,
+            "carried_units": 0,
+            "shed_units": 14,
+            "shops": [
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP"
+            ]
+          },
+          {
+            "cash": 267.0,
+            "hands": 4,
+            "quadrants": 1,
+            "tiles": {
+              "STRAWBERRY": 8,
+              "MELON": 17
+            },
+            "empty_tiles": 0,
+            "carried_units": 0,
+            "shed_units": 0,
+            "shops": [
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP"
+            ]
+          }
+        ],
+        "360": [
+          {
+            "cash": 31543.0,
+            "hands": 0,
+            "quadrants": 3,
+            "tiles": {
+              "WHEAT": 24,
+              "STRAWBERRY": 33,
+              "COOP": 1,
+              "GOOSE": 3,
+              "COW": 9,
+              "SHEEP": 5
+            },
+            "empty_tiles": 0,
+            "carried_units": 0,
+            "shed_units": 72,
+            "shops": [
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP",
+              "SMOOTHIE_SHOP",
+              "YARN_STORE",
+              "BAKERY"
+            ]
+          },
+          {
+            "cash": 6920.0,
+            "hands": 0,
+            "quadrants": 3,
+            "tiles": {
+              "STRAWBERRY": 71,
+              "MELON": 2
+            },
+            "empty_tiles": 2,
+            "carried_units": 0,
+            "shed_units": 7,
+            "shops": [
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP",
+              "SMOOTHIE_SHOP",
+              "YARN_STORE",
+              "BAKERY"
+            ]
+          }
+        ],
+        "540": [
+          {
+            "cash": 112779.0,
+            "hands": 12,
+            "quadrants": 3,
+            "tiles": {
+              "WHEAT": 26,
+              "STRAWBERRY": 29,
+              "WEED": 3,
+              "GOOSE": 3,
+              "COW": 9,
+              "SHEEP": 5
+            },
+            "empty_tiles": 0,
+            "carried_units": 53,
+            "shed_units": 14,
+            "shops": [
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP",
+              "SMOOTHIE_SHOP",
+              "YARN_STORE",
+              "BAKERY",
+              "ICE_CREAM_SHOP",
+              "PIZZA_SHOP"
+            ]
+          },
+          {
+            "cash": 16723.0,
+            "hands": 10,
+            "quadrants": 3,
+            "tiles": {
+              "WHEAT": 9,
+              "STRAWBERRY": 64,
+              "WEED": 1
+            },
+            "empty_tiles": 1,
+            "carried_units": 24,
+            "shed_units": 0,
+            "shops": [
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP",
+              "SMOOTHIE_SHOP",
+              "YARN_STORE",
+              "BAKERY",
+              "ICE_CREAM_SHOP",
+              "PIZZA_SHOP"
+            ]
+          }
+        ],
+        "719": [
+          {
+            "cash": 189123.0,
+            "hands": 9,
+            "quadrants": 3,
+            "tiles": {
+              "WEED": 2,
+              "GOOSE": 3,
+              "COW": 9,
+              "SHEEP": 5
+            },
+            "empty_tiles": 56,
+            "carried_units": 0,
+            "shed_units": 0,
+            "shops": [
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP",
+              "SMOOTHIE_SHOP",
+              "YARN_STORE",
+              "BAKERY",
+              "ICE_CREAM_SHOP",
+              "PIZZA_SHOP",
+              "FARMERS_MARKET"
+            ]
+          },
+          {
+            "cash": 58310.0,
+            "hands": 5,
+            "quadrants": 3,
+            "tiles": {
+              "STRAWBERRY": 11,
+              "WEED": 54
+            },
+            "empty_tiles": 10,
+            "carried_units": 0,
+            "shed_units": 0,
+            "shops": [
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP",
+              "SMOOTHIE_SHOP",
+              "YARN_STORE",
+              "BAKERY",
+              "ICE_CREAM_SHOP",
+              "PIZZA_SHOP",
+              "FARMERS_MARKET"
+            ]
+          }
+        ],
+        "240": [
+          {
+            "cash": 2457.0,
+            "hands": 0,
+            "quadrants": 2,
+            "tiles": {
+              "WHEAT": 5,
+              "STRAWBERRY": 20,
+              "MELON": 12,
+              "COW": 9,
+              "SHEEP": 4
+            },
+            "empty_tiles": 0,
+            "carried_units": 0,
+            "shed_units": 47,
+            "shops": [
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP",
+              "SMOOTHIE_SHOP"
+            ]
+          },
+          {
+            "cash": 253.0,
+            "hands": 0,
+            "quadrants": 1,
+            "tiles": {
+              "STRAWBERRY": 8,
+              "MELON": 17
+            },
+            "empty_tiles": 0,
+            "carried_units": 0,
+            "shed_units": 0,
+            "shops": [
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP",
+              "SMOOTHIE_SHOP"
+            ]
+          }
+        ]
+      },
+      "flows": [
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "BUY_ANIMAL",
+          "item": "COW",
+          "cash_delta": -1200.0,
+          "filled_units_or_events": 3
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "BUY_ANIMAL",
+          "item": "SHEEP",
+          "cash_delta": -1000.0,
+          "filled_units_or_events": 2
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "BUY_PRODUCT",
+          "item": "WHEAT",
+          "cash_delta": -856.0,
+          "filled_units_or_events": 31
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "BUY_SEED",
+          "item": "MELON",
+          "cash_delta": -960.0,
+          "filled_units_or_events": 12
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "BUY_SEED",
+          "item": "WHEAT",
+          "cash_delta": -120.0,
+          "filled_units_or_events": 12
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -26.0,
+          "filled_units_or_events": 13
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "SELL",
+          "item": "FERTILIZER",
+          "cash_delta": 795.0,
+          "filled_units_or_events": 8
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "SELL",
+          "item": "WHEAT",
+          "cash_delta": 527.0,
+          "filled_units_or_events": 19
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "BUY_ANIMAL",
+          "item": "COW",
+          "cash_delta": -1600.0,
+          "filled_units_or_events": 4
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "BUY_LAND",
+          "item": "",
+          "cash_delta": -1000.0,
+          "filled_units_or_events": 1
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "BUY_PRODUCT",
+          "item": "FERTILIZER",
+          "cash_delta": -284.0,
+          "filled_units_or_events": 3
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "BUY_PRODUCT",
+          "item": "WHEAT",
+          "cash_delta": -319.0,
+          "filled_units_or_events": 10
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "BUY_SEED",
+          "item": "CARROT",
+          "cash_delta": -20.0,
+          "filled_units_or_events": 1
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "BUY_SEED",
+          "item": "STRAWBERRY",
+          "cash_delta": -800.0,
+          "filled_units_or_events": 8
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "BUY_SEED",
+          "item": "WHEAT",
+          "cash_delta": -60.0,
+          "filled_units_or_events": 6
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -108.0,
+          "filled_units_or_events": 16
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "SELL",
+          "item": "FERTILIZER",
+          "cash_delta": 1506.0,
+          "filled_units_or_events": 16
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "SELL",
+          "item": "WHEAT",
+          "cash_delta": 289.0,
+          "filled_units_or_events": 9
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "SELL",
+          "item": "WOOL",
+          "cash_delta": 2489.0,
+          "filled_units_or_events": 12
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "BUY_ANIMAL",
+          "item": "COW",
+          "cash_delta": -400.0,
+          "filled_units_or_events": 1
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "BUY_ANIMAL",
+          "item": "GOOSE",
+          "cash_delta": -900.0,
+          "filled_units_or_events": 3
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "BUY_ANIMAL",
+          "item": "SHEEP",
+          "cash_delta": -1500.0,
+          "filled_units_or_events": 3
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "BUY_LAND",
+          "item": "",
+          "cash_delta": -2000.0,
+          "filled_units_or_events": 1
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "BUY_PRODUCT",
+          "item": "FERTILIZER",
+          "cash_delta": -1039.0,
+          "filled_units_or_events": 12
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "BUY_PRODUCT",
+          "item": "WHEAT",
+          "cash_delta": -3770.0,
+          "filled_units_or_events": 103
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "BUY_SEED",
+          "item": "CARROT",
+          "cash_delta": -20.0,
+          "filled_units_or_events": 1
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "BUY_SEED",
+          "item": "STRAWBERRY",
+          "cash_delta": -1700.0,
+          "filled_units_or_events": 17
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "BUY_SEED",
+          "item": "WHEAT",
+          "cash_delta": -410.0,
+          "filled_units_or_events": 41
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -1069.0,
+          "filled_units_or_events": 70
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "SELL",
+          "item": "FERTILIZER",
+          "cash_delta": 7507.0,
+          "filled_units_or_events": 88
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "SELL",
+          "item": "MELON",
+          "cash_delta": 15858.0,
+          "filled_units_or_events": 72
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "SELL",
+          "item": "MILK",
+          "cash_delta": 14442.0,
+          "filled_units_or_events": 60
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "SELL",
+          "item": "WHEAT",
+          "cash_delta": 1679.0,
+          "filled_units_or_events": 43
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "SELL",
+          "item": "WOOL",
+          "cash_delta": 4494.0,
+          "filled_units_or_events": 22
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "BUY_PRODUCT",
+          "item": "FERTILIZER",
+          "cash_delta": -1444.0,
+          "filled_units_or_events": 21
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "BUY_SEED",
+          "item": "WHEAT",
+          "cash_delta": -730.0,
+          "filled_units_or_events": 73
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -2576.0,
+          "filled_units_or_events": 93
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "SELL",
+          "item": "EGG",
+          "cash_delta": 1952.0,
+          "filled_units_or_events": 38
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "SELL",
+          "item": "FERTILIZER",
+          "cash_delta": 7489.0,
+          "filled_units_or_events": 109
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "SELL",
+          "item": "MILK",
+          "cash_delta": 27290.0,
+          "filled_units_or_events": 102
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "SELL",
+          "item": "STRAWBERRY",
+          "cash_delta": 33729.0,
+          "filled_units_or_events": 146
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "SELL",
+          "item": "WHEAT",
+          "cash_delta": 2593.0,
+          "filled_units_or_events": 62
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "SELL",
+          "item": "WOOL",
+          "cash_delta": 12933.0,
+          "filled_units_or_events": 56
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "BUY_PRODUCT",
+          "item": "FERTILIZER",
+          "cash_delta": -1490.0,
+          "filled_units_or_events": 30
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "BUY_SEED",
+          "item": "CARROT",
+          "cash_delta": -520.0,
+          "filled_units_or_events": 26
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "BUY_SEED",
+          "item": "WHEAT",
+          "cash_delta": -420.0,
+          "filled_units_or_events": 42
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -1768.0,
+          "filled_units_or_events": 77
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "SELL",
+          "item": "CARROT",
+          "cash_delta": 3311.0,
+          "filled_units_or_events": 93
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "SELL",
+          "item": "EGG",
+          "cash_delta": 2145.0,
+          "filled_units_or_events": 41
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "SELL",
+          "item": "FERTILIZER",
+          "cash_delta": 5773.0,
+          "filled_units_or_events": 113
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "SELL",
+          "item": "MILK",
+          "cash_delta": 29651.0,
+          "filled_units_or_events": 99
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "SELL",
+          "item": "STRAWBERRY",
+          "cash_delta": 22268.0,
+          "filled_units_or_events": 116
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "SELL",
+          "item": "WHEAT",
+          "cash_delta": 7623.0,
+          "filled_units_or_events": 172
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "SELL",
+          "item": "WOOL",
+          "cash_delta": 9771.0,
+          "filled_units_or_events": 41
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "BUY_ANIMAL",
+          "item": "COW",
+          "cash_delta": -400.0,
+          "filled_units_or_events": 1
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "BUY_PRODUCT",
+          "item": "WHEAT",
+          "cash_delta": -181.0,
+          "filled_units_or_events": 6
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "BUY_SEED",
+          "item": "CARROT",
+          "cash_delta": -60.0,
+          "filled_units_or_events": 3
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "BUY_SEED",
+          "item": "STRAWBERRY",
+          "cash_delta": -800.0,
+          "filled_units_or_events": 8
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "BUY_SEED",
+          "item": "WHEAT",
+          "cash_delta": -140.0,
+          "filled_units_or_events": 14
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -31.0,
+          "filled_units_or_events": 14
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "SELL",
+          "item": "FERTILIZER",
+          "cash_delta": 1550.0,
+          "filled_units_or_events": 16
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "SELL",
+          "item": "WHEAT",
+          "cash_delta": 180.0,
+          "filled_units_or_events": 6
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "BUY_SEED",
+          "item": "MELON",
+          "cash_delta": -1680.0,
+          "filled_units_or_events": 21
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "BUY_SEED",
+          "item": "STRAWBERRY",
+          "cash_delta": -1000.0,
+          "filled_units_or_events": 10
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -18.0,
+          "filled_units_or_events": 11
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -14.0,
+          "filled_units_or_events": 8
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "BUY_LAND",
+          "item": "",
+          "cash_delta": -3000.0,
+          "filled_units_or_events": 2
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "BUY_SEED",
+          "item": "STRAWBERRY",
+          "cash_delta": -6600.0,
+          "filled_units_or_events": 66
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -373.0,
+          "filled_units_or_events": 45
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "SELL",
+          "item": "MELON",
+          "cash_delta": 13688.0,
+          "filled_units_or_events": 102
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "SELL",
+          "item": "STRAWBERRY",
+          "cash_delta": 2938.0,
+          "filled_units_or_events": 14
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "BUY_SEED",
+          "item": "WHEAT",
+          "cash_delta": -180.0,
+          "filled_units_or_events": 18
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -1144.0,
+          "filled_units_or_events": 80
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "SELL",
+          "item": "MELON",
+          "cash_delta": 146.0,
+          "filled_units_or_events": 11
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "SELL",
+          "item": "STRAWBERRY",
+          "cash_delta": 10006.0,
+          "filled_units_or_events": 44
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "SELL",
+          "item": "WHEAT",
+          "cash_delta": 975.0,
+          "filled_units_or_events": 23
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "BUY_SEED",
+          "item": "WHEAT",
+          "cash_delta": -110.0,
+          "filled_units_or_events": 11
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -781.0,
+          "filled_units_or_events": 63
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "SELL",
+          "item": "STRAWBERRY",
+          "cash_delta": 39783.0,
+          "filled_units_or_events": 213
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "SELL",
+          "item": "WHEAT",
+          "cash_delta": 2695.0,
+          "filled_units_or_events": 61
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "HIRE",
+          "item": "",
+          "cash_delta": -21.0,
+          "filled_units_or_events": 12
+        }
+      ],
+      "requested_unit_actions": [
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "BUILD_PASTURE",
+          "count": 6
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "CARE",
+          "count": 15
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "COLLECT_FERTILIZER",
+          "count": 8
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "DROP",
+          "count": 1
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "EAST",
+          "count": 20
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "FEED",
+          "count": 10
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "HARVEST",
+          "count": 3
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "NORTH",
+          "count": 49
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "PASS",
+          "count": 91
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "PICKUP",
+          "count": 12
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "PLACE",
+          "count": 9
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "PLANT",
+          "count": 22
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "SOUTH",
+          "count": 10
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "WATER",
+          "count": 51
+        },
+        {
+          "seat": 0,
+          "phase": "0:72",
+          "op": "WEST",
+          "count": 59
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "BUILD_PASTURE",
+          "count": 7
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "CARE",
+          "count": 16
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "COLLECT_FERTILIZER",
+          "count": 13
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "EAST",
+          "count": 47
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "FEED",
+          "count": 15
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "HARVEST",
+          "count": 5
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "NORTH",
+          "count": 47
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "PASS",
+          "count": 16
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "PICKUP",
+          "count": 15
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "PLACE",
+          "count": 15
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "PLANT",
+          "count": 14
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "SOUTH",
+          "count": 9
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "WATER",
+          "count": 31
+        },
+        {
+          "seat": 0,
+          "phase": "144:180",
+          "op": "WEST",
+          "count": 55
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "BUILD_COOP",
+          "count": 4
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "BUILD_PASTURE",
+          "count": 1
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "CARE",
+          "count": 113
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "COLLECT_FERTILIZER",
+          "count": 103
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "DROP",
+          "count": 1
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "EAST",
+          "count": 192
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "FEED",
+          "count": 104
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "FERTILIZE",
+          "count": 4
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "HARVEST",
+          "count": 63
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "NORTH",
+          "count": 266
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "PASS",
+          "count": 177
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "PICKUP",
+          "count": 39
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "PLACE",
+          "count": 40
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "PLANT",
+          "count": 68
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "SOUTH",
+          "count": 137
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "WATER",
+          "count": 318
+        },
+        {
+          "seat": 0,
+          "phase": "180:360",
+          "op": "WEST",
+          "count": 237
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "CARE",
+          "count": 126
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "COLLECT_FERTILIZER",
+          "count": 129
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "DIG",
+          "count": 3
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "DROP",
+          "count": 3
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "EAST",
+          "count": 217
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "FEED",
+          "count": 126
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "FERTILIZE",
+          "count": 55
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "HARVEST",
+          "count": 190
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "NORTH",
+          "count": 311
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "PASS",
+          "count": 45
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "PICKUP",
+          "count": 54
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "PLACE",
+          "count": 23
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "PLANT",
+          "count": 53
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "SOUTH",
+          "count": 193
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "WATER",
+          "count": 321
+        },
+        {
+          "seat": 0,
+          "phase": "360:540",
+          "op": "WEST",
+          "count": 305
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "CARE",
+          "count": 88
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "COLLECT_FERTILIZER",
+          "count": 114
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "DIG",
+          "count": 32
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "DROP",
+          "count": 10
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "EAST",
+          "count": 200
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "FEED",
+          "count": 92
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "FERTILIZE",
+          "count": 39
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "HARVEST",
+          "count": 209
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "NORTH",
+          "count": 245
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "PASS",
+          "count": 149
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "PICKUP",
+          "count": 37
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "PLACE",
+          "count": 14
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "PLANT",
+          "count": 72
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "SOUTH",
+          "count": 163
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "WATER",
+          "count": 342
+        },
+        {
+          "seat": 0,
+          "phase": "540:719",
+          "op": "WEST",
+          "count": 259
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "CARE",
+          "count": 23
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "COLLECT_FERTILIZER",
+          "count": 17
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "DROP",
+          "count": 4
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "EAST",
+          "count": 28
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "FEED",
+          "count": 14
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "HARVEST",
+          "count": 11
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "NORTH",
+          "count": 64
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "PASS",
+          "count": 50
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "PICKUP",
+          "count": 5
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "PLACE",
+          "count": 7
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "PLANT",
+          "count": 11
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "SOUTH",
+          "count": 38
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "WATER",
+          "count": 59
+        },
+        {
+          "seat": 0,
+          "phase": "72:144",
+          "op": "WEST",
+          "count": 61
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "NORTH",
+          "count": 30
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "PASS",
+          "count": 179
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "PLANT",
+          "count": 25
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "SOUTH",
+          "count": 2
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "WATER",
+          "count": 50
+        },
+        {
+          "seat": 1,
+          "phase": "0:72",
+          "op": "WEST",
+          "count": 39
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "NORTH",
+          "count": 32
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "PASS",
+          "count": 65
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "SOUTH",
+          "count": 1
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "WATER",
+          "count": 42
+        },
+        {
+          "seat": 1,
+          "phase": "144:180",
+          "op": "WEST",
+          "count": 32
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "DIG",
+          "count": 1
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "DROP",
+          "count": 4
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "EAST",
+          "count": 159
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "HARVEST",
+          "count": 38
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "NORTH",
+          "count": 164
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "PASS",
+          "count": 283
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "PLANT",
+          "count": 66
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "SOUTH",
+          "count": 122
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "WATER",
+          "count": 208
+        },
+        {
+          "seat": 1,
+          "phase": "180:360",
+          "op": "WEST",
+          "count": 215
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "DIG",
+          "count": 9
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "EAST",
+          "count": 187
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "HARVEST",
+          "count": 69
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "NORTH",
+          "count": 194
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "PASS",
+          "count": 604
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "PLANT",
+          "count": 18
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "SOUTH",
+          "count": 147
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "WATER",
+          "count": 305
+        },
+        {
+          "seat": 1,
+          "phase": "360:540",
+          "op": "WEST",
+          "count": 360
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "DIG",
+          "count": 2
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "DROP",
+          "count": 9
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "EAST",
+          "count": 181
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "HARVEST",
+          "count": 206
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "NORTH",
+          "count": 175
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "PASS",
+          "count": 438
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "PLANT",
+          "count": 10
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "SOUTH",
+          "count": 154
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "WATER",
+          "count": 239
+        },
+        {
+          "seat": 1,
+          "phase": "540:719",
+          "op": "WEST",
+          "count": 321
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "NORTH",
+          "count": 16
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "PASS",
+          "count": 285
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "SOUTH",
+          "count": 1
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "WATER",
+          "count": 25
+        },
+        {
+          "seat": 1,
+          "phase": "72:144",
+          "op": "WEST",
+          "count": 21
+        }
+      ]
+    }
+  ]
+}

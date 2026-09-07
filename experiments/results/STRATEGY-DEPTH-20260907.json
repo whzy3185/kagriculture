@@ -1,0 +1,1927 @@
+{
+  "scope": "Exploratory; diagnostic replays are existing development cases, not new independent trials",
+  "unique_diagnostic_seeds": 2,
+  "cases": [
+    {
+      "seed": 201,
+      "candidate_seat": 0,
+      "players": {
+        "candidate": {
+          "gross_sales": 65122.0,
+          "cash_costs": 15186.0,
+          "terminal_cash": 52936.0,
+          "requested_action_slots": 5703,
+          "pass_slots": 1666,
+          "pass_fraction": 0.2921269507276872,
+          "phase_flows": {
+            "0:72": {
+              "sales": 0,
+              "net_cash": -2698.0
+            },
+            "72:144": {
+              "sales": 0,
+              "net_cash": -21.0
+            },
+            "144:180": {
+              "sales": 0,
+              "net_cash": -14.0
+            },
+            "180:360": {
+              "sales": 16407.0,
+              "net_cash": 6914.0
+            },
+            "360:540": {
+              "sales": 11591.0,
+              "net_cash": 9947.0
+            },
+            "540:719": {
+              "sales": 37124.0,
+              "net_cash": 35808.0
+            }
+          },
+          "products": {
+            "CARROT": {
+              "sold_units": 109,
+              "sales_cash": 5518.0,
+              "realized_price": 50.62385321100918,
+              "seeds_bought": 48,
+              "sold_units_per_seed_bought": 2.2708333333333335
+            },
+            "MELON": {
+              "sold_units": 114,
+              "sales_cash": 13835.0,
+              "realized_price": 121.35964912280701,
+              "seeds_bought": 21,
+              "sold_units_per_seed_bought": 5.428571428571429
+            },
+            "STRAWBERRY": {
+              "sold_units": 242,
+              "sales_cash": 43629.0,
+              "realized_price": 180.28512396694214,
+              "seeds_bought": 70,
+              "sold_units_per_seed_bought": 3.4571428571428573
+            },
+            "WHEAT": {
+              "sold_units": 52,
+              "sales_cash": 2140.0,
+              "realized_price": 41.15384615384615,
+              "seeds_bought": 20,
+              "sold_units_per_seed_bought": 2.6
+            }
+          },
+          "snapshots": {
+            "0": {
+              "cash": 3000.0,
+              "hands": 0,
+              "quadrants": 1,
+              "tiles": {},
+              "empty_tiles": 25,
+              "carried_units": 0,
+              "shed_units": 0,
+              "shops": []
+            },
+            "72": {
+              "cash": 302.0,
+              "hands": 0,
+              "quadrants": 1,
+              "tiles": {
+                "STRAWBERRY": 8,
+                "MELON": 17
+              },
+              "empty_tiles": 0,
+              "carried_units": 0,
+              "shed_units": 0,
+              "shops": [
+                "SMOOTHIE_SHOP"
+              ]
+            },
+            "144": {
+              "cash": 281.0,
+              "hands": 0,
+              "quadrants": 1,
+              "tiles": {
+                "STRAWBERRY": 8,
+                "MELON": 17
+              },
+              "empty_tiles": 0,
+              "carried_units": 0,
+              "shed_units": 0,
+              "shops": [
+                "SMOOTHIE_SHOP",
+                "BAKERY"
+              ]
+            },
+            "180": {
+              "cash": 267.0,
+              "hands": 4,
+              "quadrants": 1,
+              "tiles": {
+                "STRAWBERRY": 8,
+                "MELON": 17
+              },
+              "empty_tiles": 0,
+              "carried_units": 0,
+              "shed_units": 0,
+              "shops": [
+                "SMOOTHIE_SHOP",
+                "BAKERY"
+              ]
+            },
+            "360": {
+              "cash": 7181.0,
+              "hands": 0,
+              "quadrants": 3,
+              "tiles": {
+                "STRAWBERRY": 65,
+                "WHEAT": 6,
+                "MELON": 2
+              },
+              "empty_tiles": 2,
+              "carried_units": 0,
+              "shed_units": 7,
+              "shops": [
+                "SMOOTHIE_SHOP",
+                "BAKERY",
+                "BRUNCH_SPOT",
+                "PET_CAFE",
+                "FARMERS_MARKET"
+              ]
+            },
+            "540": {
+              "cash": 17128.0,
+              "hands": 10,
+              "quadrants": 3,
+              "tiles": {
+                "CARROT": 11,
+                "WHEAT": 4,
+                "STRAWBERRY": 55,
+                "WEED": 5
+              },
+              "empty_tiles": 0,
+              "carried_units": 23,
+              "shed_units": 0,
+              "shops": [
+                "SMOOTHIE_SHOP",
+                "BAKERY",
+                "BRUNCH_SPOT",
+                "PET_CAFE",
+                "FARMERS_MARKET",
+                "BRUNCH_SPOT",
+                "BRUNCH_SPOT"
+              ]
+            },
+            "719": {
+              "cash": 52936.0,
+              "hands": 4,
+              "quadrants": 3,
+              "tiles": {
+                "WEED": 54,
+                "STRAWBERRY": 4
+              },
+              "empty_tiles": 17,
+              "carried_units": 0,
+              "shed_units": 0,
+              "shops": [
+                "SMOOTHIE_SHOP",
+                "BAKERY",
+                "BRUNCH_SPOT",
+                "PET_CAFE",
+                "FARMERS_MARKET",
+                "BRUNCH_SPOT",
+                "BRUNCH_SPOT",
+                "PIZZA_SHOP"
+              ]
+            },
+            "240": {
+              "cash": 253.0,
+              "hands": 0,
+              "quadrants": 1,
+              "tiles": {
+                "STRAWBERRY": 8,
+                "MELON": 17
+              },
+              "empty_tiles": 0,
+              "carried_units": 0,
+              "shed_units": 0,
+              "shops": [
+                "SMOOTHIE_SHOP",
+                "BAKERY",
+                "BRUNCH_SPOT"
+              ]
+            }
+          }
+        },
+        "reference": {
+          "gross_sales": 165542.0,
+          "cash_costs": 31526.0,
+          "terminal_cash": 137016.0,
+          "requested_action_slots": 7149,
+          "pass_slots": 528,
+          "pass_fraction": 0.07385648342425515,
+          "phase_flows": {
+            "0:72": {
+              "sales": 1322.0,
+              "net_cash": -2840.0
+            },
+            "72:144": {
+              "sales": 1724.0,
+              "net_cash": 119.0
+            },
+            "144:180": {
+              "sales": 4269.0,
+              "net_cash": 95.0
+            },
+            "180:360": {
+              "sales": 41932.0,
+              "net_cash": 29295.0
+            },
+            "360:540": {
+              "sales": 65866.0,
+              "net_cash": 61116.0
+            },
+            "540:719": {
+              "sales": 50429.0,
+              "net_cash": 46231.0
+            }
+          },
+          "products": {
+            "CARROT": {
+              "sold_units": 93,
+              "sales_cash": 4561.0,
+              "realized_price": 49.043010752688176,
+              "seeds_bought": 31,
+              "sold_units_per_seed_bought": 3.0
+            },
+            "EGG": {
+              "sold_units": 79,
+              "sales_cash": 4959.0,
+              "realized_price": 62.77215189873418,
+              "seeds_bought": 0,
+              "sold_units_per_seed_bought": null
+            },
+            "FERTILIZER": {
+              "sold_units": 350,
+              "sales_cash": 24620.0,
+              "realized_price": 70.34285714285714,
+              "seeds_bought": 0,
+              "sold_units_per_seed_bought": null
+            },
+            "MELON": {
+              "sold_units": 72,
+              "sales_cash": 15858.0,
+              "realized_price": 220.25,
+              "seeds_bought": 12,
+              "sold_units_per_seed_bought": 6.0
+            },
+            "MILK": {
+              "sold_units": 261,
+              "sales_cash": 39487.0,
+              "realized_price": 151.2911877394636,
+              "seeds_bought": 0,
+              "sold_units_per_seed_bought": null
+            },
+            "STRAWBERRY": {
+              "sold_units": 262,
+              "sales_cash": 51529.0,
+              "realized_price": 196.67557251908397,
+              "seeds_bought": 33,
+              "sold_units_per_seed_bought": 7.9393939393939394
+            },
+            "WHEAT": {
+              "sold_units": 311,
+              "sales_cash": 12596.0,
+              "realized_price": 40.5016077170418,
+              "seeds_bought": 188,
+              "sold_units_per_seed_bought": 1.6542553191489362
+            },
+            "WOOL": {
+              "sold_units": 131,
+              "sales_cash": 11932.0,
+              "realized_price": 91.08396946564885,
+              "seeds_bought": 0,
+              "sold_units_per_seed_bought": null
+            }
+          },
+          "snapshots": {
+            "0": {
+              "cash": 3000.0,
+              "hands": 0,
+              "quadrants": 1,
+              "tiles": {},
+              "empty_tiles": 25,
+              "carried_units": 0,
+              "shed_units": 0,
+              "shops": []
+            },
+            "72": {
+              "cash": 160.0,
+              "hands": 0,
+              "quadrants": 1,
+              "tiles": {
+                "WHEAT": 7,
+                "MELON": 12,
+                "COW": 3,
+                "SHEEP": 2,
+                "PASTURE": 1
+              },
+              "empty_tiles": 0,
+              "carried_units": 0,
+              "shed_units": 8,
+              "shops": [
+                "SMOOTHIE_SHOP"
+              ]
+            },
+            "144": {
+              "cash": 279.0,
+              "hands": 0,
+              "quadrants": 1,
+              "tiles": {
+                "WHEAT": 3,
+                "STRAWBERRY": 4,
+                "MELON": 12,
+                "COW": 4,
+                "SHEEP": 2
+              },
+              "empty_tiles": 0,
+              "carried_units": 0,
+              "shed_units": 21,
+              "shops": [
+                "SMOOTHIE_SHOP",
+                "BAKERY"
+              ]
+            },
+            "180": {
+              "cash": 374.0,
+              "hands": 8,
+              "quadrants": 2,
+              "tiles": {
+                "STRAWBERRY": 13,
+                "MELON": 12,
+                "WHEAT": 5,
+                "COW": 7,
+                "PASTURE": 4,
+                "SHEEP": 2
+              },
+              "empty_tiles": 7,
+              "carried_units": 0,
+              "shed_units": 14,
+              "shops": [
+                "SMOOTHIE_SHOP",
+                "BAKERY"
+              ]
+            },
+            "360": {
+              "cash": 29669.0,
+              "hands": 0,
+              "quadrants": 3,
+              "tiles": {
+                "WHEAT": 24,
+                "STRAWBERRY": 33,
+                "COOP": 1,
+                "GOOSE": 3,
+                "COW": 9,
+                "SHEEP": 5
+              },
+              "empty_tiles": 0,
+              "carried_units": 0,
+              "shed_units": 72,
+              "shops": [
+                "SMOOTHIE_SHOP",
+                "BAKERY",
+                "BRUNCH_SPOT",
+                "PET_CAFE",
+                "FARMERS_MARKET"
+              ]
+            },
+            "540": {
+              "cash": 90785.0,
+              "hands": 12,
+              "quadrants": 3,
+              "tiles": {
+                "WHEAT": 26,
+                "STRAWBERRY": 29,
+                "WEED": 3,
+                "GOOSE": 3,
+                "COW": 9,
+                "SHEEP": 5
+              },
+              "empty_tiles": 0,
+              "carried_units": 53,
+              "shed_units": 14,
+              "shops": [
+                "SMOOTHIE_SHOP",
+                "BAKERY",
+                "BRUNCH_SPOT",
+                "PET_CAFE",
+                "FARMERS_MARKET",
+                "BRUNCH_SPOT",
+                "BRUNCH_SPOT"
+              ]
+            },
+            "719": {
+              "cash": 137016.0,
+              "hands": 9,
+              "quadrants": 3,
+              "tiles": {
+                "WEED": 1,
+                "GOOSE": 3,
+                "COW": 9,
+                "SHEEP": 5
+              },
+              "empty_tiles": 57,
+              "carried_units": 0,
+              "shed_units": 0,
+              "shops": [
+                "SMOOTHIE_SHOP",
+                "BAKERY",
+                "BRUNCH_SPOT",
+                "PET_CAFE",
+                "FARMERS_MARKET",
+                "BRUNCH_SPOT",
+                "BRUNCH_SPOT",
+                "PIZZA_SHOP"
+              ]
+            },
+            "240": {
+              "cash": 2429.0,
+              "hands": 0,
+              "quadrants": 2,
+              "tiles": {
+                "WHEAT": 5,
+                "STRAWBERRY": 20,
+                "MELON": 12,
+                "COW": 9,
+                "SHEEP": 4
+              },
+              "empty_tiles": 0,
+              "carried_units": 0,
+              "shed_units": 47,
+              "shops": [
+                "SMOOTHIE_SHOP",
+                "BAKERY",
+                "BRUNCH_SPOT"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "seed": 201,
+      "candidate_seat": 1,
+      "players": {
+        "candidate": {
+          "gross_sales": 65122.0,
+          "cash_costs": 15186.0,
+          "terminal_cash": 52936.0,
+          "requested_action_slots": 5703,
+          "pass_slots": 1666,
+          "pass_fraction": 0.2921269507276872,
+          "phase_flows": {
+            "0:72": {
+              "sales": 0,
+              "net_cash": -2698.0
+            },
+            "72:144": {
+              "sales": 0,
+              "net_cash": -21.0
+            },
+            "144:180": {
+              "sales": 0,
+              "net_cash": -14.0
+            },
+            "180:360": {
+              "sales": 16407.0,
+              "net_cash": 6914.0
+            },
+            "360:540": {
+              "sales": 11591.0,
+              "net_cash": 9947.0
+            },
+            "540:719": {
+              "sales": 37124.0,
+              "net_cash": 35808.0
+            }
+          },
+          "products": {
+            "CARROT": {
+              "sold_units": 109,
+              "sales_cash": 5518.0,
+              "realized_price": 50.62385321100918,
+              "seeds_bought": 48,
+              "sold_units_per_seed_bought": 2.2708333333333335
+            },
+            "MELON": {
+              "sold_units": 114,
+              "sales_cash": 13835.0,
+              "realized_price": 121.35964912280701,
+              "seeds_bought": 21,
+              "sold_units_per_seed_bought": 5.428571428571429
+            },
+            "STRAWBERRY": {
+              "sold_units": 242,
+              "sales_cash": 43629.0,
+              "realized_price": 180.28512396694214,
+              "seeds_bought": 70,
+              "sold_units_per_seed_bought": 3.4571428571428573
+            },
+            "WHEAT": {
+              "sold_units": 52,
+              "sales_cash": 2140.0,
+              "realized_price": 41.15384615384615,
+              "seeds_bought": 20,
+              "sold_units_per_seed_bought": 2.6
+            }
+          },
+          "snapshots": {
+            "0": {
+              "cash": 3000.0,
+              "hands": 0,
+              "quadrants": 1,
+              "tiles": {},
+              "empty_tiles": 25,
+              "carried_units": 0,
+              "shed_units": 0,
+              "shops": []
+            },
+            "72": {
+              "cash": 302.0,
+              "hands": 0,
+              "quadrants": 1,
+              "tiles": {
+                "STRAWBERRY": 8,
+                "MELON": 17
+              },
+              "empty_tiles": 0,
+              "carried_units": 0,
+              "shed_units": 0,
+              "shops": [
+                "SMOOTHIE_SHOP"
+              ]
+            },
+            "144": {
+              "cash": 281.0,
+              "hands": 0,
+              "quadrants": 1,
+              "tiles": {
+                "STRAWBERRY": 8,
+                "MELON": 17
+              },
+              "empty_tiles": 0,
+              "carried_units": 0,
+              "shed_units": 0,
+              "shops": [
+                "SMOOTHIE_SHOP",
+                "BAKERY"
+              ]
+            },
+            "180": {
+              "cash": 267.0,
+              "hands": 4,
+              "quadrants": 1,
+              "tiles": {
+                "STRAWBERRY": 8,
+                "MELON": 17
+              },
+              "empty_tiles": 0,
+              "carried_units": 0,
+              "shed_units": 0,
+              "shops": [
+                "SMOOTHIE_SHOP",
+                "BAKERY"
+              ]
+            },
+            "360": {
+              "cash": 7181.0,
+              "hands": 0,
+              "quadrants": 3,
+              "tiles": {
+                "STRAWBERRY": 65,
+                "WHEAT": 6,
+                "MELON": 2
+              },
+              "empty_tiles": 2,
+              "carried_units": 0,
+              "shed_units": 7,
+              "shops": [
+                "SMOOTHIE_SHOP",
+                "BAKERY",
+                "BRUNCH_SPOT",
+                "PET_CAFE",
+                "FARMERS_MARKET"
+              ]
+            },
+            "540": {
+              "cash": 17128.0,
+              "hands": 10,
+              "quadrants": 3,
+              "tiles": {
+                "CARROT": 11,
+                "WHEAT": 4,
+                "STRAWBERRY": 55,
+                "WEED": 5
+              },
+              "empty_tiles": 0,
+              "carried_units": 23,
+              "shed_units": 0,
+              "shops": [
+                "SMOOTHIE_SHOP",
+                "BAKERY",
+                "BRUNCH_SPOT",
+                "PET_CAFE",
+                "FARMERS_MARKET",
+                "BRUNCH_SPOT",
+                "BRUNCH_SPOT"
+              ]
+            },
+            "719": {
+              "cash": 52936.0,
+              "hands": 4,
+              "quadrants": 3,
+              "tiles": {
+                "WEED": 54,
+                "STRAWBERRY": 4
+              },
+              "empty_tiles": 17,
+              "carried_units": 0,
+              "shed_units": 0,
+              "shops": [
+                "SMOOTHIE_SHOP",
+                "BAKERY",
+                "BRUNCH_SPOT",
+                "PET_CAFE",
+                "FARMERS_MARKET",
+                "BRUNCH_SPOT",
+                "BRUNCH_SPOT",
+                "PIZZA_SHOP"
+              ]
+            },
+            "240": {
+              "cash": 253.0,
+              "hands": 0,
+              "quadrants": 1,
+              "tiles": {
+                "STRAWBERRY": 8,
+                "MELON": 17
+              },
+              "empty_tiles": 0,
+              "carried_units": 0,
+              "shed_units": 0,
+              "shops": [
+                "SMOOTHIE_SHOP",
+                "BAKERY",
+                "BRUNCH_SPOT"
+              ]
+            }
+          }
+        },
+        "reference": {
+          "gross_sales": 165542.0,
+          "cash_costs": 31526.0,
+          "terminal_cash": 137016.0,
+          "requested_action_slots": 7149,
+          "pass_slots": 528,
+          "pass_fraction": 0.07385648342425515,
+          "phase_flows": {
+            "0:72": {
+              "sales": 1322.0,
+              "net_cash": -2840.0
+            },
+            "72:144": {
+              "sales": 1724.0,
+              "net_cash": 119.0
+            },
+            "144:180": {
+              "sales": 4269.0,
+              "net_cash": 95.0
+            },
+            "180:360": {
+              "sales": 41932.0,
+              "net_cash": 29295.0
+            },
+            "360:540": {
+              "sales": 65866.0,
+              "net_cash": 61116.0
+            },
+            "540:719": {
+              "sales": 50429.0,
+              "net_cash": 46231.0
+            }
+          },
+          "products": {
+            "CARROT": {
+              "sold_units": 93,
+              "sales_cash": 4561.0,
+              "realized_price": 49.043010752688176,
+              "seeds_bought": 31,
+              "sold_units_per_seed_bought": 3.0
+            },
+            "EGG": {
+              "sold_units": 79,
+              "sales_cash": 4959.0,
+              "realized_price": 62.77215189873418,
+              "seeds_bought": 0,
+              "sold_units_per_seed_bought": null
+            },
+            "FERTILIZER": {
+              "sold_units": 350,
+              "sales_cash": 24620.0,
+              "realized_price": 70.34285714285714,
+              "seeds_bought": 0,
+              "sold_units_per_seed_bought": null
+            },
+            "MELON": {
+              "sold_units": 72,
+              "sales_cash": 15858.0,
+              "realized_price": 220.25,
+              "seeds_bought": 12,
+              "sold_units_per_seed_bought": 6.0
+            },
+            "MILK": {
+              "sold_units": 261,
+              "sales_cash": 39487.0,
+              "realized_price": 151.2911877394636,
+              "seeds_bought": 0,
+              "sold_units_per_seed_bought": null
+            },
+            "STRAWBERRY": {
+              "sold_units": 262,
+              "sales_cash": 51529.0,
+              "realized_price": 196.67557251908397,
+              "seeds_bought": 33,
+              "sold_units_per_seed_bought": 7.9393939393939394
+            },
+            "WHEAT": {
+              "sold_units": 311,
+              "sales_cash": 12596.0,
+              "realized_price": 40.5016077170418,
+              "seeds_bought": 188,
+              "sold_units_per_seed_bought": 1.6542553191489362
+            },
+            "WOOL": {
+              "sold_units": 131,
+              "sales_cash": 11932.0,
+              "realized_price": 91.08396946564885,
+              "seeds_bought": 0,
+              "sold_units_per_seed_bought": null
+            }
+          },
+          "snapshots": {
+            "0": {
+              "cash": 3000.0,
+              "hands": 0,
+              "quadrants": 1,
+              "tiles": {},
+              "empty_tiles": 25,
+              "carried_units": 0,
+              "shed_units": 0,
+              "shops": []
+            },
+            "72": {
+              "cash": 160.0,
+              "hands": 0,
+              "quadrants": 1,
+              "tiles": {
+                "WHEAT": 7,
+                "MELON": 12,
+                "COW": 3,
+                "SHEEP": 2,
+                "PASTURE": 1
+              },
+              "empty_tiles": 0,
+              "carried_units": 0,
+              "shed_units": 8,
+              "shops": [
+                "SMOOTHIE_SHOP"
+              ]
+            },
+            "144": {
+              "cash": 279.0,
+              "hands": 0,
+              "quadrants": 1,
+              "tiles": {
+                "WHEAT": 3,
+                "STRAWBERRY": 4,
+                "MELON": 12,
+                "COW": 4,
+                "SHEEP": 2
+              },
+              "empty_tiles": 0,
+              "carried_units": 0,
+              "shed_units": 21,
+              "shops": [
+                "SMOOTHIE_SHOP",
+                "BAKERY"
+              ]
+            },
+            "180": {
+              "cash": 374.0,
+              "hands": 8,
+              "quadrants": 2,
+              "tiles": {
+                "STRAWBERRY": 13,
+                "MELON": 12,
+                "WHEAT": 5,
+                "COW": 7,
+                "PASTURE": 4,
+                "SHEEP": 2
+              },
+              "empty_tiles": 7,
+              "carried_units": 0,
+              "shed_units": 14,
+              "shops": [
+                "SMOOTHIE_SHOP",
+                "BAKERY"
+              ]
+            },
+            "360": {
+              "cash": 29669.0,
+              "hands": 0,
+              "quadrants": 3,
+              "tiles": {
+                "WHEAT": 24,
+                "STRAWBERRY": 33,
+                "COOP": 1,
+                "GOOSE": 3,
+                "COW": 9,
+                "SHEEP": 5
+              },
+              "empty_tiles": 0,
+              "carried_units": 0,
+              "shed_units": 72,
+              "shops": [
+                "SMOOTHIE_SHOP",
+                "BAKERY",
+                "BRUNCH_SPOT",
+                "PET_CAFE",
+                "FARMERS_MARKET"
+              ]
+            },
+            "540": {
+              "cash": 90785.0,
+              "hands": 12,
+              "quadrants": 3,
+              "tiles": {
+                "WHEAT": 26,
+                "STRAWBERRY": 29,
+                "WEED": 3,
+                "GOOSE": 3,
+                "COW": 9,
+                "SHEEP": 5
+              },
+              "empty_tiles": 0,
+              "carried_units": 53,
+              "shed_units": 14,
+              "shops": [
+                "SMOOTHIE_SHOP",
+                "BAKERY",
+                "BRUNCH_SPOT",
+                "PET_CAFE",
+                "FARMERS_MARKET",
+                "BRUNCH_SPOT",
+                "BRUNCH_SPOT"
+              ]
+            },
+            "719": {
+              "cash": 137016.0,
+              "hands": 9,
+              "quadrants": 3,
+              "tiles": {
+                "WEED": 1,
+                "GOOSE": 3,
+                "COW": 9,
+                "SHEEP": 5
+              },
+              "empty_tiles": 57,
+              "carried_units": 0,
+              "shed_units": 0,
+              "shops": [
+                "SMOOTHIE_SHOP",
+                "BAKERY",
+                "BRUNCH_SPOT",
+                "PET_CAFE",
+                "FARMERS_MARKET",
+                "BRUNCH_SPOT",
+                "BRUNCH_SPOT",
+                "PIZZA_SHOP"
+              ]
+            },
+            "240": {
+              "cash": 2429.0,
+              "hands": 0,
+              "quadrants": 2,
+              "tiles": {
+                "WHEAT": 5,
+                "STRAWBERRY": 20,
+                "MELON": 12,
+                "COW": 9,
+                "SHEEP": 4
+              },
+              "empty_tiles": 0,
+              "carried_units": 0,
+              "shed_units": 47,
+              "shops": [
+                "SMOOTHIE_SHOP",
+                "BAKERY",
+                "BRUNCH_SPOT"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "seed": 202,
+      "candidate_seat": 0,
+      "players": {
+        "candidate": {
+          "gross_sales": 70231.0,
+          "cash_costs": 14921.0,
+          "terminal_cash": 58310.0,
+          "requested_action_slots": 5733,
+          "pass_slots": 1854,
+          "pass_fraction": 0.32339089481946626,
+          "phase_flows": {
+            "0:72": {
+              "sales": 0,
+              "net_cash": -2698.0
+            },
+            "72:144": {
+              "sales": 0,
+              "net_cash": -21.0
+            },
+            "144:180": {
+              "sales": 0,
+              "net_cash": -14.0
+            },
+            "180:360": {
+              "sales": 16626.0,
+              "net_cash": 6653.0
+            },
+            "360:540": {
+              "sales": 11127.0,
+              "net_cash": 9803.0
+            },
+            "540:719": {
+              "sales": 42478.0,
+              "net_cash": 41587.0
+            }
+          },
+          "products": {
+            "MELON": {
+              "sold_units": 113,
+              "sales_cash": 13834.0,
+              "realized_price": 122.42477876106194,
+              "seeds_bought": 21,
+              "sold_units_per_seed_bought": 5.380952380952381
+            },
+            "STRAWBERRY": {
+              "sold_units": 271,
+              "sales_cash": 52727.0,
+              "realized_price": 194.56457564575646,
+              "seeds_bought": 76,
+              "sold_units_per_seed_bought": 3.5657894736842106
+            },
+            "WHEAT": {
+              "sold_units": 84,
+              "sales_cash": 3670.0,
+              "realized_price": 43.69047619047619,
+              "seeds_bought": 29,
+              "sold_units_per_seed_bought": 2.896551724137931
+            }
+          },
+          "snapshots": {
+            "0": {
+              "cash": 3000.0,
+              "hands": 0,
+              "quadrants": 1,
+              "tiles": {},
+              "empty_tiles": 25,
+              "carried_units": 0,
+              "shed_units": 0,
+              "shops": []
+            },
+            "72": {
+              "cash": 302.0,
+              "hands": 0,
+              "quadrants": 1,
+              "tiles": {
+                "STRAWBERRY": 8,
+                "MELON": 17
+              },
+              "empty_tiles": 0,
+              "carried_units": 0,
+              "shed_units": 0,
+              "shops": [
+                "ICE_CREAM_SHOP"
+              ]
+            },
+            "144": {
+              "cash": 281.0,
+              "hands": 0,
+              "quadrants": 1,
+              "tiles": {
+                "STRAWBERRY": 8,
+                "MELON": 17
+              },
+              "empty_tiles": 0,
+              "carried_units": 0,
+              "shed_units": 0,
+              "shops": [
+                "ICE_CREAM_SHOP",
+                "ICE_CREAM_SHOP"
+              ]
+            },
+            "180": {
+              "cash": 267.0,
+              "hands": 4,
+              "quadrants": 1,
+              "tiles": {
+                "STRAWBERRY": 8,
+                "MELON": 17
+              },
+              "empty_tiles": 0,
+              "carried_units": 0,
+              "shed_units": 0,
+              "shops": [
+                "ICE_CREAM_SHOP",
+                "ICE_CREAM_SHOP"
+              ]
+            },
+            "360": {
+              "cash": 6920.0,
+              "hands": 0,
+              "quadrants": 3,
+              "tiles": {
+                "STRAWBERRY": 71,
+                "MELON": 2
+              },
+              "empty_tiles": 2,
+              "carried_units": 0,
+              "shed_units": 7,
+              "shops": [
+                "ICE_CREAM_SHOP",
+                "ICE_CREAM_SHOP",
+                "SMOOTHIE_SHOP",
+                "YARN_STORE",
+                "BAKERY"
+              ]
+            },
+            "540": {
+              "cash": 16723.0,
+              "hands": 10,
+              "quadrants": 3,
+              "tiles": {
+                "WHEAT": 9,
+                "STRAWBERRY": 64,
+                "WEED": 1
+              },
+              "empty_tiles": 1,
+              "carried_units": 24,
+              "shed_units": 0,
+              "shops": [
+                "ICE_CREAM_SHOP",
+                "ICE_CREAM_SHOP",
+                "SMOOTHIE_SHOP",
+                "YARN_STORE",
+                "BAKERY",
+                "ICE_CREAM_SHOP",
+                "PIZZA_SHOP"
+              ]
+            },
+            "719": {
+              "cash": 58310.0,
+              "hands": 5,
+              "quadrants": 3,
+              "tiles": {
+                "STRAWBERRY": 11,
+                "WEED": 54
+              },
+              "empty_tiles": 10,
+              "carried_units": 0,
+              "shed_units": 0,
+              "shops": [
+                "ICE_CREAM_SHOP",
+                "ICE_CREAM_SHOP",
+                "SMOOTHIE_SHOP",
+                "YARN_STORE",
+                "BAKERY",
+                "ICE_CREAM_SHOP",
+                "PIZZA_SHOP",
+                "FARMERS_MARKET"
+              ]
+            },
+            "240": {
+              "cash": 253.0,
+              "hands": 0,
+              "quadrants": 1,
+              "tiles": {
+                "STRAWBERRY": 8,
+                "MELON": 17
+              },
+              "empty_tiles": 0,
+              "carried_units": 0,
+              "shed_units": 0,
+              "shops": [
+                "ICE_CREAM_SHOP",
+                "ICE_CREAM_SHOP",
+                "SMOOTHIE_SHOP"
+              ]
+            }
+          }
+        },
+        "reference": {
+          "gross_sales": 217844.0,
+          "cash_costs": 31721.0,
+          "terminal_cash": 189123.0,
+          "requested_action_slots": 7149,
+          "pass_slots": 528,
+          "pass_fraction": 0.07385648342425515,
+          "phase_flows": {
+            "0:72": {
+              "sales": 1322.0,
+              "net_cash": -2840.0
+            },
+            "72:144": {
+              "sales": 1730.0,
+              "net_cash": 118.0
+            },
+            "144:180": {
+              "sales": 4284.0,
+              "net_cash": 93.0
+            },
+            "180:360": {
+              "sales": 43980.0,
+              "net_cash": 31172.0
+            },
+            "360:540": {
+              "sales": 85986.0,
+              "net_cash": 81236.0
+            },
+            "540:719": {
+              "sales": 80542.0,
+              "net_cash": 76344.0
+            }
+          },
+          "products": {
+            "CARROT": {
+              "sold_units": 93,
+              "sales_cash": 3311.0,
+              "realized_price": 35.60215053763441,
+              "seeds_bought": 31,
+              "sold_units_per_seed_bought": 3.0
+            },
+            "EGG": {
+              "sold_units": 79,
+              "sales_cash": 4097.0,
+              "realized_price": 51.860759493670884,
+              "seeds_bought": 0,
+              "sold_units_per_seed_bought": null
+            },
+            "FERTILIZER": {
+              "sold_units": 350,
+              "sales_cash": 24620.0,
+              "realized_price": 70.34285714285714,
+              "seeds_bought": 0,
+              "sold_units_per_seed_bought": null
+            },
+            "MELON": {
+              "sold_units": 72,
+              "sales_cash": 15858.0,
+              "realized_price": 220.25,
+              "seeds_bought": 12,
+              "sold_units_per_seed_bought": 6.0
+            },
+            "MILK": {
+              "sold_units": 261,
+              "sales_cash": 71383.0,
+              "realized_price": 273.49808429118775,
+              "seeds_bought": 0,
+              "sold_units_per_seed_bought": null
+            },
+            "STRAWBERRY": {
+              "sold_units": 262,
+              "sales_cash": 55997.0,
+              "realized_price": 213.7290076335878,
+              "seeds_bought": 33,
+              "sold_units_per_seed_bought": 7.9393939393939394
+            },
+            "WHEAT": {
+              "sold_units": 311,
+              "sales_cash": 12891.0,
+              "realized_price": 41.450160771704184,
+              "seeds_bought": 188,
+              "sold_units_per_seed_bought": 1.6542553191489362
+            },
+            "WOOL": {
+              "sold_units": 131,
+              "sales_cash": 29687.0,
+              "realized_price": 226.61832061068702,
+              "seeds_bought": 0,
+              "sold_units_per_seed_bought": null
+            }
+          },
+          "snapshots": {
+            "0": {
+              "cash": 3000.0,
+              "hands": 0,
+              "quadrants": 1,
+              "tiles": {},
+              "empty_tiles": 25,
+              "carried_units": 0,
+              "shed_units": 0,
+              "shops": []
+            },
+            "72": {
+              "cash": 160.0,
+              "hands": 0,
+              "quadrants": 1,
+              "tiles": {
+                "WHEAT": 7,
+                "MELON": 12,
+                "COW": 3,
+                "SHEEP": 2,
+                "PASTURE": 1
+              },
+              "empty_tiles": 0,
+              "carried_units": 0,
+              "shed_units": 8,
+              "shops": [
+                "ICE_CREAM_SHOP"
+              ]
+            },
+            "144": {
+              "cash": 278.0,
+              "hands": 0,
+              "quadrants": 1,
+              "tiles": {
+                "WHEAT": 3,
+                "STRAWBERRY": 4,
+                "MELON": 12,
+                "COW": 4,
+                "SHEEP": 2
+              },
+              "empty_tiles": 0,
+              "carried_units": 0,
+              "shed_units": 21,
+              "shops": [
+                "ICE_CREAM_SHOP",
+                "ICE_CREAM_SHOP"
+              ]
+            },
+            "180": {
+              "cash": 371.0,
+              "hands": 8,
+              "quadrants": 2,
+              "tiles": {
+                "STRAWBERRY": 13,
+                "MELON": 12,
+                "WHEAT": 5,
+                "COW": 7,
+                "PASTURE": 4,
+                "SHEEP": 2
+              },
+              "empty_tiles": 7,
+              "carried_units": 0,
+              "shed_units": 14,
+              "shops": [
+                "ICE_CREAM_SHOP",
+                "ICE_CREAM_SHOP"
+              ]
+            },
+            "360": {
+              "cash": 31543.0,
+              "hands": 0,
+              "quadrants": 3,
+              "tiles": {
+                "WHEAT": 24,
+                "STRAWBERRY": 33,
+                "COOP": 1,
+                "GOOSE": 3,
+                "COW": 9,
+                "SHEEP": 5
+              },
+              "empty_tiles": 0,
+              "carried_units": 0,
+              "shed_units": 72,
+              "shops": [
+                "ICE_CREAM_SHOP",
+                "ICE_CREAM_SHOP",
+                "SMOOTHIE_SHOP",
+                "YARN_STORE",
+                "BAKERY"
+              ]
+            },
+            "540": {
+              "cash": 112779.0,
+              "hands": 12,
+              "quadrants": 3,
+              "tiles": {
+                "WHEAT": 26,
+                "STRAWBERRY": 29,
+                "WEED": 3,
+                "GOOSE": 3,
+                "COW": 9,
+                "SHEEP": 5
+              },
+              "empty_tiles": 0,
+              "carried_units": 53,
+              "shed_units": 14,
+              "shops": [
+                "ICE_CREAM_SHOP",
+                "ICE_CREAM_SHOP",
+                "SMOOTHIE_SHOP",
+                "YARN_STORE",
+                "BAKERY",
+                "ICE_CREAM_SHOP",
+                "PIZZA_SHOP"
+              ]
+            },
+            "719": {
+              "cash": 189123.0,
+              "hands": 9,
+              "quadrants": 3,
+              "tiles": {
+                "WEED": 2,
+                "GOOSE": 3,
+                "COW": 9,
+                "SHEEP": 5
+              },
+              "empty_tiles": 56,
+              "carried_units": 0,
+              "shed_units": 0,
+              "shops": [
+                "ICE_CREAM_SHOP",
+                "ICE_CREAM_SHOP",
+                "SMOOTHIE_SHOP",
+                "YARN_STORE",
+                "BAKERY",
+                "ICE_CREAM_SHOP",
+                "PIZZA_SHOP",
+                "FARMERS_MARKET"
+              ]
+            },
+            "240": {
+              "cash": 2457.0,
+              "hands": 0,
+              "quadrants": 2,
+              "tiles": {
+                "WHEAT": 5,
+                "STRAWBERRY": 20,
+                "MELON": 12,
+                "COW": 9,
+                "SHEEP": 4
+              },
+              "empty_tiles": 0,
+              "carried_units": 0,
+              "shed_units": 47,
+              "shops": [
+                "ICE_CREAM_SHOP",
+                "ICE_CREAM_SHOP",
+                "SMOOTHIE_SHOP"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "seed": 202,
+      "candidate_seat": 1,
+      "players": {
+        "candidate": {
+          "gross_sales": 70231.0,
+          "cash_costs": 14921.0,
+          "terminal_cash": 58310.0,
+          "requested_action_slots": 5733,
+          "pass_slots": 1854,
+          "pass_fraction": 0.32339089481946626,
+          "phase_flows": {
+            "0:72": {
+              "sales": 0,
+              "net_cash": -2698.0
+            },
+            "72:144": {
+              "sales": 0,
+              "net_cash": -21.0
+            },
+            "144:180": {
+              "sales": 0,
+              "net_cash": -14.0
+            },
+            "180:360": {
+              "sales": 16626.0,
+              "net_cash": 6653.0
+            },
+            "360:540": {
+              "sales": 11127.0,
+              "net_cash": 9803.0
+            },
+            "540:719": {
+              "sales": 42478.0,
+              "net_cash": 41587.0
+            }
+          },
+          "products": {
+            "MELON": {
+              "sold_units": 113,
+              "sales_cash": 13834.0,
+              "realized_price": 122.42477876106194,
+              "seeds_bought": 21,
+              "sold_units_per_seed_bought": 5.380952380952381
+            },
+            "STRAWBERRY": {
+              "sold_units": 271,
+              "sales_cash": 52727.0,
+              "realized_price": 194.56457564575646,
+              "seeds_bought": 76,
+              "sold_units_per_seed_bought": 3.5657894736842106
+            },
+            "WHEAT": {
+              "sold_units": 84,
+              "sales_cash": 3670.0,
+              "realized_price": 43.69047619047619,
+              "seeds_bought": 29,
+              "sold_units_per_seed_bought": 2.896551724137931
+            }
+          },
+          "snapshots": {
+            "0": {
+              "cash": 3000.0,
+              "hands": 0,
+              "quadrants": 1,
+              "tiles": {},
+              "empty_tiles": 25,
+              "carried_units": 0,
+              "shed_units": 0,
+              "shops": []
+            },
+            "72": {
+              "cash": 302.0,
+              "hands": 0,
+              "quadrants": 1,
+              "tiles": {
+                "STRAWBERRY": 8,
+                "MELON": 17
+              },
+              "empty_tiles": 0,
+              "carried_units": 0,
+              "shed_units": 0,
+              "shops": [
+                "ICE_CREAM_SHOP"
+              ]
+            },
+            "144": {
+              "cash": 281.0,
+              "hands": 0,
+              "quadrants": 1,
+              "tiles": {
+                "STRAWBERRY": 8,
+                "MELON": 17
+              },
+              "empty_tiles": 0,
+              "carried_units": 0,
+              "shed_units": 0,
+              "shops": [
+                "ICE_CREAM_SHOP",
+                "ICE_CREAM_SHOP"
+              ]
+            },
+            "180": {
+              "cash": 267.0,
+              "hands": 4,
+              "quadrants": 1,
+              "tiles": {
+                "STRAWBERRY": 8,
+                "MELON": 17
+              },
+              "empty_tiles": 0,
+              "carried_units": 0,
+              "shed_units": 0,
+              "shops": [
+                "ICE_CREAM_SHOP",
+                "ICE_CREAM_SHOP"
+              ]
+            },
+            "360": {
+              "cash": 6920.0,
+              "hands": 0,
+              "quadrants": 3,
+              "tiles": {
+                "STRAWBERRY": 71,
+                "MELON": 2
+              },
+              "empty_tiles": 2,
+              "carried_units": 0,
+              "shed_units": 7,
+              "shops": [
+                "ICE_CREAM_SHOP",
+                "ICE_CREAM_SHOP",
+                "SMOOTHIE_SHOP",
+                "YARN_STORE",
+                "BAKERY"
+              ]
+            },
+            "540": {
+              "cash": 16723.0,
+              "hands": 10,
+              "quadrants": 3,
+              "tiles": {
+                "WHEAT": 9,
+                "STRAWBERRY": 64,
+                "WEED": 1
+              },
+              "empty_tiles": 1,
+              "carried_units": 24,
+              "shed_units": 0,
+              "shops": [
+                "ICE_CREAM_SHOP",
+                "ICE_CREAM_SHOP",
+                "SMOOTHIE_SHOP",
+                "YARN_STORE",
+                "BAKERY",
+                "ICE_CREAM_SHOP",
+                "PIZZA_SHOP"
+              ]
+            },
+            "719": {
+              "cash": 58310.0,
+              "hands": 5,
+              "quadrants": 3,
+              "tiles": {
+                "STRAWBERRY": 11,
+                "WEED": 54
+              },
+              "empty_tiles": 10,
+              "carried_units": 0,
+              "shed_units": 0,
+              "shops": [
+                "ICE_CREAM_SHOP",
+                "ICE_CREAM_SHOP",
+                "SMOOTHIE_SHOP",
+                "YARN_STORE",
+                "BAKERY",
+                "ICE_CREAM_SHOP",
+                "PIZZA_SHOP",
+                "FARMERS_MARKET"
+              ]
+            },
+            "240": {
+              "cash": 253.0,
+              "hands": 0,
+              "quadrants": 1,
+              "tiles": {
+                "STRAWBERRY": 8,
+                "MELON": 17
+              },
+              "empty_tiles": 0,
+              "carried_units": 0,
+              "shed_units": 0,
+              "shops": [
+                "ICE_CREAM_SHOP",
+                "ICE_CREAM_SHOP",
+                "SMOOTHIE_SHOP"
+              ]
+            }
+          }
+        },
+        "reference": {
+          "gross_sales": 217844.0,
+          "cash_costs": 31721.0,
+          "terminal_cash": 189123.0,
+          "requested_action_slots": 7149,
+          "pass_slots": 528,
+          "pass_fraction": 0.07385648342425515,
+          "phase_flows": {
+            "0:72": {
+              "sales": 1322.0,
+              "net_cash": -2840.0
+            },
+            "72:144": {
+              "sales": 1730.0,
+              "net_cash": 118.0
+            },
+            "144:180": {
+              "sales": 4284.0,
+              "net_cash": 93.0
+            },
+            "180:360": {
+              "sales": 43980.0,
+              "net_cash": 31172.0
+            },
+            "360:540": {
+              "sales": 85986.0,
+              "net_cash": 81236.0
+            },
+            "540:719": {
+              "sales": 80542.0,
+              "net_cash": 76344.0
+            }
+          },
+          "products": {
+            "CARROT": {
+              "sold_units": 93,
+              "sales_cash": 3311.0,
+              "realized_price": 35.60215053763441,
+              "seeds_bought": 31,
+              "sold_units_per_seed_bought": 3.0
+            },
+            "EGG": {
+              "sold_units": 79,
+              "sales_cash": 4097.0,
+              "realized_price": 51.860759493670884,
+              "seeds_bought": 0,
+              "sold_units_per_seed_bought": null
+            },
+            "FERTILIZER": {
+              "sold_units": 350,
+              "sales_cash": 24620.0,
+              "realized_price": 70.34285714285714,
+              "seeds_bought": 0,
+              "sold_units_per_seed_bought": null
+            },
+            "MELON": {
+              "sold_units": 72,
+              "sales_cash": 15858.0,
+              "realized_price": 220.25,
+              "seeds_bought": 12,
+              "sold_units_per_seed_bought": 6.0
+            },
+            "MILK": {
+              "sold_units": 261,
+              "sales_cash": 71383.0,
+              "realized_price": 273.49808429118775,
+              "seeds_bought": 0,
+              "sold_units_per_seed_bought": null
+            },
+            "STRAWBERRY": {
+              "sold_units": 262,
+              "sales_cash": 55997.0,
+              "realized_price": 213.7290076335878,
+              "seeds_bought": 33,
+              "sold_units_per_seed_bought": 7.9393939393939394
+            },
+            "WHEAT": {
+              "sold_units": 311,
+              "sales_cash": 12891.0,
+              "realized_price": 41.450160771704184,
+              "seeds_bought": 188,
+              "sold_units_per_seed_bought": 1.6542553191489362
+            },
+            "WOOL": {
+              "sold_units": 131,
+              "sales_cash": 29687.0,
+              "realized_price": 226.61832061068702,
+              "seeds_bought": 0,
+              "sold_units_per_seed_bought": null
+            }
+          },
+          "snapshots": {
+            "0": {
+              "cash": 3000.0,
+              "hands": 0,
+              "quadrants": 1,
+              "tiles": {},
+              "empty_tiles": 25,
+              "carried_units": 0,
+              "shed_units": 0,
+              "shops": []
+            },
+            "72": {
+              "cash": 160.0,
+              "hands": 0,
+              "quadrants": 1,
+              "tiles": {
+                "WHEAT": 7,
+                "MELON": 12,
+                "COW": 3,
+                "SHEEP": 2,
+                "PASTURE": 1
+              },
+              "empty_tiles": 0,
+              "carried_units": 0,
+              "shed_units": 8,
+              "shops": [
+                "ICE_CREAM_SHOP"
+              ]
+            },
+            "144": {
+              "cash": 278.0,
+              "hands": 0,
+              "quadrants": 1,
+              "tiles": {
+                "WHEAT": 3,
+                "STRAWBERRY": 4,
+                "MELON": 12,
+                "COW": 4,
+                "SHEEP": 2
+              },
+              "empty_tiles": 0,
+              "carried_units": 0,
+              "shed_units": 21,
+              "shops": [
+                "ICE_CREAM_SHOP",
+                "ICE_CREAM_SHOP"
+              ]
+            },
+            "180": {
+              "cash": 371.0,
+              "hands": 8,
+              "quadrants": 2,
+              "tiles": {
+                "STRAWBERRY": 13,
+                "MELON": 12,
+                "WHEAT": 5,
+                "COW": 7,
+                "PASTURE": 4,
+                "SHEEP": 2
+              },
+              "empty_tiles": 7,
+              "carried_units": 0,
+              "shed_units": 14,
+              "shops": [
+                "ICE_CREAM_SHOP",
+                "ICE_CREAM_SHOP"
+              ]
+            },
+            "360": {
+              "cash": 31543.0,
+              "hands": 0,
+              "quadrants": 3,
+              "tiles": {
+                "WHEAT": 24,
+                "STRAWBERRY": 33,
+                "COOP": 1,
+                "GOOSE": 3,
+                "COW": 9,
+                "SHEEP": 5
+              },
+              "empty_tiles": 0,
+              "carried_units": 0,
+              "shed_units": 72,
+              "shops": [
+                "ICE_CREAM_SHOP",
+                "ICE_CREAM_SHOP",
+                "SMOOTHIE_SHOP",
+                "YARN_STORE",
+                "BAKERY"
+              ]
+            },
+            "540": {
+              "cash": 112779.0,
+              "hands": 12,
+              "quadrants": 3,
+              "tiles": {
+                "WHEAT": 26,
+                "STRAWBERRY": 29,
+                "WEED": 3,
+                "GOOSE": 3,
+                "COW": 9,
+                "SHEEP": 5
+              },
+              "empty_tiles": 0,
+              "carried_units": 53,
+              "shed_units": 14,
+              "shops": [
+                "ICE_CREAM_SHOP",
+                "ICE_CREAM_SHOP",
+                "SMOOTHIE_SHOP",
+                "YARN_STORE",
+                "BAKERY",
+                "ICE_CREAM_SHOP",
+                "PIZZA_SHOP"
+              ]
+            },
+            "719": {
+              "cash": 189123.0,
+              "hands": 9,
+              "quadrants": 3,
+              "tiles": {
+                "WEED": 2,
+                "GOOSE": 3,
+                "COW": 9,
+                "SHEEP": 5
+              },
+              "empty_tiles": 56,
+              "carried_units": 0,
+              "shed_units": 0,
+              "shops": [
+                "ICE_CREAM_SHOP",
+                "ICE_CREAM_SHOP",
+                "SMOOTHIE_SHOP",
+                "YARN_STORE",
+                "BAKERY",
+                "ICE_CREAM_SHOP",
+                "PIZZA_SHOP",
+                "FARMERS_MARKET"
+              ]
+            },
+            "240": {
+              "cash": 2457.0,
+              "hands": 0,
+              "quadrants": 2,
+              "tiles": {
+                "WHEAT": 5,
+                "STRAWBERRY": 20,
+                "MELON": 12,
+                "COW": 9,
+                "SHEEP": 4
+              },
+              "empty_tiles": 0,
+              "carried_units": 0,
+              "shed_units": 47,
+              "shops": [
+                "ICE_CREAM_SHOP",
+                "ICE_CREAM_SHOP",
+                "SMOOTHIE_SHOP"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  "leave_one_out_restoration": {
+    "DEMAND_AWARE": {
+      "main": {
+        "seed_pairs": 4,
+        "mean_margin_delta": 53650.25,
+        "seed_pair_std": 19461.76282483167,
+        "min_seed_pair_delta": 25341.0,
+        "max_seed_pair_delta": 69768.0,
+        "mean_point_delta": 0.0
+      },
+      "shape_shop_v11": {
+        "seed_pairs": 4,
+        "mean_margin_delta": 34702.25,
+        "seed_pair_std": 26245.329532128188,
+        "min_seed_pair_delta": -1047.0,
+        "max_seed_pair_delta": 62163.0,
+        "mean_point_delta": 0.0
+      }
+    },
+    "EXPAND_LAND": {
+      "main": {
+        "seed_pairs": 4,
+        "mean_margin_delta": 31679.5,
+        "seed_pair_std": 13761.982766544459,
+        "min_seed_pair_delta": 11184.0,
+        "max_seed_pair_delta": 39853.0,
+        "mean_point_delta": 0.0
+      },
+      "shape_shop_v11": {
+        "seed_pairs": 4,
+        "mean_margin_delta": 12873.0,
+        "seed_pair_std": 25283.76148176269,
+        "min_seed_pair_delta": -18859.0,
+        "max_seed_pair_delta": 42663.0,
+        "mean_point_delta": 0.0
+      }
+    },
+    "ADAPTIVE_LABOR": {
+      "main": {
+        "seed_pairs": 4,
+        "mean_margin_delta": 23043.0,
+        "seed_pair_std": 9953.299519924703,
+        "min_seed_pair_delta": 8143.0,
+        "max_seed_pair_delta": 28480.0,
+        "mean_point_delta": 0.0
+      },
+      "shape_shop_v11": {
+        "seed_pairs": 4,
+        "mean_margin_delta": 11507.5,
+        "seed_pair_std": 27624.43934272694,
+        "min_seed_pair_delta": -18311.0,
+        "max_seed_pair_delta": 44735.0,
+        "mean_point_delta": 0.0
+      }
+    },
+    "TERMINAL_CASH": {
+      "main": {
+        "seed_pairs": 4,
+        "mean_margin_delta": 1193.75,
+        "seed_pair_std": 890.9726426776526,
+        "min_seed_pair_delta": 0.0,
+        "max_seed_pair_delta": 2142.0,
+        "mean_point_delta": 0.0
+      },
+      "shape_shop_v11": {
+        "seed_pairs": 4,
+        "mean_margin_delta": 648.0,
+        "seed_pair_std": 504.3378497264177,
+        "min_seed_pair_delta": 30.0,
+        "max_seed_pair_delta": 1151.0,
+        "mean_point_delta": 0.0
+      }
+    }
+  },
+  "source_sha256": {
+    "EXP-006-phase-audit.json": "0b233d42b0a16502c577b0bca5ce4f9ef5ce4b6da26e8d18513b239de9e949cb",
+    "EXP-006-development-full.json": "866bc0fe85f45fcfe4d4040bf6c146d188ebacd913bf907848242f4a538a4599",
+    "EXP-006-ablation-DEMAND_AWARE.json": "773316b6e22ac4f0c064265f7d635ab946e1ef582561fd661b2611625a9b6045",
+    "EXP-006-ablation-EXPAND_LAND.json": "090f1aadf9bb15758a7ea63cc969af208263a6003b25cb9a68cfb4ae3a092736",
+    "EXP-006-ablation-ADAPTIVE_LABOR.json": "b39124739ddd58090821f5047feec177fd89c0af5a4a1ecccb33b5572b739f99",
+    "EXP-006-ablation-TERMINAL_CASH.json": "f81d7b1bb278d45b1e64cdb1c95070641bbd1e2abc5cb81b08b3bed49b58f9be"
+  },
+  "causal_limit": "Whole-policy cash differences do not isolate opening, fertilizer, livestock or timing effects"
+}

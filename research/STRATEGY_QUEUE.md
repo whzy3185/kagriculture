@@ -1,13 +1,37 @@
 # Strategy Queue
 
-All entries: research-to-experiment proposals, not approved production changes.
-Continuation: source review expanded to 14 unique notebooks. User requires
-independent mechanism competition, not reuse of public agent/tape/weight/threshold
-artifacts. Research questions CQ-01 through CQ-05 in QUANT_COMPETITION_PROTOCOL.md
-are the current conceptual queue. The older EXP slots below remain unexecuted.
-Access blockers are resolved; full competitive and publication gates are not.
-Latest user instruction: finish Code/Discussion investigation first. No candidate
-was authored or executed after that instruction. Main remains byte-identical.
+All entries are proposals, not approved production changes. Current measured
+baseline is independent EXP-006 (submission 56072267 COMPLETE). Root main.py
+remains unchanged. Public-code release was authorized; no public opponent
+source, tapes, weights or fitted thresholds are adopted into our agent.
+
+## Current Decisions
+
+See STRATEGY_DEPTH_20260907.md for reconciled phase telemetry and new priority.
+Two existing development seeds, both seats, were remeasured without adding
+independent evidence. The four leave-one-out ablations remain only four seed
+pairs each; positive mean margins include adverse regimes and no point gains.
+
+| Order | Experiment | Main hypothesis | Status |
+|---|---|---|---|
+| 1 | EXP-007 early-income crop bridge | Less opening capital lockup improves terminal paired points | GO to implementation; not submission |
+| 2 | EXP-008 selective fertilizer | Additional cashable yield exceeds total service/market opportunity cost | BLOCKED on common executor |
+| 3 | EXP-009 calendar labor | Fewer missed production deadlines at the same staffing improves points | GO to isolated prototype after EXP-007 freeze |
+| 4 | EXP-010 livestock bridge | A funded, serviced herd improves continuation without starving crops | BLOCKED on placement/feed/survival tests |
+| 5 | EXP-011 early branching | Public-state branch at 72/144 beats a feasible 180-turn opening control | BLOCKED on credible opening control |
+
+Terminal liquidation remains a mandatory safety feature, but lower-priority
+for strength optimization: +648 mean Shape margin in its small ablation,
+compared with 84080/130813 deficits in two diagnostic development seeds.
+Do not add ablation deltas together or treat these cross-study magnitudes as
+causal decomposition. Future tuned generations require a NEW unused holdout.
+
+## Historical EXP-001 Through EXP-005 Designs
+
+The original slots below describe the earlier legacy-parent research phase.
+Their old blockers/statuses are historical; they are not the current task queue.
+They were not executed as five standalone candidates. EXP-006 later combined
+independent crop mechanisms and used separate leave-one-out diagnostics.
 
 Priority formula:
 `expected_score_gain * confidence * probability_generalizes * attribution_quality / engineering_cost`.

@@ -4,6 +4,11 @@ Observed: 2026-09-07. Strong reusable opening schedules are a credible research
 baseline; a universal fixed 180-action optimum is NOT established. No agent
 changes, copied routes or new submissions in this audit.
 
+Follow-up: STRATEGY_DEPTH_20260907.md now adds exact cash-reconciled phase
+telemetry for two existing development seeds against Shape. It supports
+prioritizing an independent early-income opening control before comparing
+72/144/180 feedback boundaries. No new opening-policy superiority was tested.
+
 ## Sources And Limits
 
 - [Closed-loop discussion](https://www.kaggle.com/competitions/kaggriculture/discussion/733002):
