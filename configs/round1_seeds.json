@@ -1,0 +1,9 @@
+{
+  "suite_id": "round1-v1",
+  "fixed": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+  "holdout": [10001, 10002, 10003, 10004, 10005, 10006, 10007, 10008, 10009, 10010, 10011, 10012, 10013, 10014, 10015, 10016, 10017, 10018, 10019, 10020],
+  "seats": [0, 1],
+  "episode_steps": 720,
+  "opponent": "starter",
+  "purpose": "Pipeline validation only; not a powered competitive win-rate experiment. Once inspected, holdout is consumed and must not be used for tuning."
+}

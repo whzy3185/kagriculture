@@ -32,6 +32,15 @@ def main() -> int:
     )
     args = parser.parse_args()
 
+    if args.execute:
+        print(
+            "NO-GO: the inherited uploader does not implement the required evidence, "
+            "artifact, pending, compliance, and quota gates. Round 1 is BLOCKED. "
+            "Implement and test the full gate before enabling uploads; see RUNBOOK.md.",
+            file=sys.stderr,
+        )
+        return 3
+
     if shutil.which("kaggle") is None:
         print("Kaggle CLI is not installed. Run: pip install -U kaggle", file=sys.stderr)
         return 2
@@ -50,8 +59,7 @@ def main() -> int:
     # Auth probe: this avoids printing credentials and confirms account-scoped API access.
     probe = run(["kaggle", "datasets", "list", "--mine", "--page", "1"], capture=True)
     if probe.returncode:
-        if probe.stderr.strip():
-            print(probe.stderr.rstrip(), file=sys.stderr)
+        print(f"Authentication probe exited {probe.returncode}; raw output suppressed.", file=sys.stderr)
         print(
             "Kaggle authentication is unavailable to this process. Run 'kaggle auth login' "
             "or provide KAGGLE_API_TOKEN / ~/.kaggle/access_token.",
@@ -62,8 +70,7 @@ def main() -> int:
     # Confirm the account has joined/accepted the competition before upload.
     entered = run(["kaggle", "competitions", "list", "--group", "entered", "-s", args.competition], capture=True)
     if entered.returncode:
-        if entered.stderr.strip():
-            print(entered.stderr.rstrip(), file=sys.stderr)
+        print(f"Competition probe exited {entered.returncode}; raw output suppressed.", file=sys.stderr)
         return entered.returncode
     if args.competition.lower() not in entered.stdout.lower():
         print(

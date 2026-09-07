@@ -16,11 +16,14 @@ import sys
 
 def run(cmd: list[str]) -> int:
     print("$", " ".join(cmd))
-    proc = subprocess.run(cmd, text=True, capture_output=True)
-    if proc.stdout.strip():
-        print(proc.stdout.rstrip())
-    if proc.returncode and proc.stderr.strip():
-        print(proc.stderr.rstrip(), file=sys.stderr)
+    try:
+        proc = subprocess.run(cmd, text=True, capture_output=True, timeout=60,
+                              stdin=subprocess.DEVNULL)
+    except subprocess.TimeoutExpired:
+        print("Probe timed out; raw CLI output suppressed.", file=sys.stderr)
+        return 124
+    # CLI diagnostics may contain credentials or authenticated URLs. Do not echo.
+    print(f"Probe exit code: {proc.returncode}; raw CLI output suppressed.")
     return proc.returncode
 
 

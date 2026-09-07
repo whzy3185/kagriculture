@@ -5,7 +5,13 @@ __pycache__/
 venv/
 .env
 .DS_Store
-replays/
-results/
-artifacts/
+replays/raw/
+/results/
+/artifacts/
 data/raw/
+kaggle_output/
+kaggle.json
+access_token
+.env.*
+*.zip
+*.tar.gz
