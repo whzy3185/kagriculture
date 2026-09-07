@@ -1,0 +1,104 @@
+# Compliance Audit
+
+Status: **COMPLIANCE_BLOCKED**. Checked at: 2026-09-07 (Asia/Shanghai).
+Source for all rule entries below: https://www.kaggle.com/competitions/kaggriculture/rules
+Long paragraphs in the accessibility view were truncated. These are partial,
+source-backed summaries, not a complete legal clearance.
+
+## Ownership
+Rule: General 14, warranty and rights.
+Official wording summary: Submission must be original work with sufficient rights to submit and grant required licenses.
+Engineering implication: Preserve authorship and provenance; public visibility alone is not permission.
+Allowed: Independently authored policies with verified rights.
+Disallowed: Unlicensed copying or claiming third-party code as original.
+Unknown: Complete long-paragraph qualifications still require review.
+Source: Rules / General 14.
+Checked at: 2026-09-07.
+
+## Sharing And Open Source
+Rule: General 6, submission code requirements.
+Official wording summary: Private sharing between separate teams is prohibited absent permission/merger; open-source usage requires suitable OSI-approved licensing without commercial restrictions.
+Engineering implication: Record author, URL, license, method, copied/reimplemented status, attribution. Keep raw competition data out of public Git.
+Allowed: Properly licensed public resources after full rule review.
+Disallowed: Private cross-team code exchange; adopting unknown-license agents.
+Unknown: Full public-code-sharing paragraph, including required publication venue, is not fully captured. Repository currently has no LICENSE file; no public agent license is granted by this audit.
+Source: Rules / General 6 and Foundational 6.
+Checked at: 2026-09-07.
+
+## External Data And Tools
+Rule: Specific 6.
+Official wording summary: External resources must be publicly/equally accessible without cost or meet the host's reasonableness criteria. AML tools require appropriate licensing.
+Engineering implication: Record exact dataset/model versions, licenses, access requirements and cost. Evaluate each resource separately.
+Allowed: Verified reasonably accessible tools/data within the rule.
+Disallowed: Assuming every public notebook/dataset is permissible.
+Unknown: Complete qualifications and asset-specific clearance.
+Source: Rules / Specific 6.
+Checked at: 2026-09-07.
+
+## Competition Data
+Rule: Specific terms 7 and Specific 4.
+Official wording summary: Data access/use lists Apache 2.0, but the security provision also prohibits providing Competition Data to nonparticipants.
+Engineering implication: Do not interpret the displayed license as unrestricted redistribution. Keep raw replays in excluded storage; review official public dataset licenses independently.
+Allowed: Permitted research use under the complete rules.
+Disallowed: Publishing raw competition data to GitHub without resolving restrictions.
+Unknown: Scope of the apparent license/security tension.
+Source: Rules / terms 7 and Specific 4.
+Checked at: 2026-09-07.
+
+## Winner Obligations
+Rule: Specific terms 6, Specific 5 and 8.
+Official wording summary: Winner license lists CC-BY 4.0; reproducible methodology and a code repository may be required, alongside prize/legal documents.
+Engineering implication: Retain source, environment versions, parameters and reproducible evidence. Do not sign eligibility or tax declarations on the owner's behalf.
+Allowed: Producing reproducibility records now.
+Disallowed: Promising rights not held.
+Unknown: Wording labels CC-BY 4.0 an OSI-approved license; this is a legal/template ambiguity, not resolved by this audit.
+Source: Rules / Specific 5 and 8.
+Checked at: 2026-09-07.
+
+## Network Isolation
+Rule: Specific 12, no ingress or egress.
+Official wording summary: During episode evaluation submissions may not obtain information outside the submission/environment or send information out.
+Engineering implication: Bundle required runtime artifacts; agent must not use network, credentials or live external APIs.
+Allowed: Local decision-making on the provided observation and bundled artifacts.
+Disallowed: Network inference or external state lookup during episodes.
+Unknown: Hosted package/library versions.
+Source: Rules / Specific 12.
+Checked at: 2026-09-07.
+
+## Team, Quota, Final And Runtime
+Rule: Specific 1-3; Overview Evaluation and FAQ.
+Official wording summary: Teams at most five; five submissions/day; up to two final submissions. Overview says latest two. FAQ specifies 100 MiB artifact and resource limits.
+Engineering implication: Check live team/entry/pending/quota and final selection, not static assumptions. Enforce resource budget before upload.
+Allowed: At most five distinct, validated uploads per day within live quota.
+Disallowed: Multiple accounts, duplicated artifacts for rating resets, unknown gate evidence.
+Unknown: Account-specific status and any actual sandbox timeout overrides.
+Source: Rules; https://www.kaggle.com/competitions/kaggriculture/overview
+Checked at: 2026-09-07.
+
+## Provenance Used In This Branch
+
+| Author | Source | License | Method | Copied | Reimplemented | Attribution |
+|---|---|---|---|---|---|---|
+| Repository owner | Existing baseline PR #1 at 17f61c1 | Repository license absent | Crop/labor policy | Inherited unchanged main.py | No | Existing Git history |
+| Kaggle | kaggle-environments 1.32.7 | Apache 2.0 package header | Simulator and starter opponent | Installed dependency; no source vendored in Git | No | Imports and environment hash recorded |
+| User | Supplied autonomous task chain | User-supplied instructions | Workflow | Verbatim CODEX_TASK_CHAIN.md | No | This task |
+
+No community notebook code, models, or replay assets have been adopted.
+
+## Staff Clarifications Read Later In This Audit
+
+- 737788: Addison Howard (2026-08-28) permits freely and publicly available
+  material. This is competition permission, not replacement asset licensing.
+- 738837: Bovard (2026-09-02) permits and encourages public replay use to train,
+  build and inform submissions. It does not expose hidden runtime data.
+- 732931: both agents must remain active for an episode to enter final BT;
+  the episode may come from any time during the competition.
+- 739410: better of two submissions; ties half-wins; future play rate not guaranteed.
+- Official episode index v39 and Sep 6 daily dataset both display CC0. Other
+  datasets need separate checks. The daily JSON preview is truncated.
+- Ten downloaded notebook pages display Apache 2.0. Hashes and targeted scope
+  are recorded in research/sources/notebooks.json. Embedded backbones, compiled
+  sources and models are not automatically cleared by the page's license.
+
+Sources: research/discussion_index.csv and research/CODE_DISCUSSION_REVIEW.md.
+Full legal-text review remains incomplete.

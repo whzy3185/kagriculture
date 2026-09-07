@@ -1,0 +1,1726 @@
+{
+  "exp_id": "EXP-000",
+  "split": "fixed",
+  "suite_id": "round1-v1",
+  "checked_at": "2026-09-07T03:34:22.770705+00:00",
+  "git_sha": "9340feda5ff72ff4193964d65d25393f5aed073d",
+  "artifact_sha": "712be5af7888bb489c95417e6eb3d16875def7fcaaed31c47715d85e9ad9ae7d",
+  "evaluator_sha": "d9b13dff12950bc7c6e0e1247763267dfe13c77e59d867e584d33eead39dec8d",
+  "seed_suite_sha": "089164eba193cce35c335795e32ecb4bb2de992cad46d86225e283f26c549601",
+  "environment_version": "1.32.7",
+  "environment_sha": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+  "opponent": "official starter",
+  "games": 40,
+  "repeatability_check_games": 1,
+  "repeatability_pass": true,
+  "valid_terminals": true,
+  "win_rate": 1.0,
+  "score": {
+    "mean": 33755.625,
+    "median": 33887.5,
+    "std": 621.6577790318153,
+    "min": 32138.0,
+    "max": 34431.0
+  },
+  "margin": {
+    "mean": 30147.0,
+    "median": 30332.5,
+    "std": 652.8768290008107,
+    "min": 28501.0,
+    "max": 30971.0
+  },
+  "paired_seed_mean_margin": {
+    "mean": 30147.0,
+    "median": 30159.5,
+    "std": 508.05229216976016,
+    "min": 29092.0,
+    "max": 30895.0
+  },
+  "invalid_action_count": "UNKNOWN: semantic market and atomic validation incomplete",
+  "runtime_scope": "Local callable wall time only; not Kaggle sandbox certification",
+  "submission_decision": "NO-GO",
+  "rows": [
+    {
+      "seed": 1,
+      "seat": 0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "recorded_states": 720,
+      "agent_calls": 719,
+      "ours": 34065.0,
+      "opponent": 4360.0,
+      "valid_terminal": true,
+      "exceptions": 0,
+      "schema_errors": 0,
+      "actions": {
+        "PASS": 590,
+        "PLANT": 136,
+        "WATER": 879,
+        "NORTH": 472,
+        "WEST": 569,
+        "SOUTH": 169,
+        "EAST": 150,
+        "HARVEST": 121,
+        "DIG": 2
+      },
+      "unit_noops": {
+        "WATER": 235,
+        "PLANT": 46,
+        "HARVEST": 33
+      },
+      "market_invalid_actions": "UNKNOWN",
+      "atomic_plant_rejections": "UNKNOWN",
+      "runtime_seconds": {
+        "mean": 2.6543175512458482e-05,
+        "median": 2.5000001187436283e-05,
+        "std": 8.966618772764913e-06,
+        "min": 1.1791998986154795e-05,
+        "max": 0.00011008299770765007
+      },
+      "wall_seconds": 1.3327685000112979,
+      "trajectory_sha256": "e7c6bcca81510c00725c095e533a88d9949879b9e7fa6d4e5b71d15ba5b233e7"
+    },
+    {
+      "seed": 1,
+      "seat": 1,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "recorded_states": 720,
+      "agent_calls": 719,
+      "ours": 33849.0,
+      "opponent": 4725.0,
+      "valid_terminal": true,
+      "exceptions": 0,
+      "schema_errors": 0,
+      "actions": {
+        "PASS": 589,
+        "PLANT": 136,
+        "WATER": 879,
+        "NORTH": 473,
+        "WEST": 569,
+        "SOUTH": 169,
+        "EAST": 149,
+        "DIG": 3,
+        "HARVEST": 121
+      },
+      "unit_noops": {
+        "WATER": 235,
+        "PLANT": 46,
+        "HARVEST": 33
+      },
+      "market_invalid_actions": "UNKNOWN",
+      "atomic_plant_rejections": "UNKNOWN",
+      "runtime_seconds": {
+        "mean": 4.91929804183794e-05,
+        "median": 2.3250002413988113e-05,
+        "std": 0.0006694366063622767,
+        "min": 1.1458003427833319e-05,
+        "max": 0.01797383300436195
+      },
+      "wall_seconds": 1.2811263339972356,
+      "trajectory_sha256": "4f398577b0c35126d9d0c543ef1bff58bd096a74a54c8b6e8290178e8eb4e7f3"
+    },
+    {
+      "seed": 2,
+      "seat": 0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "recorded_states": 720,
+      "agent_calls": 719,
+      "ours": 34388.0,
+      "opponent": 3493.0,
+      "valid_terminal": true,
+      "exceptions": 0,
+      "schema_errors": 0,
+      "actions": {
+        "PASS": 585,
+        "PLANT": 136,
+        "WATER": 879,
+        "NORTH": 474,
+        "WEST": 569,
+        "SOUTH": 169,
+        "EAST": 153,
+        "HARVEST": 121,
+        "DIG": 2
+      },
+      "unit_noops": {
+        "WATER": 235,
+        "PLANT": 46,
+        "HARVEST": 33
+      },
+      "market_invalid_actions": "UNKNOWN",
+      "atomic_plant_rejections": "UNKNOWN",
+      "runtime_seconds": {
+        "mean": 3.851129675364337e-05,
+        "median": 2.2666004952043295e-05,
+        "std": 0.00039946980502894244,
+        "min": 1.17499876068905e-05,
+        "max": 0.010733874994912185
+      },
+      "wall_seconds": 1.2430488749960205,
+      "trajectory_sha256": "5535ce719a1529f103db955d0ceaba1e527de1b5cd555970dc93221847383de9"
+    },
+    {
+      "seed": 2,
+      "seat": 1,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "recorded_states": 720,
+      "agent_calls": 719,
+      "ours": 34388.0,
+      "opponent": 3493.0,
+      "valid_terminal": true,
+      "exceptions": 0,
+      "schema_errors": 0,
+      "actions": {
+        "PASS": 590,
+        "PLANT": 136,
+        "WATER": 879,
+        "NORTH": 472,
+        "WEST": 569,
+        "SOUTH": 169,
+        "EAST": 150,
+        "HARVEST": 121,
+        "DIG": 2
+      },
+      "unit_noops": {
+        "WATER": 235,
+        "PLANT": 46,
+        "HARVEST": 33
+      },
+      "market_invalid_actions": "UNKNOWN",
+      "atomic_plant_rejections": "UNKNOWN",
+      "runtime_seconds": {
+        "mean": 2.403471646658812e-05,
+        "median": 2.3083004634827375e-05,
+        "std": 6.4754017163530964e-06,
+        "min": 1.1458003427833319e-05,
+        "max": 8.866700227372348e-05
+      },
+      "wall_seconds": 1.2615494589990703,
+      "trajectory_sha256": "bc12f3f6a1eee28ec41e52a426f8cc583a751f79c2500a2dc761b99281844bd5"
+    },
+    {
+      "seed": 3,
+      "seat": 0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "recorded_states": 720,
+      "agent_calls": 719,
+      "ours": 34152.0,
+      "opponent": 3605.0,
+      "valid_terminal": true,
+      "exceptions": 0,
+      "schema_errors": 0,
+      "actions": {
+        "PASS": 590,
+        "PLANT": 136,
+        "WATER": 879,
+        "NORTH": 472,
+        "WEST": 569,
+        "SOUTH": 169,
+        "EAST": 150,
+        "HARVEST": 121,
+        "DIG": 2
+      },
+      "unit_noops": {
+        "WATER": 235,
+        "PLANT": 46,
+        "HARVEST": 33
+      },
+      "market_invalid_actions": "UNKNOWN",
+      "atomic_plant_rejections": "UNKNOWN",
+      "runtime_seconds": {
+        "mean": 2.3863130341049526e-05,
+        "median": 2.2667009034194052e-05,
+        "std": 7.0084255845343416e-06,
+        "min": 1.1374999303370714e-05,
+        "max": 0.00010525000107008964
+      },
+      "wall_seconds": 1.265199166999082,
+      "trajectory_sha256": "d956d8d9cbf22efb186847b832159e0e89076797d2accdf65b4eef48645ec69e"
+    },
+    {
+      "seed": 3,
+      "seat": 1,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "recorded_states": 720,
+      "agent_calls": 719,
+      "ours": 34152.0,
+      "opponent": 3605.0,
+      "valid_terminal": true,
+      "exceptions": 0,
+      "schema_errors": 0,
+      "actions": {
+        "PASS": 590,
+        "PLANT": 136,
+        "WATER": 879,
+        "NORTH": 472,
+        "WEST": 569,
+        "SOUTH": 169,
+        "EAST": 150,
+        "HARVEST": 121,
+        "DIG": 2
+      },
+      "unit_noops": {
+        "WATER": 235,
+        "PLANT": 46,
+        "HARVEST": 33
+      },
+      "market_invalid_actions": "UNKNOWN",
+      "atomic_plant_rejections": "UNKNOWN",
+      "runtime_seconds": {
+        "mean": 2.40824382481138e-05,
+        "median": 2.300000051036477e-05,
+        "std": 1.2131805491976382e-05,
+        "min": 1.1625001206994057e-05,
+        "max": 0.0003147919924231246
+      },
+      "wall_seconds": 1.2811124580039177,
+      "trajectory_sha256": "839f92d3c4afce7b5edfd1e00001169ed52ec278a2cd0f721a6179b8ea902619"
+    },
+    {
+      "seed": 4,
+      "seat": 0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "recorded_states": 720,
+      "agent_calls": 719,
+      "ours": 34083.0,
+      "opponent": 3482.0,
+      "valid_terminal": true,
+      "exceptions": 0,
+      "schema_errors": 0,
+      "actions": {
+        "PASS": 590,
+        "PLANT": 136,
+        "WATER": 879,
+        "NORTH": 472,
+        "WEST": 569,
+        "SOUTH": 169,
+        "EAST": 150,
+        "HARVEST": 121,
+        "DIG": 2
+      },
+      "unit_noops": {
+        "WATER": 235,
+        "PLANT": 46,
+        "HARVEST": 33
+      },
+      "market_invalid_actions": "UNKNOWN",
+      "atomic_plant_rejections": "UNKNOWN",
+      "runtime_seconds": {
+        "mean": 2.7875752314233503e-05,
+        "median": 2.4500011932104826e-05,
+        "std": 1.3228418176400969e-05,
+        "min": 1.1416006600484252e-05,
+        "max": 0.0001176249934360385
+      },
+      "wall_seconds": 1.3416474160039797,
+      "trajectory_sha256": "e855ee0881f111a977c3771486acaf38595d499c82678189f876cc52344430b0"
+    },
+    {
+      "seed": 4,
+      "seat": 1,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "recorded_states": 720,
+      "agent_calls": 719,
+      "ours": 34083.0,
+      "opponent": 3482.0,
+      "valid_terminal": true,
+      "exceptions": 0,
+      "schema_errors": 0,
+      "actions": {
+        "PASS": 590,
+        "PLANT": 136,
+        "WATER": 879,
+        "NORTH": 472,
+        "WEST": 569,
+        "SOUTH": 169,
+        "EAST": 150,
+        "HARVEST": 121,
+        "DIG": 2
+      },
+      "unit_noops": {
+        "WATER": 235,
+        "PLANT": 46,
+        "HARVEST": 33
+      },
+      "market_invalid_actions": "UNKNOWN",
+      "atomic_plant_rejections": "UNKNOWN",
+      "runtime_seconds": {
+        "mean": 2.660496515058038e-05,
+        "median": 2.4208988179452717e-05,
+        "std": 1.0786530758679679e-05,
+        "min": 1.1249998351559043e-05,
+        "max": 0.00013512501027435064
+      },
+      "wall_seconds": 1.3512891249993118,
+      "trajectory_sha256": "6b04d48aac1a2ae1df6386fac74864a6959bf2eb83330d3ba9ceb65b7754a0eb"
+    },
+    {
+      "seed": 5,
+      "seat": 0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "recorded_states": 720,
+      "agent_calls": 719,
+      "ours": 33980.0,
+      "opponent": 3811.0,
+      "valid_terminal": true,
+      "exceptions": 0,
+      "schema_errors": 0,
+      "actions": {
+        "PASS": 590,
+        "PLANT": 136,
+        "WATER": 879,
+        "NORTH": 472,
+        "WEST": 569,
+        "SOUTH": 169,
+        "EAST": 150,
+        "HARVEST": 121,
+        "DIG": 2
+      },
+      "unit_noops": {
+        "WATER": 235,
+        "PLANT": 46,
+        "HARVEST": 33
+      },
+      "market_invalid_actions": "UNKNOWN",
+      "atomic_plant_rejections": "UNKNOWN",
+      "runtime_seconds": {
+        "mean": 2.4546483908527336e-05,
+        "median": 2.3249987862072885e-05,
+        "std": 8.366197078646057e-06,
+        "min": 1.1791998986154795e-05,
+        "max": 0.00014645799819845706
+      },
+      "wall_seconds": 1.261755749990698,
+      "trajectory_sha256": "e5ee861117340c1e0cbe5a3f51a3422bbf2e0990f1430e8ebd8ad4b994b4abaa"
+    },
+    {
+      "seed": 5,
+      "seat": 1,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "recorded_states": 720,
+      "agent_calls": 719,
+      "ours": 33980.0,
+      "opponent": 3811.0,
+      "valid_terminal": true,
+      "exceptions": 0,
+      "schema_errors": 0,
+      "actions": {
+        "PASS": 590,
+        "PLANT": 136,
+        "WATER": 879,
+        "NORTH": 472,
+        "WEST": 569,
+        "SOUTH": 169,
+        "EAST": 150,
+        "HARVEST": 121,
+        "DIG": 2
+      },
+      "unit_noops": {
+        "WATER": 235,
+        "PLANT": 46,
+        "HARVEST": 33
+      },
+      "market_invalid_actions": "UNKNOWN",
+      "atomic_plant_rejections": "UNKNOWN",
+      "runtime_seconds": {
+        "mean": 2.505691931388692e-05,
+        "median": 2.3500004317611456e-05,
+        "std": 1.3584661715457374e-05,
+        "min": 1.1750002158805728e-05,
+        "max": 0.0003375000087544322
+      },
+      "wall_seconds": 1.278801292006392,
+      "trajectory_sha256": "595a7bb655dde03361b3d441d865089eb24d679fcb41704e04416b8c0bb9e20b"
+    },
+    {
+      "seed": 6,
+      "seat": 0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "recorded_states": 720,
+      "agent_calls": 719,
+      "ours": 33824.0,
+      "opponent": 3441.0,
+      "valid_terminal": true,
+      "exceptions": 0,
+      "schema_errors": 0,
+      "actions": {
+        "PASS": 590,
+        "PLANT": 136,
+        "WATER": 879,
+        "NORTH": 472,
+        "WEST": 569,
+        "SOUTH": 169,
+        "EAST": 150,
+        "HARVEST": 121,
+        "DIG": 2
+      },
+      "unit_noops": {
+        "WATER": 235,
+        "PLANT": 46,
+        "HARVEST": 33
+      },
+      "market_invalid_actions": "UNKNOWN",
+      "atomic_plant_rejections": "UNKNOWN",
+      "runtime_seconds": {
+        "mean": 2.4484923741357953e-05,
+        "median": 2.3250002413988113e-05,
+        "std": 7.6099113908675225e-06,
+        "min": 1.1707990779541433e-05,
+        "max": 9.308299922849983e-05
+      },
+      "wall_seconds": 1.2604120420000982,
+      "trajectory_sha256": "6dc96a5c722ae0497bceba6bdd0049fd811a9680e095dae795630b075d389144"
+    },
+    {
+      "seed": 6,
+      "seat": 1,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "recorded_states": 720,
+      "agent_calls": 719,
+      "ours": 33824.0,
+      "opponent": 3441.0,
+      "valid_terminal": true,
+      "exceptions": 0,
+      "schema_errors": 0,
+      "actions": {
+        "PASS": 585,
+        "PLANT": 136,
+        "WATER": 879,
+        "NORTH": 474,
+        "WEST": 569,
+        "SOUTH": 169,
+        "EAST": 152,
+        "HARVEST": 121,
+        "DIG": 3
+      },
+      "unit_noops": {
+        "WATER": 235,
+        "PLANT": 46,
+        "HARVEST": 33
+      },
+      "market_invalid_actions": "UNKNOWN",
+      "atomic_plant_rejections": "UNKNOWN",
+      "runtime_seconds": {
+        "mean": 2.4947807940353946e-05,
+        "median": 2.3415996110998094e-05,
+        "std": 7.300948705745255e-06,
+        "min": 1.18750031106174e-05,
+        "max": 9.529199451208115e-05
+      },
+      "wall_seconds": 1.2801387920044363,
+      "trajectory_sha256": "80151a40fceb3fd78e3204467e9c0d3abacfb8cf37d71da7bebaee68fc18dbdb"
+    },
+    {
+      "seed": 7,
+      "seat": 0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "recorded_states": 720,
+      "agent_calls": 719,
+      "ours": 33710.0,
+      "opponent": 3560.0,
+      "valid_terminal": true,
+      "exceptions": 0,
+      "schema_errors": 0,
+      "actions": {
+        "PASS": 590,
+        "PLANT": 136,
+        "WATER": 879,
+        "NORTH": 472,
+        "WEST": 569,
+        "SOUTH": 169,
+        "EAST": 150,
+        "HARVEST": 121,
+        "DIG": 2
+      },
+      "unit_noops": {
+        "WATER": 235,
+        "PLANT": 46,
+        "HARVEST": 33
+      },
+      "market_invalid_actions": "UNKNOWN",
+      "atomic_plant_rejections": "UNKNOWN",
+      "runtime_seconds": {
+        "mean": 2.75127611034621e-05,
+        "median": 2.5582994567230344e-05,
+        "std": 1.5186762097214792e-05,
+        "min": 1.1540993000380695e-05,
+        "max": 0.0003533340059220791
+      },
+      "wall_seconds": 1.3284520000015618,
+      "trajectory_sha256": "dc8f60b84abd3170636c3249a797171bf648921e7e1e9512ca8957c6a9a80e30"
+    },
+    {
+      "seed": 7,
+      "seat": 1,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "recorded_states": 720,
+      "agent_calls": 719,
+      "ours": 33710.0,
+      "opponent": 3560.0,
+      "valid_terminal": true,
+      "exceptions": 0,
+      "schema_errors": 0,
+      "actions": {
+        "PASS": 590,
+        "PLANT": 136,
+        "WATER": 879,
+        "NORTH": 472,
+        "WEST": 569,
+        "SOUTH": 169,
+        "EAST": 150,
+        "HARVEST": 121,
+        "DIG": 2
+      },
+      "unit_noops": {
+        "WATER": 235,
+        "PLANT": 46,
+        "HARVEST": 33
+      },
+      "market_invalid_actions": "UNKNOWN",
+      "atomic_plant_rejections": "UNKNOWN",
+      "runtime_seconds": {
+        "mean": 2.417552867134896e-05,
+        "median": 2.3625005269423127e-05,
+        "std": 5.671366713726577e-06,
+        "min": 1.1625001206994057e-05,
+        "max": 6.366599700413644e-05
+      },
+      "wall_seconds": 1.2656385000009323,
+      "trajectory_sha256": "2f0a1eb1b318f1c83ddbfd892473526a36e0863dd630b6dfb6418ca19d93e4f1"
+    },
+    {
+      "seed": 8,
+      "seat": 0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "recorded_states": 720,
+      "agent_calls": 719,
+      "ours": 33526.0,
+      "opponent": 3630.0,
+      "valid_terminal": true,
+      "exceptions": 0,
+      "schema_errors": 0,
+      "actions": {
+        "PASS": 587,
+        "PLANT": 136,
+        "WATER": 879,
+        "NORTH": 472,
+        "WEST": 569,
+        "SOUTH": 171,
+        "EAST": 150,
+        "HARVEST": 121,
+        "DIG": 3
+      },
+      "unit_noops": {
+        "WATER": 235,
+        "PLANT": 46,
+        "HARVEST": 33
+      },
+      "market_invalid_actions": "UNKNOWN",
+      "atomic_plant_rejections": "UNKNOWN",
+      "runtime_seconds": {
+        "mean": 2.4009130597056274e-05,
+        "median": 2.295900776516646e-05,
+        "std": 6.016504475313429e-06,
+        "min": 1.2083997717127204e-05,
+        "max": 6.0708000091835856e-05
+      },
+      "wall_seconds": 1.2561649580020458,
+      "trajectory_sha256": "84f6c98966c2972fa45874ec6e466edf45c8fc7347c6e1bef6c58550fc545d46"
+    },
+    {
+      "seed": 8,
+      "seat": 1,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "recorded_states": 720,
+      "agent_calls": 719,
+      "ours": 33526.0,
+      "opponent": 3630.0,
+      "valid_terminal": true,
+      "exceptions": 0,
+      "schema_errors": 0,
+      "actions": {
+        "PASS": 590,
+        "PLANT": 136,
+        "WATER": 879,
+        "NORTH": 472,
+        "WEST": 569,
+        "SOUTH": 169,
+        "EAST": 150,
+        "HARVEST": 121,
+        "DIG": 2
+      },
+      "unit_noops": {
+        "WATER": 235,
+        "PLANT": 46,
+        "HARVEST": 33
+      },
+      "market_invalid_actions": "UNKNOWN",
+      "atomic_plant_rejections": "UNKNOWN",
+      "runtime_seconds": {
+        "mean": 2.4379648001714297e-05,
+        "median": 2.3125001462176442e-05,
+        "std": 7.088750696908337e-06,
+        "min": 1.1666008504107594e-05,
+        "max": 8.749999688006938e-05
+      },
+      "wall_seconds": 1.26940824999474,
+      "trajectory_sha256": "49816283496a14de238f5380efc4104d99132ec1cba84dae59c68a06754b77d8"
+    },
+    {
+      "seed": 9,
+      "seat": 0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "recorded_states": 720,
+      "agent_calls": 719,
+      "ours": 34252.0,
+      "opponent": 3425.0,
+      "valid_terminal": true,
+      "exceptions": 0,
+      "schema_errors": 0,
+      "actions": {
+        "PASS": 590,
+        "PLANT": 136,
+        "WATER": 879,
+        "NORTH": 472,
+        "WEST": 569,
+        "SOUTH": 169,
+        "EAST": 150,
+        "HARVEST": 121,
+        "DIG": 2
+      },
+      "unit_noops": {
+        "WATER": 235,
+        "PLANT": 46,
+        "HARVEST": 33
+      },
+      "market_invalid_actions": "UNKNOWN",
+      "atomic_plant_rejections": "UNKNOWN",
+      "runtime_seconds": {
+        "mean": 2.507499449268522e-05,
+        "median": 2.3792003048583865e-05,
+        "std": 7.509188860790549e-06,
+        "min": 1.1791998986154795e-05,
+        "max": 0.0001001250057015568
+      },
+      "wall_seconds": 1.2907659159973264,
+      "trajectory_sha256": "d790d5e86e4af79f70dd1c76e42656fedfa7f543c8c1e538d92eb81f0fa25fa2"
+    },
+    {
+      "seed": 9,
+      "seat": 1,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "recorded_states": 720,
+      "agent_calls": 719,
+      "ours": 34252.0,
+      "opponent": 3425.0,
+      "valid_terminal": true,
+      "exceptions": 0,
+      "schema_errors": 0,
+      "actions": {
+        "PASS": 590,
+        "PLANT": 136,
+        "WATER": 879,
+        "NORTH": 472,
+        "WEST": 569,
+        "SOUTH": 169,
+        "EAST": 150,
+        "HARVEST": 121,
+        "DIG": 2
+      },
+      "unit_noops": {
+        "WATER": 235,
+        "PLANT": 46,
+        "HARVEST": 33
+      },
+      "market_invalid_actions": "UNKNOWN",
+      "atomic_plant_rejections": "UNKNOWN",
+      "runtime_seconds": {
+        "mean": 2.5678613218763823e-05,
+        "median": 2.2791995434090495e-05,
+        "std": 2.3081718276282238e-05,
+        "min": 1.17499876068905e-05,
+        "max": 0.00032879099308047444
+      },
+      "wall_seconds": 1.2592874170077266,
+      "trajectory_sha256": "8ddd84a5fc7a1bfb3d4f66aa518a8c0393dec31794107f879969b76d90fea7d5"
+    },
+    {
+      "seed": 10,
+      "seat": 0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "recorded_states": 720,
+      "agent_calls": 719,
+      "ours": 34168.0,
+      "opponent": 3560.0,
+      "valid_terminal": true,
+      "exceptions": 0,
+      "schema_errors": 0,
+      "actions": {
+        "PASS": 590,
+        "PLANT": 136,
+        "WATER": 879,
+        "NORTH": 472,
+        "WEST": 569,
+        "SOUTH": 169,
+        "EAST": 150,
+        "HARVEST": 121,
+        "DIG": 2
+      },
+      "unit_noops": {
+        "WATER": 235,
+        "PLANT": 46,
+        "HARVEST": 33
+      },
+      "market_invalid_actions": "UNKNOWN",
+      "atomic_plant_rejections": "UNKNOWN",
+      "runtime_seconds": {
+        "mean": 2.3835244783173123e-05,
+        "median": 2.2958003683015704e-05,
+        "std": 5.456330595206606e-06,
+        "min": 1.1707990779541433e-05,
+        "max": 5.51249977434054e-05
+      },
+      "wall_seconds": 1.2746007920068223,
+      "trajectory_sha256": "7fd31c3903d6ad3e954179c11541d68d2cb150cb70158a353cecd467d8cf0b2d"
+    },
+    {
+      "seed": 10,
+      "seat": 1,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "recorded_states": 720,
+      "agent_calls": 719,
+      "ours": 32191.0,
+      "opponent": 3470.0,
+      "valid_terminal": true,
+      "exceptions": 0,
+      "schema_errors": 0,
+      "actions": {
+        "PASS": 455,
+        "PLANT": 155,
+        "WATER": 852,
+        "NORTH": 475,
+        "WEST": 573,
+        "SOUTH": 169,
+        "EAST": 219,
+        "DIG": 14,
+        "HARVEST": 130
+      },
+      "unit_noops": {
+        "WATER": 248,
+        "PLANT": 58,
+        "HARVEST": 46,
+        "DIG": 1
+      },
+      "market_invalid_actions": "UNKNOWN",
+      "atomic_plant_rejections": "UNKNOWN",
+      "runtime_seconds": {
+        "mean": 2.4322094772204043e-05,
+        "median": 2.341700019314885e-05,
+        "std": 7.001206517780616e-06,
+        "min": 1.170899486169219e-05,
+        "max": 0.00011366698890924454
+      },
+      "wall_seconds": 1.2481997079885332,
+      "trajectory_sha256": "54e9a44d6cb1229eb8d031235a5ed30e98821afe615d2cdb7815abeb4ab9a84c"
+    },
+    {
+      "seed": 11,
+      "seat": 0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "recorded_states": 720,
+      "agent_calls": 719,
+      "ours": 34057.0,
+      "opponent": 3460.0,
+      "valid_terminal": true,
+      "exceptions": 0,
+      "schema_errors": 0,
+      "actions": {
+        "PASS": 590,
+        "PLANT": 136,
+        "WATER": 879,
+        "NORTH": 472,
+        "WEST": 569,
+        "SOUTH": 169,
+        "EAST": 150,
+        "HARVEST": 121,
+        "DIG": 2
+      },
+      "unit_noops": {
+        "WATER": 235,
+        "PLANT": 46,
+        "HARVEST": 33
+      },
+      "market_invalid_actions": "UNKNOWN",
+      "atomic_plant_rejections": "UNKNOWN",
+      "runtime_seconds": {
+        "mean": 2.753158280158335e-05,
+        "median": 2.416699135210365e-05,
+        "std": 1.9030679930337936e-05,
+        "min": 1.1750002158805728e-05,
+        "max": 0.0003871670051012188
+      },
+      "wall_seconds": 1.3564472909929464,
+      "trajectory_sha256": "40d8bbf01a06a86098e4467d0cb94851bb6c9504f59cfdbc3f713d0e11f2f59f"
+    },
+    {
+      "seed": 11,
+      "seat": 1,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "recorded_states": 720,
+      "agent_calls": 719,
+      "ours": 32324.0,
+      "opponent": 3500.0,
+      "valid_terminal": true,
+      "exceptions": 0,
+      "schema_errors": 0,
+      "actions": {
+        "PASS": 608,
+        "PLANT": 153,
+        "WATER": 848,
+        "NORTH": 468,
+        "WEST": 565,
+        "EAST": 147,
+        "SOUTH": 137,
+        "DIG": 7,
+        "HARVEST": 132
+      },
+      "unit_noops": {
+        "WATER": 217,
+        "PLANT": 55,
+        "HARVEST": 40
+      },
+      "market_invalid_actions": "UNKNOWN",
+      "atomic_plant_rejections": "UNKNOWN",
+      "runtime_seconds": {
+        "mean": 2.4973392231235738e-05,
+        "median": 2.3415996110998094e-05,
+        "std": 1.4037834572153711e-05,
+        "min": 1.1916010407730937e-05,
+        "max": 0.0002822090027621016
+      },
+      "wall_seconds": 1.273052959004417,
+      "trajectory_sha256": "e3a7d5216a192171d03eb38691bc7b421e1396e6f9366b0e7b2caad8fdfe205b"
+    },
+    {
+      "seed": 12,
+      "seat": 0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "recorded_states": 720,
+      "agent_calls": 719,
+      "ours": 34272.0,
+      "opponent": 3547.0,
+      "valid_terminal": true,
+      "exceptions": 0,
+      "schema_errors": 0,
+      "actions": {
+        "PASS": 587,
+        "PLANT": 136,
+        "WATER": 879,
+        "NORTH": 474,
+        "WEST": 569,
+        "SOUTH": 169,
+        "EAST": 150,
+        "HARVEST": 121,
+        "DIG": 3
+      },
+      "unit_noops": {
+        "WATER": 235,
+        "PLANT": 46,
+        "HARVEST": 33
+      },
+      "market_invalid_actions": "UNKNOWN",
+      "atomic_plant_rejections": "UNKNOWN",
+      "runtime_seconds": {
+        "mean": 2.389962328594665e-05,
+        "median": 2.2958003683015704e-05,
+        "std": 5.783778205432659e-06,
+        "min": 1.1541007552295923e-05,
+        "max": 6.504199700430036e-05
+      },
+      "wall_seconds": 1.2695204170013312,
+      "trajectory_sha256": "f25bd1fd01890e2c0895df800aff5f40bbbd8230e45547e6e167d6bc27160974"
+    },
+    {
+      "seed": 12,
+      "seat": 1,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "recorded_states": 720,
+      "agent_calls": 719,
+      "ours": 32312.0,
+      "opponent": 3592.0,
+      "valid_terminal": true,
+      "exceptions": 0,
+      "schema_errors": 0,
+      "actions": {
+        "PASS": 608,
+        "PLANT": 153,
+        "WATER": 848,
+        "NORTH": 468,
+        "WEST": 565,
+        "EAST": 147,
+        "SOUTH": 137,
+        "DIG": 7,
+        "HARVEST": 132
+      },
+      "unit_noops": {
+        "WATER": 217,
+        "PLANT": 55,
+        "HARVEST": 40
+      },
+      "market_invalid_actions": "UNKNOWN",
+      "atomic_plant_rejections": "UNKNOWN",
+      "runtime_seconds": {
+        "mean": 2.5116322498628674e-05,
+        "median": 2.3041997337713838e-05,
+        "std": 1.9521611466548766e-05,
+        "min": 1.18750031106174e-05,
+        "max": 0.00036016599915456027
+      },
+      "wall_seconds": 1.2572074170020642,
+      "trajectory_sha256": "ddf6d5c77193a33aa689e7622fb4a27a5f5ad4425662d3c9c661db31a7aa1f6c"
+    },
+    {
+      "seed": 13,
+      "seat": 0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "recorded_states": 720,
+      "agent_calls": 719,
+      "ours": 33412.0,
+      "opponent": 3729.0,
+      "valid_terminal": true,
+      "exceptions": 0,
+      "schema_errors": 0,
+      "actions": {
+        "PASS": 590,
+        "PLANT": 136,
+        "WATER": 879,
+        "NORTH": 472,
+        "WEST": 569,
+        "SOUTH": 169,
+        "EAST": 150,
+        "HARVEST": 121,
+        "DIG": 2
+      },
+      "unit_noops": {
+        "WATER": 235,
+        "PLANT": 46,
+        "HARVEST": 33
+      },
+      "market_invalid_actions": "UNKNOWN",
+      "atomic_plant_rejections": "UNKNOWN",
+      "runtime_seconds": {
+        "mean": 2.502788739296399e-05,
+        "median": 2.3458997020497918e-05,
+        "std": 1.3144612133136238e-05,
+        "min": 1.170899486169219e-05,
+        "max": 0.00024420898989774287
+      },
+      "wall_seconds": 1.3009292500064475,
+      "trajectory_sha256": "b581e78bbc23bcfb4f9235374a8976ead7efe9d5107bda3a750d9ca9f2459045"
+    },
+    {
+      "seed": 13,
+      "seat": 1,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "recorded_states": 720,
+      "agent_calls": 719,
+      "ours": 32138.0,
+      "opponent": 3637.0,
+      "valid_terminal": true,
+      "exceptions": 0,
+      "schema_errors": 0,
+      "actions": {
+        "PASS": 529,
+        "PLANT": 138,
+        "WATER": 839,
+        "NORTH": 476,
+        "WEST": 572,
+        "DIG": 6,
+        "SOUTH": 173,
+        "EAST": 181,
+        "HARVEST": 128
+      },
+      "unit_noops": {
+        "WATER": 204,
+        "PLANT": 47,
+        "HARVEST": 40,
+        "DIG": 1
+      },
+      "market_invalid_actions": "UNKNOWN",
+      "atomic_plant_rejections": "UNKNOWN",
+      "runtime_seconds": {
+        "mean": 2.369219223111842e-05,
+        "median": 2.3124986910261214e-05,
+        "std": 5.300116046566452e-06,
+        "min": 1.145798887591809e-05,
+        "max": 7.091699808370322e-05
+      },
+      "wall_seconds": 1.2604364170110784,
+      "trajectory_sha256": "911578f2858aea646d57fb05a6dd2d2eb392b3ef01380dc7e6b8b2026793915f"
+    },
+    {
+      "seed": 14,
+      "seat": 0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "recorded_states": 720,
+      "agent_calls": 719,
+      "ours": 33849.0,
+      "opponent": 3421.0,
+      "valid_terminal": true,
+      "exceptions": 0,
+      "schema_errors": 0,
+      "actions": {
+        "PASS": 590,
+        "PLANT": 136,
+        "WATER": 879,
+        "NORTH": 472,
+        "WEST": 569,
+        "SOUTH": 169,
+        "EAST": 150,
+        "HARVEST": 121,
+        "DIG": 2
+      },
+      "unit_noops": {
+        "WATER": 235,
+        "PLANT": 46,
+        "HARVEST": 33
+      },
+      "market_invalid_actions": "UNKNOWN",
+      "atomic_plant_rejections": "UNKNOWN",
+      "runtime_seconds": {
+        "mean": 2.8254125122031423e-05,
+        "median": 2.3542001144960523e-05,
+        "std": 2.856068661876757e-05,
+        "min": 1.1415992048569024e-05,
+        "max": 0.00031370899523608387
+      },
+      "wall_seconds": 1.2957113329903223,
+      "trajectory_sha256": "2893b9fd1afcf8ec2c11dff7a6bd7e3e830cdf29b3adff6e2936694647904ea1"
+    },
+    {
+      "seed": 14,
+      "seat": 1,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "recorded_states": 720,
+      "agent_calls": 719,
+      "ours": 33849.0,
+      "opponent": 3421.0,
+      "valid_terminal": true,
+      "exceptions": 0,
+      "schema_errors": 0,
+      "actions": {
+        "PASS": 587,
+        "PLANT": 136,
+        "WATER": 879,
+        "NORTH": 472,
+        "WEST": 569,
+        "SOUTH": 170,
+        "EAST": 151,
+        "HARVEST": 121,
+        "DIG": 3
+      },
+      "unit_noops": {
+        "WATER": 235,
+        "PLANT": 46,
+        "HARVEST": 33
+      },
+      "market_invalid_actions": "UNKNOWN",
+      "atomic_plant_rejections": "UNKNOWN",
+      "runtime_seconds": {
+        "mean": 2.5189526970737895e-05,
+        "median": 2.370899892412126e-05,
+        "std": 8.801951046344592e-06,
+        "min": 1.1750002158805728e-05,
+        "max": 0.0001543749967822805
+      },
+      "wall_seconds": 1.2712114579917397,
+      "trajectory_sha256": "4486d2de65e82d034cb1b4a0624a670ec5d26e2f9e456b6699b2f04296d34270"
+    },
+    {
+      "seed": 15,
+      "seat": 0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "recorded_states": 720,
+      "agent_calls": 719,
+      "ours": 34401.0,
+      "opponent": 3672.0,
+      "valid_terminal": true,
+      "exceptions": 0,
+      "schema_errors": 0,
+      "actions": {
+        "PASS": 590,
+        "PLANT": 136,
+        "WATER": 878,
+        "NORTH": 472,
+        "WEST": 569,
+        "SOUTH": 169,
+        "EAST": 150,
+        "HARVEST": 121,
+        "DIG": 3
+      },
+      "unit_noops": {
+        "WATER": 234,
+        "PLANT": 46,
+        "HARVEST": 33
+      },
+      "market_invalid_actions": "UNKNOWN",
+      "atomic_plant_rejections": "UNKNOWN",
+      "runtime_seconds": {
+        "mean": 2.3730944750457483e-05,
+        "median": 2.2916996385902166e-05,
+        "std": 5.35811725052998e-06,
+        "min": 1.1916999937966466e-05,
+        "max": 5.645900091622025e-05
+      },
+      "wall_seconds": 1.2624232090020087,
+      "trajectory_sha256": "49e4d15275f64d947a97aeba8538881aeb271b27e14fffc16852ed60b1aeddb2"
+    },
+    {
+      "seed": 15,
+      "seat": 1,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "recorded_states": 720,
+      "agent_calls": 719,
+      "ours": 34431.0,
+      "opponent": 3460.0,
+      "valid_terminal": true,
+      "exceptions": 0,
+      "schema_errors": 0,
+      "actions": {
+        "PASS": 589,
+        "PLANT": 136,
+        "WATER": 879,
+        "NORTH": 473,
+        "WEST": 569,
+        "SOUTH": 169,
+        "EAST": 149,
+        "DIG": 3,
+        "HARVEST": 121
+      },
+      "unit_noops": {
+        "WATER": 235,
+        "PLANT": 46,
+        "HARVEST": 33
+      },
+      "market_invalid_actions": "UNKNOWN",
+      "atomic_plant_rejections": "UNKNOWN",
+      "runtime_seconds": {
+        "mean": 2.4426358880511432e-05,
+        "median": 2.3208005586639047e-05,
+        "std": 6.6376188117613254e-06,
+        "min": 1.154201163444668e-05,
+        "max": 7.866699888836592e-05
+      },
+      "wall_seconds": 1.26796800000011,
+      "trajectory_sha256": "28c03c5461d04d6556f4af94da5e70324e31c1c99a40731ec5c056d8bb49c1c2"
+    },
+    {
+      "seed": 16,
+      "seat": 0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "recorded_states": 720,
+      "agent_calls": 719,
+      "ours": 33849.0,
+      "opponent": 3716.0,
+      "valid_terminal": true,
+      "exceptions": 0,
+      "schema_errors": 0,
+      "actions": {
+        "PASS": 585,
+        "PLANT": 136,
+        "WATER": 879,
+        "NORTH": 472,
+        "WEST": 571,
+        "SOUTH": 170,
+        "EAST": 151,
+        "HARVEST": 121,
+        "DIG": 3
+      },
+      "unit_noops": {
+        "WATER": 235,
+        "PLANT": 46,
+        "HARVEST": 33
+      },
+      "market_invalid_actions": "UNKNOWN",
+      "atomic_plant_rejections": "UNKNOWN",
+      "runtime_seconds": {
+        "mean": 2.448681929528905e-05,
+        "median": 2.329100971110165e-05,
+        "std": 7.106092520086849e-06,
+        "min": 1.1790994904004037e-05,
+        "max": 0.00010179099626839161
+      },
+      "wall_seconds": 1.277984166998067,
+      "trajectory_sha256": "1c2a8692fd391e2a139eae88f094723ab08ef35bf49e16bb914af80a3f484e75"
+    },
+    {
+      "seed": 16,
+      "seat": 1,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "recorded_states": 720,
+      "agent_calls": 719,
+      "ours": 33849.0,
+      "opponent": 3716.0,
+      "valid_terminal": true,
+      "exceptions": 0,
+      "schema_errors": 0,
+      "actions": {
+        "PASS": 590,
+        "PLANT": 136,
+        "WATER": 879,
+        "NORTH": 472,
+        "WEST": 569,
+        "SOUTH": 169,
+        "EAST": 150,
+        "HARVEST": 121,
+        "DIG": 2
+      },
+      "unit_noops": {
+        "WATER": 235,
+        "PLANT": 46,
+        "HARVEST": 33
+      },
+      "market_invalid_actions": "UNKNOWN",
+      "atomic_plant_rejections": "UNKNOWN",
+      "runtime_seconds": {
+        "mean": 2.466560772834514e-05,
+        "median": 2.3582993890158832e-05,
+        "std": 6.899829707556463e-06,
+        "min": 1.1500000255182385e-05,
+        "max": 8.475000504404306e-05
+      },
+      "wall_seconds": 1.2723707080003805,
+      "trajectory_sha256": "b5d51737db95c0d226b2cbe9e41ef401168acbbd9bcd42d692db9e57d81388c3"
+    },
+    {
+      "seed": 17,
+      "seat": 0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "recorded_states": 720,
+      "agent_calls": 719,
+      "ours": 34049.0,
+      "opponent": 3671.0,
+      "valid_terminal": true,
+      "exceptions": 0,
+      "schema_errors": 0,
+      "actions": {
+        "PASS": 527,
+        "PLANT": 144,
+        "WATER": 871,
+        "NORTH": 471,
+        "WEST": 572,
+        "SOUTH": 153,
+        "EAST": 214,
+        "DIG": 6,
+        "HARVEST": 130
+      },
+      "unit_noops": {
+        "WATER": 250,
+        "PLANT": 53,
+        "HARVEST": 44
+      },
+      "market_invalid_actions": "UNKNOWN",
+      "atomic_plant_rejections": "UNKNOWN",
+      "runtime_seconds": {
+        "mean": 2.663089965890461e-05,
+        "median": 2.4374996428377926e-05,
+        "std": 9.928635750988755e-06,
+        "min": 1.1999989510513842e-05,
+        "max": 9.858299745246768e-05
+      },
+      "wall_seconds": 1.3044137499964563,
+      "trajectory_sha256": "126c8c59e8fec436e2900a1af3904b960dc0952aac8ddb37df5526489d241576"
+    },
+    {
+      "seed": 17,
+      "seat": 1,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "recorded_states": 720,
+      "agent_calls": 719,
+      "ours": 33926.0,
+      "opponent": 3639.0,
+      "valid_terminal": true,
+      "exceptions": 0,
+      "schema_errors": 0,
+      "actions": {
+        "PASS": 590,
+        "PLANT": 136,
+        "WATER": 879,
+        "NORTH": 472,
+        "WEST": 569,
+        "SOUTH": 169,
+        "EAST": 150,
+        "HARVEST": 121,
+        "DIG": 2
+      },
+      "unit_noops": {
+        "WATER": 235,
+        "PLANT": 46,
+        "HARVEST": 33
+      },
+      "market_invalid_actions": "UNKNOWN",
+      "atomic_plant_rejections": "UNKNOWN",
+      "runtime_seconds": {
+        "mean": 2.402409842585619e-05,
+        "median": 2.3084008716978133e-05,
+        "std": 6.3518506572942586e-06,
+        "min": 1.1791998986154795e-05,
+        "max": 7.766699127387255e-05
+      },
+      "wall_seconds": 1.257272833987372,
+      "trajectory_sha256": "3ec91446bf86408a9c589cf9aa92ba87d533794f41c580f949e267b6469b57e7"
+    },
+    {
+      "seed": 18,
+      "seat": 0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "recorded_states": 720,
+      "agent_calls": 719,
+      "ours": 33573.0,
+      "opponent": 3431.0,
+      "valid_terminal": true,
+      "exceptions": 0,
+      "schema_errors": 0,
+      "actions": {
+        "PASS": 590,
+        "PLANT": 136,
+        "WATER": 879,
+        "NORTH": 472,
+        "WEST": 569,
+        "SOUTH": 169,
+        "EAST": 150,
+        "HARVEST": 121,
+        "DIG": 2
+      },
+      "unit_noops": {
+        "WATER": 235,
+        "PLANT": 46,
+        "HARVEST": 33
+      },
+      "market_invalid_actions": "UNKNOWN",
+      "atomic_plant_rejections": "UNKNOWN",
+      "runtime_seconds": {
+        "mean": 2.4174568791399674e-05,
+        "median": 2.2958993213251233e-05,
+        "std": 6.520539571573762e-06,
+        "min": 1.1625001206994057e-05,
+        "max": 7.116699998732656e-05
+      },
+      "wall_seconds": 1.263687917002244,
+      "trajectory_sha256": "19452a168189f65a23e7924fd679c191c8648d9754283f6ebd002e8de0688ce6"
+    },
+    {
+      "seed": 18,
+      "seat": 1,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "recorded_states": 720,
+      "agent_calls": 719,
+      "ours": 33573.0,
+      "opponent": 3431.0,
+      "valid_terminal": true,
+      "exceptions": 0,
+      "schema_errors": 0,
+      "actions": {
+        "PASS": 590,
+        "PLANT": 136,
+        "WATER": 879,
+        "NORTH": 472,
+        "WEST": 569,
+        "SOUTH": 169,
+        "EAST": 150,
+        "HARVEST": 121,
+        "DIG": 2
+      },
+      "unit_noops": {
+        "WATER": 235,
+        "PLANT": 46,
+        "HARVEST": 33
+      },
+      "market_invalid_actions": "UNKNOWN",
+      "atomic_plant_rejections": "UNKNOWN",
+      "runtime_seconds": {
+        "mean": 2.421031159417437e-05,
+        "median": 2.2958993213251233e-05,
+        "std": 1.128331478625546e-05,
+        "min": 1.1416996130719781e-05,
+        "max": 0.00028154101164545864
+      },
+      "wall_seconds": 1.248020250000991,
+      "trajectory_sha256": "58c38b0293ba7771ba9b1d1a8dabc42fb58ce5e77f15b9af09a58209d5731b09"
+    },
+    {
+      "seed": 19,
+      "seat": 0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "recorded_states": 720,
+      "agent_calls": 719,
+      "ours": 33709.0,
+      "opponent": 3686.0,
+      "valid_terminal": true,
+      "exceptions": 0,
+      "schema_errors": 0,
+      "actions": {
+        "PASS": 590,
+        "PLANT": 136,
+        "WATER": 879,
+        "NORTH": 472,
+        "WEST": 569,
+        "SOUTH": 169,
+        "EAST": 150,
+        "HARVEST": 121,
+        "DIG": 2
+      },
+      "unit_noops": {
+        "WATER": 235,
+        "PLANT": 46,
+        "HARVEST": 33
+      },
+      "market_invalid_actions": "UNKNOWN",
+      "atomic_plant_rejections": "UNKNOWN",
+      "runtime_seconds": {
+        "mean": 2.4016931759399493e-05,
+        "median": 2.300000051036477e-05,
+        "std": 6.179501468194559e-06,
+        "min": 1.158300437964499e-05,
+        "max": 7.241599087137729e-05
+      },
+      "wall_seconds": 1.264549250001437,
+      "trajectory_sha256": "43b81800952f8a3049ab629789b9ec518b903c620c6cdebec8a921aeab2a9d5d"
+    },
+    {
+      "seed": 19,
+      "seat": 1,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "recorded_states": 720,
+      "agent_calls": 719,
+      "ours": 32415.0,
+      "opponent": 3443.0,
+      "valid_terminal": true,
+      "exceptions": 0,
+      "schema_errors": 0,
+      "actions": {
+        "PASS": 597,
+        "PLANT": 152,
+        "WATER": 841,
+        "NORTH": 478,
+        "WEST": 560,
+        "SOUTH": 132,
+        "EAST": 169,
+        "DIG": 4,
+        "HARVEST": 132
+      },
+      "unit_noops": {
+        "WATER": 211,
+        "PLANT": 55,
+        "HARVEST": 39
+      },
+      "market_invalid_actions": "UNKNOWN",
+      "atomic_plant_rejections": "UNKNOWN",
+      "runtime_seconds": {
+        "mean": 2.5216521461616025e-05,
+        "median": 2.28749995585531e-05,
+        "std": 3.217533244595116e-05,
+        "min": 1.1707990779541433e-05,
+        "max": 0.0008457079966319725
+      },
+      "wall_seconds": 1.2447239579923917,
+      "trajectory_sha256": "89e4bf78d0a4225d3db31f29b8713736cf84565c5a1cb4ed9045942652acb0ed"
+    },
+    {
+      "seed": 20,
+      "seat": 0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "recorded_states": 720,
+      "agent_calls": 719,
+      "ours": 34067.0,
+      "opponent": 3582.0,
+      "valid_terminal": true,
+      "exceptions": 0,
+      "schema_errors": 0,
+      "actions": {
+        "PASS": 585,
+        "PLANT": 136,
+        "WATER": 879,
+        "NORTH": 472,
+        "WEST": 569,
+        "SOUTH": 170,
+        "EAST": 153,
+        "HARVEST": 121,
+        "DIG": 3
+      },
+      "unit_noops": {
+        "WATER": 235,
+        "PLANT": 46,
+        "HARVEST": 33
+      },
+      "market_invalid_actions": "UNKNOWN",
+      "atomic_plant_rejections": "UNKNOWN",
+      "runtime_seconds": {
+        "mean": 2.5555137404815782e-05,
+        "median": 2.3708009393885732e-05,
+        "std": 8.87662450193898e-06,
+        "min": 1.2082993634976447e-05,
+        "max": 0.00013249999028630555
+      },
+      "wall_seconds": 1.2865025830105878,
+      "trajectory_sha256": "d343063281367c6ffc2198f83a1448742af5d604d780509d2b58f7cf1e1c574b"
+    },
+    {
+      "seed": 20,
+      "seat": 1,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "recorded_states": 720,
+      "agent_calls": 719,
+      "ours": 34067.0,
+      "opponent": 3582.0,
+      "valid_terminal": true,
+      "exceptions": 0,
+      "schema_errors": 0,
+      "actions": {
+        "PASS": 590,
+        "PLANT": 136,
+        "WATER": 879,
+        "NORTH": 472,
+        "WEST": 569,
+        "SOUTH": 169,
+        "EAST": 150,
+        "HARVEST": 121,
+        "DIG": 2
+      },
+      "unit_noops": {
+        "WATER": 235,
+        "PLANT": 46,
+        "HARVEST": 33
+      },
+      "market_invalid_actions": "UNKNOWN",
+      "atomic_plant_rejections": "UNKNOWN",
+      "runtime_seconds": {
+        "mean": 2.5066374597898704e-05,
+        "median": 2.370899892412126e-05,
+        "std": 7.811049528898212e-06,
+        "min": 1.1415992048569024e-05,
+        "max": 0.0001263330050278455
+      },
+      "wall_seconds": 1.2830241249903338,
+      "trajectory_sha256": "1fd8e5e5b73a472ae0bd93e928b525643380bffe6b2d1ca7b4003ccf20fc9649"
+    }
+  ]
+}
