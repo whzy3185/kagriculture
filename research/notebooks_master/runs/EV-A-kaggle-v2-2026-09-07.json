@@ -1,0 +1,46 @@
+{
+  "candidate": "EV-A",
+  "kernel_id": 133389741,
+  "version": 2,
+  "stage": "PUBLIC_RUN_VERIFIED",
+  "source_cells_match": true,
+  "input_file_hashes_match": true,
+  "aggregate_results_match": true,
+  "raw_records_exported": false,
+  "competition_submission_created": false,
+  "expected_csv_dtype_difference": "pandas 3 string vs pandas 2 object; counts match",
+  "runtime": {
+    "audit_seconds": 13.72,
+    "process_peak_rss_mib": 593.01,
+    "runtime_scope": "Audit timer excludes kernel startup and initial imports; RSS is process peak."
+  },
+  "environment": {
+    "observed_at_utc": "2026-09-07T04:30:37.801609+00:00",
+    "python": "3.12.13",
+    "packages": {
+      "pandas": "2.3.3",
+      "numpy": "2.0.2",
+      "scipy": "1.16.3",
+      "matplotlib": "3.10.0"
+    },
+    "files": {
+      "train.csv": {
+        "bytes": 44707646,
+        "sha256": "eae9eaa4e6378df405e755f853771d7e26d212bd93258349fc797b771021946a"
+      },
+      "test.csv": {
+        "bytes": 18298347,
+        "sha256": "539263f6caabc40afd5e2f0bc0ab16b10a2d1177c565fc71b866f0181d836b34"
+      },
+      "sample_submission.csv": {
+        "bytes": 7737432,
+        "sha256": "a9747a8b947e4e35505e3da4535a5a494978b012a7adb50973f13e598849dda5"
+      }
+    }
+  },
+  "docker_image": "gcr.io/kaggle-images/python@sha256:dafd4ce5668bbf1ad422e4c109e0f18c9623c3a7c7f48b0235f13142755c40b9",
+  "warnings": [
+    "SyntaxWarnings from installed mistune/nbconvert during rendering; no traceback"
+  ],
+  "public_url": "https://www.kaggle.com/code/muelsyse111/s6e9-data-audit-and-id-aware-drift"
+}
