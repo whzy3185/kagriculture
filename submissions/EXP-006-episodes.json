@@ -1,0 +1,38 @@
+{
+  "submission_ref": 56072267,
+  "checked_at": "2026-09-07T08:01:51.290010+00:00",
+  "listed_episode_count": 1,
+  "coverage": "API listing only; not assumed to be complete lifetime history",
+  "episodes": [
+    {
+      "id": 106387464,
+      "createTime": "2026-09-07T07:52:56.210Z",
+      "endTime": "2026-09-07T07:56:20.289Z",
+      "state": "COMPLETED",
+      "type": "EPISODE_TYPE_VALIDATION",
+      "agents": [
+        {
+          "submissionId": 56072267,
+          "reward": 48298,
+          "teamName": "muelsyse111",
+          "teamId": 16846010
+        },
+        {
+          "submissionId": 56072267,
+          "index": 1,
+          "reward": 49336,
+          "teamName": "muelsyse111",
+          "teamId": 16846010
+        }
+      ]
+    }
+  ],
+  "downloads": [
+    {
+      "episode_id": 106387464,
+      "status": "DOWNLOADED",
+      "path": "replays/raw/episode-106387464-replay.json",
+      "sha256": "7d5b1727d96380f5d8ba314e4588f5de78a46e656c9e79319903b1ea173fe541"
+    }
+  ]
+}

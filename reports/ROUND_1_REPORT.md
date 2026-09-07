@@ -11,11 +11,13 @@ This supports initial calibration, not a competitive-strength claim.
 Four module ablations increased mean margins when restored but did not change
 win/loss classes; those contrasts do not establish separate point gains.
 
-Private Kaggle Notebook v1 completed 11 tests and 8 games. Downloaded archive
-and all three members match the frozen local sources; maximum call 0.142305 s,
-zero monitored faults. No competition submission or online score exists yet.
-Public associated-Notebook release, committed-source manifest and live dispatch
-checks remain outstanding. Root main.py remains unchanged; no PR is created.
+Public Kaggle Notebook v2 completed 11 tests and 8 games. Downloaded archive
+and all three members match the frozen local sources; maximum call 0.161371 s,
+zero monitored faults. All dispatch gates passed; actual submission 56072267
+is COMPLETE, with one quota unit consumed and four remaining at check. Initial
+score is 600.0, not a converged estimate. The first downloaded episode 106387464
+is self-play VALIDATION, rewards 48298 and 49336; not a public win/loss sample.
+Root main.py remains unchanged; no PR is created.
 See CODEX_VALIDATION_LATEST.md and experiments/results/EXP-006-cloud-verified.json.
 
 ## Historical Research Handoff

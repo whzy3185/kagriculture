@@ -2,21 +2,26 @@
 
 ## EXP-006 Update, 2026-09-07
 
-Decision: **NO-GO for dispatch until public sharing and remaining live gates pass**.
+Decision: **COMPLETE; initial online calibration only**.
 Candidate is eligible for first online baseline calibration only, not promotion.
 
 - Independent candidate SHA: `84f11eaeceb1f2053c51947d7369b71ef6c7bdebfc66b815fbc0d04d62ecbd77`.
 - Development: 96 games. Holdout: 192 games, 32 paired seeds per opponent.
 - Holdout wins: legacy 64/64, starter 64/64, Shape v11 0/64.
 - Candidate monitored faults: zero; holdout max call 0.052651 seconds.
-- Private Kaggle Notebook v1 COMPLETE: 11 tests and 8 complete games, zero
-  monitored faults; maximum cloud call 0.142305 seconds.
+- Public competition-associated Kaggle Notebook v2 COMPLETE: 11 tests and
+  8 complete games, zero monitored faults; maximum cloud call 0.161371 seconds.
 - Downloaded archive, candidate, license and notice match local files bytewise.
   Raw cloud reports and JUnit are retained under experiments/results/EXP-006-*.
 - Local verification is reproducible with scripts/verify_cloud_evidence.py.
-- Associated Notebook is private. Public source release requires user clearance;
-  no competition upload, champion approval or root main.py promotion occurred.
-- First-submission manifest and final live checks remain required after release.
+- User authorized public release and real submission. All gates passed before
+  upload; manifest is submissions/manifests/EXP-006.json.
+- Actual submission: 56072267. One quota unit consumed, four remain at check.
+  COMPLETE verified at 07:56:26Z, initial score 600.0. Episode 106387464 is
+  self-play VALIDATION, not evidence of beating an external opponent.
+  Latest API status is in submissions/EXP-006-status.json, not inferred from
+  Notebook completion. No champion approval or root main.py promotion occurred.
+- GitHub source 298d2074 and local source b968c37 have identical file trees.
 
 The earlier audit below is historical and superseded where this update differs.
 

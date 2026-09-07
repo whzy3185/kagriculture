@@ -1,6 +1,26 @@
 # Compliance Audit
 
-Status: **RULES READ COMPLETE; CANDIDATE PUBLICATION/COMPLIANCE STILL GATED**.
+Status: **EXP-006 PUBLICATION CLEARED; LIVE SUBMISSION GATES REQUIRED**.
+
+## EXP-006 Release Authorization, 2026-09-07
+
+After the explicit Apache-2.0 public Notebook/GitHub release question, the user
+authorized Kaggle submission and GitHub synchronization. The independent
+EXP-006 candidate is published under agents/candidates/EXP006-LICENSE.txt,
+with attribution in EXP006-NOTICE.txt. No opponent code, tapes or weights are
+included in the three-file submission archive. Root main.py remains unchanged.
+
+Kaggle API confirmed public, competition-associated Notebook version 2 COMPLETE:
+https://www.kaggle.com/code/muelsyse111/kaggriculture-exp006-independent-baseline-audit
+Downloaded v2 outputs passed source/archive/member and full-game verification.
+GitHub source commit 298d2074be9be6d8ecf3f00ee45dbfd625993612 has the exact
+same file tree as frozen local source commit b968c37227404c84349ee380b5bd106c57e7b594.
+The release clears this candidate only; it is not champion promotion or a
+general license grant for unrelated pre-existing repository code.
+
+Earlier audit text below is retained as historical evidence and is superseded
+by this release update where it describes publication as blocked.
+
 Checked at: 2026-09-07 (Asia/Shanghai). Later continuation update below supersedes
 the initial text-truncation findings without treating rule acceptance as clearance.
 Source for all rule entries below: https://www.kaggle.com/competitions/kaggriculture/rules
