@@ -1,0 +1,196 @@
+{
+  "candidate": "EV-C",
+  "version": 4,
+  "kernel_id": 133393970,
+  "url": "https://www.kaggle.com/code/muelsyse111/s6e9-cpu-baselines-and-paired-auc",
+  "is_private": false,
+  "source_matches": true,
+  "sample_and_partitions_match": true,
+  "aggregate_output_inventory": [
+    "01_models_and_cost.png",
+    "02_paired_auc_uncertainty.png",
+    "model_scores.csv",
+    "summary.json"
+  ],
+  "artifact_run_ids": [
+    "347877038"
+  ],
+  "max_absolute_local_cloud_metric_difference": {
+    "roc_auc": 0.0001810778980784189,
+    "average_precision": 0.0009385926437998071,
+    "log_loss": 0.00023148957973809225,
+    "brier_score": 6.753895106979824e-05
+  },
+  "metrics_match_within_1e-6": false,
+  "cloud_summary": {
+    "candidate": "EV-C",
+    "manifest": {
+      "observed_at_utc": "2026-09-07T05:35:28.751157+00:00",
+      "train_sha256": "eae9eaa4e6378df405e755f853771d7e26d212bd93258349fc797b771021946a",
+      "python": "3.12.13",
+      "packages": {
+        "pandas": "2.3.3",
+        "numpy": "2.0.2",
+        "scikit-learn": "1.6.1",
+        "matplotlib": "3.10.0",
+        "scipy": "1.16.3"
+      },
+      "full_training_rows": 668665,
+      "sample_rows": 120000,
+      "sampling_seed": 20260907,
+      "sample_id_sha256": "2148b6935cfdb1e320984e05a1ee6d433a09568911c391a089ed338dfb6142ae"
+    },
+    "partition_fingerprint": {
+      "training_id_sha256": "a7fe310015c39b685aafb6754a73d66f1906e2e1d2ff69bff66b0deb2fb32c15",
+      "validation_id_sha256": "c68d77ef131d785a461712ff3f9b5fd67745cbde9abe62d83c17b2ad5a168472"
+    },
+    "scores": [
+      {
+        "model": "prior",
+        "train_rows": 96000,
+        "validation_rows": 24000,
+        "train_positive_rate": 0.17464583333333333,
+        "validation_positive_rate": 0.174625,
+        "roc_auc": 0.5,
+        "average_precision": 0.174625,
+        "log_loss": 0.4631444800079573,
+        "brier_score": 0.14413110980902774,
+        "fit_seconds": 0.349500105000061,
+        "predict_seconds": 0.05111357199984923,
+        "convergence_warnings": 0,
+        "other_warnings": 0
+      },
+      {
+        "model": "linear",
+        "train_rows": 96000,
+        "validation_rows": 24000,
+        "train_positive_rate": 0.17464583333333333,
+        "validation_positive_rate": 0.174625,
+        "roc_auc": 0.9393377357438075,
+        "average_precision": 0.7446705596951319,
+        "log_loss": 0.23102193129903237,
+        "brier_score": 0.07273898567102306,
+        "fit_seconds": 0.7565832380000757,
+        "predict_seconds": 0.04763557300020693,
+        "convergence_warnings": 0,
+        "other_warnings": 2
+      },
+      {
+        "model": "tree",
+        "train_rows": 96000,
+        "validation_rows": 24000,
+        "train_positive_rate": 0.17464583333333333,
+        "validation_positive_rate": 0.174625,
+        "roc_auc": 0.941178646192831,
+        "average_precision": 0.7497995080399174,
+        "log_loss": 0.227788530295176,
+        "brier_score": 0.07158462394916594,
+        "fit_seconds": 2.4197290889999294,
+        "predict_seconds": 0.20403955000006135,
+        "convergence_warnings": 0,
+        "other_warnings": 1
+      }
+    ],
+    "primary_contrast": {
+      "comparison": "tree minus linear",
+      "holdout_auc_difference": 0.0018409104490234585,
+      "paired_bootstrap_rounds": 500,
+      "bootstrap_seed": 2026,
+      "percentile_95_lower": 0.0011476585705104292,
+      "percentile_95_upper": 0.002493366499750396,
+      "scope": "Conditional on this fitted pair, sample, split and class counts; not training or LB uncertainty"
+    },
+    "test_data_read": false,
+    "submission_created": false,
+    "leaderboard_score": null,
+    "total_experiment_seconds": 19.76,
+    "process_peak_rss_mib": 483.85
+  },
+  "docker_image": "gcr.io/kaggle-images/python@sha256:dafd4ce5668bbf1ad422e4c109e0f18c9623c3a7c7f48b0235f13142755c40b9",
+  "matched_library_reproduction": {
+    "packages": {
+      "numpy": "2.0.2",
+      "pandas": "2.3.3",
+      "scipy": "1.16.3",
+      "scikit-learn": "1.6.1"
+    },
+    "scores": [
+      {
+        "train_rows": 96000,
+        "validation_rows": 24000,
+        "train_positive_rate": 0.17464583333333333,
+        "validation_positive_rate": 0.174625,
+        "roc_auc": 0.5,
+        "average_precision": 0.174625,
+        "log_loss": 0.4631444800079573,
+        "brier_score": 0.14413110980902774,
+        "fit_seconds": 0.09380645799683407,
+        "predict_seconds": 0.011376291993656196,
+        "convergence_warnings": 0,
+        "other_warnings": 0,
+        "model": "prior"
+      },
+      {
+        "train_rows": 96000,
+        "validation_rows": 24000,
+        "train_positive_rate": 0.17464583333333333,
+        "validation_positive_rate": 0.174625,
+        "roc_auc": 0.9393377357438075,
+        "average_precision": 0.7446705596951319,
+        "log_loss": 0.23102193129903473,
+        "brier_score": 0.07273898567101737,
+        "fit_seconds": 0.1568066670006374,
+        "predict_seconds": 0.011899958000867628,
+        "convergence_warnings": 0,
+        "other_warnings": 274,
+        "model": "linear"
+      },
+      {
+        "train_rows": 96000,
+        "validation_rows": 24000,
+        "train_positive_rate": 0.17464583333333333,
+        "validation_positive_rate": 0.174625,
+        "roc_auc": 0.941178646192831,
+        "average_precision": 0.7497995080399174,
+        "log_loss": 0.227788530295176,
+        "brier_score": 0.07158462394916594,
+        "fit_seconds": 1.1681238330056658,
+        "predict_seconds": 0.04930962499929592,
+        "convergence_warnings": 0,
+        "other_warnings": 0,
+        "model": "tree"
+      }
+    ],
+    "paired_interval": [
+      0.0011476585705104292,
+      0.002493366499750396
+    ],
+    "absolute_metric_differences_from_kaggle_v1": {
+      "prior": {
+        "roc_auc": 0.0,
+        "average_precision": 0.0,
+        "log_loss": 0.0,
+        "brier_score": 0.0
+      },
+      "linear": {
+        "roc_auc": 0.0,
+        "average_precision": 0.0,
+        "log_loss": 2.3592239273284576e-15,
+        "brier_score": 5.689893001203927e-15
+      },
+      "tree": {
+        "roc_auc": 0.0,
+        "average_precision": 0.0,
+        "log_loss": 0.0,
+        "brier_score": 0.0
+      }
+    },
+    "all_metrics_match_within_1e-6": true,
+    "note": "Version matching is a multi-package control, not causal isolation of one library."
+  },
+  "stage": "PUBLIC_RUN_VERIFIED",
+  "image_sha256": {
+    "01_models_and_cost.png": "acdca1776bc3da1da37032ab0234e81775b0e2baef38942a8d519f5664c893ff",
+    "02_paired_auc_uncertainty.png": "504051d6c4f83be2cb95178507e2b526f8543934ce235ee56a76abcee25878c6"
+  }
+}
