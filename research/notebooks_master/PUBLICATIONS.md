@@ -42,14 +42,19 @@ as public releases above.
 
 | Candidate | Notebook | Reviewed version | Status |
 |---|---|---:|---|
-| EV-B | [Validation Stability and ID-Order Tests](https://www.kaggle.com/code/muelsyse111/s6e9-validation-stability-and-id-order-tests) | 1 | PRIVATE_RUN_VERIFIED |
-| EV-C | [CPU Baselines and Paired AUC](https://www.kaggle.com/code/muelsyse111/s6e9-cpu-baselines-and-paired-auc) | 2 | PRIVATE_RUN_VERIFIED |
+| EV-B | [Validation Stability and ID-Order Tests](https://www.kaggle.com/code/muelsyse111/s6e9-validation-stability-and-id-order-tests) | 2 | PRIVATE_RUN_VERIFIED |
+| EV-C | [CPU Baselines and Paired AUC](https://www.kaggle.com/code/muelsyse111/s6e9-cpu-baselines-and-paired-auc) | 3 | PRIVATE_RUN_VERIFIED |
 
 Both have distinct questions, train-only experiments, unit tests and reviewed
 aggregate outputs. EV-C's initial cross-library metric mismatch was retained and
 resolved by a separate Kaggle-matched numerical-library reproduction; its latest
 notebook explains this limitation. Full review:
 `reviews/EV-BC-private-2026-09-07.md`.
+
+The latest versions apply the user's reader-ready editorial standard: results
+first, concise tables, reusable code examples and less audit-log clutter. The
+experiments and model settings are unchanged. Latest editorial/run receipt:
+`reviews/EV-BC-reader-ready-2026-09-07.md`.
 
 Next gate: user confirmation of these two reviewed notebooks' public visibility.
 
