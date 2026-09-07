@@ -1,0 +1,54 @@
+{
+  "rows": {
+    "train": 668665,
+    "test": 286571
+  },
+  "predictors": 13,
+  "numeric_predictors": 7,
+  "categorical_predictors": 6,
+  "positive_rate_train": 0.17464500160768098,
+  "missing_predictor_cells": {
+    "train": 0,
+    "test": 0
+  },
+  "duplicates": {
+    "train_extra_duplicate_feature_rows": 0,
+    "test_extra_duplicate_feature_rows": 0,
+    "test_rows_matching_any_train_feature_tuple": 0,
+    "train_feature_groups_with_conflicting_labels": 0
+  },
+  "max_numeric_predictor_ks": 0.0030046105775260457,
+  "identifier_ks": 1.0,
+  "max_categorical_tv": 0.001710963145337423,
+  "max_unseen_category_rate": 0.0,
+  "audit_seconds": 3.39,
+  "process_peak_rss_mib": 622.92,
+  "runtime_scope": "Audit timer excludes kernel startup and initial imports; RSS is process peak.",
+  "manifest": {
+    "observed_at_utc": "2026-09-07T03:44:54.116182+00:00",
+    "python": "3.12.14",
+    "packages": {
+      "pandas": "3.0.5",
+      "numpy": "2.5.3",
+      "scipy": "1.18.1",
+      "matplotlib": "3.11.1"
+    },
+    "files": {
+      "train.csv": {
+        "bytes": 44707646,
+        "sha256": "eae9eaa4e6378df405e755f853771d7e26d212bd93258349fc797b771021946a"
+      },
+      "test.csv": {
+        "bytes": 18298347,
+        "sha256": "539263f6caabc40afd5e2f0bc0ab16b10a2d1177c565fc71b866f0181d836b34"
+      },
+      "sample_submission.csv": {
+        "bytes": 7737432,
+        "sha256": "a9747a8b947e4e35505e3da4535a5a494978b012a7adb50973f13e598849dda5"
+      }
+    }
+  },
+  "validation_auc": null,
+  "leaderboard_score": null,
+  "submission_created": false
+}
