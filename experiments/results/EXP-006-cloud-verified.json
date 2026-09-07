@@ -1,0 +1,16 @@
+{
+  "exp_id": "EXP-006",
+  "agent_sha": "84f11eaeceb1f2053c51947d7369b71ef6c7bdebfc66b815fbc0d04d62ecbd77",
+  "artifact_sha": "43b21c72bd05da3a9c2e97a748758afdabcc1e44b85fe7a92ea7879edd9bdb42",
+  "engine_version": "1.32.7",
+  "episodes": 8,
+  "faults": 0,
+  "tests": 11,
+  "runtime_max": 0.1423048020000124,
+  "raw_evidence": {
+    "cloud-runtime.json": "b08f972b3ceeb96290ad306a095d829764630662697082702dccc860bc96203e",
+    "cloud-tests.xml": "cfdd5aff6cd1a6b4dacb03103871025e86609573e453bf9407fce087969a33c8",
+    "runtime-verification.json": "4a2efd0a7fadb471c40dd5062dff39d30aa506489cc99e30d7289bd9d116c5a4"
+  },
+  "publication_verified": false
+}

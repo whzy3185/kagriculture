@@ -1,0 +1,17 @@
+EXP-006 Independent Crop Controller
+Repository owner: whzy3185
+Kaggle account: muelsyse111
+
+Candidate policy, working-capital budget, task assignment and terminal transport
+were independently implemented in this repository with AI assistance.
+No public opponent's source, route tapes or model weights are included.
+
+Game rules, constants and price equations are documented by Kaggle's
+kaggle-environments project, licensed under Apache License 2.0:
+https://github.com/Kaggle/kaggle-environments/tree/master/kaggle_environments/envs/kaggriculture
+Inspected package version: 1.32.7.
+
+Public strategy research informed the questions and evaluation design; it is not
+claimed as our original research. Source-specific provenance is recorded in the
+repository research directory. Shape the Shop v11 by tetsutani is an attributed
+evaluation reference only and is not part of this competition artifact.

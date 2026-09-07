@@ -1,5 +1,25 @@
 # KAGGRICULTURE ROUND 1
 
+## Latest Continuation: EXP-006
+
+The historical handoff below predates authorized implementation and is retained
+for provenance. Current status: candidate verified, submission cycle incomplete.
+Rules have been read and account entry confirmed in the intervening audit.
+Independent EXP-006 completed 96 development and 192 holdout games. Holdout
+wins are 64/64 against legacy, 64/64 against starter, and 0/64 against Shape v11.
+This supports initial calibration, not a competitive-strength claim.
+Four module ablations increased mean margins when restored but did not change
+win/loss classes; those contrasts do not establish separate point gains.
+
+Private Kaggle Notebook v1 completed 11 tests and 8 games. Downloaded archive
+and all three members match the frozen local sources; maximum call 0.142305 s,
+zero monitored faults. No competition submission or online score exists yet.
+Public associated-Notebook release, committed-source manifest and live dispatch
+checks remain outstanding. Root main.py remains unchanged; no PR is created.
+See CODEX_VALIDATION_LATEST.md and experiments/results/EXP-006-cloud-verified.json.
+
+## Historical Research Handoff
+
 Status: research handoff; **Round 1 submission cycle NOT COMPLETE**.
 Latest user direction prioritized Code/Discussion investigation, quantitative
 modeling, Edge, and a new branch without a PR. Strategy engineering remains paused.

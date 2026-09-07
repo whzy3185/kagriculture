@@ -1,0 +1,364 @@
+{
+  "timestamp": "2026-09-07T07:24:42.890080+00:00",
+  "agent_sha": "84f11eaeceb1f2053c51947d7369b71ef6c7bdebfc66b815fbc0d04d62ecbd77",
+  "engine_version": "1.32.7",
+  "engine_sha": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+  "evaluator_sha": "6d8f9052738e661ee6cd923e4dcb639d8cefefc351dc802a22000b7a385d4e2b",
+  "disabled": [],
+  "opponent_hashes": {
+    "legacy_parent": "712be5af7888bb489c95417e6eb3d16875def7fcaaed31c47715d85e9ad9ae7d",
+    "main": "84f11eaeceb1f2053c51947d7369b71ef6c7bdebfc66b815fbc0d04d62ecbd77"
+  },
+  "seed_start": 4001,
+  "seed_count": 2,
+  "seat_swapped": true,
+  "summary": {
+    "legacy_parent": {
+      "games": 4,
+      "valid": true,
+      "faults": {
+        "atomic_plant_rejections": 0,
+        "unfilled_requested_market_units": 0,
+        "overflow_units": 0
+      },
+      "points": 1.0,
+      "wins": 4,
+      "draws": 0,
+      "mean_bank": 76524.5,
+      "mean_margin": 69354.0,
+      "median_margin": 69354.0,
+      "std_margin": 5768.88388974274
+    },
+    "main": {
+      "games": 4,
+      "valid": true,
+      "faults": {
+        "atomic_plant_rejections": 0,
+        "unfilled_requested_market_units": 0,
+        "overflow_units": 0
+      },
+      "points": 0.5,
+      "wins": 0,
+      "draws": 4,
+      "mean_bank": 43024.5,
+      "mean_margin": 0.0,
+      "median_margin": 0.0,
+      "std_margin": 0.0
+    }
+  },
+  "rows": [
+    {
+      "seed": 4001,
+      "seat": 0,
+      "opponent": "legacy_parent",
+      "ours": 81467.0,
+      "theirs": 7117.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "valid_terminal": true,
+      "faults": {
+        "atomic_plant_rejections": 0,
+        "unfilled_requested_market_units": 0,
+        "overflow_units": 0
+      },
+      "actions": {
+        "PASS": 1790,
+        "PLANT": 116,
+        "WEST": 993,
+        "WATER": 857,
+        "NORTH": 592,
+        "SOUTH": 439,
+        "EAST": 578,
+        "HARVEST": 299,
+        "DROP": 12,
+        "DIG": 11
+      },
+      "calls": 719,
+      "runtime_mean": 0.0003892229415850022,
+      "runtime_p95": 0.0006383897999853618,
+      "runtime_p99": 0.0008280483000316971,
+      "runtime_max": 0.001330338999991909,
+      "wall_seconds": 11.995719582999982,
+      "terminal_carried_units": 0,
+      "terminal_shed_units": 0,
+      "margin": 74350.0,
+      "points": 1.0
+    },
+    {
+      "seed": 4001,
+      "seat": 1,
+      "opponent": "legacy_parent",
+      "ours": 81467.0,
+      "theirs": 7117.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "valid_terminal": true,
+      "faults": {
+        "atomic_plant_rejections": 0,
+        "unfilled_requested_market_units": 0,
+        "overflow_units": 0
+      },
+      "actions": {
+        "PASS": 1790,
+        "PLANT": 116,
+        "WEST": 993,
+        "WATER": 857,
+        "NORTH": 592,
+        "SOUTH": 439,
+        "EAST": 578,
+        "HARVEST": 299,
+        "DROP": 12,
+        "DIG": 11
+      },
+      "calls": 719,
+      "runtime_mean": 0.0005784987579926867,
+      "runtime_p95": 0.0006444988000339436,
+      "runtime_p99": 0.0009340555399876395,
+      "runtime_max": 0.13504055499993228,
+      "wall_seconds": 12.064323714000011,
+      "terminal_carried_units": 0,
+      "terminal_shed_units": 0,
+      "margin": 74350.0,
+      "points": 1.0
+    },
+    {
+      "seed": 4002,
+      "seat": 0,
+      "opponent": "legacy_parent",
+      "ours": 71582.0,
+      "theirs": 7224.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "valid_terminal": true,
+      "faults": {
+        "atomic_plant_rejections": 0,
+        "unfilled_requested_market_units": 0,
+        "overflow_units": 0
+      },
+      "actions": {
+        "PASS": 1807,
+        "PLANT": 117,
+        "WEST": 974,
+        "WATER": 851,
+        "NORTH": 582,
+        "SOUTH": 444,
+        "EAST": 583,
+        "HARVEST": 301,
+        "DROP": 14,
+        "DIG": 12
+      },
+      "calls": 719,
+      "runtime_mean": 0.0003869994853974868,
+      "runtime_p95": 0.0006409480000343137,
+      "runtime_p99": 0.0008212010800002646,
+      "runtime_max": 0.0011308860000553977,
+      "wall_seconds": 11.906158080999944,
+      "terminal_carried_units": 0,
+      "terminal_shed_units": 0,
+      "margin": 64358.0,
+      "points": 1.0
+    },
+    {
+      "seed": 4002,
+      "seat": 1,
+      "opponent": "legacy_parent",
+      "ours": 71582.0,
+      "theirs": 7224.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "valid_terminal": true,
+      "faults": {
+        "atomic_plant_rejections": 0,
+        "unfilled_requested_market_units": 0,
+        "overflow_units": 0
+      },
+      "actions": {
+        "PASS": 1807,
+        "PLANT": 117,
+        "WEST": 974,
+        "WATER": 851,
+        "NORTH": 582,
+        "SOUTH": 444,
+        "EAST": 583,
+        "HARVEST": 301,
+        "DROP": 14,
+        "DIG": 12
+      },
+      "calls": 719,
+      "runtime_mean": 0.0005774802698204349,
+      "runtime_p95": 0.0006228542000144444,
+      "runtime_p99": 0.0008492564600624094,
+      "runtime_max": 0.1423048020000124,
+      "wall_seconds": 11.845307876999982,
+      "terminal_carried_units": 0,
+      "terminal_shed_units": 0,
+      "margin": 64358.0,
+      "points": 1.0
+    },
+    {
+      "seed": 4001,
+      "seat": 0,
+      "opponent": "main",
+      "ours": 43811.0,
+      "theirs": 43811.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "valid_terminal": true,
+      "faults": {
+        "atomic_plant_rejections": 0,
+        "unfilled_requested_market_units": 0,
+        "overflow_units": 0
+      },
+      "actions": {
+        "PASS": 1416,
+        "PLANT": 171,
+        "WEST": 1019,
+        "WATER": 912,
+        "NORTH": 627,
+        "SOUTH": 477,
+        "EAST": 681,
+        "HARVEST": 309,
+        "DROP": 11,
+        "DIG": 36
+      },
+      "calls": 719,
+      "runtime_mean": 0.0004189411196090983,
+      "runtime_p95": 0.0007199652000622337,
+      "runtime_p99": 0.0008311303600203246,
+      "runtime_max": 0.001438078999967729,
+      "wall_seconds": 13.182418169000016,
+      "terminal_carried_units": 0,
+      "terminal_shed_units": 0,
+      "margin": 0.0,
+      "points": 0.5
+    },
+    {
+      "seed": 4001,
+      "seat": 1,
+      "opponent": "main",
+      "ours": 43811.0,
+      "theirs": 43811.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "valid_terminal": true,
+      "faults": {
+        "atomic_plant_rejections": 0,
+        "unfilled_requested_market_units": 0,
+        "overflow_units": 0
+      },
+      "actions": {
+        "PASS": 1416,
+        "PLANT": 171,
+        "WEST": 1019,
+        "WATER": 912,
+        "NORTH": 627,
+        "SOUTH": 477,
+        "EAST": 681,
+        "HARVEST": 309,
+        "DROP": 11,
+        "DIG": 36
+      },
+      "calls": 719,
+      "runtime_mean": 0.0003969386077909631,
+      "runtime_p95": 0.0006904360999897108,
+      "runtime_p99": 0.0008092220200364866,
+      "runtime_max": 0.0013685760000043956,
+      "wall_seconds": 13.287442991000034,
+      "terminal_carried_units": 0,
+      "terminal_shed_units": 0,
+      "margin": 0.0,
+      "points": 0.5
+    },
+    {
+      "seed": 4002,
+      "seat": 0,
+      "opponent": "main",
+      "ours": 42238.0,
+      "theirs": 42238.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "valid_terminal": true,
+      "faults": {
+        "atomic_plant_rejections": 0,
+        "unfilled_requested_market_units": 0,
+        "overflow_units": 0
+      },
+      "actions": {
+        "PASS": 1362,
+        "PLANT": 170,
+        "WEST": 1058,
+        "WATER": 926,
+        "NORTH": 623,
+        "SOUTH": 510,
+        "EAST": 649,
+        "HARVEST": 320,
+        "DROP": 15,
+        "DIG": 21
+      },
+      "calls": 719,
+      "runtime_mean": 0.00042783268011454477,
+      "runtime_p95": 0.0007341265999457392,
+      "runtime_p99": 0.0008842193400187184,
+      "runtime_max": 0.001057295000009617,
+      "wall_seconds": 13.299584872999958,
+      "terminal_carried_units": 0,
+      "terminal_shed_units": 0,
+      "margin": 0.0,
+      "points": 0.5
+    },
+    {
+      "seed": 4002,
+      "seat": 1,
+      "opponent": "main",
+      "ours": 42238.0,
+      "theirs": 42238.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "valid_terminal": true,
+      "faults": {
+        "atomic_plant_rejections": 0,
+        "unfilled_requested_market_units": 0,
+        "overflow_units": 0
+      },
+      "actions": {
+        "PASS": 1361,
+        "PLANT": 170,
+        "WEST": 1058,
+        "WATER": 926,
+        "NORTH": 623,
+        "SOUTH": 510,
+        "EAST": 649,
+        "HARVEST": 320,
+        "DROP": 15,
+        "DIG": 22
+      },
+      "calls": 719,
+      "runtime_mean": 0.0004006338776092692,
+      "runtime_p95": 0.0006917406000411575,
+      "runtime_p99": 0.0008440976599831636,
+      "runtime_max": 0.0014352860000599321,
+      "wall_seconds": 13.305857737999986,
+      "terminal_carried_units": 0,
+      "terminal_shed_units": 0,
+      "margin": 0.0,
+      "points": 0.5
+    }
+  ],
+  "submission_approval": false
+}

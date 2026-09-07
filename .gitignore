@@ -15,3 +15,7 @@ access_token
 .env.*
 *.zip
 *.tar.gz
+experiments/results/*.progress.jsonl
+submissions/artifacts/
+kaggle_notebooks/*/output/
+submissions/.submit.lock

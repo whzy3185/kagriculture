@@ -1,0 +1,7 @@
+{
+  "return_code": 0,
+  "tests": 31,
+  "agent_sha": "84f11eaeceb1f2053c51947d7369b71ef6c7bdebfc66b815fbc0d04d62ecbd77",
+  "junit_sha256": "e49ee947385715af54ae0bcf3790aac816751297532e0c4480e5f900b465e4ea",
+  "verification": "JUnit contains no errors, failures or skipped tests"
+}

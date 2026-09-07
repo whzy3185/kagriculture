@@ -1,0 +1,15 @@
+{
+  "id": "muelsyse111/kaggriculture-exp006-independent-baseline-audit",
+  "title": "Kaggriculture EXP006 Independent Baseline Audit",
+  "code_file": "notebook.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": [
+    "kaggriculture"
+  ],
+  "kernel_sources": []
+}

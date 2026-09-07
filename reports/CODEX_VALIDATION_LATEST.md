@@ -1,5 +1,27 @@
 # Codex Validation
 
+## EXP-006 Update, 2026-09-07
+
+Decision: **NO-GO for dispatch until public sharing and remaining live gates pass**.
+Candidate is eligible for first online baseline calibration only, not promotion.
+
+- Independent candidate SHA: `84f11eaeceb1f2053c51947d7369b71ef6c7bdebfc66b815fbc0d04d62ecbd77`.
+- Development: 96 games. Holdout: 192 games, 32 paired seeds per opponent.
+- Holdout wins: legacy 64/64, starter 64/64, Shape v11 0/64.
+- Candidate monitored faults: zero; holdout max call 0.052651 seconds.
+- Private Kaggle Notebook v1 COMPLETE: 11 tests and 8 complete games, zero
+  monitored faults; maximum cloud call 0.142305 seconds.
+- Downloaded archive, candidate, license and notice match local files bytewise.
+  Raw cloud reports and JUnit are retained under experiments/results/EXP-006-*.
+- Local verification is reproducible with scripts/verify_cloud_evidence.py.
+- Associated Notebook is private. Public source release requires user clearance;
+  no competition upload, champion approval or root main.py promotion occurred.
+- First-submission manifest and final live checks remain required after release.
+
+The earlier audit below is historical and superseded where this update differs.
+
+## Earlier Audit
+
 Decision: **BLOCKED / NO-GO**. Date: 2026-09-07.
 
 - Code/Discussion: 14 targeted Notebook reviews plus the earlier Discussion audit;
