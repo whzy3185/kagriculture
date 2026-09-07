@@ -1,6 +1,8 @@
 # Compliance Audit
 
-Status: **COMPLIANCE_BLOCKED**. Checked at: 2026-09-07 (Asia/Shanghai).
+Status: **RULES READ COMPLETE; CANDIDATE PUBLICATION/COMPLIANCE STILL GATED**.
+Checked at: 2026-09-07 (Asia/Shanghai). Later continuation update below supersedes
+the initial text-truncation findings without treating rule acceptance as clearance.
 Source for all rule entries below: https://www.kaggle.com/competitions/kaggriculture/rules
 Long paragraphs in the accessibility view were truncated. These are partial,
 source-backed summaries, not a complete legal clearance.
@@ -102,3 +104,24 @@ No community notebook code, models, or replay assets have been adopted.
 
 Sources: research/discussion_index.csv and research/CODE_DISCUSSION_REVIEW.md.
 Full legal-text review remains incomplete.
+
+## Full-Text Continuation Update
+
+The complete competition-specific/general and Foundational Rules were read from
+an Edge MHTML export, decoding the HTML part as UTF-8. Earlier HTML-only export
+contained just a shell. Full-text review is now complete, not blocked by truncation.
+Raw browser exports remain outside Git; no credential or browser storage is included
+in the published research. User explicitly authorized accepting the rules, and
+Edge/API verified muelsyse111 has entered this competition.
+
+Previously truncated General/Foundational 6.b explicitly requires publicly shared
+Competition Code to be shared on this competition's Kaggle forum or notebooks.
+The current public repository alone is not assumed to discharge that condition.
+No public Kaggle post or notebook was made in this continuation. New executable
+policy publication remains gated; research summaries are not a candidate release.
+
+Our chosen engineering policy is stricter than mere permission to fork: no public
+agent source, weights, tapes or fitted thresholds enter our agent. Sources inform
+mechanism analysis; any later reference execution must be isolated, attributed,
+credential-free and network-disabled. The unchanged declared fork of Kaito v58
+is not counted as an independent lineage in opponent weighting.

@@ -1,6 +1,11 @@
 # Strategy Queue
 
 All entries: research-to-experiment proposals, not approved production changes.
+Continuation: source review expanded to 14 unique notebooks. User requires
+independent mechanism competition, not reuse of public agent/tape/weight/threshold
+artifacts. Research questions CQ-01 through CQ-05 in QUANT_COMPETITION_PROTOCOL.md
+are the current conceptual queue. The older EXP slots below remain unexecuted.
+Access blockers are resolved; full competitive and publication gates are not.
 Latest user instruction: finish Code/Discussion investigation first. No candidate
 was authored or executed after that instruction. Main remains byte-identical.
 

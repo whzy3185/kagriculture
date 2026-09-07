@@ -1,1 +1,2 @@
 episode_id,submission_ref,source_url,observed_at,environment_version,local_path,sha256,status
+105954399,UNKNOWN,https://www.kaggleusercontent.com/episodes/105954399.json,2026-09-07,1.32.7,replays/raw/105954399.json,bf2216f64a613c0791ab9d4c990bce981c2c712298716ccaa206698a8f8c2845,DOWNLOADED_COMPLETE_DESCRIPTIVE_ONLY_PARITY_NOT_VERIFIED

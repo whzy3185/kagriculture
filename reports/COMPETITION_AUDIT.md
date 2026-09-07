@@ -3,6 +3,11 @@
 Checked: 2026-09-07, Asia/Shanghai. Status: **BLOCKED / INCOMPLETE**.
 This is an evidence ledger, not a claim that the complete competition audit passed.
 
+Continuation: full Rules/Foundational text and official Data documents were
+subsequently read; authorized account/entry checks passed. See
+GATE_UPDATE_20260907.md for current state. This file retains the initial audit
+observations; candidate publication and competitive validation are still gated.
+
 ## Repository Takeover
 
 - `main`: `1ab7aaa398b1cf76f0be91aed782fabbc81f2e0d`, initialization only.

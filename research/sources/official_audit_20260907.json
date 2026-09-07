@@ -1,0 +1,42 @@
+{
+  "checked_date": "2026-09-07",
+  "rules_url": "https://www.kaggle.com/competitions/kaggriculture/rules",
+  "capture_method": "Microsoft Edge MHTML; MIME decoded and HTML parsed; raw archive not published",
+  "raw_mhtml_sha256": "869e88dd78aabf69fd79f285599ac16ee914fcb5f8fa7aab195e44106cb7e27f",
+  "rule_blocks": [
+    {
+      "section": "competition_specific_and_general",
+      "text_characters": 36099,
+      "text_sha256": "c1aa7df7459a75ab317c5e6a47aaaf7a717c31ada5ba6aea429c85623d1d47b2",
+      "headings": 41,
+      "read_scope": "full text"
+    },
+    {
+      "section": "foundational",
+      "text_characters": 22941,
+      "text_sha256": "4edb43c91f389bcf404b42f48d9c3ac063fba81cb103c7485963414a190ea4b4",
+      "headings": 19,
+      "read_scope": "full text"
+    }
+  ],
+  "data_url": "https://www.kaggle.com/competitions/kaggriculture/data",
+  "data_zip_sha256": "91298b47c5dd34500177e6cf6c41a9c2ca254804f893d135a7c06c3d920ee739",
+  "data_files": [
+    {
+      "file": "README.md",
+      "bytes": 26824,
+      "sha256": "3081e52baf8eb2da5d861acc63a3636ce29425f6bdb79a67036ba234ac4ade00",
+      "read_scope": "full text"
+    },
+    {
+      "file": "AGENTS.md",
+      "bytes": 13708,
+      "sha256": "e1a80501a7b02a212eaac9370ada4129a64e0ee6cb3cbc790f3d77d22863fe22",
+      "read_scope": "full text"
+    }
+  ],
+  "user_authorized_rules_acceptance": true,
+  "account": "muelsyse111",
+  "entry_verified_by": "Edge acceptance toast and authenticated entered-competition listing",
+  "no_credentials_in_manifest": true
+}

@@ -1,0 +1,115 @@
+{
+  "evidence_type": "ANALYTIC_REFERENCE_NOT_AGENT_EXPERIMENT",
+  "engine_version": "1.32.7",
+  "initial_market_inventory": 10000,
+  "assumptions": [
+    "one seller",
+    "no town demand",
+    "no competing orders",
+    "sufficient stock",
+    "no production or labor cost"
+  ],
+  "values": [
+    {
+      "product": "WHEAT",
+      "quantity": 50,
+      "initial_quote": 25,
+      "quote_budget": 1250,
+      "integrated_cash": 1127,
+      "shortfall": 123,
+      "fraction_of_quote_lost": 0.09840000000000004
+    },
+    {
+      "product": "CARROT",
+      "quantity": 50,
+      "initial_quote": 35,
+      "quote_budget": 1750,
+      "integrated_cash": 1482,
+      "shortfall": 268,
+      "fraction_of_quote_lost": 0.15314285714285714
+    },
+    {
+      "product": "TOMATO",
+      "quantity": 50,
+      "initial_quote": 60,
+      "quote_budget": 3000,
+      "integrated_cash": 2411,
+      "shortfall": 589,
+      "fraction_of_quote_lost": 0.19633333333333336
+    },
+    {
+      "product": "STRAWBERRY",
+      "quantity": 50,
+      "initial_quote": 120,
+      "quote_budget": 6000,
+      "integrated_cash": 3648,
+      "shortfall": 2352,
+      "fraction_of_quote_lost": 0.392
+    },
+    {
+      "product": "MELON",
+      "quantity": 50,
+      "initial_quote": 250,
+      "quote_budget": 12500,
+      "integrated_cash": 12098,
+      "shortfall": 402,
+      "fraction_of_quote_lost": 0.032159999999999966
+    },
+    {
+      "product": "EGG",
+      "quantity": 50,
+      "initial_quote": 50,
+      "quote_budget": 2500,
+      "integrated_cash": 2244,
+      "shortfall": 256,
+      "fraction_of_quote_lost": 0.10240000000000005
+    },
+    {
+      "product": "MILK",
+      "quantity": 50,
+      "initial_quote": 160,
+      "quote_budget": 8000,
+      "integrated_cash": 5430,
+      "shortfall": 2570,
+      "fraction_of_quote_lost": 0.32125000000000004
+    },
+    {
+      "product": "WOOL",
+      "quantity": 50,
+      "initial_quote": 200,
+      "quote_budget": 10000,
+      "integrated_cash": 7655,
+      "shortfall": 2345,
+      "fraction_of_quote_lost": 0.23450000000000004
+    },
+    {
+      "product": "FERTILIZER",
+      "quantity": 50,
+      "initial_quote": 100,
+      "quote_budget": 5000,
+      "integrated_cash": 4755,
+      "shortfall": 245,
+      "fraction_of_quote_lost": 0.049000000000000044
+    }
+  ],
+  "sample_size_scenarios": {
+    "alpha_two_sided": 0.05,
+    "target_power": 0.8,
+    "minimum_point_effect": 0.02,
+    "variance_is_assumed_not_measured": true,
+    "rows": [
+      {
+        "paired_sd": 0.1,
+        "independent_seed_clusters": 197
+      },
+      {
+        "paired_sd": 0.2,
+        "independent_seed_clusters": 785
+      },
+      {
+        "paired_sd": 0.3,
+        "independent_seed_clusters": 1766
+      }
+    ]
+  }
+}

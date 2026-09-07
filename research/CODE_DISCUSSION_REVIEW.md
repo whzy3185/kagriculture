@@ -1,5 +1,11 @@
 # Code And Discussion Review - 2026-09-07
 
+Historical initial survey. The latest continuation, exact source ancestry and
+independent mechanism decomposition are in OPPONENT_STRATEGY_ATLAS.md and
+QUANT_COMPETITION_PROTOCOL.md. The v40 source supersedes the v39 narrative as the
+current Structured Economic Policy executable; do not conflate those versions.
+Access/Rules blockers below have since been resolved; see reports/GATE_UPDATE_20260907.md.
+
 ## Scope And Evidence Labels
 
 Research was performed in Microsoft Edge. Its kaggleusercontent notebook frame

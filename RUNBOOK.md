@@ -31,6 +31,10 @@ Holdout seeds become consumed upon inspection; register new seeds before tuning.
 
 ## Blocking Gates
 
+Continuation status: see reports/GATE_UPDATE_20260907.md. Rules/Data reading,
+authenticated username and user-authorized entry are now verified. The checklist
+below remains the standing procedure, not a claim those access steps are still blocked.
+
 1. Finish the complete Rules text review and competition Data/runtime audit.
    The initial Code/Discussion survey and public dataset/leaderboard snapshot are
    now recorded in research/CODE_DISCUSSION_REVIEW.md. Targeted source review is
@@ -52,6 +56,12 @@ with raw CLI commands. Only APPROVE may promote a candidate; only a verified
 COMPLETE server result may create a SCORECARD row.
 
 ## Resume
+
+Latest user priority: read research/OPPONENT_STRATEGY_ATLAS.md and
+research/QUANT_COMPETITION_PROTOCOL.md first. Compete through independently
+designed mechanisms, not imported source, weights, action tapes or fitted
+thresholds. Resolve competition-associated public-code sharing before publishing
+new executable policy. No candidate has yet been created in this continuation.
 
 Continue with the remaining compliance/data audit, then reproduce the collision
 diagnostic as a single scheduling ablation in `agents/candidates/`. Do not combine

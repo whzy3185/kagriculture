@@ -1,0 +1,82 @@
+{
+  "observed_date": "2026-09-07",
+  "sources": [
+    {
+      "ref": "yhay81/three-day-shop-router",
+      "url": "https://www.kaggle.com/code/yhay81/three-day-shop-router",
+      "version": 7,
+      "version_evidence": "official GetKernel metadata; public source",
+      "local_file_sha256": "331b4dd10d4efbbf9fb0f461f7e10b484e35d5a28cbdcde65fcd329f8e078362",
+      "bytes": 145844,
+      "cells": 18,
+      "review_scope": "targeted source decision logic and provenance; not every embedded expert",
+      "executed": false,
+      "copied_into_our_policy": false,
+      "reference_storage": "outside repository in work/notebook-deep-review"
+    },
+    {
+      "ref": "tetsutani/shape-the-shop-work-the-pasture-kaggriculture",
+      "url": "https://www.kaggle.com/code/tetsutani/shape-the-shop-work-the-pasture-kaggriculture",
+      "version": 11,
+      "version_evidence": "official GetKernel metadata; public source",
+      "local_file_sha256": "a6027339030e6204e512ccf7cc3641cb158531d8924717d089638c276b94744f",
+      "bytes": 106983,
+      "cells": 27,
+      "review_scope": "targeted source decision logic and provenance; not every embedded expert",
+      "executed": false,
+      "copied_into_our_policy": false,
+      "reference_storage": "outside repository in work/notebook-deep-review"
+    },
+    {
+      "ref": "pilkwang/kaggriculture-structured-economic-policy",
+      "url": "https://www.kaggle.com/code/pilkwang/kaggriculture-structured-economic-policy",
+      "version": 40,
+      "version_evidence": "official GetKernel metadata; public source",
+      "local_file_sha256": "b7a1a0ba0b505c42dd71375a4de2210cdd741fc403e6a4d18d9cd8c211598c16",
+      "bytes": 355593,
+      "cells": 14,
+      "review_scope": "targeted source decision logic and provenance; not every embedded expert",
+      "executed": false,
+      "copied_into_our_policy": false,
+      "reference_storage": "outside repository in work/notebook-deep-review"
+    },
+    {
+      "ref": "kaitofukami/238-238-known-streams-v58-minimax-closed-loop",
+      "url": "https://www.kaggle.com/code/kaitofukami/238-238-known-streams-v58-minimax-closed-loop",
+      "version": 11,
+      "version_evidence": "official GetKernel metadata; public source",
+      "local_file_sha256": "f87fe0130d1090c3a9c6925da2a45020b1a86e997a29a3538b902b0a72130d78",
+      "bytes": 336266,
+      "cells": 11,
+      "review_scope": "targeted source decision logic and provenance; not every embedded expert",
+      "executed": false,
+      "copied_into_our_policy": false,
+      "reference_storage": "outside repository in work/notebook-deep-review"
+    },
+    {
+      "ref": "boatlee/v17-r1-rc2-high-score-10c-4s-market-storage",
+      "url": "https://www.kaggle.com/code/boatlee/v17-r1-rc2-high-score-10c-4s-market-storage",
+      "version": 3,
+      "version_evidence": "official GetKernel metadata; public source",
+      "local_file_sha256": "c0252ad9a458aef8c894f1bf22edb3d5b6176ac2c8b6dada4ce2e4d68d93a31c",
+      "bytes": 102015,
+      "cells": 17,
+      "review_scope": "targeted source decision logic and provenance; not every embedded expert",
+      "executed": false,
+      "copied_into_our_policy": false,
+      "reference_storage": "outside repository in work/notebook-deep-review"
+    }
+  ],
+  "lineage_proof": {
+    "ancestor": "kaitofukami v58",
+    "derivative": "pilkwang v40",
+    "exact_contiguous_core_characters": 315484,
+    "ancestor_core_sha256": "b041058ec187a8d0a01edc0eab8de068b53deca3e6c1973faf74ace6916ddcb9",
+    "derivative_prefix_characters": 1512,
+    "derivative_suffix_characters": 579,
+    "core_byte_identity_verified": true,
+    "runtime_equivalence_tested": false
+  },
+  "shape_shop_decoded_source_sha256": "2b97e2c653018ac4aeffb8463ec91c8f26b097b4cef81289acc25ccdbc68f916",
+  "source_decoding_was_static_not_execution": true
+}

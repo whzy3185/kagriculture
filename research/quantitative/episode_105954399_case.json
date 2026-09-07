@@ -1,0 +1,242 @@
+{
+  "evidence_type": "RECORDED_STATE_DESCRIPTION_NOT_CAUSAL_EXPERIMENT",
+  "episode_id": 105954399,
+  "module_version": "1.32.7",
+  "source": "https://www.kaggleusercontent.com/episodes/105954399.json",
+  "dataset": "kaggle/kaggriculture-episodes-2026-09-06",
+  "dataset_license": "CC0",
+  "sha256": "bf2216f64a613c0791ab9d4c990bce981c2c712298716ccaa206698a8f8c2845",
+  "states": 720,
+  "reproduction_status": "NOT_VERIFIED; separate adapter failed early",
+  "population_claims": "NONE; one selected high-rated game",
+  "players": [
+    {
+      "seat": 0,
+      "name": "kwa",
+      "first_observed_day_zero_based": {
+        "land_NW": 0,
+        "SHEEP": 0,
+        "COW": 0,
+        "land_NE": 6,
+        "land_SW": 9
+      },
+      "max_hands": 11,
+      "requested_unit_commands": {
+        "PASS": 1384,
+        "BUILD_PASTURE": 9,
+        "WEST": 993,
+        "NORTH": 976,
+        "PICKUP": 175,
+        "PLACE": 21,
+        "CARE": 227,
+        "FEED": 167,
+        "PLANT": 203,
+        "WATER": 1062,
+        "EAST": 596,
+        "SOUTH": 573,
+        "COLLECT_FERTILIZER": 227,
+        "HARVEST": 419,
+        "DROP": 30,
+        "FERTILIZE": 148,
+        "DIG": 38
+      },
+      "command_count_is_not_executed_productivity": true,
+      "path": [
+        {
+          "zero_based_day_start": 0,
+          "state_index": 0,
+          "cash": 3000.0,
+          "asset_counts": {}
+        },
+        {
+          "zero_based_day_start": 5,
+          "state_index": 120,
+          "cash": 36.0,
+          "asset_counts": {
+            "CARROT": 4,
+            "STRAWBERRY": 9,
+            "WHEAT": 4,
+            "PASTURE": 1,
+            "MELON": 2,
+            "COW": 2,
+            "SHEEP": 3
+          }
+        },
+        {
+          "zero_based_day_start": 10,
+          "state_index": 240,
+          "cash": 2145.0,
+          "asset_counts": {
+            "STRAWBERRY": 40,
+            "MELON": 7,
+            "COW": 6,
+            "WHEAT": 15,
+            "SHEEP": 3
+          }
+        },
+        {
+          "zero_based_day_start": 15,
+          "state_index": 360,
+          "cash": 9076.0,
+          "asset_counts": {
+            "STRAWBERRY": 48,
+            "MELON": 7,
+            "COW": 6,
+            "WHEAT": 9,
+            "SHEEP": 3
+          }
+        },
+        {
+          "zero_based_day_start": 20,
+          "state_index": 480,
+          "cash": 38877.0,
+          "asset_counts": {
+            "STRAWBERRY": 51,
+            "MELON": 8,
+            "COW": 6,
+            "WHEAT": 7,
+            "SHEEP": 3
+          }
+        },
+        {
+          "zero_based_day_start": 25,
+          "state_index": 600,
+          "cash": 73297.0,
+          "asset_counts": {
+            "WHEAT": 31,
+            "CARROT": 5,
+            "MELON": 6,
+            "STRAWBERRY": 24,
+            "COW": 6,
+            "SHEEP": 3
+          }
+        },
+        {
+          "zero_based_day_start": 29,
+          "state_index": 696,
+          "cash": 93951.0,
+          "asset_counts": {
+            "CARROT": 21,
+            "WEED": 5,
+            "COW": 6,
+            "SHEEP": 3,
+            "STRAWBERRY": 11
+          }
+        }
+      ],
+      "final_cash": 105197.0
+    },
+    {
+      "seat": 1,
+      "name": "Lyesterday",
+      "first_observed_day_zero_based": {
+        "land_NW": 0,
+        "COW": 0,
+        "SHEEP": 0,
+        "land_NE": 6,
+        "land_SW": 11
+      },
+      "max_hands": 12,
+      "requested_unit_commands": {
+        "PASS": 586,
+        "NORTH": 985,
+        "WEST": 976,
+        "PICKUP": 163,
+        "BUILD_PASTURE": 17,
+        "PLANT": 239,
+        "PLACE": 109,
+        "WATER": 1111,
+        "CARE": 381,
+        "FEED": 361,
+        "EAST": 701,
+        "COLLECT_FERTILIZER": 383,
+        "SOUTH": 546,
+        "DROP": 15,
+        "HARVEST": 464,
+        "BUILD_COOP": 1,
+        "FERTILIZE": 96,
+        "DIG": 36
+      },
+      "command_count_is_not_executed_productivity": true,
+      "path": [
+        {
+          "zero_based_day_start": 0,
+          "state_index": 0,
+          "cash": 3000.0,
+          "asset_counts": {}
+        },
+        {
+          "zero_based_day_start": 5,
+          "state_index": 120,
+          "cash": 647.0,
+          "asset_counts": {
+            "WHEAT": 7,
+            "MELON": 12,
+            "COW": 4,
+            "SHEEP": 2
+          }
+        },
+        {
+          "zero_based_day_start": 10,
+          "state_index": 240,
+          "cash": 1394.0,
+          "asset_counts": {
+            "WHEAT": 5,
+            "STRAWBERRY": 18,
+            "MELON": 12,
+            "COW": 6,
+            "SHEEP": 7
+          }
+        },
+        {
+          "zero_based_day_start": 15,
+          "state_index": 360,
+          "cash": 22036.0,
+          "asset_counts": {
+            "WHEAT": 24,
+            "STRAWBERRY": 31,
+            "COOP": 1,
+            "SHEEP": 11,
+            "COW": 6
+          }
+        },
+        {
+          "zero_based_day_start": 20,
+          "state_index": 480,
+          "cash": 43482.0,
+          "asset_counts": {
+            "WHEAT": 24,
+            "STRAWBERRY": 31,
+            "SHEEP": 11,
+            "COW": 6,
+            "WEED": 1
+          }
+        },
+        {
+          "zero_based_day_start": 25,
+          "state_index": 600,
+          "cash": 71101.0,
+          "asset_counts": {
+            "WHEAT": 41,
+            "STRAWBERRY": 15,
+            "WEED": 1,
+            "SHEEP": 11,
+            "COW": 6
+          }
+        },
+        {
+          "zero_based_day_start": 29,
+          "state_index": 696,
+          "cash": 88354.0,
+          "asset_counts": {
+            "WHEAT": 21,
+            "CARROT": 1,
+            "SHEEP": 11,
+            "COW": 6
+          }
+        }
+      ],
+      "final_cash": 93666.0
+    }
+  ]
+}
