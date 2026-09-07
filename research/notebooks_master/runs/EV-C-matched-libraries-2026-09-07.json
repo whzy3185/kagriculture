@@ -1,0 +1,81 @@
+{
+  "packages": {
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.6.1"
+  },
+  "scores": [
+    {
+      "train_rows": 96000,
+      "validation_rows": 24000,
+      "train_positive_rate": 0.17464583333333333,
+      "validation_positive_rate": 0.174625,
+      "roc_auc": 0.5,
+      "average_precision": 0.174625,
+      "log_loss": 0.4631444800079573,
+      "brier_score": 0.14413110980902774,
+      "fit_seconds": 0.09380645799683407,
+      "predict_seconds": 0.011376291993656196,
+      "convergence_warnings": 0,
+      "other_warnings": 0,
+      "model": "prior"
+    },
+    {
+      "train_rows": 96000,
+      "validation_rows": 24000,
+      "train_positive_rate": 0.17464583333333333,
+      "validation_positive_rate": 0.174625,
+      "roc_auc": 0.9393377357438075,
+      "average_precision": 0.7446705596951319,
+      "log_loss": 0.23102193129903473,
+      "brier_score": 0.07273898567101737,
+      "fit_seconds": 0.1568066670006374,
+      "predict_seconds": 0.011899958000867628,
+      "convergence_warnings": 0,
+      "other_warnings": 274,
+      "model": "linear"
+    },
+    {
+      "train_rows": 96000,
+      "validation_rows": 24000,
+      "train_positive_rate": 0.17464583333333333,
+      "validation_positive_rate": 0.174625,
+      "roc_auc": 0.941178646192831,
+      "average_precision": 0.7497995080399174,
+      "log_loss": 0.227788530295176,
+      "brier_score": 0.07158462394916594,
+      "fit_seconds": 1.1681238330056658,
+      "predict_seconds": 0.04930962499929592,
+      "convergence_warnings": 0,
+      "other_warnings": 0,
+      "model": "tree"
+    }
+  ],
+  "paired_interval": [
+    0.0011476585705104292,
+    0.002493366499750396
+  ],
+  "absolute_metric_differences_from_kaggle_v1": {
+    "prior": {
+      "roc_auc": 0.0,
+      "average_precision": 0.0,
+      "log_loss": 0.0,
+      "brier_score": 0.0
+    },
+    "linear": {
+      "roc_auc": 0.0,
+      "average_precision": 0.0,
+      "log_loss": 2.3592239273284576e-15,
+      "brier_score": 5.689893001203927e-15
+    },
+    "tree": {
+      "roc_auc": 0.0,
+      "average_precision": 0.0,
+      "log_loss": 0.0,
+      "brier_score": 0.0
+    }
+  },
+  "all_metrics_match_within_1e-6": true,
+  "note": "Version matching is a multi-package control, not causal isolation of one library."
+}

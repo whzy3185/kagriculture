@@ -1,0 +1,96 @@
+{
+  "candidate": "EV-B",
+  "version": 1,
+  "kernel_id": 133393947,
+  "url": "https://www.kaggle.com/code/muelsyse111/s6e9-validation-stability-and-id-order-tests",
+  "is_private": true,
+  "source_matches": true,
+  "sample_and_partitions_match": true,
+  "aggregate_output_inventory": [
+    "01_split_sensitivity.png",
+    "02_subgroup_coverage.png",
+    "design_summary.csv",
+    "split_scores.csv",
+    "subgroup_coverage.csv",
+    "summary.json"
+  ],
+  "artifact_run_ids": [
+    "347869995"
+  ],
+  "max_absolute_local_cloud_metric_difference": {
+    "roc_auc": 0.0,
+    "average_precision": 2.220446049250313e-16,
+    "log_loss": 4.2799097599299785e-14,
+    "brier_score": 3.569367024169878e-14
+  },
+  "metrics_match_within_1e-6": true,
+  "cloud_summary": {
+    "candidate": "EV-B",
+    "manifest": {
+      "observed_at_utc": "2026-09-07T04:55:33.853315+00:00",
+      "train_sha256": "eae9eaa4e6378df405e755f853771d7e26d212bd93258349fc797b771021946a",
+      "python": "3.12.13",
+      "packages": {
+        "pandas": "2.3.3",
+        "numpy": "2.0.2",
+        "scikit-learn": "1.6.1",
+        "matplotlib": "3.10.0"
+      },
+      "full_training_rows": 668665,
+      "sample_rows": 120000,
+      "sampling_seed": 20260907,
+      "sample_id_sha256": "2148b6935cfdb1e320984e05a1ee6d433a09568911c391a089ed338dfb6142ae"
+    },
+    "partition_fingerprints": {
+      "stratified/17": {
+        "training_id_sha256": "a7fe310015c39b685aafb6754a73d66f1906e2e1d2ff69bff66b0deb2fb32c15",
+        "validation_id_sha256": "c68d77ef131d785a461712ff3f9b5fd67745cbde9abe62d83c17b2ad5a168472"
+      },
+      "stratified/43": {
+        "training_id_sha256": "cbc3a5299d8891e864989b533de1cccd6ceb394c7818ae23ccdd9726e2860006",
+        "validation_id_sha256": "45739a5fcf82157c742e91cab8cc4a0a2a86474ff09e2f2024d1ee57cc50a287"
+      },
+      "stratified/91": {
+        "training_id_sha256": "bcd95f7a8afda0c4585244f66992d66b95f62b90a4148f15fc016f7cc0e778d4",
+        "validation_id_sha256": "a6f19b575107ab44f33d81659c8ceacc2398d13bda3dd95a73ab501e39c69194"
+      },
+      "shuffled/17": {
+        "training_id_sha256": "2d5a345c6faf805d1f74cb2afcc99d913e5eb5231e0fd71a906b47dd654511b1",
+        "validation_id_sha256": "74f161caa65b32bb180b5c75359f0d15846e73a92361098e8a54cc8c1bcb5870"
+      },
+      "shuffled/43": {
+        "training_id_sha256": "c285abec5010c24a102ffb3eb4a0b68ee216a71b93054ec95b5e69f10033d87e",
+        "validation_id_sha256": "d4bc4304bda0be069c1a24bfd78809b7e06c9ac5a94f277f74cb65b34a1255bc"
+      },
+      "shuffled/91": {
+        "training_id_sha256": "78522b0219a7cab33487d68952bb17fc55d18569079edd4bea683bf64cb3344d",
+        "validation_id_sha256": "0e2a0f4f660ccea8a819fa72cd1854e2eea345a4e1f1a5777627760ac9206a63"
+      },
+      "id_tail": {
+        "training_id_sha256": "014f7b39f3633ac55ceb292643f37ba968134a11e15234f98b123c4a6870a3a5",
+        "validation_id_sha256": "ccc197f2d82557aae103bd28019bd5e7894a2774f1837e9f3b7930402028b0c5"
+      },
+      "id_head": {
+        "training_id_sha256": "dd46721710a6e7ccb9859d84998187bb60e0453d5de8fb65f5b71a79cbc70bbc",
+        "validation_id_sha256": "01735a315c1416d04680ef1aded7252128612336c02b619d0d560c9f47b9c463"
+      }
+    },
+    "model": "fixed logistic, C=1, max_iter=500; ID excluded",
+    "split_runs": 8,
+    "overall_auc_min": 0.9367944561833114,
+    "overall_auc_max": 0.9413710189907082,
+    "undefined_subgroup_auc_rows": 7,
+    "convergence_warnings": 0,
+    "test_data_read": false,
+    "submission_created": false,
+    "leaderboard_score": null,
+    "total_experiment_seconds": 13.76,
+    "process_peak_rss_mib": 483.53
+  },
+  "docker_image": "gcr.io/kaggle-images/python@sha256:dafd4ce5668bbf1ad422e4c109e0f18c9623c3a7c7f48b0235f13142755c40b9",
+  "stage": "PRIVATE_RUN_VERIFIED",
+  "image_sha256": {
+    "01_split_sensitivity.png": "fd01e83258af5349e97a1b38ee26ff0e457a587e07c3f39a52f5b7365204909c",
+    "02_subgroup_coverage.png": "4ca59ec5ea12400a623c659494e6aa61e99aadbe4d6afa305f5a5daad1e1cb5f"
+  }
+}

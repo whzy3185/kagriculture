@@ -35,12 +35,23 @@ Scope: public research Notebooks, not competition prediction submissions.
 Machine-readable receipt: `runs/EV-A-kaggle-v2-2026-09-07.json`.
 Earlier private/local review files remain historical records, not the current publication status.
 
-## Next Candidate
+## Ready For Publication Review
 
-EV-B: select a validation question justified by the actual data and distinguish it
-from this marginal-drift audit. No full-feature duplicates were found, so a claim
-that exact duplicate leakage exists is not supported. New public releases require
-their own evidence, clean runs and publication review.
+The following are uploaded and verified but remain PRIVATE; they are not counted
+as public releases above.
+
+| Candidate | Notebook | Reviewed version | Status |
+|---|---|---:|---|
+| EV-B | [Validation Stability and ID-Order Tests](https://www.kaggle.com/code/muelsyse111/s6e9-validation-stability-and-id-order-tests) | 1 | PRIVATE_RUN_VERIFIED |
+| EV-C | [CPU Baselines and Paired AUC](https://www.kaggle.com/code/muelsyse111/s6e9-cpu-baselines-and-paired-auc) | 2 | PRIVATE_RUN_VERIFIED |
+
+Both have distinct questions, train-only experiments, unit tests and reviewed
+aggregate outputs. EV-C's initial cross-library metric mismatch was retained and
+resolved by a separate Kaggle-matched numerical-library reproduction; its latest
+notebook explains this limitation. Full review:
+`reviews/EV-BC-private-2026-09-07.md`.
+
+Next gate: user confirmation of these two reviewed notebooks' public visibility.
 
 No automation, recurring publication job, prediction submission or final-submission
 selection was created by this release.

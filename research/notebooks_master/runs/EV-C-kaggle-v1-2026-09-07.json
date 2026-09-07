@@ -1,0 +1,114 @@
+{
+  "candidate": "EV-C",
+  "version": 1,
+  "kernel_id": 133393970,
+  "url": "https://www.kaggle.com/code/muelsyse111/s6e9-cpu-baselines-and-paired-auc",
+  "is_private": true,
+  "source_matches": true,
+  "sample_and_partitions_match": true,
+  "aggregate_output_inventory": [
+    "01_models_and_cost.png",
+    "02_paired_auc_uncertainty.png",
+    "model_scores.csv",
+    "summary.json"
+  ],
+  "artifact_run_ids": [
+    "347870048"
+  ],
+  "max_absolute_local_cloud_metric_difference": {
+    "roc_auc": 0.0001810778980784189,
+    "average_precision": 0.0009385926437998071,
+    "log_loss": 0.00023148957973809225,
+    "brier_score": 6.753895106979824e-05
+  },
+  "metrics_match_within_1e-6": false,
+  "cloud_summary": {
+    "candidate": "EV-C",
+    "manifest": {
+      "observed_at_utc": "2026-09-07T04:56:02.975590+00:00",
+      "train_sha256": "eae9eaa4e6378df405e755f853771d7e26d212bd93258349fc797b771021946a",
+      "python": "3.12.13",
+      "packages": {
+        "pandas": "2.3.3",
+        "numpy": "2.0.2",
+        "scikit-learn": "1.6.1",
+        "matplotlib": "3.10.0"
+      },
+      "full_training_rows": 668665,
+      "sample_rows": 120000,
+      "sampling_seed": 20260907,
+      "sample_id_sha256": "2148b6935cfdb1e320984e05a1ee6d433a09568911c391a089ed338dfb6142ae"
+    },
+    "partition_fingerprint": {
+      "training_id_sha256": "a7fe310015c39b685aafb6754a73d66f1906e2e1d2ff69bff66b0deb2fb32c15",
+      "validation_id_sha256": "c68d77ef131d785a461712ff3f9b5fd67745cbde9abe62d83c17b2ad5a168472"
+    },
+    "scores": [
+      {
+        "model": "prior",
+        "train_rows": 96000,
+        "validation_rows": 24000,
+        "train_positive_rate": 0.17464583333333333,
+        "validation_positive_rate": 0.174625,
+        "roc_auc": 0.5,
+        "average_precision": 0.174625,
+        "log_loss": 0.4631444800079573,
+        "brier_score": 0.14413110980902774,
+        "fit_seconds": 0.38810865499999636,
+        "predict_seconds": 0.054143287999977474,
+        "convergence_warnings": 0,
+        "other_warnings": 0
+      },
+      {
+        "model": "linear",
+        "train_rows": 96000,
+        "validation_rows": 24000,
+        "train_positive_rate": 0.17464583333333333,
+        "validation_positive_rate": 0.174625,
+        "roc_auc": 0.9393377357438075,
+        "average_precision": 0.7446705596951319,
+        "log_loss": 0.23102193129903237,
+        "brier_score": 0.07273898567102306,
+        "fit_seconds": 0.8427134229999638,
+        "predict_seconds": 0.08711462499991285,
+        "convergence_warnings": 0,
+        "other_warnings": 2
+      },
+      {
+        "model": "tree",
+        "train_rows": 96000,
+        "validation_rows": 24000,
+        "train_positive_rate": 0.17464583333333333,
+        "validation_positive_rate": 0.174625,
+        "roc_auc": 0.941178646192831,
+        "average_precision": 0.7497995080399174,
+        "log_loss": 0.227788530295176,
+        "brier_score": 0.07158462394916594,
+        "fit_seconds": 2.946681183999999,
+        "predict_seconds": 0.29230502400002933,
+        "convergence_warnings": 0,
+        "other_warnings": 1
+      }
+    ],
+    "primary_contrast": {
+      "comparison": "tree minus linear",
+      "holdout_auc_difference": 0.0018409104490234585,
+      "paired_bootstrap_rounds": 500,
+      "bootstrap_seed": 2026,
+      "percentile_95_lower": 0.0011476585705104292,
+      "percentile_95_upper": 0.002493366499750396,
+      "scope": "Conditional on this fitted pair, sample, split and class counts; not training or LB uncertainty"
+    },
+    "test_data_read": false,
+    "submission_created": false,
+    "leaderboard_score": null,
+    "total_experiment_seconds": 26.67,
+    "process_peak_rss_mib": 484.12
+  },
+  "docker_image": "gcr.io/kaggle-images/python@sha256:dafd4ce5668bbf1ad422e4c109e0f18c9623c3a7c7f48b0235f13142755c40b9",
+  "stage": "RUN_COMPLETE_REVIEW_REQUIRED",
+  "image_sha256": {
+    "01_models_and_cost.png": "26cff7bb12288304c908c14e15175f3ecc5987dd783a5667caaf4715f7730028",
+    "02_paired_auc_uncertainty.png": "504051d6c4f83be2cb95178507e2b526f8543934ce235ee56a76abcee25878c6"
+  }
+}
