@@ -1,6 +1,6 @@
 # Notebook Publication Register
 
-Updated: 2026-09-07. Time zone: Asia/Shanghai.
+Updated: 2026-09-08. Time zone: Asia/Shanghai.
 Scope: public research Notebooks, not competition prediction submissions.
 
 | Candidate | Notebook | Version | Status |
@@ -11,6 +11,29 @@ Scope: public research Notebooks, not competition prediction submissions.
 | ARC-A | [Task Atlas and Grid Viewer](https://www.kaggle.com/code/muelsyse111/arc-agi-2-task-atlas-and-grid-viewer) | 3 | PUBLIC_RUN_VERIFIED |
 | BIO-A | [Zarr Metadata and Memory Planner](https://www.kaggle.com/code/muelsyse111/biohub-zarr-metadata-and-memory-planner) | 3 | PUBLIC_RUN_VERIFIED |
 | KAG-A | [Crop Timing and Labor Budget](https://www.kaggle.com/code/muelsyse111/kaggriculture-crop-timing-and-labor-budget) | 3 | PUBLIC_RUN_VERIFIED |
+| ARC2-C | [CPU Transforms and Honest Failures](https://www.kaggle.com/code/muelsyse111/arc-agi-2-cpu-transforms-and-honest-failures) | 2 | PUBLIC_RUN_VERIFIED |
+| EV-D | [Charging and Income Feature Ablations](https://www.kaggle.com/code/muelsyse111/s6e9-charging-and-income-feature-ablations) | 2 | PUBLIC_RUN_VERIFIED |
+
+## September 8 Batch
+
+Two new standalone notebooks across two competitions. Same authorization boundary: public research only,
+no prediction submissions, production agents, final selection or new spending. RSNA remains on license hold.
+The entire multi-week candidate queue is not marked complete by this daily batch.
+
+- ARC2-C: eight NumPy geometry transforms plus optional demonstration-only color lookup, fixed candidate order,
+  deduplicated two-guess cap and explicit abstention. Predictions frozen before opening training-query answers.
+  Geometry hits 7/1076; plus color hits 11/1076. Shape-changing cohort 0/357. Low coverage explicitly disclosed.
+- EV-D: nine fixed HGB fits on 120000 sampled rows, three feature sets by three shared validation partitions.
+  Full-feature cloud AUC 0.941096 / 0.939690 / 0.939023. Economic-group removal loses about 0.079-0.081 AUC;
+  charging-group removal has mixed-sign effects, not a recommended feature deletion.
+- Both public v2 runs reached COMPLETE with visibility/source readback, fresh run IDs and timestamps.
+  All numerical result columns reproduce private v1 within 1e-10 (runtime excluded); chart hashes match.
+- Local/cloud input and partition hashes match. Maximum EV local/cloud AUC discrepancy 0.000271852,
+  disclosed in notebook prose and receipts. Public rerun scores must match the reviewed cloud private version.
+- No test/evaluation files read, raw grids/records/predictions/weights exported, or medal-zone claims made.
+- Detailed daily evidence and handoff: `daily/2026-09-08.md`.
+- Run receipts: `runs/ARC2-C-20260908-v1.json`, `runs/ARC2-C-20260908-v2.json`,
+  `runs/EV-D-20260908-v1.json`, `runs/EV-D-20260908-v2.json`.
 
 ## Multi-Competition Batch
 

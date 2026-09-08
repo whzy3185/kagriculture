@@ -1,0 +1,57 @@
+{
+  "ref": "muelsyse111/arc-agi-2-cpu-transforms-and-honest-failures",
+  "version_label": 2,
+  "visibility": "public",
+  "status": "COMPLETE",
+  "source_verified": true,
+  "artifact_run_ids": [
+    "348136170"
+  ],
+  "summary": {
+    "observed_utc": "2026-09-08T05:46:34.782011+00:00",
+    "competition": "arc-prize-2026-arc-agi-2",
+    "score_type": "public_training_query_reference_not_leaderboard",
+    "challenge_sha256": "779eaba89790ebad9af02514a7efc0aefaf2cf8236f046a31bbf8b9ec48f20f5",
+    "solutions_sha256": "9f07a38bd25af5e83aa5bf85c5cb1a1fefdb30f6a755256fa65429e697ca97f9",
+    "prediction_seconds": 0.6324666170000057,
+    "known_answer_controls": "PASS",
+    "scores": [
+      {
+        "variant": "geometry",
+        "tasks": 1000,
+        "queries": 1076,
+        "top1_hits": 7,
+        "top2_hits": 7,
+        "top1_query_rate": 0.006505576208178439,
+        "top2_query_rate": 0.006505576208178439,
+        "task_mean_top2": 0.007,
+        "all_queries_correct_tasks": 7,
+        "coverage_rate": 0.006505576208178439,
+        "multiple_guess_rate": 0.0
+      },
+      {
+        "variant": "geometry_plus_color",
+        "tasks": 1000,
+        "queries": 1076,
+        "top1_hits": 11,
+        "top2_hits": 11,
+        "top1_query_rate": 0.010223048327137546,
+        "top2_query_rate": 0.010223048327137546,
+        "task_mean_top2": 0.011,
+        "all_queries_correct_tasks": 11,
+        "coverage_rate": 0.010223048327137546,
+        "multiple_guess_rate": 0.0
+      }
+    ],
+    "submission_created": false,
+    "test_or_evaluation_read": false,
+    "leaderboard_score": null
+  },
+  "max_local_cloud_auc_difference": null,
+  "artifacts": {
+    "cohorts.csv": "704c23ca2caa3cacb5d4be08ca1e2f5d95f21ef0d3382677a63d35bf8bd9608e",
+    "scores.csv": "aec99c846ee74a62e13e7d2c0d772bd14076a5bcdde5e160705662137aaa5ede",
+    "solver_results.png": "383801c2c2166a32c424d42faf74ec4248cc6672a27fdf70c243e13a7141afe4",
+    "summary.json": "4d93809cd6d75bde691f0ef314286355bb66a0fa5442e358037375f624f834e4"
+  }
+}

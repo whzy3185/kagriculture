@@ -1,0 +1,136 @@
+{
+  "ref": "muelsyse111/s6e9-charging-and-income-feature-ablations",
+  "version_label": 1,
+  "visibility": "private",
+  "status": "COMPLETE",
+  "source_verified": true,
+  "artifact_run_ids": [
+    "348135316"
+  ],
+  "summary": {
+    "observed_utc": "2026-09-08T05:43:44.389662+00:00",
+    "competition": "playground-series-s6e9",
+    "score_type": "training_holdout_auc_not_leaderboard",
+    "train_sha256": "eae9eaa4e6378df405e755f853771d7e26d212bd93258349fc797b771021946a",
+    "sample_id_sha256": "3c13999e0ea9102f305be254fadf4e561e0c1a0959fcbc1b1d74f978f2402c15",
+    "sample_rows": 120000,
+    "sampling_seed": 20260908,
+    "groups": {
+      "charging": [
+        "Charging_Stations_Near_Home",
+        "Charging_Stations_Near_Work",
+        "Home_Charging_Possible"
+      ],
+      "economic": [
+        "Annual_Income_USD",
+        "Subsidy_Available"
+      ]
+    },
+    "partitions": [
+      {
+        "split": "stratified_17",
+        "training_sha256": "20a3f18bb909b6c06f8d9e83f8dea05384b82bcb3c23dad8bddaa80cac3f2e49",
+        "validation_sha256": "2a6e221539895f1f0d1ac820f41109de297f99def2f1c5c47ad56b29f48f9d3f"
+      },
+      {
+        "split": "stratified_43",
+        "training_sha256": "e646dd7f837b1a4cc0cc0e6fb4d98432deda4a2280623e2c831b653a3bf74385",
+        "validation_sha256": "f6a3ffebe4c1ce7756c60bcef08562c5f189d1aeadfe26255f8e33f07a1b8447"
+      },
+      {
+        "split": "id_tail",
+        "training_sha256": "6041b5a5de0baa4c75a844b800b1c85585fca6a62e3879a8e9a46b6a4ec8686b",
+        "validation_sha256": "46fc2642d236308b8db88f471e19f5b210013ee78fb9c25cbd6e59d8eb3fc7ce"
+      }
+    ],
+    "packages": {
+      "python": "3.12.13",
+      "numpy": "2.0.2",
+      "pandas": "2.3.3",
+      "sklearn": "1.6.1"
+    },
+    "scores": [
+      {
+        "split": "stratified_17",
+        "variant": "all_features",
+        "features": 13,
+        "auc": 0.9410960150226839,
+        "log_loss": 0.22770013690586657,
+        "fit_and_predict_seconds": 2.407194215000004
+      },
+      {
+        "split": "stratified_17",
+        "variant": "without_charging",
+        "features": 10,
+        "auc": 0.9407961879422596,
+        "log_loss": 0.2282050998925929,
+        "fit_and_predict_seconds": 2.0674203899999952
+      },
+      {
+        "split": "stratified_17",
+        "variant": "without_economic",
+        "features": 11,
+        "auc": 0.8599871013466123,
+        "log_loss": 0.3275104184394536,
+        "fit_and_predict_seconds": 1.9721426280000287
+      },
+      {
+        "split": "stratified_43",
+        "variant": "all_features",
+        "features": 13,
+        "auc": 0.9396900986622194,
+        "log_loss": 0.2304045254731334,
+        "fit_and_predict_seconds": 2.4380379049999874
+      },
+      {
+        "split": "stratified_43",
+        "variant": "without_charging",
+        "features": 10,
+        "auc": 0.9394257270991899,
+        "log_loss": 0.23083230055821802,
+        "fit_and_predict_seconds": 2.034228827999982
+      },
+      {
+        "split": "stratified_43",
+        "variant": "without_economic",
+        "features": 11,
+        "auc": 0.8588411961288284,
+        "log_loss": 0.3284431590293294,
+        "fit_and_predict_seconds": 1.956980051999949
+      },
+      {
+        "split": "id_tail",
+        "variant": "all_features",
+        "features": 13,
+        "auc": 0.9390234741102731,
+        "log_loss": 0.23114916156736845,
+        "fit_and_predict_seconds": 2.3123043879999727
+      },
+      {
+        "split": "id_tail",
+        "variant": "without_charging",
+        "features": 10,
+        "auc": 0.9393384112679599,
+        "log_loss": 0.2308099981486536,
+        "fit_and_predict_seconds": 2.0546315189999973
+      },
+      {
+        "split": "id_tail",
+        "variant": "without_economic",
+        "features": 11,
+        "auc": 0.8604761576517906,
+        "log_loss": 0.32643234749933003,
+        "fit_and_predict_seconds": 1.9494525000000067
+      }
+    ],
+    "test_or_evaluation_read": false,
+    "submission_created": false,
+    "leaderboard_score": null
+  },
+  "max_local_cloud_auc_difference": 0.00027185173163901677,
+  "artifacts": {
+    "feature_ablation.png": "b062d48717441e3435d319f01dab174eb7d993c3bde8f3a728766424cd210060",
+    "scores.csv": "dbb27418b66c946ce43ea954c0e4165f4ee854deaffc73c30f17b96dfb022d63",
+    "summary.json": "42ddce0bb71dd3daf672c79b58b3071e1240c1769ce2de9403f4303f3f83dc00"
+  }
+}
