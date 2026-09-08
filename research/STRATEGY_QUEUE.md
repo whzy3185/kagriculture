@@ -1,11 +1,31 @@
 # Strategy Queue
 
-All entries are proposals, not approved production changes. Current measured
-baseline is independent EXP-006 (submission 56072267 COMPLETE). Root main.py
-remains unchanged. Public-code release was authorized; no public opponent
-source, tapes, weights or fitted thresholds are adopted into our agent.
+All entries are proposals, not approved production changes. Latest controlling
+workflow is AGENTS.md (2026-09-08): public-champion-first, one measured increment,
+at most one official submission/day. This supersedes the earlier from-scratch
+queue. Licensed public source reuse is now explicitly authorized and attributed.
+Root main.py and deployed EXP-006 (56072267) remain unchanged.
 
-## Current Decisions
+## Current Decisions - 2026-09-08
+
+- Research champion: Ahmed v23 within the portable Python panel; 1008 screen
+  games followed by a 96-seed, both-seat finalist comparison (134-58).
+- EXP-20260908-01: purchase-triggered budget check, NO-GO (0-48 on fresh screen).
+  No 96-seed candidate run, no competition submission and no same-ID retuning.
+- Next-day priority: worker-specific, time-indexed feed/inventory reservations
+  before more frequent liquidation. Two rejected-candidate loss traces show
+  early cow losses and fewer sold units despite all market requests filling.
+- Keep strict market-slot flags separate from observed unit no-ops; do not
+  silently erase either to claim zero invalid actions. Any future normalization
+  must be backed by the official parser and contract regression tests.
+- Native ARA-V2 reproduction remains a coverage limitation, not a measured loss.
+  Its binary-only artifact needs a compatible isolated runtime/source review.
+
+Full evidence: reports/OPEN_SOURCE_CHAMPION.md and reports/DAILY_STATUS.md.
+Expected gain for the next hypothesis remains UNKNOWN. No next candidate is
+authorized by a title or score, and none has been coded today after the rejection.
+
+## Historical Decisions - 2026-09-07
 
 See STRATEGY_DEPTH_20260907.md for reconciled phase telemetry and new priority.
 Two existing development seeds, both seats, were remeasured without adding

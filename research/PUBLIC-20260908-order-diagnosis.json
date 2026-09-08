@@ -1,0 +1,92 @@
+{
+  "candidate": "ahmed_v23",
+  "cases": [
+    {
+      "seed": 2026090808,
+      "seat": 1,
+      "opponent": "thomas_v2",
+      "full_farm_private_parity": true,
+      "failures": [
+        {
+          "turn": 198,
+          "op": "BUY_PRODUCT",
+          "item": "WHEAT",
+          "price": 35,
+          "reason": "INSUFFICIENT_CASH",
+          "cash": 18.0,
+          "shed_item": 7,
+          "shed_total": 7
+        },
+        {
+          "turn": 200,
+          "op": "BUY_PRODUCT",
+          "item": "WHEAT",
+          "price": 35,
+          "reason": "INSUFFICIENT_CASH",
+          "cash": 18.0,
+          "shed_item": 7,
+          "shed_total": 7
+        },
+        {
+          "turn": 202,
+          "op": "BUY_PRODUCT",
+          "item": "WHEAT",
+          "price": 35,
+          "reason": "INSUFFICIENT_CASH",
+          "cash": 18.0,
+          "shed_item": 7,
+          "shed_total": 7
+        },
+        {
+          "turn": 204,
+          "op": "BUY_PRODUCT",
+          "item": "WHEAT",
+          "price": 35,
+          "reason": "INSUFFICIENT_CASH",
+          "cash": 18.0,
+          "shed_item": 6,
+          "shed_total": 6
+        },
+        {
+          "turn": 206,
+          "op": "BUY_PRODUCT",
+          "item": "WHEAT",
+          "price": 35,
+          "reason": "INSUFFICIENT_CASH",
+          "cash": 18.0,
+          "shed_item": 6,
+          "shed_total": 6
+        },
+        {
+          "turn": 217,
+          "op": "BUY_ANIMAL",
+          "item": "GOOSE",
+          "price": 300,
+          "reason": "INSUFFICIENT_CASH",
+          "cash": 142.0,
+          "shed_item": 0,
+          "shed_total": 8
+        }
+      ]
+    },
+    {
+      "seed": 2026090816,
+      "seat": 1,
+      "opponent": "thomas_v2",
+      "full_farm_private_parity": true,
+      "failures": [
+        {
+          "turn": 224,
+          "op": "BUY_PRODUCT",
+          "item": "WHEAT",
+          "price": 37,
+          "reason": "INSUFFICIENT_CASH",
+          "cash": 30.0,
+          "shed_item": 29,
+          "shed_total": 31
+        }
+      ]
+    }
+  ],
+  "scope": "Exact recorded-action replay, not a policy improvement experiment"
+}

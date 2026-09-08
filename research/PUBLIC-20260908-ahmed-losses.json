@@ -1,0 +1,1481 @@
+{
+  "candidate": "ahmed_v23",
+  "source_hashes": {
+    "farming_v4": "1590394cf30c8989a3e1cfdb027d89b5ccd97c2fb4cdc14959a15555b2b2361a",
+    "shape_v11": "2b97e2c653018ac4aeffb8463ec91c8f26b097b4cef81289acc25ccdbc68f916",
+    "thomas_v2": "8241246765098c50223d897739cb32076b71a303284d2e5e1c5f0fb495bb5a97",
+    "ahmed_v23": "6eb728a40cc55f7e497add6ea2946ce38b0389c24531a208219d48587435838e",
+    "kaito_v58": "b041058ec187a8d0a01edc0eab8de068b53deca3e6c1973faf74ace6916ddcb9",
+    "exp006_independent": "84f11eaeceb1f2053c51947d7369b71ef6c7bdebfc66b815fbc0d04d62ecbd77",
+    "boatlee_v20": "8ac34abce129cf5c9456776c90edf7d2233b3a280bbdcf7622628825ef3669a0"
+  },
+  "cases": [
+    {
+      "seed": 2026090808,
+      "opponent": "thomas_v2",
+      "seat": 1,
+      "measurement": {
+        "seed": 2026090808,
+        "seat": 1,
+        "opponent": "thomas_v2",
+        "ours": 101682.0,
+        "theirs": 102473.0,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "valid_terminal": true,
+        "faults": {
+          "atomic_plant_rejections": 0,
+          "unfilled_requested_market_units": 14,
+          "unit_noops": 39,
+          "overflow_units": 0,
+          "failed_market_attempts": 6,
+          "contract_errors": 77
+        },
+        "actions": {
+          "PASS": 539,
+          "NORTH": 973,
+          "WEST": 969,
+          "PICKUP": 155,
+          "BUILD_PASTURE": 12,
+          "PLANT": 242,
+          "PLACE": 104,
+          "WATER": 1096,
+          "CARE": 380,
+          "FEED": 368,
+          "EAST": 712,
+          "COLLECT_FERTILIZER": 363,
+          "SOUTH": 554,
+          "DROP": 25,
+          "HARVEST": 476,
+          "BUILD_COOP": 6,
+          "FERTILIZE": 75,
+          "DIG": 33
+        },
+        "calls": 719,
+        "runtime_mean": 7.328477196566377e-05,
+        "runtime_p95": 0.00011842079948110042,
+        "runtime_p99": 0.0001948186792287744,
+        "runtime_max": 0.004249083998729475,
+        "wall_seconds": 5.619169249999686,
+        "terminal_carried_units": 0,
+        "terminal_shed_units": 0,
+        "margin": -791.0,
+        "points": 0.0
+      },
+      "profile": {
+        "seat": 1,
+        "reward": 101682.0,
+        "margin": -791.0,
+        "snapshots": {
+          "0": {
+            "cash": 3000.0,
+            "hands": 0,
+            "land": [
+              "NW"
+            ],
+            "assets": {},
+            "carried_units": 0,
+            "shed_units": 0,
+            "shops": []
+          },
+          "72": {
+            "cash": 187.0,
+            "hands": 0,
+            "land": [
+              "NW"
+            ],
+            "assets": {
+              "WHEAT": 7,
+              "MELON": 12,
+              "COW": 3,
+              "SHEEP": 2,
+              "PASTURE": 1
+            },
+            "carried_units": 0,
+            "shed_units": 8,
+            "shops": [
+              "BRUNCH_SPOT"
+            ]
+          },
+          "144": {
+            "cash": 256.0,
+            "hands": 0,
+            "land": [
+              "NW"
+            ],
+            "assets": {
+              "WHEAT": 3,
+              "STRAWBERRY": 4,
+              "MELON": 12,
+              "COW": 4,
+              "SHEEP": 2
+            },
+            "carried_units": 0,
+            "shed_units": 21,
+            "shops": [
+              "BRUNCH_SPOT",
+              "FARMERS_MARKET"
+            ]
+          },
+          "180": {
+            "cash": 380.0,
+            "hands": 8,
+            "land": [
+              "NW",
+              "NE"
+            ],
+            "assets": {
+              "STRAWBERRY": 13,
+              "MELON": 12,
+              "WHEAT": 5,
+              "COW": 5,
+              "PASTURE": 4,
+              "SHEEP": 2,
+              "GOOSE": 2
+            },
+            "carried_units": 0,
+            "shed_units": 13,
+            "shops": [
+              "BRUNCH_SPOT",
+              "FARMERS_MARKET"
+            ]
+          },
+          "360": {
+            "cash": 17135.0,
+            "hands": 0,
+            "land": [
+              "NW",
+              "NE",
+              "SW"
+            ],
+            "assets": {
+              "WHEAT": 24,
+              "STRAWBERRY": 33,
+              "COOP": 1,
+              "GOOSE": 5,
+              "COW": 6,
+              "SHEEP": 6
+            },
+            "carried_units": 0,
+            "shed_units": 68,
+            "shops": [
+              "BRUNCH_SPOT",
+              "FARMERS_MARKET",
+              "BRUNCH_SPOT",
+              "FARMERS_MARKET",
+              "YARN_STORE"
+            ]
+          },
+          "540": {
+            "cash": 60621.0,
+            "hands": 12,
+            "land": [
+              "NW",
+              "NE",
+              "SW"
+            ],
+            "assets": {
+              "WHEAT": 26,
+              "STRAWBERRY": 29,
+              "WEED": 3,
+              "GOOSE": 5,
+              "COW": 6,
+              "SHEEP": 6
+            },
+            "carried_units": 55,
+            "shed_units": 3,
+            "shops": [
+              "BRUNCH_SPOT",
+              "FARMERS_MARKET",
+              "BRUNCH_SPOT",
+              "FARMERS_MARKET",
+              "YARN_STORE",
+              "FARMERS_MARKET",
+              "FARMERS_MARKET"
+            ]
+          },
+          "719": {
+            "cash": 101682.0,
+            "hands": 9,
+            "land": [
+              "NW",
+              "NE",
+              "SW"
+            ],
+            "assets": {
+              "WEED": 9,
+              "GOOSE": 5,
+              "COW": 6,
+              "SHEEP": 4,
+              "PASTURE": 2
+            },
+            "carried_units": 0,
+            "shed_units": 0,
+            "shops": [
+              "BRUNCH_SPOT",
+              "FARMERS_MARKET",
+              "BRUNCH_SPOT",
+              "FARMERS_MARKET",
+              "YARN_STORE",
+              "FARMERS_MARKET",
+              "FARMERS_MARKET",
+              "PET_CAFE"
+            ]
+          }
+        },
+        "windows": {
+          "0:72": {
+            "requested_unit_actions": {
+              "PASS": 91,
+              "NORTH": 49,
+              "WEST": 59,
+              "PICKUP": 12,
+              "BUILD_PASTURE": 6,
+              "PLANT": 22,
+              "PLACE": 9,
+              "WATER": 51,
+              "CARE": 15,
+              "FEED": 10,
+              "EAST": 20,
+              "COLLECT_FERTILIZER": 8,
+              "SOUTH": 10,
+              "DROP": 1,
+              "HARVEST": 3
+            },
+            "requested_market_order_counts": {
+              "BUY_PRODUCT": 15,
+              "SELL": 18,
+              "BUY_SEED": 11,
+              "HIRE": 13,
+              "BUY_ANIMAL": 3
+            },
+            "net_cash_change": -2813.0
+          },
+          "72:144": {
+            "requested_unit_actions": {
+              "PICKUP": 5,
+              "WEST": 61,
+              "FEED": 14,
+              "NORTH": 64,
+              "CARE": 23,
+              "COLLECT_FERTILIZER": 17,
+              "WATER": 59,
+              "HARVEST": 11,
+              "SOUTH": 38,
+              "PLANT": 11,
+              "EAST": 28,
+              "PASS": 50,
+              "PLACE": 7,
+              "DROP": 4
+            },
+            "requested_market_order_counts": {
+              "HIRE": 14,
+              "BUY_SEED": 9,
+              "SELL": 11,
+              "BUY_ANIMAL": 1,
+              "BUY_PRODUCT": 6
+            },
+            "net_cash_change": 69.0
+          },
+          "144:180": {
+            "requested_unit_actions": {
+              "WEST": 55,
+              "NORTH": 47,
+              "PICKUP": 15,
+              "PASS": 16,
+              "HARVEST": 5,
+              "SOUTH": 9,
+              "FEED": 15,
+              "CARE": 16,
+              "EAST": 47,
+              "COLLECT_FERTILIZER": 13,
+              "PLACE": 15,
+              "WATER": 31,
+              "BUILD_COOP": 2,
+              "BUILD_PASTURE": 5,
+              "PLANT": 14
+            },
+            "requested_market_order_counts": {
+              "HIRE": 16,
+              "BUY_SEED": 8,
+              "SELL": 15,
+              "BUY_PRODUCT": 7,
+              "BUY_LAND": 1,
+              "BUY_ANIMAL": 3
+            },
+            "net_cash_change": 124.0
+          },
+          "180:360": {
+            "requested_unit_actions": {
+              "WATER": 318,
+              "WEST": 237,
+              "PICKUP": 39,
+              "EAST": 192,
+              "NORTH": 266,
+              "PLANT": 68,
+              "SOUTH": 137,
+              "PLACE": 40,
+              "CARE": 114,
+              "PASS": 174,
+              "COLLECT_FERTILIZER": 104,
+              "HARVEST": 64,
+              "FEED": 104,
+              "DROP": 1,
+              "BUILD_PASTURE": 1,
+              "BUILD_COOP": 4,
+              "FERTILIZE": 4
+            },
+            "requested_market_order_counts": {
+              "SELL": 47,
+              "HIRE": 70,
+              "BUY_SEED": 13,
+              "BUY_PRODUCT": 33,
+              "BUY_ANIMAL": 6,
+              "BUY_LAND": 1
+            },
+            "net_cash_change": 16755.0
+          },
+          "360:540": {
+            "requested_unit_actions": {
+              "EAST": 217,
+              "PICKUP": 54,
+              "WEST": 305,
+              "NORTH": 311,
+              "HARVEST": 189,
+              "SOUTH": 193,
+              "FEED": 126,
+              "CARE": 126,
+              "PLACE": 23,
+              "FERTILIZE": 55,
+              "COLLECT_FERTILIZER": 130,
+              "WATER": 317,
+              "PLANT": 53,
+              "DIG": 3,
+              "DROP": 3,
+              "PASS": 49
+            },
+            "requested_market_order_counts": {
+              "HIRE": 93,
+              "BUY_SEED": 8,
+              "SELL": 106,
+              "BUY_PRODUCT": 7
+            },
+            "net_cash_change": 43486.0
+          },
+          "540:719": {
+            "requested_unit_actions": {
+              "EAST": 208,
+              "WATER": 320,
+              "CARE": 86,
+              "SOUTH": 167,
+              "FEED": 99,
+              "HARVEST": 204,
+              "DIG": 30,
+              "COLLECT_FERTILIZER": 91,
+              "NORTH": 236,
+              "WEST": 252,
+              "PLANT": 74,
+              "PLACE": 10,
+              "PASS": 159,
+              "PICKUP": 30,
+              "FERTILIZE": 16,
+              "DROP": 16
+            },
+            "requested_market_order_counts": {
+              "SELL": 103,
+              "BUY_SEED": 2,
+              "HIRE": 74,
+              "BUY_PRODUCT": 5
+            },
+            "net_cash_change": 41061.0
+          }
+        },
+        "opening_fingerprints": {
+          "120": {
+            "field": "5d6d38ef17df43021b4c7c867068e0d196be5f34b56b0002a8da392d744122a4",
+            "market": "8924eb36b93eda5bdfa293826abeca0029826c7e14c8a2a5f3083676320c508d"
+          },
+          "180": {
+            "field": "92e3794edd2867b747385b7421304df7d32c026c137b320cec110a4923696bbd",
+            "market": "87f29918518d3022ab5bdee6b9629b6726c7705561861a33f9f22a9545e337e1"
+          }
+        }
+      },
+      "opponent_profile": {
+        "seat": 0,
+        "reward": 102473.0,
+        "margin": 791.0,
+        "snapshots": {
+          "0": {
+            "cash": 3000.0,
+            "hands": 0,
+            "land": [
+              "NW"
+            ],
+            "assets": {},
+            "carried_units": 0,
+            "shed_units": 0,
+            "shops": []
+          },
+          "72": {
+            "cash": 187.0,
+            "hands": 0,
+            "land": [
+              "NW"
+            ],
+            "assets": {
+              "WHEAT": 7,
+              "MELON": 12,
+              "COW": 3,
+              "SHEEP": 2,
+              "PASTURE": 1
+            },
+            "carried_units": 0,
+            "shed_units": 8,
+            "shops": [
+              "BRUNCH_SPOT"
+            ]
+          },
+          "144": {
+            "cash": 256.0,
+            "hands": 0,
+            "land": [
+              "NW"
+            ],
+            "assets": {
+              "WHEAT": 3,
+              "STRAWBERRY": 4,
+              "MELON": 12,
+              "COW": 4,
+              "SHEEP": 2
+            },
+            "carried_units": 0,
+            "shed_units": 21,
+            "shops": [
+              "BRUNCH_SPOT",
+              "FARMERS_MARKET"
+            ]
+          },
+          "180": {
+            "cash": 380.0,
+            "hands": 8,
+            "land": [
+              "NW",
+              "NE"
+            ],
+            "assets": {
+              "STRAWBERRY": 13,
+              "MELON": 12,
+              "WHEAT": 5,
+              "COW": 5,
+              "PASTURE": 4,
+              "SHEEP": 2,
+              "GOOSE": 2
+            },
+            "carried_units": 0,
+            "shed_units": 13,
+            "shops": [
+              "BRUNCH_SPOT",
+              "FARMERS_MARKET"
+            ]
+          },
+          "360": {
+            "cash": 17135.0,
+            "hands": 0,
+            "land": [
+              "NW",
+              "NE",
+              "SW"
+            ],
+            "assets": {
+              "WHEAT": 24,
+              "STRAWBERRY": 33,
+              "COOP": 1,
+              "GOOSE": 5,
+              "COW": 6,
+              "SHEEP": 6
+            },
+            "carried_units": 0,
+            "shed_units": 68,
+            "shops": [
+              "BRUNCH_SPOT",
+              "FARMERS_MARKET",
+              "BRUNCH_SPOT",
+              "FARMERS_MARKET",
+              "YARN_STORE"
+            ]
+          },
+          "540": {
+            "cash": 60621.0,
+            "hands": 12,
+            "land": [
+              "NW",
+              "NE",
+              "SW"
+            ],
+            "assets": {
+              "WHEAT": 26,
+              "STRAWBERRY": 29,
+              "WEED": 3,
+              "GOOSE": 5,
+              "COW": 6,
+              "SHEEP": 6
+            },
+            "carried_units": 55,
+            "shed_units": 3,
+            "shops": [
+              "BRUNCH_SPOT",
+              "FARMERS_MARKET",
+              "BRUNCH_SPOT",
+              "FARMERS_MARKET",
+              "YARN_STORE",
+              "FARMERS_MARKET",
+              "FARMERS_MARKET"
+            ]
+          },
+          "719": {
+            "cash": 102473.0,
+            "hands": 9,
+            "land": [
+              "NW",
+              "NE",
+              "SW"
+            ],
+            "assets": {
+              "WEED": 10,
+              "GOOSE": 5,
+              "COW": 6,
+              "SHEEP": 4,
+              "PASTURE": 2
+            },
+            "carried_units": 0,
+            "shed_units": 0,
+            "shops": [
+              "BRUNCH_SPOT",
+              "FARMERS_MARKET",
+              "BRUNCH_SPOT",
+              "FARMERS_MARKET",
+              "YARN_STORE",
+              "FARMERS_MARKET",
+              "FARMERS_MARKET",
+              "PET_CAFE"
+            ]
+          }
+        },
+        "windows": {
+          "0:72": {
+            "requested_unit_actions": {
+              "PASS": 91,
+              "NORTH": 49,
+              "WEST": 59,
+              "PICKUP": 12,
+              "BUILD_PASTURE": 6,
+              "PLANT": 22,
+              "PLACE": 9,
+              "WATER": 51,
+              "CARE": 15,
+              "FEED": 10,
+              "EAST": 20,
+              "COLLECT_FERTILIZER": 8,
+              "SOUTH": 10,
+              "DROP": 1,
+              "HARVEST": 3
+            },
+            "requested_market_order_counts": {
+              "BUY_PRODUCT": 15,
+              "SELL": 18,
+              "BUY_SEED": 11,
+              "HIRE": 13,
+              "BUY_ANIMAL": 3
+            },
+            "net_cash_change": -2813.0
+          },
+          "72:144": {
+            "requested_unit_actions": {
+              "PICKUP": 5,
+              "WEST": 61,
+              "FEED": 14,
+              "NORTH": 64,
+              "CARE": 23,
+              "COLLECT_FERTILIZER": 17,
+              "WATER": 59,
+              "HARVEST": 11,
+              "SOUTH": 38,
+              "PLANT": 11,
+              "EAST": 28,
+              "PASS": 50,
+              "PLACE": 7,
+              "DROP": 4
+            },
+            "requested_market_order_counts": {
+              "HIRE": 14,
+              "BUY_SEED": 9,
+              "SELL": 11,
+              "BUY_ANIMAL": 1,
+              "BUY_PRODUCT": 6
+            },
+            "net_cash_change": 69.0
+          },
+          "144:180": {
+            "requested_unit_actions": {
+              "WEST": 55,
+              "NORTH": 47,
+              "PICKUP": 15,
+              "PASS": 16,
+              "HARVEST": 5,
+              "SOUTH": 9,
+              "FEED": 15,
+              "CARE": 16,
+              "EAST": 47,
+              "COLLECT_FERTILIZER": 13,
+              "PLACE": 15,
+              "WATER": 31,
+              "BUILD_COOP": 2,
+              "BUILD_PASTURE": 5,
+              "PLANT": 14
+            },
+            "requested_market_order_counts": {
+              "HIRE": 16,
+              "BUY_SEED": 8,
+              "SELL": 15,
+              "BUY_PRODUCT": 7,
+              "BUY_LAND": 1,
+              "BUY_ANIMAL": 3
+            },
+            "net_cash_change": 124.0
+          },
+          "180:360": {
+            "requested_unit_actions": {
+              "WATER": 318,
+              "WEST": 237,
+              "PICKUP": 39,
+              "EAST": 192,
+              "NORTH": 266,
+              "PLANT": 68,
+              "SOUTH": 137,
+              "PLACE": 40,
+              "CARE": 114,
+              "PASS": 174,
+              "COLLECT_FERTILIZER": 104,
+              "HARVEST": 64,
+              "FEED": 104,
+              "DROP": 1,
+              "BUILD_PASTURE": 1,
+              "BUILD_COOP": 4,
+              "FERTILIZE": 4
+            },
+            "requested_market_order_counts": {
+              "SELL": 47,
+              "HIRE": 70,
+              "BUY_SEED": 13,
+              "BUY_PRODUCT": 33,
+              "BUY_ANIMAL": 6,
+              "BUY_LAND": 1
+            },
+            "net_cash_change": 16755.0
+          },
+          "360:540": {
+            "requested_unit_actions": {
+              "EAST": 217,
+              "PICKUP": 54,
+              "WEST": 305,
+              "NORTH": 311,
+              "HARVEST": 189,
+              "SOUTH": 193,
+              "FEED": 126,
+              "CARE": 126,
+              "PLACE": 23,
+              "FERTILIZE": 55,
+              "COLLECT_FERTILIZER": 130,
+              "WATER": 317,
+              "PLANT": 53,
+              "DIG": 3,
+              "DROP": 3,
+              "PASS": 49
+            },
+            "requested_market_order_counts": {
+              "HIRE": 93,
+              "BUY_SEED": 8,
+              "SELL": 106,
+              "BUY_PRODUCT": 7
+            },
+            "net_cash_change": 43486.0
+          },
+          "540:719": {
+            "requested_unit_actions": {
+              "EAST": 208,
+              "WATER": 320,
+              "CARE": 86,
+              "SOUTH": 167,
+              "FEED": 99,
+              "HARVEST": 204,
+              "DIG": 29,
+              "COLLECT_FERTILIZER": 91,
+              "NORTH": 236,
+              "WEST": 252,
+              "PLANT": 74,
+              "PLACE": 10,
+              "PASS": 160,
+              "PICKUP": 30,
+              "FERTILIZE": 16,
+              "DROP": 16
+            },
+            "requested_market_order_counts": {
+              "SELL": 100,
+              "BUY_SEED": 2,
+              "HIRE": 74,
+              "BUY_PRODUCT": 5
+            },
+            "net_cash_change": 41852.0
+          }
+        },
+        "opening_fingerprints": {
+          "120": {
+            "field": "5d6d38ef17df43021b4c7c867068e0d196be5f34b56b0002a8da392d744122a4",
+            "market": "8924eb36b93eda5bdfa293826abeca0029826c7e14c8a2a5f3083676320c508d"
+          },
+          "180": {
+            "field": "92e3794edd2867b747385b7421304df7d32c026c137b320cec110a4923696bbd",
+            "market": "87f29918518d3022ab5bdee6b9629b6726c7705561861a33f9f22a9545e337e1"
+          }
+        }
+      },
+      "raw_path": "replays/raw/ahmed_v23-thomas_v2-2026090808-1.json",
+      "raw_sha256": "9eb6f49bb6aa6babd5d65c952b2298fc0daa30caa8ad5bef657654f306a775a9"
+    },
+    {
+      "seed": 2026090816,
+      "opponent": "thomas_v2",
+      "seat": 1,
+      "measurement": {
+        "seed": 2026090816,
+        "seat": 1,
+        "opponent": "thomas_v2",
+        "ours": 72974.0,
+        "theirs": 73611.0,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "valid_terminal": true,
+        "faults": {
+          "atomic_plant_rejections": 0,
+          "unfilled_requested_market_units": 1,
+          "unit_noops": 23,
+          "overflow_units": 0,
+          "contract_errors": 1,
+          "failed_market_attempts": 1
+        },
+        "actions": {
+          "PASS": 714,
+          "NORTH": 951,
+          "WEST": 912,
+          "PICKUP": 230,
+          "BUILD_PASTURE": 15,
+          "PLANT": 161,
+          "PLACE": 62,
+          "WATER": 906,
+          "CARE": 355,
+          "FEED": 350,
+          "EAST": 652,
+          "COLLECT_FERTILIZER": 395,
+          "SOUTH": 497,
+          "DROP": 35,
+          "HARVEST": 476,
+          "BUILD_COOP": 4,
+          "FERTILIZE": 165,
+          "DIG": 30
+        },
+        "calls": 719,
+        "runtime_mean": 7.267993463305964e-05,
+        "runtime_p95": 0.00012072469871782232,
+        "runtime_p99": 0.00021726394152210606,
+        "runtime_max": 0.00074033299824805,
+        "wall_seconds": 5.9302857920010865,
+        "terminal_carried_units": 0,
+        "terminal_shed_units": 0,
+        "margin": -637.0,
+        "points": 0.0
+      },
+      "profile": {
+        "seat": 1,
+        "reward": 72974.0,
+        "margin": -637.0,
+        "snapshots": {
+          "0": {
+            "cash": 3000.0,
+            "hands": 0,
+            "land": [
+              "NW"
+            ],
+            "assets": {},
+            "carried_units": 0,
+            "shed_units": 0,
+            "shops": []
+          },
+          "72": {
+            "cash": 187.0,
+            "hands": 0,
+            "land": [
+              "NW"
+            ],
+            "assets": {
+              "WHEAT": 7,
+              "MELON": 12,
+              "COW": 3,
+              "SHEEP": 2,
+              "PASTURE": 1
+            },
+            "carried_units": 0,
+            "shed_units": 8,
+            "shops": [
+              "PIZZA_SHOP"
+            ]
+          },
+          "144": {
+            "cash": 256.0,
+            "hands": 0,
+            "land": [
+              "NW"
+            ],
+            "assets": {
+              "WHEAT": 3,
+              "STRAWBERRY": 4,
+              "MELON": 12,
+              "COW": 4,
+              "SHEEP": 2
+            },
+            "carried_units": 0,
+            "shed_units": 21,
+            "shops": [
+              "PIZZA_SHOP",
+              "PET_CAFE"
+            ]
+          },
+          "180": {
+            "cash": 194.0,
+            "hands": 8,
+            "land": [
+              "NW",
+              "NE"
+            ],
+            "assets": {
+              "STRAWBERRY": 13,
+              "MELON": 12,
+              "WHEAT": 5,
+              "COW": 7,
+              "PASTURE": 4,
+              "SHEEP": 2
+            },
+            "carried_units": 0,
+            "shed_units": 14,
+            "shops": [
+              "PIZZA_SHOP",
+              "PET_CAFE"
+            ]
+          },
+          "360": {
+            "cash": 22538.0,
+            "hands": 0,
+            "land": [
+              "NW",
+              "NE",
+              "SW"
+            ],
+            "assets": {
+              "TOMATO": 7,
+              "STRAWBERRY": 33,
+              "SHEEP": 6,
+              "GOOSE": 3,
+              "COW": 9,
+              "WHEAT": 11
+            },
+            "carried_units": 0,
+            "shed_units": 90,
+            "shops": [
+              "PIZZA_SHOP",
+              "PET_CAFE",
+              "PIZZA_SHOP",
+              "FARMERS_MARKET",
+              "BRUNCH_SPOT"
+            ]
+          },
+          "540": {
+            "cash": 45954.0,
+            "hands": 12,
+            "land": [
+              "NW",
+              "NE",
+              "SW"
+            ],
+            "assets": {
+              "TOMATO": 19,
+              "STRAWBERRY": 29,
+              "WEED": 3,
+              "SHEEP": 6,
+              "WHEAT": 4,
+              "GOOSE": 3,
+              "COW": 9
+            },
+            "carried_units": 32,
+            "shed_units": 0,
+            "shops": [
+              "PIZZA_SHOP",
+              "PET_CAFE",
+              "PIZZA_SHOP",
+              "FARMERS_MARKET",
+              "BRUNCH_SPOT",
+              "ICE_CREAM_SHOP",
+              "YARN_STORE"
+            ]
+          },
+          "719": {
+            "cash": 72974.0,
+            "hands": 7,
+            "land": [
+              "NW",
+              "NE",
+              "SW"
+            ],
+            "assets": {
+              "WEED": 24,
+              "PASTURE": 3,
+              "GOOSE": 3,
+              "COW": 9,
+              "SHEEP": 3
+            },
+            "carried_units": 0,
+            "shed_units": 0,
+            "shops": [
+              "PIZZA_SHOP",
+              "PET_CAFE",
+              "PIZZA_SHOP",
+              "FARMERS_MARKET",
+              "BRUNCH_SPOT",
+              "ICE_CREAM_SHOP",
+              "YARN_STORE",
+              "ICE_CREAM_SHOP"
+            ]
+          }
+        },
+        "windows": {
+          "0:72": {
+            "requested_unit_actions": {
+              "PASS": 91,
+              "NORTH": 49,
+              "WEST": 59,
+              "PICKUP": 12,
+              "BUILD_PASTURE": 6,
+              "PLANT": 22,
+              "PLACE": 9,
+              "WATER": 51,
+              "CARE": 15,
+              "FEED": 10,
+              "EAST": 20,
+              "COLLECT_FERTILIZER": 8,
+              "SOUTH": 10,
+              "DROP": 1,
+              "HARVEST": 3
+            },
+            "requested_market_order_counts": {
+              "BUY_PRODUCT": 15,
+              "SELL": 18,
+              "BUY_SEED": 11,
+              "HIRE": 13,
+              "BUY_ANIMAL": 3
+            },
+            "net_cash_change": -2813.0
+          },
+          "72:144": {
+            "requested_unit_actions": {
+              "PICKUP": 5,
+              "WEST": 61,
+              "FEED": 14,
+              "NORTH": 64,
+              "CARE": 23,
+              "COLLECT_FERTILIZER": 17,
+              "WATER": 59,
+              "HARVEST": 11,
+              "SOUTH": 38,
+              "PLANT": 11,
+              "EAST": 28,
+              "PASS": 50,
+              "PLACE": 7,
+              "DROP": 4
+            },
+            "requested_market_order_counts": {
+              "HIRE": 14,
+              "BUY_SEED": 9,
+              "SELL": 11,
+              "BUY_ANIMAL": 1,
+              "BUY_PRODUCT": 6
+            },
+            "net_cash_change": 69.0
+          },
+          "144:180": {
+            "requested_unit_actions": {
+              "WEST": 55,
+              "NORTH": 47,
+              "PICKUP": 15,
+              "PASS": 16,
+              "HARVEST": 5,
+              "SOUTH": 9,
+              "FEED": 15,
+              "CARE": 16,
+              "EAST": 47,
+              "COLLECT_FERTILIZER": 13,
+              "PLACE": 15,
+              "WATER": 31,
+              "BUILD_PASTURE": 7,
+              "PLANT": 14
+            },
+            "requested_market_order_counts": {
+              "HIRE": 16,
+              "BUY_SEED": 7,
+              "SELL": 14,
+              "BUY_PRODUCT": 8,
+              "BUY_LAND": 1,
+              "BUY_ANIMAL": 3
+            },
+            "net_cash_change": -62.0
+          },
+          "180:360": {
+            "requested_unit_actions": {
+              "WATER": 280,
+              "WEST": 222,
+              "PICKUP": 60,
+              "EAST": 188,
+              "NORTH": 271,
+              "PLANT": 54,
+              "SOUTH": 120,
+              "PLACE": 31,
+              "CARE": 114,
+              "PASS": 200,
+              "COLLECT_FERTILIZER": 105,
+              "HARVEST": 57,
+              "FEED": 106,
+              "DROP": 4,
+              "BUILD_PASTURE": 2,
+              "BUILD_COOP": 4,
+              "FERTILIZE": 24,
+              "DIG": 1
+            },
+            "requested_market_order_counts": {
+              "SELL": 42,
+              "HIRE": 69,
+              "BUY_SEED": 13,
+              "BUY_PRODUCT": 34,
+              "BUY_ANIMAL": 7,
+              "BUY_LAND": 1
+            },
+            "net_cash_change": 22344.0
+          },
+          "360:540": {
+            "requested_unit_actions": {
+              "PASS": 184,
+              "PICKUP": 80,
+              "WATER": 249,
+              "WEST": 267,
+              "SOUTH": 156,
+              "FEED": 131,
+              "NORTH": 269,
+              "EAST": 198,
+              "CARE": 130,
+              "HARVEST": 164,
+              "COLLECT_FERTILIZER": 129,
+              "FERTILIZE": 62,
+              "PLANT": 21,
+              "DROP": 11,
+              "DIG": 1
+            },
+            "requested_market_order_counts": {
+              "SELL": 54,
+              "HIRE": 89,
+              "BUY_SEED": 5,
+              "BUY_PRODUCT": 5
+            },
+            "net_cash_change": 23416.0
+          },
+          "540:719": {
+            "requested_unit_actions": {
+              "HARVEST": 236,
+              "WATER": 236,
+              "EAST": 171,
+              "WEST": 248,
+              "CARE": 57,
+              "COLLECT_FERTILIZER": 123,
+              "FERTILIZE": 79,
+              "NORTH": 251,
+              "SOUTH": 164,
+              "FEED": 74,
+              "DIG": 28,
+              "PLANT": 39,
+              "PASS": 173,
+              "PICKUP": 58,
+              "DROP": 15
+            },
+            "requested_market_order_counts": {
+              "SELL": 63,
+              "HIRE": 72,
+              "BUY_PRODUCT": 4,
+              "BUY_SEED": 6
+            },
+            "net_cash_change": 27020.0
+          }
+        },
+        "opening_fingerprints": {
+          "120": {
+            "field": "5d6d38ef17df43021b4c7c867068e0d196be5f34b56b0002a8da392d744122a4",
+            "market": "8924eb36b93eda5bdfa293826abeca0029826c7e14c8a2a5f3083676320c508d"
+          },
+          "180": {
+            "field": "2e8479baf81cce2987c8a683816c9980d9690b2c55dfdaf60f5bc5bed94171cd",
+            "market": "5453128933696e5dd061186c6dda8b38c723efd81af8d16c624a151133515127"
+          }
+        }
+      },
+      "opponent_profile": {
+        "seat": 0,
+        "reward": 73611.0,
+        "margin": 637.0,
+        "snapshots": {
+          "0": {
+            "cash": 3000.0,
+            "hands": 0,
+            "land": [
+              "NW"
+            ],
+            "assets": {},
+            "carried_units": 0,
+            "shed_units": 0,
+            "shops": []
+          },
+          "72": {
+            "cash": 187.0,
+            "hands": 0,
+            "land": [
+              "NW"
+            ],
+            "assets": {
+              "WHEAT": 7,
+              "MELON": 12,
+              "COW": 3,
+              "SHEEP": 2,
+              "PASTURE": 1
+            },
+            "carried_units": 0,
+            "shed_units": 8,
+            "shops": [
+              "PIZZA_SHOP"
+            ]
+          },
+          "144": {
+            "cash": 256.0,
+            "hands": 0,
+            "land": [
+              "NW"
+            ],
+            "assets": {
+              "WHEAT": 3,
+              "STRAWBERRY": 4,
+              "MELON": 12,
+              "COW": 4,
+              "SHEEP": 2
+            },
+            "carried_units": 0,
+            "shed_units": 21,
+            "shops": [
+              "PIZZA_SHOP",
+              "PET_CAFE"
+            ]
+          },
+          "180": {
+            "cash": 194.0,
+            "hands": 8,
+            "land": [
+              "NW",
+              "NE"
+            ],
+            "assets": {
+              "STRAWBERRY": 13,
+              "MELON": 12,
+              "WHEAT": 5,
+              "COW": 7,
+              "PASTURE": 4,
+              "SHEEP": 2
+            },
+            "carried_units": 0,
+            "shed_units": 14,
+            "shops": [
+              "PIZZA_SHOP",
+              "PET_CAFE"
+            ]
+          },
+          "360": {
+            "cash": 22496.0,
+            "hands": 0,
+            "land": [
+              "NW",
+              "NE",
+              "SW"
+            ],
+            "assets": {
+              "TOMATO": 7,
+              "STRAWBERRY": 33,
+              "SHEEP": 6,
+              "GOOSE": 3,
+              "COW": 9,
+              "WHEAT": 11
+            },
+            "carried_units": 0,
+            "shed_units": 91,
+            "shops": [
+              "PIZZA_SHOP",
+              "PET_CAFE",
+              "PIZZA_SHOP",
+              "FARMERS_MARKET",
+              "BRUNCH_SPOT"
+            ]
+          },
+          "540": {
+            "cash": 46097.0,
+            "hands": 12,
+            "land": [
+              "NW",
+              "NE",
+              "SW"
+            ],
+            "assets": {
+              "TOMATO": 19,
+              "STRAWBERRY": 29,
+              "WEED": 3,
+              "SHEEP": 6,
+              "WHEAT": 4,
+              "GOOSE": 3,
+              "COW": 9
+            },
+            "carried_units": 32,
+            "shed_units": 1,
+            "shops": [
+              "PIZZA_SHOP",
+              "PET_CAFE",
+              "PIZZA_SHOP",
+              "FARMERS_MARKET",
+              "BRUNCH_SPOT",
+              "ICE_CREAM_SHOP",
+              "YARN_STORE"
+            ]
+          },
+          "719": {
+            "cash": 73611.0,
+            "hands": 7,
+            "land": [
+              "NW",
+              "NE",
+              "SW"
+            ],
+            "assets": {
+              "WEED": 25,
+              "PASTURE": 3,
+              "GOOSE": 3,
+              "COW": 9,
+              "SHEEP": 3
+            },
+            "carried_units": 0,
+            "shed_units": 0,
+            "shops": [
+              "PIZZA_SHOP",
+              "PET_CAFE",
+              "PIZZA_SHOP",
+              "FARMERS_MARKET",
+              "BRUNCH_SPOT",
+              "ICE_CREAM_SHOP",
+              "YARN_STORE",
+              "ICE_CREAM_SHOP"
+            ]
+          }
+        },
+        "windows": {
+          "0:72": {
+            "requested_unit_actions": {
+              "PASS": 91,
+              "NORTH": 49,
+              "WEST": 59,
+              "PICKUP": 12,
+              "BUILD_PASTURE": 6,
+              "PLANT": 22,
+              "PLACE": 9,
+              "WATER": 51,
+              "CARE": 15,
+              "FEED": 10,
+              "EAST": 20,
+              "COLLECT_FERTILIZER": 8,
+              "SOUTH": 10,
+              "DROP": 1,
+              "HARVEST": 3
+            },
+            "requested_market_order_counts": {
+              "BUY_PRODUCT": 15,
+              "SELL": 18,
+              "BUY_SEED": 11,
+              "HIRE": 13,
+              "BUY_ANIMAL": 3
+            },
+            "net_cash_change": -2813.0
+          },
+          "72:144": {
+            "requested_unit_actions": {
+              "PICKUP": 5,
+              "WEST": 61,
+              "FEED": 14,
+              "NORTH": 64,
+              "CARE": 23,
+              "COLLECT_FERTILIZER": 17,
+              "WATER": 59,
+              "HARVEST": 11,
+              "SOUTH": 38,
+              "PLANT": 11,
+              "EAST": 28,
+              "PASS": 50,
+              "PLACE": 7,
+              "DROP": 4
+            },
+            "requested_market_order_counts": {
+              "HIRE": 14,
+              "BUY_SEED": 9,
+              "SELL": 11,
+              "BUY_ANIMAL": 1,
+              "BUY_PRODUCT": 6
+            },
+            "net_cash_change": 69.0
+          },
+          "144:180": {
+            "requested_unit_actions": {
+              "WEST": 55,
+              "NORTH": 47,
+              "PICKUP": 15,
+              "PASS": 16,
+              "HARVEST": 5,
+              "SOUTH": 9,
+              "FEED": 15,
+              "CARE": 16,
+              "EAST": 47,
+              "COLLECT_FERTILIZER": 13,
+              "PLACE": 15,
+              "WATER": 31,
+              "BUILD_PASTURE": 7,
+              "PLANT": 14
+            },
+            "requested_market_order_counts": {
+              "HIRE": 16,
+              "BUY_SEED": 7,
+              "SELL": 14,
+              "BUY_PRODUCT": 8,
+              "BUY_LAND": 1,
+              "BUY_ANIMAL": 3
+            },
+            "net_cash_change": -62.0
+          },
+          "180:360": {
+            "requested_unit_actions": {
+              "WATER": 280,
+              "WEST": 222,
+              "PICKUP": 60,
+              "EAST": 188,
+              "NORTH": 271,
+              "PLANT": 54,
+              "SOUTH": 120,
+              "PLACE": 31,
+              "CARE": 114,
+              "PASS": 200,
+              "COLLECT_FERTILIZER": 105,
+              "HARVEST": 57,
+              "FEED": 106,
+              "DROP": 4,
+              "BUILD_PASTURE": 2,
+              "BUILD_COOP": 4,
+              "FERTILIZE": 24,
+              "DIG": 1
+            },
+            "requested_market_order_counts": {
+              "SELL": 42,
+              "HIRE": 69,
+              "BUY_SEED": 13,
+              "BUY_PRODUCT": 34,
+              "BUY_ANIMAL": 6,
+              "BUY_LAND": 1
+            },
+            "net_cash_change": 22302.0
+          },
+          "360:540": {
+            "requested_unit_actions": {
+              "PASS": 184,
+              "PICKUP": 80,
+              "WATER": 249,
+              "WEST": 267,
+              "SOUTH": 156,
+              "FEED": 131,
+              "NORTH": 269,
+              "EAST": 198,
+              "CARE": 130,
+              "HARVEST": 164,
+              "COLLECT_FERTILIZER": 129,
+              "FERTILIZE": 62,
+              "PLANT": 21,
+              "DROP": 11,
+              "DIG": 1
+            },
+            "requested_market_order_counts": {
+              "SELL": 54,
+              "HIRE": 89,
+              "BUY_SEED": 5,
+              "BUY_PRODUCT": 5
+            },
+            "net_cash_change": 23601.0
+          },
+          "540:719": {
+            "requested_unit_actions": {
+              "HARVEST": 236,
+              "WATER": 236,
+              "EAST": 171,
+              "WEST": 248,
+              "CARE": 57,
+              "COLLECT_FERTILIZER": 123,
+              "FERTILIZE": 79,
+              "NORTH": 251,
+              "SOUTH": 164,
+              "FEED": 74,
+              "DIG": 26,
+              "PLANT": 39,
+              "PASS": 175,
+              "PICKUP": 58,
+              "DROP": 15
+            },
+            "requested_market_order_counts": {
+              "SELL": 63,
+              "HIRE": 72,
+              "BUY_PRODUCT": 4,
+              "BUY_SEED": 6
+            },
+            "net_cash_change": 27514.0
+          }
+        },
+        "opening_fingerprints": {
+          "120": {
+            "field": "5d6d38ef17df43021b4c7c867068e0d196be5f34b56b0002a8da392d744122a4",
+            "market": "8924eb36b93eda5bdfa293826abeca0029826c7e14c8a2a5f3083676320c508d"
+          },
+          "180": {
+            "field": "2e8479baf81cce2987c8a683816c9980d9690b2c55dfdaf60f5bc5bed94171cd",
+            "market": "5453128933696e5dd061186c6dda8b38c723efd81af8d16c624a151133515127"
+          }
+        }
+      },
+      "raw_path": "replays/raw/ahmed_v23-thomas_v2-2026090816-1.json",
+      "raw_sha256": "2304825375e0bf9d4ac6329ff2946e1855435a7101a0d258913eb8c3bef0ba00"
+    }
+  ],
+  "scope": "Worst selected development losses on distinct seed/opponent cases; no new independent games"
+}

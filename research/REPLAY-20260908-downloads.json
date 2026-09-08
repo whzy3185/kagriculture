@@ -1,0 +1,70 @@
+{
+  "checked_at": "2026-09-08T09:04:47.338239+00:00",
+  "rows": [
+    {
+      "episode_id": 106731757,
+      "status": "DOWNLOADED",
+      "path": "replays/raw/episode-106731757-replay.json",
+      "sha256": "d35b6d97465fad5b2030de40677537b08187f251489afdd5476c32ff81362a67",
+      "engine_version": "1.32.7",
+      "steps": 720,
+      "terminal_statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "rewards": [
+        81504.0,
+        84633.0
+      ]
+    },
+    {
+      "episode_id": 106728931,
+      "status": "DOWNLOADED",
+      "path": "replays/raw/episode-106728931-replay.json",
+      "sha256": "00759e45d164ec363f2114c80dab422938a96240aed494c9fc39b9122b8dd20c",
+      "engine_version": "1.32.7",
+      "steps": 720,
+      "terminal_statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "rewards": [
+        93437.0,
+        78779.0
+      ]
+    },
+    {
+      "episode_id": 106678954,
+      "status": "DOWNLOADED",
+      "path": "replays/raw/episode-106678954-replay.json",
+      "sha256": "7fd3080f1421e121f80cb367d28549ca36b2feb66631e82f12454a6a9a5ed21e",
+      "engine_version": "1.32.7",
+      "steps": 720,
+      "terminal_statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "rewards": [
+        31299.0,
+        171395.0
+      ]
+    },
+    {
+      "episode_id": 106664416,
+      "status": "DOWNLOADED",
+      "path": "replays/raw/episode-106664416-replay.json",
+      "sha256": "9a6b2ed49d9cf7129cd3797249ebb5ae1a9bfd7ddd028f4fc36ac756a169e046",
+      "engine_version": "1.32.7",
+      "steps": 720,
+      "terminal_statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "rewards": [
+        41720.0,
+        78428.0
+      ]
+    }
+  ],
+  "scope": "Selected observed episode IDs only; no population representativeness claim"
+}

@@ -1,9 +1,801 @@
 {
   "submission_ref": 56072267,
-  "checked_at": "2026-09-07T08:01:51.290010+00:00",
-  "listed_episode_count": 1,
+  "checked_at": "2026-09-08T09:18:37.298271+00:00",
+  "listed_episode_count": 37,
   "coverage": "API listing only; not assumed to be complete lifetime history",
   "episodes": [
+    {
+      "id": 106738384,
+      "createTime": "2026-09-08T09:10:23.694Z",
+      "endTime": "2026-09-08T09:13:26.145Z",
+      "state": "COMPLETED",
+      "type": "EPISODE_TYPE_PUBLIC",
+      "agents": [
+        {
+          "submissionId": 55493183,
+          "reward": 58858,
+          "teamName": "AgriBot",
+          "teamId": 16693033
+        },
+        {
+          "submissionId": 56072267,
+          "index": 1,
+          "reward": 80409,
+          "teamName": "muelsyse111",
+          "teamId": 16846010
+        }
+      ]
+    },
+    {
+      "id": 106678954,
+      "createTime": "2026-09-08T04:58:17.374Z",
+      "endTime": "2026-09-08T05:01:36.046Z",
+      "state": "COMPLETED",
+      "type": "EPISODE_TYPE_PUBLIC",
+      "agents": [
+        {
+          "submissionId": 56072267,
+          "reward": 31299,
+          "teamName": "muelsyse111",
+          "teamId": 16846010
+        },
+        {
+          "submissionId": 56090957,
+          "index": 1,
+          "reward": 171395,
+          "teamName": "\u5434\u73cd\u73e0",
+          "teamId": 16841799
+        }
+      ]
+    },
+    {
+      "id": 106664416,
+      "createTime": "2026-09-08T03:54:18.181Z",
+      "endTime": "2026-09-08T03:59:11.295Z",
+      "state": "COMPLETED",
+      "type": "EPISODE_TYPE_PUBLIC",
+      "agents": [
+        {
+          "submissionId": 56089067,
+          "reward": 41720,
+          "teamName": "wodDAOdun",
+          "teamId": 16809898
+        },
+        {
+          "submissionId": 56072267,
+          "index": 1,
+          "reward": 78428,
+          "teamName": "muelsyse111",
+          "teamId": 16846010
+        }
+      ]
+    },
+    {
+      "id": 106649135,
+      "createTime": "2026-09-08T02:50:17.890Z",
+      "endTime": "2026-09-08T02:52:51.951Z",
+      "state": "COMPLETED",
+      "type": "EPISODE_TYPE_PUBLIC",
+      "agents": [
+        {
+          "submissionId": 56089143,
+          "reward": 75771,
+          "teamName": "sneaky6767",
+          "teamId": 16682867
+        },
+        {
+          "submissionId": 56072267,
+          "index": 1,
+          "reward": 36641,
+          "teamName": "muelsyse111",
+          "teamId": 16846010
+        }
+      ]
+    },
+    {
+      "id": 106618414,
+      "createTime": "2026-09-08T00:38:11.619Z",
+      "endTime": "2026-09-08T00:43:04.657Z",
+      "state": "COMPLETED",
+      "type": "EPISODE_TYPE_PUBLIC",
+      "agents": [
+        {
+          "submissionId": 56087284,
+          "reward": 95130,
+          "teamName": "Tomohiro Nagai",
+          "teamId": 16846857
+        },
+        {
+          "submissionId": 56072267,
+          "index": 1,
+          "reward": 70657,
+          "teamName": "muelsyse111",
+          "teamId": 16846010
+        }
+      ]
+    },
+    {
+      "id": 106601756,
+      "createTime": "2026-09-07T23:26:12.101Z",
+      "endTime": "2026-09-07T23:31:51.695Z",
+      "state": "COMPLETED",
+      "type": "EPISODE_TYPE_PUBLIC",
+      "agents": [
+        {
+          "submissionId": 56085215,
+          "reward": 86499,
+          "teamName": "Menelik Zafir",
+          "teamId": 16661225
+        },
+        {
+          "submissionId": 56072267,
+          "index": 1,
+          "reward": 74073,
+          "teamName": "muelsyse111",
+          "teamId": 16846010
+        }
+      ]
+    },
+    {
+      "id": 106590831,
+      "createTime": "2026-09-07T22:38:07.601Z",
+      "endTime": "2026-09-07T22:41:34.470Z",
+      "state": "COMPLETED",
+      "type": "EPISODE_TYPE_PUBLIC",
+      "agents": [
+        {
+          "submissionId": 56072267,
+          "reward": 61896,
+          "teamName": "muelsyse111",
+          "teamId": 16846010
+        },
+        {
+          "submissionId": 55440834,
+          "index": 1,
+          "reward": 87574,
+          "teamName": "Ethan Pl",
+          "teamId": 16702359
+        }
+      ]
+    },
+    {
+      "id": 106577014,
+      "createTime": "2026-09-07T21:38:05.993Z",
+      "endTime": "2026-09-07T21:42:19.694Z",
+      "state": "COMPLETED",
+      "type": "EPISODE_TYPE_PUBLIC",
+      "agents": [
+        {
+          "submissionId": 56015165,
+          "reward": 19682,
+          "teamName": "Leo Udah",
+          "teamId": 16755495
+        },
+        {
+          "submissionId": 56072267,
+          "index": 1,
+          "reward": 77843,
+          "teamName": "muelsyse111",
+          "teamId": 16846010
+        }
+      ]
+    },
+    {
+      "id": 106556351,
+      "createTime": "2026-09-07T20:08:24.502Z",
+      "endTime": "2026-09-07T20:11:21.960Z",
+      "state": "COMPLETED",
+      "type": "EPISODE_TYPE_PUBLIC",
+      "agents": [
+        {
+          "submissionId": 56072267,
+          "reward": 33772,
+          "teamName": "muelsyse111",
+          "teamId": 16846010
+        },
+        {
+          "submissionId": 56083722,
+          "index": 1,
+          "reward": 91875,
+          "teamName": "DieByTheSword",
+          "teamId": 16659771
+        }
+      ]
+    },
+    {
+      "id": 106541157,
+      "createTime": "2026-09-07T19:00:26.297Z",
+      "endTime": "2026-09-07T19:05:36.974Z",
+      "state": "COMPLETED",
+      "type": "EPISODE_TYPE_PUBLIC",
+      "agents": [
+        {
+          "submissionId": 56072267,
+          "reward": 92712,
+          "teamName": "muelsyse111",
+          "teamId": 16846010
+        },
+        {
+          "submissionId": 55753388,
+          "index": 1,
+          "reward": 47498,
+          "teamName": "Moriarty",
+          "teamId": 16706738
+        }
+      ]
+    },
+    {
+      "id": 106500656,
+      "createTime": "2026-09-07T16:04:35.011Z",
+      "endTime": "2026-09-07T16:07:22.870Z",
+      "state": "COMPLETED",
+      "type": "EPISODE_TYPE_PUBLIC",
+      "agents": [
+        {
+          "submissionId": 56072267,
+          "reward": 70677,
+          "teamName": "muelsyse111",
+          "teamId": 16846010
+        },
+        {
+          "submissionId": 55898826,
+          "index": 1,
+          "reward": 15374,
+          "teamName": "CBenaventte",
+          "teamId": 16661382
+        }
+      ]
+    },
+    {
+      "id": 106461133,
+      "createTime": "2026-09-07T13:16:26.479Z",
+      "endTime": "2026-09-07T13:18:52.198Z",
+      "state": "COMPLETED",
+      "type": "EPISODE_TYPE_PUBLIC",
+      "agents": [
+        {
+          "submissionId": 56072267,
+          "reward": 32121,
+          "teamName": "muelsyse111",
+          "teamId": 16846010
+        },
+        {
+          "submissionId": 56077399,
+          "index": 1,
+          "reward": 148213,
+          "teamName": "Peter Parker",
+          "teamId": 16637255
+        }
+      ]
+    },
+    {
+      "id": 106442272,
+      "createTime": "2026-09-07T11:52:26.076Z",
+      "endTime": "2026-09-07T11:58:30.029Z",
+      "state": "COMPLETED",
+      "type": "EPISODE_TYPE_PUBLIC",
+      "agents": [
+        {
+          "submissionId": 55966265,
+          "reward": 84468,
+          "teamName": "Yuchen20",
+          "teamId": 16637499
+        },
+        {
+          "submissionId": 56072267,
+          "index": 1,
+          "reward": 71806,
+          "teamName": "muelsyse111",
+          "teamId": 16846010
+        }
+      ]
+    },
+    {
+      "id": 106428925,
+      "createTime": "2026-09-07T10:56:19.008Z",
+      "endTime": "2026-09-07T10:59:55.020Z",
+      "state": "COMPLETED",
+      "type": "EPISODE_TYPE_PUBLIC",
+      "agents": [
+        {
+          "submissionId": 56075237,
+          "reward": 4397,
+          "teamName": "BenJung",
+          "teamId": 16768466
+        },
+        {
+          "submissionId": 56072267,
+          "index": 1,
+          "reward": 72721,
+          "teamName": "muelsyse111",
+          "teamId": 16846010
+        }
+      ]
+    },
+    {
+      "id": 106408278,
+      "createTime": "2026-09-07T09:24:33.458Z",
+      "endTime": "2026-09-07T09:27:10.039Z",
+      "state": "COMPLETED",
+      "type": "EPISODE_TYPE_PUBLIC",
+      "agents": [
+        {
+          "submissionId": 56072267,
+          "reward": 65325,
+          "teamName": "muelsyse111",
+          "teamId": 16846010
+        },
+        {
+          "submissionId": 55900741,
+          "index": 1,
+          "reward": 125453,
+          "teamName": "Muhammad Hokimiyon",
+          "teamId": 16793461
+        }
+      ]
+    },
+    {
+      "id": 106407277,
+      "createTime": "2026-09-07T09:20:30.705Z",
+      "endTime": "2026-09-07T09:23:51.773Z",
+      "state": "COMPLETED",
+      "type": "EPISODE_TYPE_PUBLIC",
+      "agents": [
+        {
+          "submissionId": 56072267,
+          "reward": 40270,
+          "teamName": "muelsyse111",
+          "teamId": 16846010
+        },
+        {
+          "submissionId": 55511388,
+          "index": 1,
+          "reward": 77454,
+          "teamName": "Carey Casile",
+          "teamId": 16714592
+        }
+      ]
+    },
+    {
+      "id": 106406349,
+      "createTime": "2026-09-07T09:16:27.587Z",
+      "endTime": "2026-09-07T09:22:19.948Z",
+      "state": "COMPLETED",
+      "type": "EPISODE_TYPE_PUBLIC",
+      "agents": [
+        {
+          "submissionId": 56072267,
+          "reward": 86224,
+          "teamName": "muelsyse111",
+          "teamId": 16846010
+        },
+        {
+          "submissionId": 55801136,
+          "index": 1,
+          "reward": 45802,
+          "teamName": "lbs-vadar",
+          "teamId": 16691807
+        }
+      ]
+    },
+    {
+      "id": 106405427,
+      "createTime": "2026-09-07T09:12:32.193Z",
+      "endTime": "2026-09-07T09:17:32.270Z",
+      "state": "COMPLETED",
+      "type": "EPISODE_TYPE_PUBLIC",
+      "agents": [
+        {
+          "submissionId": 56072267,
+          "reward": 73963,
+          "teamName": "muelsyse111",
+          "teamId": 16846010
+        },
+        {
+          "submissionId": 56061675,
+          "index": 1,
+          "reward": 85387,
+          "teamName": "Timothee Henry",
+          "teamId": 16775242
+        }
+      ]
+    },
+    {
+      "id": 106404482,
+      "createTime": "2026-09-07T09:08:27.096Z",
+      "endTime": "2026-09-07T09:11:42.036Z",
+      "state": "COMPLETED",
+      "type": "EPISODE_TYPE_PUBLIC",
+      "agents": [
+        {
+          "submissionId": 56072267,
+          "reward": 59360,
+          "teamName": "muelsyse111",
+          "teamId": 16846010
+        },
+        {
+          "submissionId": 55219609,
+          "index": 1,
+          "reward": 72775,
+          "teamName": "Farmville Redux",
+          "teamId": 16622938
+        }
+      ]
+    },
+    {
+      "id": 106403556,
+      "createTime": "2026-09-07T09:04:30.212Z",
+      "endTime": "2026-09-07T09:06:43.127Z",
+      "state": "COMPLETED",
+      "type": "EPISODE_TYPE_PUBLIC",
+      "agents": [
+        {
+          "submissionId": 55666971,
+          "reward": 58159,
+          "teamName": "Ebenezer Olumeyan",
+          "teamId": 16727961
+        },
+        {
+          "submissionId": 56072267,
+          "index": 1,
+          "reward": 77445,
+          "teamName": "muelsyse111",
+          "teamId": 16846010
+        }
+      ]
+    },
+    {
+      "id": 106402626,
+      "createTime": "2026-09-07T09:00:34.206Z",
+      "endTime": "2026-09-07T09:02:41.986Z",
+      "state": "COMPLETED",
+      "type": "EPISODE_TYPE_PUBLIC",
+      "agents": [
+        {
+          "submissionId": 55425859,
+          "reward": 30866,
+          "teamName": "Sravya Isukapatla",
+          "teamId": 16663267
+        },
+        {
+          "submissionId": 56072267,
+          "index": 1,
+          "reward": 59221,
+          "teamName": "muelsyse111",
+          "teamId": 16846010
+        }
+      ]
+    },
+    {
+      "id": 106401696,
+      "createTime": "2026-09-07T08:56:32.981Z",
+      "endTime": "2026-09-07T08:59:49.140Z",
+      "state": "COMPLETED",
+      "type": "EPISODE_TYPE_PUBLIC",
+      "agents": [
+        {
+          "submissionId": 56072267,
+          "reward": 51520,
+          "teamName": "muelsyse111",
+          "teamId": 16846010
+        },
+        {
+          "submissionId": 55821823,
+          "index": 1,
+          "reward": 99156,
+          "teamName": "misaki",
+          "teamId": 16736856
+        }
+      ]
+    },
+    {
+      "id": 106400776,
+      "createTime": "2026-09-07T08:52:28.092Z",
+      "endTime": "2026-09-07T08:54:42.089Z",
+      "state": "COMPLETED",
+      "type": "EPISODE_TYPE_PUBLIC",
+      "agents": [
+        {
+          "submissionId": 56025958,
+          "reward": 64108,
+          "teamName": "Bill Xu",
+          "teamId": 16654085
+        },
+        {
+          "submissionId": 56072267,
+          "index": 1,
+          "reward": 67545,
+          "teamName": "muelsyse111",
+          "teamId": 16846010
+        }
+      ]
+    },
+    {
+      "id": 106399824,
+      "createTime": "2026-09-07T08:48:20.583Z",
+      "endTime": "2026-09-07T08:50:24.139Z",
+      "state": "COMPLETED",
+      "type": "EPISODE_TYPE_PUBLIC",
+      "agents": [
+        {
+          "submissionId": 56072267,
+          "reward": 71381,
+          "teamName": "muelsyse111",
+          "teamId": 16846010
+        },
+        {
+          "submissionId": 55668154,
+          "index": 1,
+          "reward": 86959,
+          "teamName": "Dennis Navamani",
+          "teamId": 16665471
+        }
+      ]
+    },
+    {
+      "id": 106398912,
+      "createTime": "2026-09-07T08:44:23.613Z",
+      "endTime": "2026-09-07T08:49:30.234Z",
+      "state": "COMPLETED",
+      "type": "EPISODE_TYPE_PUBLIC",
+      "agents": [
+        {
+          "submissionId": 55428052,
+          "reward": 48447,
+          "teamName": "Khalibryler",
+          "teamId": 16687237
+        },
+        {
+          "submissionId": 56072267,
+          "index": 1,
+          "reward": 72923,
+          "teamName": "muelsyse111",
+          "teamId": 16846010
+        }
+      ]
+    },
+    {
+      "id": 106397958,
+      "createTime": "2026-09-07T08:40:22.266Z",
+      "endTime": "2026-09-07T08:41:34.034Z",
+      "state": "COMPLETED",
+      "type": "EPISODE_TYPE_PUBLIC",
+      "agents": [
+        {
+          "submissionId": 55932923,
+          "reward": 40754,
+          "teamName": "Bonkoturyu",
+          "teamId": 16724993
+        },
+        {
+          "submissionId": 56072267,
+          "index": 1,
+          "reward": 32936,
+          "teamName": "muelsyse111",
+          "teamId": 16846010
+        }
+      ]
+    },
+    {
+      "id": 106396997,
+      "createTime": "2026-09-07T08:36:20.371Z",
+      "endTime": "2026-09-07T08:39:54.651Z",
+      "state": "COMPLETED",
+      "type": "EPISODE_TYPE_PUBLIC",
+      "agents": [
+        {
+          "submissionId": 56072267,
+          "reward": 71502,
+          "teamName": "muelsyse111",
+          "teamId": 16846010
+        },
+        {
+          "submissionId": 56056610,
+          "index": 1,
+          "reward": 71256,
+          "teamName": "Amit Malakar",
+          "teamId": 16657332
+        }
+      ]
+    },
+    {
+      "id": 106396050,
+      "createTime": "2026-09-07T08:32:22.366Z",
+      "endTime": "2026-09-07T08:37:03.698Z",
+      "state": "COMPLETED",
+      "type": "EPISODE_TYPE_PUBLIC",
+      "agents": [
+        {
+          "submissionId": 55597386,
+          "reward": 73538,
+          "teamName": "Wasaanyi",
+          "teamId": 16685582
+        },
+        {
+          "submissionId": 56072267,
+          "index": 1,
+          "reward": 73527,
+          "teamName": "muelsyse111",
+          "teamId": 16846010
+        }
+      ]
+    },
+    {
+      "id": 106395132,
+      "createTime": "2026-09-07T08:28:20.410Z",
+      "endTime": "2026-09-07T08:33:34.129Z",
+      "state": "COMPLETED",
+      "type": "EPISODE_TYPE_PUBLIC",
+      "agents": [
+        {
+          "submissionId": 55382308,
+          "reward": 96782,
+          "teamName": "victor souza",
+          "teamId": 16666452
+        },
+        {
+          "submissionId": 56072267,
+          "index": 1,
+          "reward": 45353,
+          "teamName": "muelsyse111",
+          "teamId": 16846010
+        }
+      ]
+    },
+    {
+      "id": 106394176,
+      "createTime": "2026-09-07T08:24:23.275Z",
+      "endTime": "2026-09-07T08:27:12.550Z",
+      "state": "COMPLETED",
+      "type": "EPISODE_TYPE_PUBLIC",
+      "agents": [
+        {
+          "submissionId": 55252854,
+          "reward": 54772,
+          "teamName": "Mathijs Deelen",
+          "teamId": 16657105
+        },
+        {
+          "submissionId": 56072267,
+          "index": 1,
+          "reward": 50184,
+          "teamName": "muelsyse111",
+          "teamId": 16846010
+        }
+      ]
+    },
+    {
+      "id": 106393261,
+      "createTime": "2026-09-07T08:20:20.375Z",
+      "endTime": "2026-09-07T08:21:25.574Z",
+      "state": "COMPLETED",
+      "type": "EPISODE_TYPE_PUBLIC",
+      "agents": [
+        {
+          "submissionId": 56072267,
+          "reward": 73447,
+          "teamName": "muelsyse111",
+          "teamId": 16846010
+        },
+        {
+          "submissionId": 55390020,
+          "index": 1,
+          "reward": 69071,
+          "teamName": "Mahfujur Rahman Rakib",
+          "teamId": 16697681
+        }
+      ]
+    },
+    {
+      "id": 106392308,
+      "createTime": "2026-09-07T08:16:22.186Z",
+      "endTime": "2026-09-07T08:18:52.934Z",
+      "state": "COMPLETED",
+      "type": "EPISODE_TYPE_PUBLIC",
+      "agents": [
+        {
+          "submissionId": 55676257,
+          "reward": 76577,
+          "teamName": "Venkata Madhu Sai D ",
+          "teamId": 16748979
+        },
+        {
+          "submissionId": 56072267,
+          "index": 1,
+          "reward": 42805,
+          "teamName": "muelsyse111",
+          "teamId": 16846010
+        }
+      ]
+    },
+    {
+      "id": 106391368,
+      "createTime": "2026-09-07T08:12:21.212Z",
+      "endTime": "2026-09-07T08:14:08.510Z",
+      "state": "COMPLETED",
+      "type": "EPISODE_TYPE_PUBLIC",
+      "agents": [
+        {
+          "submissionId": 55730225,
+          "reward": 70342,
+          "teamName": "aarav221w",
+          "teamId": 16688175
+        },
+        {
+          "submissionId": 56072267,
+          "index": 1,
+          "reward": 87959,
+          "teamName": "muelsyse111",
+          "teamId": 16846010
+        }
+      ]
+    },
+    {
+      "id": 106390449,
+      "createTime": "2026-09-07T08:08:20.027Z",
+      "endTime": "2026-09-07T08:13:32.953Z",
+      "state": "COMPLETED",
+      "type": "EPISODE_TYPE_PUBLIC",
+      "agents": [
+        {
+          "submissionId": 55773130,
+          "reward": 48608,
+          "teamName": "jose manuel Tinajero",
+          "teamId": 16708230
+        },
+        {
+          "submissionId": 56072267,
+          "index": 1,
+          "reward": 67784,
+          "teamName": "muelsyse111",
+          "teamId": 16846010
+        }
+      ]
+    },
+    {
+      "id": 106389505,
+      "createTime": "2026-09-07T08:04:24.206Z",
+      "endTime": "2026-09-07T08:06:14.722Z",
+      "state": "COMPLETED",
+      "type": "EPISODE_TYPE_PUBLIC",
+      "agents": [
+        {
+          "submissionId": 56072267,
+          "reward": 81451,
+          "teamName": "muelsyse111",
+          "teamId": 16846010
+        },
+        {
+          "submissionId": 55335754,
+          "index": 1,
+          "reward": 40578,
+          "teamName": "Ian Chung",
+          "teamId": 16664266
+        }
+      ]
+    },
+    {
+      "id": 106388572,
+      "createTime": "2026-09-07T08:00:20.581Z",
+      "endTime": "2026-09-07T08:03:05.585Z",
+      "state": "COMPLETED",
+      "type": "EPISODE_TYPE_PUBLIC",
+      "agents": [
+        {
+          "submissionId": 56072267,
+          "reward": 59963,
+          "teamName": "muelsyse111",
+          "teamId": 16846010
+        },
+        {
+          "submissionId": 56023721,
+          "index": 1,
+          "reward": 101398,
+          "teamName": "RiyaSoni20",
+          "teamId": 16709809
+        }
+      ]
+    },
     {
       "id": 106387464,
       "createTime": "2026-09-07T07:52:56.210Z",
@@ -29,10 +821,16 @@
   ],
   "downloads": [
     {
-      "episode_id": 106387464,
+      "episode_id": 106738384,
       "status": "DOWNLOADED",
-      "path": "replays/raw/episode-106387464-replay.json",
-      "sha256": "7d5b1727d96380f5d8ba314e4588f5de78a46e656c9e79319903b1ea173fe541"
+      "path": "replays/raw/episode-106738384-replay.json",
+      "sha256": "f5b6bad7acf65c800f4fdaa23812fe6ac911c4fd3448c82d8abb62ffe5b2b8c0"
+    },
+    {
+      "episode_id": 106678954,
+      "status": "DOWNLOADED",
+      "path": "replays/raw/episode-106678954-replay.json",
+      "sha256": "7fd3080f1421e121f80cb367d28549ca36b2feb66631e82f12454a6a9a5ed21e"
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "id": "muelsyse111/kaggriculture-exp20260908-01-funding-audit",
+  "title": "Kaggriculture EXP20260908 01 Funding Audit",
+  "code_file": "notebook.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_internet": false,
+  "dataset_sources": [],
+  "competition_sources": [
+    "kaggriculture"
+  ],
+  "kernel_sources": []
+}

@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-07T07:56:26.608472+00:00",
+  "checked_at": "2026-09-08T09:18:35.503242+00:00",
   "exp_id": "EXP-006",
   "submission_ref": 56072267,
   "status": "COMPLETE",
@@ -7,9 +7,9 @@
   "description": "EXP-006 first-baseline parent=none git=298d2074 local=b968c37; independent crop calibration",
   "file_name": "submission.tar.gz",
   "total_bytes": 8774,
-  "public_score": "600.0",
+  "public_score": "562.6",
   "has_error": false,
-  "quota_remaining": 4,
+  "quota_remaining": 5,
   "games_played": null,
   "rating_confidence": "Uncalibrated first submission"
 }

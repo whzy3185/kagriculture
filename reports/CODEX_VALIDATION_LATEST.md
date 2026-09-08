@@ -1,5 +1,17 @@
 # Codex Validation
 
+## 2026-09-08 Daily Candidate
+
+Decision: **NO-GO / KEEP_PARENT** for EXP-20260908-01. Parent research source:
+Ahmed v23, selected through 1008 panel games plus a 192-game finalist test.
+Candidate tests: 51 passed; fresh 24-seed, both-seat direct parent comparison:
+0-48, mean -6432.1875, median -4358, p10 -14800.1. Games all completed, but
+strict contract flags and unit no-ops remained. Candidate 96-seed gate was not
+run after this clear failure. No approved archive or competition submission.
+Loss replay/cash reconciliation and production-failure diagnostics are retained.
+The public audit Notebook is source disclosure only, not cloud game validation.
+Root main.py and deployed EXP-006 are unchanged. No PR created.
+
 ## EXP-006 Update, 2026-09-07
 
 Decision: **COMPLETE; initial online calibration only**.

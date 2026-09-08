@@ -1,0 +1,14 @@
+{
+  "identity": {
+    "source_hashes": {
+      "exp20260908_01": "7a3c12b2ec8efe8fac107ce984e5951e92e8595dced39fcd787536cbcc887607",
+      "ahmed_v23": "6eb728a40cc55f7e497add6ea2946ce38b0389c24531a208219d48587435838e"
+    },
+    "seed_start": 2026091000,
+    "seed_count": 24,
+    "engine_sha": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+    "evaluator_sha": "6d8f9052738e661ee6cd923e4dcb639d8cefefc351dc802a22000b7a385d4e2b"
+  },
+  "initial_harness_sha": "0da91444d6033c20578adfa5322e0485b041f527e0a7ec7d708445e3e983e70a",
+  "current_harness_sha": "0da91444d6033c20578adfa5322e0485b041f527e0a7ec7d708445e3e983e70a"
+}

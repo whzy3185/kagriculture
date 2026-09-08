@@ -1,5 +1,19 @@
 # Compliance Audit
 
+## 2026-09-08 Controlling Update
+
+The user explicitly replaced the earlier independent-only engineering policy
+with licensed public-champion reproduction plus one measured increment. Today's
+research parent is byte-identical Ahmed v23, with full Apache-2.0 license and
+upstream credits retained. The rejected derivative marks our only modification.
+Public Code/Discussion and source-specific provenance were checked before edits.
+Both parent and rejected derivative are disclosed in the competition-associated
+research Notebook kaggriculture-exp20260908-01-funding-audit under muelsyse111.
+That Notebook writes research source only, executes no agent and makes no
+competition submission. No raw replays or credentials are published in Git.
+The candidate failed its 24-seed gate and must not be submitted. The earlier
+no-public-code-adoption statements below are historical, not today's policy.
+
 Status: **EXP-006 PUBLICATION CLEARED; LIVE SUBMISSION GATES REQUIRED**.
 
 ## EXP-006 Release Authorization, 2026-09-07

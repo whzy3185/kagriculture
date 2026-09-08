@@ -1,0 +1,420 @@
+{
+  "scope": "Descriptive selected-loss mechanism trace; no new independent evaluation games",
+  "interpretation_limit": "Observed missing feed and disappearances do not isolate every intermediate causal link",
+  "cases": [
+    {
+      "seed": 2026091018,
+      "players": [
+        {
+          "role": "candidate",
+          "empty_carried_wheat_feed_requests": [
+            {
+              "turn": 194,
+              "unit": 2,
+              "position": [
+                5,
+                4
+              ]
+            },
+            {
+              "turn": 201,
+              "unit": 1,
+              "position": [
+                3,
+                3
+              ]
+            },
+            {
+              "turn": 208,
+              "unit": 1,
+              "position": [
+                6,
+                4
+              ]
+            },
+            {
+              "turn": 210,
+              "unit": 0,
+              "position": [
+                5,
+                3
+              ]
+            },
+            {
+              "turn": 291,
+              "unit": 1,
+              "position": [
+                5,
+                4
+              ]
+            },
+            {
+              "turn": 293,
+              "unit": 4,
+              "position": [
+                4,
+                4
+              ]
+            },
+            {
+              "turn": 293,
+              "unit": 5,
+              "position": [
+                6,
+                4
+              ]
+            },
+            {
+              "turn": 294,
+              "unit": 0,
+              "position": [
+                2,
+                4
+              ]
+            },
+            {
+              "turn": 294,
+              "unit": 1,
+              "position": [
+                5,
+                3
+              ]
+            },
+            {
+              "turn": 295,
+              "unit": 2,
+              "position": [
+                3,
+                4
+              ]
+            },
+            {
+              "turn": 295,
+              "unit": 3,
+              "position": [
+                6,
+                2
+              ]
+            },
+            {
+              "turn": 295,
+              "unit": 6,
+              "position": [
+                1,
+                4
+              ]
+            },
+            {
+              "turn": 297,
+              "unit": 5,
+              "position": [
+                7,
+                4
+              ]
+            },
+            {
+              "turn": 298,
+              "unit": 1,
+              "position": [
+                5,
+                2
+              ]
+            },
+            {
+              "turn": 300,
+              "unit": 2,
+              "position": [
+                3,
+                2
+              ]
+            },
+            {
+              "turn": 301,
+              "unit": 8,
+              "position": [
+                2,
+                3
+              ]
+            },
+            {
+              "turn": 303,
+              "unit": 1,
+              "position": [
+                4,
+                2
+              ]
+            },
+            {
+              "turn": 304,
+              "unit": 3,
+              "position": [
+                4,
+                1
+              ]
+            },
+            {
+              "turn": 306,
+              "unit": 8,
+              "position": [
+                3,
+                3
+              ]
+            },
+            {
+              "turn": 308,
+              "unit": 1,
+              "position": [
+                4,
+                3
+              ]
+            },
+            {
+              "turn": 309,
+              "unit": 2,
+              "position": [
+                4,
+                0
+              ]
+            }
+          ],
+          "animal_disappearances_at_day_end": [
+            {
+              "turn": 215,
+              "animal": "COW",
+              "position": [
+                5,
+                3
+              ]
+            },
+            {
+              "turn": 215,
+              "animal": "COW",
+              "position": [
+                6,
+                4
+              ]
+            },
+            {
+              "turn": 311,
+              "animal": "COW",
+              "position": [
+                5,
+                2
+              ]
+            },
+            {
+              "turn": 311,
+              "animal": "COW",
+              "position": [
+                5,
+                4
+              ]
+            },
+            {
+              "turn": 695,
+              "animal": "SHEEP",
+              "position": [
+                4,
+                0
+              ]
+            },
+            {
+              "turn": 695,
+              "animal": "SHEEP",
+              "position": [
+                3,
+                3
+              ]
+            },
+            {
+              "turn": 695,
+              "animal": "SHEEP",
+              "position": [
+                3,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "role": "parent",
+          "empty_carried_wheat_feed_requests": [
+            {
+              "turn": 293,
+              "unit": 4,
+              "position": [
+                4,
+                4
+              ]
+            },
+            {
+              "turn": 293,
+              "unit": 5,
+              "position": [
+                6,
+                4
+              ]
+            },
+            {
+              "turn": 295,
+              "unit": 6,
+              "position": [
+                1,
+                4
+              ]
+            },
+            {
+              "turn": 297,
+              "unit": 5,
+              "position": [
+                7,
+                4
+              ]
+            },
+            {
+              "turn": 301,
+              "unit": 8,
+              "position": [
+                2,
+                3
+              ]
+            },
+            {
+              "turn": 306,
+              "unit": 8,
+              "position": [
+                3,
+                3
+              ]
+            },
+            {
+              "turn": 670,
+              "unit": 10,
+              "position": [
+                1,
+                4
+              ]
+            }
+          ],
+          "animal_disappearances_at_day_end": [
+            {
+              "turn": 311,
+              "animal": "COW",
+              "position": [
+                6,
+                4
+              ]
+            },
+            {
+              "turn": 695,
+              "animal": "SHEEP",
+              "position": [
+                4,
+                0
+              ]
+            },
+            {
+              "turn": 695,
+              "animal": "SHEEP",
+              "position": [
+                3,
+                3
+              ]
+            },
+            {
+              "turn": 695,
+              "animal": "GOOSE",
+              "position": [
+                1,
+                4
+              ]
+            },
+            {
+              "turn": 695,
+              "animal": "SHEEP",
+              "position": [
+                3,
+                4
+              ]
+            }
+          ]
+        }
+      ],
+      "replay_sha256": "a8e718835e4e2dac55e8ef4c7d937744673a66be547cb9c1ef8ae462d43f966e"
+    },
+    {
+      "seed": 2026091015,
+      "players": [
+        {
+          "role": "candidate",
+          "empty_carried_wheat_feed_requests": [
+            {
+              "turn": 194,
+              "unit": 2,
+              "position": [
+                5,
+                4
+              ]
+            },
+            {
+              "turn": 201,
+              "unit": 1,
+              "position": [
+                3,
+                3
+              ]
+            },
+            {
+              "turn": 208,
+              "unit": 1,
+              "position": [
+                6,
+                4
+              ]
+            },
+            {
+              "turn": 210,
+              "unit": 0,
+              "position": [
+                5,
+                3
+              ]
+            },
+            {
+              "turn": 331,
+              "unit": 8,
+              "position": [
+                3,
+                2
+              ]
+            }
+          ],
+          "animal_disappearances_at_day_end": [
+            {
+              "turn": 215,
+              "animal": "COW",
+              "position": [
+                5,
+                3
+              ]
+            },
+            {
+              "turn": 215,
+              "animal": "COW",
+              "position": [
+                6,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "role": "parent",
+          "empty_carried_wheat_feed_requests": [],
+          "animal_disappearances_at_day_end": []
+        }
+      ],
+      "replay_sha256": "4ebce3e260373d5bce8688c6a49f5d20dce30ddde702d844fb5e42b0e73796ff"
+    }
+  ]
+}

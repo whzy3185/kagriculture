@@ -1,0 +1,766 @@
+{
+  "status": "SCREEN_COMPLETE_NOT_SUBMISSION_APPROVAL",
+  "games": 1008,
+  "source_hashes": {
+    "farming_v4": "1590394cf30c8989a3e1cfdb027d89b5ccd97c2fb4cdc14959a15555b2b2361a",
+    "shape_v11": "2b97e2c653018ac4aeffb8463ec91c8f26b097b4cef81289acc25ccdbc68f916",
+    "thomas_v2": "8241246765098c50223d897739cb32076b71a303284d2e5e1c5f0fb495bb5a97",
+    "ahmed_v23": "6eb728a40cc55f7e497add6ea2946ce38b0389c24531a208219d48587435838e",
+    "kaito_v58": "b041058ec187a8d0a01edc0eab8de068b53deca3e6c1973faf74ace6916ddcb9",
+    "exp006_independent": "84f11eaeceb1f2053c51947d7369b71ef6c7bdebfc66b815fbc0d04d62ecbd77",
+    "boatlee_v20": "8ac34abce129cf5c9456776c90edf7d2233b3a280bbdcf7622628825ef3669a0"
+  },
+  "rankings": [
+    {
+      "name": "ahmed_v23",
+      "mean_public_opponent_points": 0.9166666666666666,
+      "pairwise_wins": 5,
+      "worst_opponent_p10": -289.5
+    },
+    {
+      "name": "thomas_v2",
+      "mean_public_opponent_points": 0.8833333333333334,
+      "pairwise_wins": 4,
+      "worst_opponent_p10": -2942.0
+    },
+    {
+      "name": "shape_v11",
+      "mean_public_opponent_points": 0.5083333333333334,
+      "pairwise_wins": 3,
+      "worst_opponent_p10": -31084.4
+    },
+    {
+      "name": "farming_v4",
+      "mean_public_opponent_points": 0.425,
+      "pairwise_wins": 2,
+      "worst_opponent_p10": -51657.0
+    },
+    {
+      "name": "kaito_v58",
+      "mean_public_opponent_points": 0.26666666666666666,
+      "pairwise_wins": 1,
+      "worst_opponent_p10": -47219.0
+    },
+    {
+      "name": "boatlee_v20",
+      "mean_public_opponent_points": 0.0,
+      "pairwise_wins": 0,
+      "worst_opponent_p10": -35901.1
+    }
+  ],
+  "comparisons": {
+    "ahmed_v23 vs exp006_independent": {
+      "games": 48,
+      "wins": 48,
+      "draws": 0,
+      "points": 1.0,
+      "mean_margin": 104034.97916666667,
+      "median_margin": 105432.5,
+      "p10_margin": 68474.5,
+      "variance": 609817066.2335993,
+      "directly_instrumented_games": 48,
+      "runtime_max": 0.014748875000805128,
+      "faults": {
+        "atomic_plant_rejections": 0,
+        "contract_errors": 2702,
+        "failed_market_attempts": 32,
+        "overflow_units": 0,
+        "unfilled_requested_market_units": 48,
+        "unit_noops": 2569
+      }
+    },
+    "exp006_independent vs ahmed_v23": {
+      "games": 48,
+      "wins": 0,
+      "draws": 0,
+      "points": 0.0,
+      "mean_margin": -104034.97916666667,
+      "median_margin": -105432.5,
+      "p10_margin": -135548.9,
+      "variance": 609817066.2335993,
+      "directly_instrumented_games": 0,
+      "runtime_max": null,
+      "faults": null
+    },
+    "ahmed_v23 vs kaito_v58": {
+      "games": 48,
+      "wins": 48,
+      "draws": 0,
+      "points": 1.0,
+      "mean_margin": 36361.125,
+      "median_margin": 36062.0,
+      "p10_margin": 26980.5,
+      "variance": 63320010.19680851,
+      "directly_instrumented_games": 48,
+      "runtime_max": 0.008444374998362036,
+      "faults": {
+        "atomic_plant_rejections": 0,
+        "contract_errors": 2704,
+        "failed_market_attempts": 104,
+        "overflow_units": 0,
+        "unfilled_requested_market_units": 234,
+        "unit_noops": 2869
+      }
+    },
+    "kaito_v58 vs ahmed_v23": {
+      "games": 48,
+      "wins": 0,
+      "draws": 0,
+      "points": 0.0,
+      "mean_margin": -36361.125,
+      "median_margin": -36062.0,
+      "p10_margin": -47219.0,
+      "variance": 63320010.19680851,
+      "directly_instrumented_games": 0,
+      "runtime_max": null,
+      "faults": null
+    },
+    "ahmed_v23 vs farming_v4": {
+      "games": 48,
+      "wins": 48,
+      "draws": 0,
+      "points": 1.0,
+      "mean_margin": 39262.041666666664,
+      "median_margin": 38588.0,
+      "p10_margin": 23270.3,
+      "variance": 175700371.61524823,
+      "directly_instrumented_games": 0,
+      "runtime_max": null,
+      "faults": null
+    },
+    "farming_v4 vs ahmed_v23": {
+      "games": 48,
+      "wins": 0,
+      "draws": 0,
+      "points": 0.0,
+      "mean_margin": -39262.041666666664,
+      "median_margin": -38588.0,
+      "p10_margin": -51657.0,
+      "variance": 175700371.61524823,
+      "directly_instrumented_games": 48,
+      "runtime_max": 0.00671320800029207,
+      "faults": {
+        "atomic_plant_rejections": 320,
+        "contract_errors": 3114,
+        "failed_market_attempts": 1411,
+        "overflow_units": 0,
+        "unfilled_requested_market_units": 3705,
+        "unit_noops": 32005
+      }
+    },
+    "exp006_independent vs farming_v4": {
+      "games": 48,
+      "wins": 0,
+      "draws": 0,
+      "points": 0.0,
+      "mean_margin": -94559.625,
+      "median_margin": -98374.0,
+      "p10_margin": -124853.0,
+      "variance": 573331034.4095745,
+      "directly_instrumented_games": 0,
+      "runtime_max": null,
+      "faults": null
+    },
+    "farming_v4 vs exp006_independent": {
+      "games": 48,
+      "wins": 48,
+      "draws": 0,
+      "points": 1.0,
+      "mean_margin": 94559.625,
+      "median_margin": 98374.0,
+      "p10_margin": 63840.0,
+      "variance": 573331034.4095745,
+      "directly_instrumented_games": 48,
+      "runtime_max": 0.004626499998266809,
+      "faults": {
+        "atomic_plant_rejections": 0,
+        "contract_errors": 1129,
+        "failed_market_attempts": 32,
+        "overflow_units": 0,
+        "unfilled_requested_market_units": 58,
+        "unit_noops": 2208
+      }
+    },
+    "farming_v4 vs kaito_v58": {
+      "games": 48,
+      "wins": 40,
+      "draws": 0,
+      "points": 0.8333333333333334,
+      "mean_margin": 7806.770833333333,
+      "median_margin": 8785.0,
+      "p10_margin": -7111.5999999999985,
+      "variance": 80870590.09530142,
+      "directly_instrumented_games": 48,
+      "runtime_max": 0.0038911670017114375,
+      "faults": {
+        "atomic_plant_rejections": 0,
+        "contract_errors": 1325,
+        "failed_market_attempts": 254,
+        "overflow_units": 0,
+        "unfilled_requested_market_units": 458,
+        "unit_noops": 2722
+      }
+    },
+    "kaito_v58 vs farming_v4": {
+      "games": 48,
+      "wins": 8,
+      "draws": 0,
+      "points": 0.16666666666666666,
+      "mean_margin": -7806.770833333333,
+      "median_margin": -8785.0,
+      "p10_margin": -16887.0,
+      "variance": 80870590.09530142,
+      "directly_instrumented_games": 0,
+      "runtime_max": null,
+      "faults": null
+    },
+    "farming_v4 vs shape_v11": {
+      "games": 48,
+      "wins": 5,
+      "draws": 18,
+      "points": 0.2916666666666667,
+      "mean_margin": -1.0833333333333333,
+      "median_margin": -1.0,
+      "p10_margin": -25.799999999999986,
+      "variance": 2687.354609929078,
+      "directly_instrumented_games": 48,
+      "runtime_max": 0.0285199170029955,
+      "faults": {
+        "atomic_plant_rejections": 0,
+        "contract_errors": 1294,
+        "failed_market_attempts": 264,
+        "overflow_units": 0,
+        "unfilled_requested_market_units": 468,
+        "unit_noops": 2580
+      }
+    },
+    "shape_v11 vs farming_v4": {
+      "games": 48,
+      "wins": 25,
+      "draws": 18,
+      "points": 0.7083333333333334,
+      "mean_margin": 1.0833333333333333,
+      "median_margin": 1.0,
+      "p10_margin": -21.899999999999988,
+      "variance": 2687.354609929078,
+      "directly_instrumented_games": 0,
+      "runtime_max": null,
+      "faults": null
+    },
+    "farming_v4 vs thomas_v2": {
+      "games": 48,
+      "wins": 0,
+      "draws": 0,
+      "points": 0.0,
+      "mean_margin": -38981.25,
+      "median_margin": -38208.0,
+      "p10_margin": -51377.0,
+      "variance": 176185878.70212767,
+      "directly_instrumented_games": 48,
+      "runtime_max": 0.006427209002140444,
+      "faults": {
+        "atomic_plant_rejections": 319,
+        "contract_errors": 3122,
+        "failed_market_attempts": 1409,
+        "overflow_units": 0,
+        "unfilled_requested_market_units": 3687,
+        "unit_noops": 31942
+      }
+    },
+    "thomas_v2 vs farming_v4": {
+      "games": 48,
+      "wins": 48,
+      "draws": 0,
+      "points": 1.0,
+      "mean_margin": 38981.25,
+      "median_margin": 38208.0,
+      "p10_margin": 22492.100000000002,
+      "variance": 176185878.70212767,
+      "directly_instrumented_games": 0,
+      "runtime_max": null,
+      "faults": null
+    },
+    "exp006_independent vs kaito_v58": {
+      "games": 48,
+      "wins": 0,
+      "draws": 0,
+      "points": 0.0,
+      "mean_margin": -91633.6875,
+      "median_margin": -92430.0,
+      "p10_margin": -126378.0,
+      "variance": 762281810.1768616,
+      "directly_instrumented_games": 0,
+      "runtime_max": null,
+      "faults": null
+    },
+    "kaito_v58 vs exp006_independent": {
+      "games": 48,
+      "wins": 48,
+      "draws": 0,
+      "points": 1.0,
+      "mean_margin": 91633.6875,
+      "median_margin": 92430.0,
+      "p10_margin": 57765.0,
+      "variance": 762281810.1768616,
+      "directly_instrumented_games": 48,
+      "runtime_max": 0.17545954199886182,
+      "faults": {
+        "atomic_plant_rejections": 0,
+        "failed_market_attempts": 126,
+        "overflow_units": 344,
+        "unfilled_requested_market_units": 548,
+        "unit_noops": 1668
+      }
+    },
+    "ahmed_v23 vs shape_v11": {
+      "games": 48,
+      "wins": 48,
+      "draws": 0,
+      "points": 1.0,
+      "mean_margin": 17109.479166666668,
+      "median_margin": 13631.0,
+      "p10_margin": 5869.0,
+      "variance": 100982120.6804078,
+      "directly_instrumented_games": 0,
+      "runtime_max": null,
+      "faults": null
+    },
+    "shape_v11 vs ahmed_v23": {
+      "games": 48,
+      "wins": 0,
+      "draws": 0,
+      "points": 0.0,
+      "mean_margin": -17109.479166666668,
+      "median_margin": -13631.0,
+      "p10_margin": -31084.4,
+      "variance": 100982120.6804078,
+      "directly_instrumented_games": 48,
+      "runtime_max": 0.0036638750025304034,
+      "faults": {
+        "atomic_plant_rejections": 96,
+        "contract_errors": 2216,
+        "failed_market_attempts": 926,
+        "overflow_units": 0,
+        "unfilled_requested_market_units": 2856,
+        "unit_noops": 21972
+      }
+    },
+    "exp006_independent vs shape_v11": {
+      "games": 48,
+      "wins": 0,
+      "draws": 0,
+      "points": 0.0,
+      "mean_margin": -94559.625,
+      "median_margin": -98374.0,
+      "p10_margin": -124853.0,
+      "variance": 573331034.4095745,
+      "directly_instrumented_games": 0,
+      "runtime_max": null,
+      "faults": null
+    },
+    "shape_v11 vs exp006_independent": {
+      "games": 48,
+      "wins": 48,
+      "draws": 0,
+      "points": 1.0,
+      "mean_margin": 94559.625,
+      "median_margin": 98374.0,
+      "p10_margin": 63840.0,
+      "variance": 573331034.4095745,
+      "directly_instrumented_games": 48,
+      "runtime_max": 0.005417000000306871,
+      "faults": {
+        "atomic_plant_rejections": 0,
+        "contract_errors": 53,
+        "failed_market_attempts": 80,
+        "overflow_units": 0,
+        "unfilled_requested_market_units": 1130,
+        "unit_noops": 2208
+      }
+    },
+    "kaito_v58 vs shape_v11": {
+      "games": 48,
+      "wins": 8,
+      "draws": 0,
+      "points": 0.16666666666666666,
+      "mean_margin": -7808.416666666667,
+      "median_margin": -8786.0,
+      "p10_margin": -16890.0,
+      "variance": 80879230.54609929,
+      "directly_instrumented_games": 0,
+      "runtime_max": null,
+      "faults": null
+    },
+    "shape_v11 vs kaito_v58": {
+      "games": 48,
+      "wins": 40,
+      "draws": 0,
+      "points": 0.8333333333333334,
+      "mean_margin": 7808.416666666667,
+      "median_margin": 8786.0,
+      "p10_margin": -7111.5999999999985,
+      "variance": 80879230.54609929,
+      "directly_instrumented_games": 48,
+      "runtime_max": 0.004798250000021653,
+      "faults": {
+        "atomic_plant_rejections": 0,
+        "contract_errors": 66,
+        "failed_market_attempts": 302,
+        "overflow_units": 0,
+        "unfilled_requested_market_units": 1526,
+        "unit_noops": 2722
+      }
+    },
+    "shape_v11 vs thomas_v2": {
+      "games": 48,
+      "wins": 0,
+      "draws": 0,
+      "points": 0.0,
+      "mean_margin": -17390.166666666668,
+      "median_margin": -13562.5,
+      "p10_margin": -30809.0,
+      "variance": 104436198.31205674,
+      "directly_instrumented_games": 48,
+      "runtime_max": 0.0035063329996773973,
+      "faults": {
+        "atomic_plant_rejections": 96,
+        "contract_errors": 2216,
+        "failed_market_attempts": 926,
+        "overflow_units": 0,
+        "unfilled_requested_market_units": 2856,
+        "unit_noops": 21972
+      }
+    },
+    "thomas_v2 vs shape_v11": {
+      "games": 48,
+      "wins": 48,
+      "draws": 0,
+      "points": 1.0,
+      "mean_margin": 17390.166666666668,
+      "median_margin": 13562.5,
+      "p10_margin": 5870.0,
+      "variance": 104436198.31205674,
+      "directly_instrumented_games": 0,
+      "runtime_max": null,
+      "faults": null
+    },
+    "ahmed_v23 vs thomas_v2": {
+      "games": 48,
+      "wins": 28,
+      "draws": 0,
+      "points": 0.5833333333333334,
+      "mean_margin": 739.5,
+      "median_margin": 157.5,
+      "p10_margin": -289.5,
+      "variance": 1739404.8085106383,
+      "directly_instrumented_games": 0,
+      "runtime_max": null,
+      "faults": null
+    },
+    "thomas_v2 vs ahmed_v23": {
+      "games": 48,
+      "wins": 20,
+      "draws": 0,
+      "points": 0.4166666666666667,
+      "mean_margin": -739.5,
+      "median_margin": -157.5,
+      "p10_margin": -2942.0,
+      "variance": 1739404.8085106383,
+      "directly_instrumented_games": 48,
+      "runtime_max": 0.0003753749988391064,
+      "faults": {
+        "atomic_plant_rejections": 0,
+        "contract_errors": 66,
+        "failed_market_attempts": 2219,
+        "overflow_units": 96,
+        "unfilled_requested_market_units": 112094041,
+        "unit_noops": 2789
+      }
+    },
+    "exp006_independent vs thomas_v2": {
+      "games": 48,
+      "wins": 0,
+      "draws": 0,
+      "points": 0.0,
+      "mean_margin": -103093.33333333333,
+      "median_margin": -105561.0,
+      "p10_margin": -136929.0,
+      "variance": 587482701.035461,
+      "directly_instrumented_games": 0,
+      "runtime_max": null,
+      "faults": null
+    },
+    "thomas_v2 vs exp006_independent": {
+      "games": 48,
+      "wins": 48,
+      "draws": 0,
+      "points": 1.0,
+      "mean_margin": 103093.33333333333,
+      "median_margin": 105561.0,
+      "p10_margin": 68194.3,
+      "variance": 587482701.035461,
+      "directly_instrumented_games": 48,
+      "runtime_max": 0.0005495829973369837,
+      "faults": {
+        "atomic_plant_rejections": 0,
+        "contract_errors": 66,
+        "failed_market_attempts": 2078,
+        "overflow_units": 240,
+        "unfilled_requested_market_units": 112093638,
+        "unit_noops": 2569
+      }
+    },
+    "kaito_v58 vs thomas_v2": {
+      "games": 48,
+      "wins": 0,
+      "draws": 0,
+      "points": 0.0,
+      "mean_margin": -36270.916666666664,
+      "median_margin": -35771.0,
+      "p10_margin": -47219.0,
+      "variance": 61307286.20567376,
+      "directly_instrumented_games": 0,
+      "runtime_max": null,
+      "faults": null
+    },
+    "thomas_v2 vs kaito_v58": {
+      "games": 48,
+      "wins": 48,
+      "draws": 0,
+      "points": 1.0,
+      "mean_margin": 36270.916666666664,
+      "median_margin": 35771.0,
+      "p10_margin": 27353.0,
+      "variance": 61307286.20567376,
+      "directly_instrumented_games": 48,
+      "runtime_max": 0.0003861249970213976,
+      "faults": {
+        "atomic_plant_rejections": 0,
+        "contract_errors": 82,
+        "failed_market_attempts": 2204,
+        "overflow_units": 97,
+        "unfilled_requested_market_units": 112094046,
+        "unit_noops": 2867
+      }
+    },
+    "ahmed_v23 vs boatlee_v20": {
+      "games": 48,
+      "wins": 48,
+      "draws": 0,
+      "points": 1.0,
+      "mean_margin": 27020.520833333332,
+      "median_margin": 25237.0,
+      "p10_margin": 17276.0,
+      "variance": 79090524.25487588,
+      "directly_instrumented_games": 0,
+      "runtime_max": null,
+      "faults": null
+    },
+    "boatlee_v20 vs ahmed_v23": {
+      "games": 48,
+      "wins": 0,
+      "draws": 0,
+      "points": 0.0,
+      "mean_margin": -27020.520833333332,
+      "median_margin": -25237.0,
+      "p10_margin": -35291.4,
+      "variance": 79090524.25487588,
+      "directly_instrumented_games": 48,
+      "runtime_max": 0.04629170899715973,
+      "faults": {
+        "atomic_plant_rejections": 12,
+        "failed_market_attempts": 13494,
+        "overflow_units": 508,
+        "unfilled_requested_market_units": 146059,
+        "unit_noops": 1152
+      }
+    },
+    "boatlee_v20 vs exp006_independent": {
+      "games": 48,
+      "wins": 48,
+      "draws": 0,
+      "points": 1.0,
+      "mean_margin": 95611.33333333333,
+      "median_margin": 108821.0,
+      "p10_margin": 43675.700000000004,
+      "variance": 839475602.9929078,
+      "directly_instrumented_games": 48,
+      "runtime_max": 0.03694562499731546,
+      "faults": {
+        "atomic_plant_rejections": 12,
+        "failed_market_attempts": 12724,
+        "overflow_units": 528,
+        "unfilled_requested_market_units": 142606,
+        "unit_noops": 871
+      }
+    },
+    "exp006_independent vs boatlee_v20": {
+      "games": 48,
+      "wins": 0,
+      "draws": 0,
+      "points": 0.0,
+      "mean_margin": -95611.33333333333,
+      "median_margin": -108821.0,
+      "p10_margin": -118556.5,
+      "variance": 839475602.9929078,
+      "directly_instrumented_games": 0,
+      "runtime_max": null,
+      "faults": null
+    },
+    "boatlee_v20 vs farming_v4": {
+      "games": 48,
+      "wins": 0,
+      "draws": 0,
+      "points": 0.0,
+      "mean_margin": -24188.979166666668,
+      "median_margin": -23266.0,
+      "p10_margin": -32470.6,
+      "variance": 47779569.63785461,
+      "directly_instrumented_games": 48,
+      "runtime_max": 0.06425012500039884,
+      "faults": {
+        "atomic_plant_rejections": 12,
+        "failed_market_attempts": 13575,
+        "overflow_units": 508,
+        "unfilled_requested_market_units": 146428,
+        "unit_noops": 1162
+      }
+    },
+    "farming_v4 vs boatlee_v20": {
+      "games": 48,
+      "wins": 48,
+      "draws": 0,
+      "points": 1.0,
+      "mean_margin": 24188.979166666668,
+      "median_margin": 23266.0,
+      "p10_margin": 17209.0,
+      "variance": 47779569.63785461,
+      "directly_instrumented_games": 0,
+      "runtime_max": null,
+      "faults": null
+    },
+    "boatlee_v20 vs kaito_v58": {
+      "games": 48,
+      "wins": 0,
+      "draws": 0,
+      "points": 0.0,
+      "mean_margin": -19900.958333333332,
+      "median_margin": -20079.0,
+      "p10_margin": -28458.9,
+      "variance": 46916006.083333336,
+      "directly_instrumented_games": 48,
+      "runtime_max": 0.0033450829978391994,
+      "faults": {
+        "atomic_plant_rejections": 12,
+        "failed_market_attempts": 13493,
+        "overflow_units": 524,
+        "unfilled_requested_market_units": 145648,
+        "unit_noops": 1223
+      }
+    },
+    "kaito_v58 vs boatlee_v20": {
+      "games": 48,
+      "wins": 48,
+      "draws": 0,
+      "points": 1.0,
+      "mean_margin": 19900.958333333332,
+      "median_margin": 20079.0,
+      "p10_margin": 8903.6,
+      "variance": 46916006.083333336,
+      "directly_instrumented_games": 0,
+      "runtime_max": null,
+      "faults": null
+    },
+    "boatlee_v20 vs shape_v11": {
+      "games": 48,
+      "wins": 0,
+      "draws": 0,
+      "points": 0.0,
+      "mean_margin": -24189.3125,
+      "median_margin": -23266.0,
+      "p10_margin": -32472.0,
+      "variance": 47785244.77260638,
+      "directly_instrumented_games": 48,
+      "runtime_max": 0.07406191699919873,
+      "faults": {
+        "atomic_plant_rejections": 12,
+        "failed_market_attempts": 13575,
+        "overflow_units": 508,
+        "unfilled_requested_market_units": 146428,
+        "unit_noops": 1162
+      }
+    },
+    "shape_v11 vs boatlee_v20": {
+      "games": 48,
+      "wins": 48,
+      "draws": 0,
+      "points": 1.0,
+      "mean_margin": 24189.3125,
+      "median_margin": 23266.0,
+      "p10_margin": 17209.0,
+      "variance": 47785244.77260638,
+      "directly_instrumented_games": 0,
+      "runtime_max": null,
+      "faults": null
+    },
+    "boatlee_v20 vs thomas_v2": {
+      "games": 48,
+      "wins": 0,
+      "draws": 0,
+      "points": 0.0,
+      "mean_margin": -27666.541666666668,
+      "median_margin": -25239.0,
+      "p10_margin": -35901.1,
+      "variance": 109036427.61524823,
+      "directly_instrumented_games": 48,
+      "runtime_max": 0.015295416000299156,
+      "faults": {
+        "atomic_plant_rejections": 12,
+        "failed_market_attempts": 13493,
+        "overflow_units": 508,
+        "unfilled_requested_market_units": 146056,
+        "unit_noops": 1149
+      }
+    },
+    "thomas_v2 vs boatlee_v20": {
+      "games": 48,
+      "wins": 48,
+      "draws": 0,
+      "points": 1.0,
+      "mean_margin": 27666.541666666668,
+      "median_margin": 25239.0,
+      "p10_margin": 17402.0,
+      "variance": 109036427.61524823,
+      "directly_instrumented_games": 0,
+      "runtime_max": null,
+      "faults": null
+    }
+  },
+  "finalists": [
+    "ahmed_v23",
+    "thomas_v2"
+  ],
+  "requires_96_seed_tiebreak": true,
+  "provenance": [
+    {
+      "engine_sha": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+      "evaluator_sha": "6d8f9052738e661ee6cd923e4dcb639d8cefefc351dc802a22000b7a385d4e2b",
+      "harness_sha": "0da91444d6033c20578adfa5322e0485b041f527e0a7ec7d708445e3e983e70a"
+    },
+    {
+      "engine_sha": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+      "evaluator_sha": "6d8f9052738e661ee6cd923e4dcb639d8cefefc351dc802a22000b7a385d4e2b",
+      "harness_sha": "01de26b98e523ce632700d500c6d5c5e97a0a17cf85edcfd69fb21bfeb268109"
+    }
+  ],
+  "limits": [
+    "Related sources are not independent lineages; no population p-value is claimed.",
+    "Fault/runtime metrics are unavailable for reverse rows, never assumed zero.",
+    "Native ARA-V2 excluded; champion scope is the portable Python panel.",
+    "Strict contract flags include deliberately empty market slots; retained separately from terminal failures."
+  ],
+  "report_sha256": {
+    "PUBLIC-20260908-screen.json": "163f77e629b41b17d89d260965ce6d0846a47d48417ecee548a099a94262e30f",
+    "PUBLIC-20260908-adaptive.json": "9f9554713761b387f478a2589bebbb0402acdb6aac0a251b96e2276e4ab4a52e"
+  }
+}

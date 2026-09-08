@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "source_hashes": {
+      "farming_v4": "1590394cf30c8989a3e1cfdb027d89b5ccd97c2fb4cdc14959a15555b2b2361a",
+      "shape_v11": "2b97e2c653018ac4aeffb8463ec91c8f26b097b4cef81289acc25ccdbc68f916",
+      "thomas_v2": "8241246765098c50223d897739cb32076b71a303284d2e5e1c5f0fb495bb5a97",
+      "ahmed_v23": "6eb728a40cc55f7e497add6ea2946ce38b0389c24531a208219d48587435838e",
+      "kaito_v58": "b041058ec187a8d0a01edc0eab8de068b53deca3e6c1973faf74ace6916ddcb9",
+      "exp006_independent": "84f11eaeceb1f2053c51947d7369b71ef6c7bdebfc66b815fbc0d04d62ecbd77"
+    },
+    "seed_start": 2026090800,
+    "seed_count": 24,
+    "engine_sha": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+    "evaluator_sha": "6d8f9052738e661ee6cd923e4dcb639d8cefefc351dc802a22000b7a385d4e2b"
+  },
+  "initial_harness_sha": "c61288bf1547a607ffd7915e285cc5721daf01521cc13770b84f5f32082f0589",
+  "current_harness_sha": "0da91444d6033c20578adfa5322e0485b041f527e0a7ec7d708445e3e983e70a"
+}

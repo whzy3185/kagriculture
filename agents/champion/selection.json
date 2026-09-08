@@ -1,0 +1,55 @@
+{
+  "date": "2026-09-08",
+  "status": "RESEARCH_CHAMPION_ONLY",
+  "name": "ahmed_v23",
+  "source_url": "https://www.kaggle.com/code/ahmedberatozer/notebook865729c24e",
+  "author": "Ahmed Berat Ozer",
+  "notebook_version": 3,
+  "source_date": "2026-09-07T22:16:47Z",
+  "source_file": "agents/champion/ahmed_v23.py",
+  "code_sha256": "6eb728a40cc55f7e497add6ea2946ce38b0389c24531a208219d48587435838e",
+  "local_source_git_sha": "ea5813b006352ea26f72b3570b5ebec123269265",
+  "engine_version": "1.32.7",
+  "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+  "selection_seeds": {
+    "start": 2026090800,
+    "count": 24,
+    "both_seats": true,
+    "panel_games": 1008
+  },
+  "finalist_seeds": {
+    "start": 2026090900,
+    "count": 96,
+    "both_seats": true
+  },
+  "finalist_result": {
+    "games": 192,
+    "valid": true,
+    "wins": 134,
+    "draws": 0,
+    "points": 0.6979166666666666,
+    "mean_margin": 430.71875,
+    "median_margin": 210.0,
+    "p10_margin": -675.0,
+    "variance": 1129318.025196335,
+    "runtime_max": 0.02644950000103563,
+    "monitored_faults": {
+      "atomic_plant_rejections": 2,
+      "contract_errors": 8770,
+      "failed_market_attempts": 491,
+      "overflow_units": 0,
+      "unfilled_requested_market_units": 1068,
+      "unit_noops": 11880
+    }
+  },
+  "evidence": {
+    "path": "experiments/results/PUBLIC-20260908-finalists.json",
+    "sha256": "5e24c4a1c1fca41799bee6ee75fae94c55f83c2653a51e5e5ba1f535df2f55a4"
+  },
+  "production_approval": false,
+  "limitations": [
+    "Portable Python panel only; native ARA-V2 not reproduced.",
+    "Related source families are not independent population samples.",
+    "Health flags remain; no unchanged-parent competition upload."
+  ]
+}
