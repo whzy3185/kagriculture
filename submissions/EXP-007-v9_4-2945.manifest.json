@@ -1,0 +1,11 @@
+{
+  "source": "E:\\kaggriculture\\agents\\candidates\\exp007\\main.py",
+  "archive": "E:\\kaggriculture\\submissions\\EXP-007-v9_4-2945.tar.gz",
+  "root_members": [
+    "main.py"
+  ],
+  "main_py_bytes": 856428,
+  "main_py_sha256": "BFEE70E9DAAEBEAE0737A880F1DF8F1C60D0783C59AF620136CC0D28EF482BC7",
+  "archive_bytes": 520554,
+  "archive_sha256": "97E0AC0726110243426628CC4DD59D5D03B954B94F7ECB5FD1E45241D02CC7AB"
+}

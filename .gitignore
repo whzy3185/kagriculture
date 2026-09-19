@@ -1,0 +1,11 @@
+.cache/
+.tmp/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.log
+data/raw/
+external/
+recovered/
+submissions/*.tar.gz
+submissions/*.zip
