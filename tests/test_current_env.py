@@ -18,8 +18,8 @@ def test_current_interpreter_contract():
     assert env.info["seed"] == 123
 
 
-def test_v50_is_kaggle_loadable_and_smokes():
-    candidate = REPO_ROOT / "recovered" / "public" / "v50" / "main.py"
+def test_current_candidate_is_kaggle_loadable_and_smokes():
+    candidate = REPO_ROOT / "agents" / "candidates" / "exp008" / "main.py"
     callable_agent = get_last_callable(candidate.read_text(encoding="utf-8"), path=str(candidate))
     assert callable(callable_agent)
 
@@ -27,4 +27,3 @@ def test_v50_is_kaggle_loadable_and_smokes():
     env.configuration.episodeSteps = 3
     env.run([str(candidate), "starter"])
     assert all(str(state.status) == "DONE" for state in env.state)
-

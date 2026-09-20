@@ -1,0 +1,13 @@
+{
+  "experiment": "EXP-008",
+  "kaggle_submission_id": 56379486,
+  "source": "E:\\kaggriculture\\agents\\candidates\\exp008\\main.py",
+  "archive": "E:\\kaggriculture\\submissions\\EXP-008-early-cycle.tar.gz",
+  "root_members": [
+    "main.py"
+  ],
+  "main_py_bytes": 862940,
+  "main_py_sha256": "D5460FC2E5488E0A340F0E4E795F2709C48B58CFF7C204CED3821A4C7DAE4555",
+  "archive_bytes": 522469,
+  "archive_sha256": "A7A7DC5B233CC780B7DFF5F697A7BFEF45792E8359F6083D5C0DC9B1670F66A1"
+}
