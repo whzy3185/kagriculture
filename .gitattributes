@@ -3,3 +3,4 @@
 *.md text eol=lf
 *.ini text eol=lf
 agents/candidates/exp009/main.py -text -eol
+agents/candidates/exp010/main.py -text -eol

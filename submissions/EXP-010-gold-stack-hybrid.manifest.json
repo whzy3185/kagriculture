@@ -1,0 +1,20 @@
+{
+  "experiment": "EXP-010",
+  "kaggle_submission_id": 56417558,
+  "source": "E:\\kaggriculture\\agents\\candidates\\exp010\\main.py",
+  "archive": "E:\\kaggriculture\\submissions\\EXP-010-gold-stack-hybrid.tar.gz",
+  "root_members": [
+    "main.py",
+    "LICENSE.txt",
+    "NOTICE.txt"
+  ],
+  "main_py_bytes": 1023970,
+  "main_py_sha256": "213E054BEA4AB82C4675BE7C4C9B941E368DCA8C229303C2CF9F5F924F008163",
+  "member_sha256": {
+    "main.py": "213E054BEA4AB82C4675BE7C4C9B941E368DCA8C229303C2CF9F5F924F008163",
+    "LICENSE.txt": "CFC7749B96F63BD31C3C42B5C471BF756814053E847C10F3EB003417BC523D30",
+    "NOTICE.txt": "636F47D447E2366F7F281B4E326FB796A0C8B4A2F9898A502C5E87AAB26E8359"
+  },
+  "archive_bytes": 629640,
+  "archive_sha256": "80F2D8398A12C077650FF8136AB08BECB7FD30A8E88743786E56AD16753BF22B"
+}

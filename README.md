@@ -6,18 +6,17 @@ The project intentionally lives on `E:` and does not write campaign artifacts to
 
 ## Current challenger
 
-- Experiment: `EXP-009`
-- Agent: `agents/candidates/exp009/main.py`
-- SHA-256: `10F58185B916392CA39697C83F67F455DF81A74DFB6EB1AACD60FD81D50C9970`
-- Kaggle submission: `56417069`
+- Experiment: `EXP-010`
+- Agent: `agents/candidates/exp010/main.py`
+- SHA-256: `213E054BEA4AB82C4675BE7C4C9B941E368DCA8C229303C2CF9F5F924F008163`
+- Kaggle submission: `56417558`
 - Initial status: `PENDING`
-- Previous challenger: `EXP-008`, submission `56379486`, public score `2529.6`
+- Previous challenger: `EXP-009`, submission `56417069`, rating in progress
 
-EXP-009 is the exact, hash-verified Apache-2.0 One More Wheat submission. It
-combines the Metav4/Pipe16 efficiency stack with a temporary opening wheat crop
-that grows one additional day before harvest. Original notices and licence
-text remain in both the candidate directory and archive. See
-`agents/candidates/exp009/PROVENANCE.md`.
+EXP-010 combines the public-gold-stack failure-atomic opening and effective
+sale-queue closure with EXP-009's one-more-wheat harvest. It preserves the
+Metav4/Pipe16 production stack and Apache-2.0 notices. See
+`agents/candidates/exp010/PROVENANCE.md`.
 
 ## Evaluation contract
 
@@ -28,14 +27,14 @@ Every comparison uses fixed seeds and both player seats.
 
 ```powershell
 E:\anaconda\python.exe scripts\evaluate_agents.py `
-  agents\candidates\exp009\main.py OPPONENT.py `
+  agents\candidates\exp010\main.py OPPONENT.py `
   --seeds 701,809,907 --output reports\example.json
 ```
 
 The submitted multi-file archive is pinned byte-for-byte in the manifest:
 
 ```powershell
-Get-FileHash submissions\EXP-009-one-more-wheat.tar.gz -Algorithm SHA256
+Get-FileHash submissions\EXP-010-gold-stack-hybrid.tar.gz -Algorithm SHA256
 ```
 
 ## Decision log
@@ -50,5 +49,7 @@ Get-FileHash submissions\EXP-009-one-more-wheat.tar.gz -Algorithm SHA256
 - `EXP-009`: accepted at `30-2`, mean margin `+$1,775.06` versus EXP-008 over
   ladder and fresh holdout worlds. Its final one-more-wheat layer is `16-0`,
   mean `+$27.63`, against the exact direct parent.
+- `EXP-010`: gold-stack hybrid; `16-0`, mean `+$27.63`, versus Farmer John V55
+  and `32` ties versus EXP-009 across fresh and recent-ladder worlds.
 
-Detailed evidence is in `reports/EXP-009.md` and the JSON files under `reports/`.
+Detailed evidence is in `reports/EXP-010.md` and the JSON files under `reports/`.
