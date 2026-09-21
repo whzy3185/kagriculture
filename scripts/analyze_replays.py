@@ -75,6 +75,10 @@ def summarize(path: Path, username: str) -> dict[str, Any]:
     margins = [row["margin"] for row in daily]
     first_negative_day = next((row["day"] for row in daily if row["margin"] < 0), None)
     last_lead_day = max((row["day"] for row in daily if row["margin"] >= 0), default=None)
+    reward_margin = rewards[ours] - rewards[theirs]
+    outcome = "W" if reward_margin > 0 else "L" if reward_margin < 0 else "T"
+    comeback = outcome == "W" and any(margin < 0 for margin in margins[:-1])
+    blown_lead = outcome == "L" and any(margin > 0 for margin in margins[:-1])
 
     return {
         "episode_id": int(replay.get("info", {}).get("EpisodeId", path.stem.split("-")[1])),
@@ -83,8 +87,13 @@ def summarize(path: Path, username: str) -> dict[str, Any]:
         "opponent": names[theirs],
         "our_reward": rewards[ours],
         "their_reward": rewards[theirs],
-        "margin": rewards[ours] - rewards[theirs],
-        "win": rewards[ours] > rewards[theirs],
+        "margin": reward_margin,
+        "outcome": outcome,
+        "win": outcome == "W",
+        "tie": outcome == "T",
+        "loss": outcome == "L",
+        "comeback": comeback,
+        "blown_lead": blown_lead,
         "max_daily_lead": max(margins),
         "min_daily_lead": min(margins),
         "first_negative_day": first_negative_day,
@@ -117,7 +126,7 @@ def main() -> int:
     for path in paths:
         item = summarize(path, args.username)
         summaries.append(item)
-        outcome = "W" if item["win"] else "L"
+        outcome = item["outcome"]
         print(
             f"{item['episode_id']} {outcome} seat={item['our_seat']} "
             f"vs={item['opponent']} money={item['our_reward']:.0f}:{item['their_reward']:.0f} "
@@ -128,6 +137,14 @@ def main() -> int:
         "username": args.username,
         "games": len(summaries),
         "wins": sum(item["win"] for item in summaries),
+        "ties": sum(item["tie"] for item in summaries),
+        "losses": sum(item["loss"] for item in summaries),
+        "match_points": (
+            sum(item["win"] for item in summaries)
+            + 0.5 * sum(item["tie"] for item in summaries)
+        ) / len(summaries),
+        "comebacks": sum(item["comeback"] for item in summaries),
+        "blown_leads": sum(item["blown_lead"] for item in summaries),
         "mean_margin": sum(item["margin"] for item in summaries) / len(summaries),
         "episodes": summaries,
     }
@@ -137,7 +154,8 @@ def main() -> int:
     args.csv_output.parent.mkdir(parents=True, exist_ok=True)
     columns = [
         "episode_id", "seed", "our_seat", "opponent", "our_reward", "their_reward",
-        "margin", "win", "max_daily_lead", "min_daily_lead", "first_negative_day", "last_lead_day",
+        "margin", "outcome", "win", "tie", "loss", "comeback", "blown_lead",
+        "max_daily_lead", "min_daily_lead", "first_negative_day", "last_lead_day",
     ]
     with args.csv_output.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=columns)

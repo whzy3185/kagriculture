@@ -1,0 +1,20 @@
+{
+  "experiment": "EXP-012",
+  "kaggle_submission_id": 56428569,
+  "source": "E:\\kaggriculture\\agents\\candidates\\exp012\\main.py",
+  "archive": "E:\\kaggriculture\\submissions\\EXP-012-gold-stack-patient-wheat.tar.gz",
+  "root_members": [
+    "main.py",
+    "LICENSE.txt",
+    "NOTICE.txt"
+  ],
+  "main_py_bytes": 1024971,
+  "main_py_sha256": "53FA8F8A8FFA183A486FCA629AE535FEB404B646ADE2DF8D4994E9466B23146B",
+  "member_sha256": {
+    "main.py": "53FA8F8A8FFA183A486FCA629AE535FEB404B646ADE2DF8D4994E9466B23146B",
+    "LICENSE.txt": "CFC7749B96F63BD31C3C42B5C471BF756814053E847C10F3EB003417BC523D30",
+    "NOTICE.txt": "636F47D447E2366F7F281B4E326FB796A0C8B4A2F9898A502C5E87AAB26E8359"
+  },
+  "archive_bytes": 629865,
+  "archive_sha256": "2FBFD6F3D8CD7534E196FF40102F94C84FE00ABD41FC5ACEB95E98524AB95856"
+}

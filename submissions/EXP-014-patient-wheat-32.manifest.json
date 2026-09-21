@@ -1,0 +1,20 @@
+{
+  "experiment": "EXP-014",
+  "kaggle_submission_id": 56428657,
+  "source": "E:\\kaggriculture\\agents\\candidates\\exp014\\main.py",
+  "archive": "E:\\kaggriculture\\submissions\\EXP-014-patient-wheat-32.tar.gz",
+  "root_members": [
+    "main.py",
+    "LICENSE.txt",
+    "NOTICE.txt"
+  ],
+  "main_py_bytes": 1024975,
+  "main_py_sha256": "71F1CE7430B1629F9BF5B697DA4D138D0D88339BBA4AC7C07587FDABB930A561",
+  "member_sha256": {
+    "main.py": "71F1CE7430B1629F9BF5B697DA4D138D0D88339BBA4AC7C07587FDABB930A561",
+    "LICENSE.txt": "CFC7749B96F63BD31C3C42B5C471BF756814053E847C10F3EB003417BC523D30",
+    "NOTICE.txt": "636F47D447E2366F7F281B4E326FB796A0C8B4A2F9898A502C5E87AAB26E8359"
+  },
+  "archive_bytes": 629867,
+  "archive_sha256": "443EFEDE71DB3A2A14EDB2057FC3111FC481F2246897691CB0010260A445AA8C"
+}

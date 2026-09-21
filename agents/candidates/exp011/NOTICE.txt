@@ -1,0 +1,10 @@
+Gold-stack hybrid derivative, 2026-09-21. Apache-2.0.
+
+Core Pipe16/Metav4 production stack and productive opening: Nathan Jacob,
+Thomas Tschinkel, Ahmed Berat Ozer, Dmitrii Gluzdov, yhay81, prvsiyan, aurax7,
+tetsutani, Rayk Kretzschmar, degnonguidi, leoprovorov, destbreso, lucifer19,
+salemali7, and Kaggle environment contributors.
+
+Failure-atomic opening repair and effective sale-queue closure are adapted from
+Arlene's "Farmer John and the Idle Seller". The one-more-wheat day-three
+harvest layer is by Dmitrii Gluzdov. Full upstream notices remain in main.py.
