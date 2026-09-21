@@ -6,16 +6,18 @@ The project intentionally lives on `E:` and does not write campaign artifacts to
 
 ## Current challenger
 
-- Experiment: `EXP-008`
-- Agent: `agents/candidates/exp008/main.py`
-- SHA-256: `D5460FC2E5488E0A340F0E4E795F2709C48B58CFF7C204CED3821A4C7DAE4555`
-- Kaggle submission: `56379486`
+- Experiment: `EXP-009`
+- Agent: `agents/candidates/exp009/main.py`
+- SHA-256: `10F58185B916392CA39697C83F67F455DF81A74DFB6EB1AACD60FD81D50C9970`
+- Kaggle submission: `56417069`
 - Initial status: `PENDING`
-- Parent: `EXP-007`, submission `56363469`, public score `2607.3` at EXP-008 submission time
+- Previous challenger: `EXP-008`, submission `56379486`, public score `2529.6`
 
-EXP-008 adds the Apache-2.0 early productive wheat cycle published in The 2950
-Peak Farm to the exact EXP-007 parent. Original notices and licence text remain
-in the source. See `agents/candidates/exp008/PROVENANCE.md`.
+EXP-009 is the exact, hash-verified Apache-2.0 One More Wheat submission. It
+combines the Metav4/Pipe16 efficiency stack with a temporary opening wheat crop
+that grows one additional day before harvest. Original notices and licence
+text remain in both the candidate directory and archive. See
+`agents/candidates/exp009/PROVENANCE.md`.
 
 ## Evaluation contract
 
@@ -26,17 +28,14 @@ Every comparison uses fixed seeds and both player seats.
 
 ```powershell
 E:\anaconda\python.exe scripts\evaluate_agents.py `
-  agents\candidates\exp008\main.py OPPONENT.py `
+  agents\candidates\exp009\main.py OPPONENT.py `
   --seeds 701,809,907 --output reports\example.json
 ```
 
-Package deterministically:
+The submitted multi-file archive is pinned byte-for-byte in the manifest:
 
 ```powershell
-E:\anaconda\python.exe scripts\package_submission.py `
-  agents\candidates\exp008\main.py `
-  submissions\EXP-008-early-cycle.tar.gz `
-  --manifest submissions\EXP-008-early-cycle.manifest.json
+Get-FileHash submissions\EXP-009-one-more-wheat.tar.gz -Algorithm SHA256
 ```
 
 ## Decision log
@@ -48,5 +47,8 @@ E:\anaconda\python.exe scripts\package_submission.py `
 - `EXP-008`: early-cycle challenger; `31-1` against EXP-007 across ladder and
   fresh holdout worlds, and improves the matched V50 panel from `5-7 / -$497`
   to `6-6 / +$323`.
+- `EXP-009`: accepted at `30-2`, mean margin `+$1,775.06` versus EXP-008 over
+  ladder and fresh holdout worlds. Its final one-more-wheat layer is `16-0`,
+  mean `+$27.63`, against the exact direct parent.
 
-Detailed evidence is in `reports/EXP-008.md` and the JSON files under `reports/`.
+Detailed evidence is in `reports/EXP-009.md` and the JSON files under `reports/`.

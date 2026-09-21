@@ -1,0 +1,17 @@
+{
+  "experiment": "EXP-009",
+  "kaggle_submission_id": 56417069,
+  "source": "E:\\kaggriculture\\agents\\candidates\\exp009\\main.py",
+  "archive": "E:\\kaggriculture\\submissions\\EXP-009-one-more-wheat.tar.gz",
+  "root_members": [
+    "LICENSE.txt",
+    "NOTICE.txt",
+    "main.py"
+  ],
+  "main_py_bytes": 1020006,
+  "main_py_sha256": "10F58185B916392CA39697C83F67F455DF81A74DFB6EB1AACD60FD81D50C9970",
+  "notice_sha256": "A758D79335F6E3F4C8E1BACA0DA0B4315E641187E0A7DC6D386062115F32C674",
+  "license_sha256": "CFC7749B96F63BD31C3C42B5C471BF756814053E847C10F3EB003417BC523D30",
+  "archive_bytes": 625703,
+  "archive_sha256": "ABF5C812ED1EDA2D62E30BC147EC9DD398945D2E360570000372886C1698026D"
+}

@@ -19,7 +19,7 @@ def test_current_interpreter_contract():
 
 
 def test_current_candidate_is_kaggle_loadable_and_smokes():
-    candidate = REPO_ROOT / "agents" / "candidates" / "exp008" / "main.py"
+    candidate = REPO_ROOT / "agents" / "candidates" / "exp009" / "main.py"
     callable_agent = get_last_callable(candidate.read_text(encoding="utf-8"), path=str(candidate))
     assert callable(callable_agent)
 
