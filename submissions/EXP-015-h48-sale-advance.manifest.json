@@ -1,0 +1,14 @@
+{
+  "source": "E:\\kaggriculture\\agents\\candidates\\exp015\\main.py",
+  "archive": "E:\\kaggriculture\\submissions\\EXP-015-h48-sale-advance.tar.gz",
+  "root_members": [
+    "main.py"
+  ],
+  "main_py_bytes": 1036219,
+  "main_py_sha256": "6EC25F89041122FFF6DB0DB9AB27DB9CB23ABFFF4D6C863EA52F31C240DF5DFC",
+  "member_sha256": {
+    "main.py": "6EC25F89041122FFF6DB0DB9AB27DB9CB23ABFFF4D6C863EA52F31C240DF5DFC"
+  },
+  "archive_bytes": 630056,
+  "archive_sha256": "51EF2D3DCB1C2BD77A932C66C164CCB8C3D4D97EA3B890E492D744B98D6918CD"
+}

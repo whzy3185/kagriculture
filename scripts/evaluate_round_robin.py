@@ -72,10 +72,15 @@ def wilson(successes: float, games: int, z: float = 1.96) -> tuple[float, float]
 
 
 def build_report(
-    roster: dict[str, Path], seeds: list[int], games: list[dict[str, Any]], complete: bool
+    roster: dict[str, Path],
+    seeds: list[int],
+    games: list[dict[str, Any]],
+    complete: bool,
+    pairs: list[tuple[str, str]] | None = None,
 ) -> dict[str, Any]:
+    selected_pairs = pairs if pairs is not None else list(combinations(roster, 2))
     pairwise = []
-    for label_a, label_b in combinations(roster, 2):
+    for label_a, label_b in selected_pairs:
         rows = [g for g in games if g["agent_a"] == label_a and g["agent_b"] == label_b]
         if not rows:
             continue
@@ -142,7 +147,7 @@ def build_report(
         "agents": {
             label: {"path": str(path), "sha256": sha256(path)} for label, path in roster.items()
         },
-        "expected_games": len(roster) * (len(roster) - 1) // 2 * len(seeds) * 2,
+        "expected_games": len(selected_pairs) * len(seeds) * 2,
         "completed_games": len(games),
         "standings": standings,
         "pairwise": pairwise,
@@ -163,6 +168,10 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--seeds", default="2117343235,1206908045,1271775642")
     parser.add_argument("--workers", type=int, default=6)
     parser.add_argument("--output", type=Path, required=True)
+    parser.add_argument(
+        "--anchor",
+        help="Only evaluate pairs containing this roster label; default is a full round robin.",
+    )
     return parser.parse_args()
 
 
@@ -176,6 +185,11 @@ def main() -> int:
     seeds = [int(value.strip()) for value in args.seeds.split(",") if value.strip()]
     if not seeds:
         raise ValueError("At least one seed is required")
+    if args.anchor and args.anchor not in roster:
+        raise ValueError(f"Anchor is not in roster: {args.anchor}")
+    pairs = list(combinations(roster, 2))
+    if args.anchor:
+        pairs = [pair for pair in pairs if args.anchor in pair]
 
     output = args.output.resolve()
     games: list[dict[str, Any]] = []
@@ -185,7 +199,7 @@ def main() -> int:
     finished = {game["key"] for game in games}
 
     jobs = []
-    for label_a, label_b in combinations(roster, 2):
+    for label_a, label_b in pairs:
         for seed in seeds:
             for seat_a in (0, 1):
                 key = game_key(label_a, label_b, seed, seat_a)
@@ -194,7 +208,7 @@ def main() -> int:
                         (label_a, str(roster[label_a]), label_b, str(roster[label_b]), seed, seat_a)
                     )
 
-    expected = len(roster) * (len(roster) - 1) // 2 * len(seeds) * 2
+    expected = len(pairs) * len(seeds) * 2
     print(f"agents={len(roster)} expected_games={expected} resumed={len(games)} pending={len(jobs)}", flush=True)
     errors = []
     started = time.perf_counter()
@@ -208,7 +222,7 @@ def main() -> int:
                 errors.append({"job": job, "error": repr(exc)})
             if index % 20 == 0 or index == len(jobs):
                 complete = len(games) == expected and not errors
-                report = build_report(roster, seeds, games, complete)
+                report = build_report(roster, seeds, games, complete, pairs)
                 report["errors"] = errors
                 write_report(output, report)
                 elapsed = time.perf_counter() - started
@@ -218,7 +232,7 @@ def main() -> int:
                     flush=True,
                 )
 
-    report = build_report(roster, seeds, games, len(games) == expected and not errors)
+    report = build_report(roster, seeds, games, len(games) == expected and not errors, pairs)
     report["errors"] = errors
     write_report(output, report)
     for row in report["standings"]:

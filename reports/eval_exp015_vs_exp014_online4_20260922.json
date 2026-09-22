@@ -1,0 +1,196 @@
+{
+  "protocol": "paired-seats-current-official-interpreter-round-robin",
+  "complete": true,
+  "seeds": [
+    609826993,
+    432894656,
+    1385291368,
+    974135651
+  ],
+  "agents": {
+    "EXP015": {
+      "path": "E:\\kaggriculture\\agents\\candidates\\exp015\\main.py",
+      "sha256": "6EC25F89041122FFF6DB0DB9AB27DB9CB23ABFFF4D6C863EA52F31C240DF5DFC"
+    },
+    "EXP014": {
+      "path": "E:\\kaggriculture\\agents\\candidates\\exp014\\main.py",
+      "sha256": "71F1CE7430B1629F9BF5B697DA4D138D0D88339BBA4AC7C07587FDABB930A561"
+    }
+  },
+  "expected_games": 8,
+  "completed_games": 8,
+  "standings": [
+    {
+      "agent": "EXP015",
+      "games": 8,
+      "wins": 6,
+      "ties": 0,
+      "losses": 2,
+      "match_points": 0.75,
+      "wilson95_low": 0.40926987910258916,
+      "wilson95_high": 0.9285223111419724,
+      "mean_margin": 289.75,
+      "median_margin": 405.5,
+      "rank": 1
+    },
+    {
+      "agent": "EXP014",
+      "games": 8,
+      "wins": 2,
+      "ties": 0,
+      "losses": 6,
+      "match_points": 0.25,
+      "wilson95_low": 0.07147768885802763,
+      "wilson95_high": 0.5907301208974108,
+      "mean_margin": -289.75,
+      "median_margin": -405.5,
+      "rank": 2
+    }
+  ],
+  "pairwise": [
+    {
+      "agent_a": "EXP015",
+      "agent_b": "EXP014",
+      "games": 8,
+      "wins_a": 6,
+      "ties": 0,
+      "losses_a": 2,
+      "match_points_a": 0.75,
+      "mean_margin_a": 289.75,
+      "median_margin_a": 405.5,
+      "min_margin_a": -371.0,
+      "max_margin_a": 719.0
+    }
+  ],
+  "games": [
+    {
+      "key": "EXP015|EXP014|1385291368|0",
+      "agent_a": "EXP015",
+      "agent_b": "EXP014",
+      "seed": 1385291368,
+      "seat_a": 0,
+      "money_a": 131286.0,
+      "money_b": 131657.0,
+      "margin_a": -371.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 7.551810799996019
+    },
+    {
+      "key": "EXP015|EXP014|1385291368|1",
+      "agent_a": "EXP015",
+      "agent_b": "EXP014",
+      "seed": 1385291368,
+      "seat_a": 1,
+      "money_a": 131286.0,
+      "money_b": 131657.0,
+      "margin_a": -371.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 7.5866101999999955
+    },
+    {
+      "key": "EXP015|EXP014|432894656|0",
+      "agent_a": "EXP015",
+      "agent_b": "EXP014",
+      "seed": 432894656,
+      "seat_a": 0,
+      "money_a": 79239.0,
+      "money_b": 78618.0,
+      "margin_a": 621.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 7.9385719999991124
+    },
+    {
+      "key": "EXP015|EXP014|432894656|1",
+      "agent_a": "EXP015",
+      "agent_b": "EXP014",
+      "seed": 432894656,
+      "seat_a": 1,
+      "money_a": 79239.0,
+      "money_b": 78618.0,
+      "margin_a": 621.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 7.877392800000962
+    },
+    {
+      "key": "EXP015|EXP014|609826993|0",
+      "agent_a": "EXP015",
+      "agent_b": "EXP014",
+      "seed": 609826993,
+      "seat_a": 0,
+      "money_a": 140795.0,
+      "money_b": 140605.0,
+      "margin_a": 190.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 7.746924499995657
+    },
+    {
+      "key": "EXP015|EXP014|609826993|1",
+      "agent_a": "EXP015",
+      "agent_b": "EXP014",
+      "seed": 609826993,
+      "seat_a": 1,
+      "money_a": 140795.0,
+      "money_b": 140605.0,
+      "margin_a": 190.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 7.68497760000173
+    },
+    {
+      "key": "EXP015|EXP014|974135651|0",
+      "agent_a": "EXP015",
+      "agent_b": "EXP014",
+      "seed": 974135651,
+      "seat_a": 0,
+      "money_a": 99463.0,
+      "money_b": 98744.0,
+      "margin_a": 719.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 7.453612399986014
+    },
+    {
+      "key": "EXP015|EXP014|974135651|1",
+      "agent_a": "EXP015",
+      "agent_b": "EXP014",
+      "seed": 974135651,
+      "seat_a": 1,
+      "money_a": 99463.0,
+      "money_b": 98744.0,
+      "margin_a": 719.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 7.397213699994609
+    }
+  ],
+  "errors": []
+}

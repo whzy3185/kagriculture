@@ -1,0 +1,283 @@
+{
+  "protocol": "paired-seats-current-official-interpreter-round-robin",
+  "complete": true,
+  "seeds": [
+    1385291368
+  ],
+  "agents": {
+    "EXP017": {
+      "path": "E:\\kaggriculture\\agents\\candidates\\exp017\\main.py",
+      "sha256": "7A9A887D6A791CF624B4229F1248175C0E96ADAA3DA715CAE16274999DB2B23A"
+    },
+    "EXP015": {
+      "path": "E:\\kaggriculture\\agents\\candidates\\exp015\\main.py",
+      "sha256": "6EC25F89041122FFF6DB0DB9AB27DB9CB23ABFFF4D6C863EA52F31C240DF5DFC"
+    },
+    "EXP014": {
+      "path": "E:\\kaggriculture\\agents\\candidates\\exp014\\main.py",
+      "sha256": "71F1CE7430B1629F9BF5B697DA4D138D0D88339BBA4AC7C07587FDABB930A561"
+    },
+    "OrderBook": {
+      "path": "E:\\kaggriculture\\external\\gold_20260922\\order-book\\extracted\\main.py",
+      "sha256": "A16E0E9B40C489972630A0B9D04F30E9C1CAB03159FA78676DB74277D84D82AB"
+    },
+    "Clone48": {
+      "path": "E:\\kaggriculture\\external\\gold_20260922\\clone-race\\extracted\\main.py",
+      "sha256": "0070F9E125902D690995ACBBB0DF1E3F46185A560771C0843D074F315345C778"
+    }
+  },
+  "expected_games": 8,
+  "completed_games": 8,
+  "standings": [
+    {
+      "agent": "Clone48",
+      "games": 2,
+      "wins": 2,
+      "ties": 0,
+      "losses": 0,
+      "match_points": 1.0,
+      "wilson95_low": 0.34237195288961925,
+      "wilson95_high": 1.0,
+      "mean_margin": 524.0,
+      "median_margin": 524.0,
+      "rank": 1
+    },
+    {
+      "agent": "OrderBook",
+      "games": 2,
+      "wins": 2,
+      "ties": 0,
+      "losses": 0,
+      "match_points": 1.0,
+      "wilson95_low": 0.34237195288961925,
+      "wilson95_high": 1.0,
+      "mean_margin": 406.0,
+      "median_margin": 406.0,
+      "rank": 2
+    },
+    {
+      "agent": "EXP014",
+      "games": 2,
+      "wins": 2,
+      "ties": 0,
+      "losses": 0,
+      "match_points": 1.0,
+      "wilson95_low": 0.34237195288961925,
+      "wilson95_high": 1.0,
+      "mean_margin": 371.0,
+      "median_margin": 371.0,
+      "rank": 3
+    },
+    {
+      "agent": "EXP015",
+      "games": 2,
+      "wins": 0,
+      "ties": 2,
+      "losses": 0,
+      "match_points": 0.5,
+      "wilson95_low": 0.09452865480086614,
+      "wilson95_high": 0.9054713451991339,
+      "mean_margin": 0.0,
+      "median_margin": -0.0,
+      "rank": 4
+    },
+    {
+      "agent": "EXP017",
+      "games": 8,
+      "wins": 0,
+      "ties": 2,
+      "losses": 6,
+      "match_points": 0.125,
+      "wilson95_low": 0.02241690886329617,
+      "wilson95_high": 0.4708948057698615,
+      "mean_margin": -325.25,
+      "median_margin": -388.5,
+      "rank": 5
+    }
+  ],
+  "pairwise": [
+    {
+      "agent_a": "EXP017",
+      "agent_b": "EXP015",
+      "games": 2,
+      "wins_a": 0,
+      "ties": 2,
+      "losses_a": 0,
+      "match_points_a": 0.5,
+      "mean_margin_a": 0.0,
+      "median_margin_a": 0.0,
+      "min_margin_a": 0.0,
+      "max_margin_a": 0.0
+    },
+    {
+      "agent_a": "EXP017",
+      "agent_b": "EXP014",
+      "games": 2,
+      "wins_a": 0,
+      "ties": 0,
+      "losses_a": 2,
+      "match_points_a": 0.0,
+      "mean_margin_a": -371.0,
+      "median_margin_a": -371.0,
+      "min_margin_a": -371.0,
+      "max_margin_a": -371.0
+    },
+    {
+      "agent_a": "EXP017",
+      "agent_b": "OrderBook",
+      "games": 2,
+      "wins_a": 0,
+      "ties": 0,
+      "losses_a": 2,
+      "match_points_a": 0.0,
+      "mean_margin_a": -406.0,
+      "median_margin_a": -406.0,
+      "min_margin_a": -406.0,
+      "max_margin_a": -406.0
+    },
+    {
+      "agent_a": "EXP017",
+      "agent_b": "Clone48",
+      "games": 2,
+      "wins_a": 0,
+      "ties": 0,
+      "losses_a": 2,
+      "match_points_a": 0.0,
+      "mean_margin_a": -524.0,
+      "median_margin_a": -524.0,
+      "min_margin_a": -524.0,
+      "max_margin_a": -524.0
+    }
+  ],
+  "games": [
+    {
+      "key": "EXP017|Clone48|1385291368|0",
+      "agent_a": "EXP017",
+      "agent_b": "Clone48",
+      "seed": 1385291368,
+      "seat_a": 0,
+      "money_a": 131114.0,
+      "money_b": 131638.0,
+      "margin_a": -524.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 7.637610200006748
+    },
+    {
+      "key": "EXP017|Clone48|1385291368|1",
+      "agent_a": "EXP017",
+      "agent_b": "Clone48",
+      "seed": 1385291368,
+      "seat_a": 1,
+      "money_a": 131114.0,
+      "money_b": 131638.0,
+      "margin_a": -524.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 7.4932258000044385
+    },
+    {
+      "key": "EXP017|EXP014|1385291368|0",
+      "agent_a": "EXP017",
+      "agent_b": "EXP014",
+      "seed": 1385291368,
+      "seat_a": 0,
+      "money_a": 131286.0,
+      "money_b": 131657.0,
+      "margin_a": -371.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 7.6658633000042755
+    },
+    {
+      "key": "EXP017|EXP014|1385291368|1",
+      "agent_a": "EXP017",
+      "agent_b": "EXP014",
+      "seed": 1385291368,
+      "seat_a": 1,
+      "money_a": 131286.0,
+      "money_b": 131657.0,
+      "margin_a": -371.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 7.721596199990017
+    },
+    {
+      "key": "EXP017|EXP015|1385291368|0",
+      "agent_a": "EXP017",
+      "agent_b": "EXP015",
+      "seed": 1385291368,
+      "seat_a": 0,
+      "money_a": 131355.0,
+      "money_b": 131355.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 7.772217099991394
+    },
+    {
+      "key": "EXP017|EXP015|1385291368|1",
+      "agent_a": "EXP017",
+      "agent_b": "EXP015",
+      "seed": 1385291368,
+      "seat_a": 1,
+      "money_a": 131355.0,
+      "money_b": 131355.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 7.771607500006212
+    },
+    {
+      "key": "EXP017|OrderBook|1385291368|0",
+      "agent_a": "EXP017",
+      "agent_b": "OrderBook",
+      "seed": 1385291368,
+      "seat_a": 0,
+      "money_a": 131258.0,
+      "money_b": 131664.0,
+      "margin_a": -406.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 7.815953299999819
+    },
+    {
+      "key": "EXP017|OrderBook|1385291368|1",
+      "agent_a": "EXP017",
+      "agent_b": "OrderBook",
+      "seed": 1385291368,
+      "seat_a": 1,
+      "money_a": 131258.0,
+      "money_b": 131664.0,
+      "margin_a": -406.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 7.821011300009559
+    }
+  ],
+  "errors": []
+}

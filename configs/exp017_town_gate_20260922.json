@@ -1,0 +1,7 @@
+{
+  "EXP017": "agents/candidates/exp017/main.py",
+  "EXP015": "agents/candidates/exp015/main.py",
+  "EXP014": "agents/candidates/exp014/main.py",
+  "OrderBook": "external/gold_20260922/order-book/extracted/main.py",
+  "Clone48": "external/gold_20260922/clone-race/extracted/main.py"
+}
