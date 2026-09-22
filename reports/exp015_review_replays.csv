@@ -1,0 +1,21 @@
+episode_id,seed,our_seat,opponent,our_reward,their_reward,margin,outcome,win,tie,loss,comeback,blown_lead,max_daily_lead,min_daily_lead,first_negative_day,last_lead_day
+111986071,990268091,1,Kenneth Alonso,91163.0,91971.0,-808.0,L,False,False,True,False,True,954.0,-1080.0,1,21
+111992929,1466944229,0,heralces,118085.0,117123.0,962.0,W,True,False,False,True,False,962.0,-272.0,1,30
+111999893,765592529,0,Rishit Aggarwal,118292.0,117054.0,1238.0,W,True,False,False,True,False,1362.0,-16.0,17,30
+112006552,939624428,1,Haramball forever!,66722.0,65455.0,1267.0,W,True,False,False,True,False,1466.0,-90.0,4,30
+112013377,400240430,0,Heisnotanimposter,112098.0,112290.0,-192.0,L,False,False,True,False,True,678.0,-192.0,19,28
+112019064,845234433,1,yw8837,88037.0,87136.0,901.0,W,True,False,False,True,False,903.0,-12.0,1,30
+112020183,1273901294,0,Have a nice trip in USST,121242.0,120826.0,416.0,W,True,False,False,True,False,488.0,-1055.0,1,30
+112021324,2004432595,1,kiyoc,98260.0,98309.0,-49.0,L,False,False,True,False,True,574.0,-110.0,25,27
+112022441,2054203604,1,Aura Farmers,130043.0,128619.0,1424.0,W,True,False,False,True,False,1541.0,-60.0,3,30
+112023576,1318897300,0,Fabian Friedland,109132.0,110401.0,-1269.0,L,False,False,True,False,True,353.0,-1548.0,4,21
+112024704,147361095,1,Santiago Maniches,103295.0,103191.0,104.0,W,True,False,False,False,False,128.0,0.0,,30
+112025708,2121481286,0,Aleksandrov Andrey Alekseevich,76649.0,76057.0,592.0,W,True,False,False,False,False,1105.0,0.0,,30
+112025836,627540639,0,Bala Baskar,122740.0,122094.0,646.0,W,True,False,False,True,False,703.0,-90.0,4,30
+112026995,517833586,0,Ilya Usmanov,108663.0,107869.0,794.0,W,True,False,False,True,False,794.0,-1180.0,4,30
+112028154,389469822,0,chunsuri,67025.0,66475.0,550.0,W,True,False,False,True,False,633.0,-188.0,4,30
+112028642,691138722,1,Vsevolod Rakita,64534.0,64870.0,-336.0,L,False,False,True,False,True,379.0,-336.0,21,26
+112029277,2086385503,1,Haramball forever!,102507.0,100498.0,2009.0,W,True,False,False,True,False,2123.0,-87.0,4,30
+112030420,2123899554,1,Boiled-Sweet-Potato,82672.0,82494.0,178.0,W,True,False,False,True,False,805.0,-677.0,24,30
+112031540,1136800356,1,Junichiro Morita,81419.0,80939.0,480.0,W,True,False,False,False,False,1645.0,0.0,,30
+112031915,1699014818,0,MKGA,83464.0,82171.0,1293.0,W,True,False,False,True,False,1367.0,-90.0,4,30

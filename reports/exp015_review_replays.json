@@ -1,0 +1,6236 @@
+{
+  "username": "muelsyse111",
+  "games": 20,
+  "wins": 15,
+  "ties": 0,
+  "losses": 5,
+  "match_points": 0.75,
+  "comebacks": 12,
+  "blown_leads": 5,
+  "mean_margin": 510.0,
+  "episodes": [
+    {
+      "episode_id": 111986071,
+      "seed": 990268091,
+      "our_seat": 1,
+      "opponent": "Kenneth Alonso",
+      "our_reward": 91163.0,
+      "their_reward": 91971.0,
+      "margin": -808.0,
+      "outcome": "L",
+      "win": false,
+      "tie": false,
+      "loss": true,
+      "comeback": false,
+      "blown_lead": true,
+      "max_daily_lead": 954.0,
+      "min_daily_lead": -1080.0,
+      "first_negative_day": 1,
+      "last_lead_day": 21,
+      "shops": [
+        "PIZZA_SHOP",
+        "SMOOTHIE_SHOP",
+        "BAKERY",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "PIZZA_SHOP",
+        "BAKERY",
+        "PET_CAFE"
+      ],
+      "our_tiles": {
+        "COOP": 1,
+        "COW": 9,
+        "GOOSE": 3,
+        "SHEEP": 5
+      },
+      "their_tiles": {
+        "COOP": 1,
+        "COW": 9,
+        "GOOSE": 3,
+        "SHEEP": 5
+      },
+      "our_market": {
+        "BUY_ANIMAL:COW": 9,
+        "BUY_ANIMAL:GOOSE": 3,
+        "BUY_ANIMAL:SHEEP": 5,
+        "BUY_LAND": 2,
+        "BUY_PRODUCT:FERTILIZER": 79,
+        "BUY_PRODUCT:WHEAT": 1049,
+        "BUY_SEED:CARROT": 31,
+        "BUY_SEED:MELON": 12,
+        "BUY_SEED:STRAWBERRY": 33,
+        "BUY_SEED:WHEAT": 164,
+        "HIRE": 266,
+        "SELL:CARROT": 93,
+        "SELL:EGG": 85,
+        "SELL:FERTILIZER": 355,
+        "SELL:MELON": 72,
+        "SELL:MILK": 285,
+        "SELL:STRAWBERRY": 287,
+        "SELL:WHEAT": 1350,
+        "SELL:WOOL": 151
+      },
+      "their_market": {
+        "BUY_ANIMAL:COW": 9,
+        "BUY_ANIMAL:GOOSE": 3,
+        "BUY_ANIMAL:SHEEP": 5,
+        "BUY_LAND": 2,
+        "BUY_PRODUCT:FERTILIZER": 79,
+        "BUY_PRODUCT:WHEAT": 1043,
+        "BUY_SEED:CARROT": 31,
+        "BUY_SEED:MELON": 12,
+        "BUY_SEED:STRAWBERRY": 33,
+        "BUY_SEED:WHEAT": 163,
+        "HIRE": 266,
+        "SELL:CARROT": 96,
+        "SELL:EGG": 95,
+        "SELL:FERTILIZER": 355,
+        "SELL:MELON": 72,
+        "SELL:MILK": 298,
+        "SELL:STRAWBERRY": 299,
+        "SELL:WHEAT": 1311,
+        "SELL:WOOL": 180
+      },
+      "our_field": {
+        "BUILD_COOP": 5,
+        "BUILD_PASTURE": 14,
+        "CARE": 405,
+        "COLLECT_FERTILIZER": 373,
+        "DIG": 39,
+        "DROP": 52,
+        "EAST": 584,
+        "FEED": 352,
+        "FERTILIZE": 116,
+        "HARVEST": 481,
+        "NORTH": 915,
+        "PASS": 421,
+        "PICKUP": 207,
+        "PLACE": 99,
+        "PLANT": 239,
+        "SOUTH": 494,
+        "WATER": 1096,
+        "WEST": 868
+      },
+      "their_field": {
+        "BUILD_COOP": 5,
+        "BUILD_PASTURE": 14,
+        "CARE": 405,
+        "COLLECT_FERTILIZER": 373,
+        "DIG": 39,
+        "DROP": 51,
+        "EAST": 580,
+        "FEED": 352,
+        "FERTILIZE": 120,
+        "HARVEST": 480,
+        "NORTH": 915,
+        "PASS": 434,
+        "PICKUP": 207,
+        "PLACE": 99,
+        "PLANT": 238,
+        "SOUTH": 494,
+        "WATER": 1092,
+        "WEST": 862
+      },
+      "daily": [
+        {
+          "day": 0,
+          "our_money": 3000.0,
+          "their_money": 3000.0,
+          "margin": 0.0
+        },
+        {
+          "day": 1,
+          "our_money": 9.0,
+          "their_money": 25.0,
+          "margin": -16.0
+        },
+        {
+          "day": 2,
+          "our_money": 98.0,
+          "their_money": 85.0,
+          "margin": 13.0
+        },
+        {
+          "day": 3,
+          "our_money": 211.0,
+          "their_money": 198.0,
+          "margin": 13.0
+        },
+        {
+          "day": 4,
+          "our_money": 264.0,
+          "their_money": 281.0,
+          "margin": -17.0
+        },
+        {
+          "day": 5,
+          "our_money": 669.0,
+          "their_money": 686.0,
+          "margin": -17.0
+        },
+        {
+          "day": 6,
+          "our_money": 784.0,
+          "their_money": 801.0,
+          "margin": -17.0
+        },
+        {
+          "day": 7,
+          "our_money": 1114.0,
+          "their_money": 1116.0,
+          "margin": -2.0
+        },
+        {
+          "day": 8,
+          "our_money": 534.0,
+          "their_money": 536.0,
+          "margin": -2.0
+        },
+        {
+          "day": 9,
+          "our_money": 1839.0,
+          "their_money": 1771.0,
+          "margin": 68.0
+        },
+        {
+          "day": 10,
+          "our_money": 2754.0,
+          "their_money": 2612.0,
+          "margin": 142.0
+        },
+        {
+          "day": 11,
+          "our_money": 16765.0,
+          "their_money": 16545.0,
+          "margin": 220.0
+        },
+        {
+          "day": 12,
+          "our_money": 16317.0,
+          "their_money": 15723.0,
+          "margin": 594.0
+        },
+        {
+          "day": 13,
+          "our_money": 20426.0,
+          "their_money": 19472.0,
+          "margin": 954.0
+        },
+        {
+          "day": 14,
+          "our_money": 22534.0,
+          "their_money": 22419.0,
+          "margin": 115.0
+        },
+        {
+          "day": 15,
+          "our_money": 28154.0,
+          "their_money": 28021.0,
+          "margin": 133.0
+        },
+        {
+          "day": 16,
+          "our_money": 34628.0,
+          "their_money": 34492.0,
+          "margin": 136.0
+        },
+        {
+          "day": 17,
+          "our_money": 42334.0,
+          "their_money": 42203.0,
+          "margin": 131.0
+        },
+        {
+          "day": 18,
+          "our_money": 46250.0,
+          "their_money": 46062.0,
+          "margin": 188.0
+        },
+        {
+          "day": 19,
+          "our_money": 53536.0,
+          "their_money": 53485.0,
+          "margin": 51.0
+        },
+        {
+          "day": 20,
+          "our_money": 58614.0,
+          "their_money": 58443.0,
+          "margin": 171.0
+        },
+        {
+          "day": 21,
+          "our_money": 62572.0,
+          "their_money": 62403.0,
+          "margin": 169.0
+        },
+        {
+          "day": 22,
+          "our_money": 65075.0,
+          "their_money": 65167.0,
+          "margin": -92.0
+        },
+        {
+          "day": 23,
+          "our_money": 67820.0,
+          "their_money": 67948.0,
+          "margin": -128.0
+        },
+        {
+          "day": 24,
+          "our_money": 70375.0,
+          "their_money": 70766.0,
+          "margin": -391.0
+        },
+        {
+          "day": 25,
+          "our_money": 73702.0,
+          "their_money": 74119.0,
+          "margin": -417.0
+        },
+        {
+          "day": 26,
+          "our_money": 75155.0,
+          "their_money": 76235.0,
+          "margin": -1080.0
+        },
+        {
+          "day": 27,
+          "our_money": 77253.0,
+          "their_money": 77993.0,
+          "margin": -740.0
+        },
+        {
+          "day": 28,
+          "our_money": 80505.0,
+          "their_money": 81363.0,
+          "margin": -858.0
+        },
+        {
+          "day": 29,
+          "our_money": 84815.0,
+          "their_money": 85578.0,
+          "margin": -763.0
+        },
+        {
+          "day": 30,
+          "our_money": 91163.0,
+          "their_money": 91971.0,
+          "margin": -808.0
+        }
+      ]
+    },
+    {
+      "episode_id": 111992929,
+      "seed": 1466944229,
+      "our_seat": 0,
+      "opponent": "heralces",
+      "our_reward": 118085.0,
+      "their_reward": 117123.0,
+      "margin": 962.0,
+      "outcome": "W",
+      "win": true,
+      "tie": false,
+      "loss": false,
+      "comeback": true,
+      "blown_lead": false,
+      "max_daily_lead": 962.0,
+      "min_daily_lead": -272.0,
+      "first_negative_day": 1,
+      "last_lead_day": 30,
+      "shops": [
+        "ICE_CREAM_SHOP",
+        "FARMERS_MARKET",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "PET_CAFE",
+        "YARN_STORE",
+        "BAKERY"
+      ],
+      "our_tiles": {
+        "COOP": 1,
+        "COW": 8,
+        "GOOSE": 3,
+        "SHEEP": 6
+      },
+      "their_tiles": {
+        "COOP": 1,
+        "COW": 8,
+        "GOOSE": 3,
+        "SHEEP": 6
+      },
+      "our_market": {
+        "BUY_ANIMAL:COW": 8,
+        "BUY_ANIMAL:GOOSE": 3,
+        "BUY_ANIMAL:SHEEP": 6,
+        "BUY_LAND": 2,
+        "BUY_PRODUCT:FERTILIZER": 99,
+        "BUY_PRODUCT:WHEAT": 135,
+        "BUY_SEED:CARROT": 40,
+        "BUY_SEED:MELON": 12,
+        "BUY_SEED:STRAWBERRY": 33,
+        "BUY_SEED:WHEAT": 159,
+        "HIRE": 268,
+        "SELL:CARROT": 122,
+        "SELL:EGG": 89,
+        "SELL:FERTILIZER": 2358,
+        "SELL:MELON": 72,
+        "SELL:MILK": 216,
+        "SELL:STRAWBERRY": 270,
+        "SELL:WHEAT": 449,
+        "SELL:WOOL": 165
+      },
+      "their_market": {
+        "BUY_ANIMAL:COW": 8,
+        "BUY_ANIMAL:GOOSE": 3,
+        "BUY_ANIMAL:SHEEP": 6,
+        "BUY_LAND": 2,
+        "BUY_PRODUCT:FERTILIZER": 99,
+        "BUY_PRODUCT:WHEAT": 138,
+        "BUY_SEED:CARROT": 48,
+        "BUY_SEED:MELON": 12,
+        "BUY_SEED:STRAWBERRY": 33,
+        "BUY_SEED:WHEAT": 158,
+        "HIRE": 268,
+        "SELL:CARROT": 122,
+        "SELL:EGG": 91,
+        "SELL:FERTILIZER": 1357,
+        "SELL:MELON": 72,
+        "SELL:MILK": 245,
+        "SELL:STRAWBERRY": 272,
+        "SELL:WHEAT": 449,
+        "SELL:WOOL": 175
+      },
+      "our_field": {
+        "BUILD_COOP": 5,
+        "BUILD_PASTURE": 14,
+        "CARE": 404,
+        "COLLECT_FERTILIZER": 373,
+        "DIG": 38,
+        "DROP": 52,
+        "EAST": 588,
+        "FEED": 314,
+        "FERTILIZE": 123,
+        "HARVEST": 482,
+        "NORTH": 923,
+        "PASS": 468,
+        "PICKUP": 209,
+        "PLACE": 99,
+        "PLANT": 239,
+        "SOUTH": 500,
+        "WATER": 1099,
+        "WEST": 878
+      },
+      "their_field": {
+        "BUILD_COOP": 5,
+        "BUILD_PASTURE": 14,
+        "CARE": 404,
+        "COLLECT_FERTILIZER": 373,
+        "DIG": 38,
+        "DROP": 51,
+        "EAST": 584,
+        "FEED": 314,
+        "FERTILIZE": 127,
+        "HARVEST": 481,
+        "NORTH": 923,
+        "PASS": 481,
+        "PICKUP": 209,
+        "PLACE": 99,
+        "PLANT": 238,
+        "SOUTH": 500,
+        "WATER": 1095,
+        "WEST": 872
+      },
+      "daily": [
+        {
+          "day": 0,
+          "our_money": 3000.0,
+          "their_money": 3000.0,
+          "margin": 0.0
+        },
+        {
+          "day": 1,
+          "our_money": 12.0,
+          "their_money": 22.0,
+          "margin": -10.0
+        },
+        {
+          "day": 2,
+          "our_money": 101.0,
+          "their_money": 82.0,
+          "margin": 19.0
+        },
+        {
+          "day": 3,
+          "our_money": 214.0,
+          "their_money": 195.0,
+          "margin": 19.0
+        },
+        {
+          "day": 4,
+          "our_money": 267.0,
+          "their_money": 278.0,
+          "margin": -11.0
+        },
+        {
+          "day": 5,
+          "our_money": 672.0,
+          "their_money": 683.0,
+          "margin": -11.0
+        },
+        {
+          "day": 6,
+          "our_money": 787.0,
+          "their_money": 798.0,
+          "margin": -11.0
+        },
+        {
+          "day": 7,
+          "our_money": 1115.0,
+          "their_money": 1119.0,
+          "margin": -4.0
+        },
+        {
+          "day": 8,
+          "our_money": 535.0,
+          "their_money": 539.0,
+          "margin": -4.0
+        },
+        {
+          "day": 9,
+          "our_money": 1715.0,
+          "their_money": 1719.0,
+          "margin": -4.0
+        },
+        {
+          "day": 10,
+          "our_money": 2520.0,
+          "their_money": 2524.0,
+          "margin": -4.0
+        },
+        {
+          "day": 11,
+          "our_money": 16257.0,
+          "their_money": 16139.0,
+          "margin": 118.0
+        },
+        {
+          "day": 12,
+          "our_money": 15619.0,
+          "their_money": 15501.0,
+          "margin": 118.0
+        },
+        {
+          "day": 13,
+          "our_money": 19382.0,
+          "their_money": 19264.0,
+          "margin": 118.0
+        },
+        {
+          "day": 14,
+          "our_money": 21150.0,
+          "their_money": 21032.0,
+          "margin": 118.0
+        },
+        {
+          "day": 15,
+          "our_money": 24079.0,
+          "their_money": 23942.0,
+          "margin": 137.0
+        },
+        {
+          "day": 16,
+          "our_money": 28591.0,
+          "their_money": 28459.0,
+          "margin": 132.0
+        },
+        {
+          "day": 17,
+          "our_money": 33812.0,
+          "their_money": 33638.0,
+          "margin": 174.0
+        },
+        {
+          "day": 18,
+          "our_money": 38404.0,
+          "their_money": 38676.0,
+          "margin": -272.0
+        },
+        {
+          "day": 19,
+          "our_money": 43792.0,
+          "their_money": 43615.0,
+          "margin": 177.0
+        },
+        {
+          "day": 20,
+          "our_money": 48924.0,
+          "their_money": 48519.0,
+          "margin": 405.0
+        },
+        {
+          "day": 21,
+          "our_money": 55879.0,
+          "their_money": 55531.0,
+          "margin": 348.0
+        },
+        {
+          "day": 22,
+          "our_money": 64144.0,
+          "their_money": 63834.0,
+          "margin": 310.0
+        },
+        {
+          "day": 23,
+          "our_money": 71121.0,
+          "their_money": 70677.0,
+          "margin": 444.0
+        },
+        {
+          "day": 24,
+          "our_money": 77753.0,
+          "their_money": 77252.0,
+          "margin": 501.0
+        },
+        {
+          "day": 25,
+          "our_money": 85803.0,
+          "their_money": 85429.0,
+          "margin": 374.0
+        },
+        {
+          "day": 26,
+          "our_money": 90258.0,
+          "their_money": 89707.0,
+          "margin": 551.0
+        },
+        {
+          "day": 27,
+          "our_money": 95983.0,
+          "their_money": 95274.0,
+          "margin": 709.0
+        },
+        {
+          "day": 28,
+          "our_money": 100203.0,
+          "their_money": 99371.0,
+          "margin": 832.0
+        },
+        {
+          "day": 29,
+          "our_money": 109717.0,
+          "their_money": 108755.0,
+          "margin": 962.0
+        },
+        {
+          "day": 30,
+          "our_money": 118085.0,
+          "their_money": 117123.0,
+          "margin": 962.0
+        }
+      ]
+    },
+    {
+      "episode_id": 111999893,
+      "seed": 765592529,
+      "our_seat": 0,
+      "opponent": "Rishit Aggarwal",
+      "our_reward": 118292.0,
+      "their_reward": 117054.0,
+      "margin": 1238.0,
+      "outcome": "W",
+      "win": true,
+      "tie": false,
+      "loss": false,
+      "comeback": true,
+      "blown_lead": false,
+      "max_daily_lead": 1362.0,
+      "min_daily_lead": -16.0,
+      "first_negative_day": 17,
+      "last_lead_day": 30,
+      "shops": [
+        "SMOOTHIE_SHOP",
+        "BAKERY",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "BRUNCH_SPOT",
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ],
+      "our_tiles": {
+        "COOP": 1,
+        "COW": 9,
+        "GOOSE": 3,
+        "SHEEP": 5
+      },
+      "their_tiles": {
+        "COOP": 1,
+        "COW": 9,
+        "GOOSE": 3,
+        "SHEEP": 5
+      },
+      "our_market": {
+        "BUY_ANIMAL:COW": 9,
+        "BUY_ANIMAL:GOOSE": 3,
+        "BUY_ANIMAL:SHEEP": 5,
+        "BUY_LAND": 2,
+        "BUY_PRODUCT:FERTILIZER": 92,
+        "BUY_PRODUCT:WHEAT": 135,
+        "BUY_SEED:CARROT": 31,
+        "BUY_SEED:MELON": 12,
+        "BUY_SEED:STRAWBERRY": 33,
+        "BUY_SEED:WHEAT": 164,
+        "HIRE": 267,
+        "SELL:CARROT": 97,
+        "SELL:EGG": 95,
+        "SELL:FERTILIZER": 362,
+        "SELL:MELON": 72,
+        "SELL:MILK": 294,
+        "SELL:STRAWBERRY": 269,
+        "SELL:WHEAT": 445,
+        "SELL:WOOL": 135
+      },
+      "their_market": {
+        "BUY_ANIMAL:COW": 9,
+        "BUY_ANIMAL:GOOSE": 3,
+        "BUY_ANIMAL:SHEEP": 5,
+        "BUY_LAND": 2,
+        "BUY_PRODUCT:FERTILIZER": 92,
+        "BUY_PRODUCT:WHEAT": 135,
+        "BUY_SEED:CARROT": 31,
+        "BUY_SEED:MELON": 12,
+        "BUY_SEED:STRAWBERRY": 33,
+        "BUY_SEED:WHEAT": 164,
+        "HIRE": 267,
+        "SELL:CARROT": 97,
+        "SELL:EGG": 91,
+        "SELL:FERTILIZER": 362,
+        "SELL:MELON": 72,
+        "SELL:MILK": 310,
+        "SELL:STRAWBERRY": 283,
+        "SELL:WHEAT": 445,
+        "SELL:WOOL": 150
+      },
+      "our_field": {
+        "BUILD_COOP": 5,
+        "BUILD_PASTURE": 14,
+        "CARE": 404,
+        "COLLECT_FERTILIZER": 373,
+        "DIG": 38,
+        "DROP": 52,
+        "EAST": 588,
+        "FEED": 333,
+        "FERTILIZE": 118,
+        "HARVEST": 482,
+        "NORTH": 921,
+        "PASS": 449,
+        "PICKUP": 208,
+        "PLACE": 99,
+        "PLANT": 239,
+        "SOUTH": 494,
+        "WATER": 1097,
+        "WEST": 873
+      },
+      "their_field": {
+        "BUILD_COOP": 5,
+        "BUILD_PASTURE": 14,
+        "CARE": 405,
+        "COLLECT_FERTILIZER": 373,
+        "DIG": 38,
+        "DROP": 52,
+        "EAST": 588,
+        "FEED": 333,
+        "FERTILIZE": 118,
+        "HARVEST": 481,
+        "NORTH": 921,
+        "PASS": 449,
+        "PICKUP": 208,
+        "PLACE": 99,
+        "PLANT": 239,
+        "SOUTH": 494,
+        "WATER": 1097,
+        "WEST": 873
+      },
+      "daily": [
+        {
+          "day": 0,
+          "our_money": 3000.0,
+          "their_money": 3000.0,
+          "margin": 0.0
+        },
+        {
+          "day": 1,
+          "our_money": 12.0,
+          "their_money": 12.0,
+          "margin": 0.0
+        },
+        {
+          "day": 2,
+          "our_money": 101.0,
+          "their_money": 101.0,
+          "margin": 0.0
+        },
+        {
+          "day": 3,
+          "our_money": 214.0,
+          "their_money": 214.0,
+          "margin": 0.0
+        },
+        {
+          "day": 4,
+          "our_money": 265.0,
+          "their_money": 265.0,
+          "margin": 0.0
+        },
+        {
+          "day": 5,
+          "our_money": 675.0,
+          "their_money": 675.0,
+          "margin": 0.0
+        },
+        {
+          "day": 6,
+          "our_money": 788.0,
+          "their_money": 788.0,
+          "margin": 0.0
+        },
+        {
+          "day": 7,
+          "our_money": 1118.0,
+          "their_money": 1111.0,
+          "margin": 7.0
+        },
+        {
+          "day": 8,
+          "our_money": 538.0,
+          "their_money": 531.0,
+          "margin": 7.0
+        },
+        {
+          "day": 9,
+          "our_money": 1748.0,
+          "their_money": 1741.0,
+          "margin": 7.0
+        },
+        {
+          "day": 10,
+          "our_money": 2676.0,
+          "their_money": 2669.0,
+          "margin": 7.0
+        },
+        {
+          "day": 11,
+          "our_money": 16563.0,
+          "their_money": 16554.0,
+          "margin": 9.0
+        },
+        {
+          "day": 12,
+          "our_money": 16026.0,
+          "their_money": 16017.0,
+          "margin": 9.0
+        },
+        {
+          "day": 13,
+          "our_money": 19930.0,
+          "their_money": 19921.0,
+          "margin": 9.0
+        },
+        {
+          "day": 14,
+          "our_money": 21998.0,
+          "their_money": 21989.0,
+          "margin": 9.0
+        },
+        {
+          "day": 15,
+          "our_money": 26087.0,
+          "their_money": 26078.0,
+          "margin": 9.0
+        },
+        {
+          "day": 16,
+          "our_money": 33048.0,
+          "their_money": 33042.0,
+          "margin": 6.0
+        },
+        {
+          "day": 17,
+          "our_money": 39378.0,
+          "their_money": 39379.0,
+          "margin": -1.0
+        },
+        {
+          "day": 18,
+          "our_money": 44139.0,
+          "their_money": 44140.0,
+          "margin": -1.0
+        },
+        {
+          "day": 19,
+          "our_money": 51143.0,
+          "their_money": 51159.0,
+          "margin": -16.0
+        },
+        {
+          "day": 20,
+          "our_money": 57929.0,
+          "their_money": 57943.0,
+          "margin": -14.0
+        },
+        {
+          "day": 21,
+          "our_money": 65469.0,
+          "their_money": 65320.0,
+          "margin": 149.0
+        },
+        {
+          "day": 22,
+          "our_money": 72735.0,
+          "their_money": 72734.0,
+          "margin": 1.0
+        },
+        {
+          "day": 23,
+          "our_money": 79163.0,
+          "their_money": 79128.0,
+          "margin": 35.0
+        },
+        {
+          "day": 24,
+          "our_money": 85272.0,
+          "their_money": 84902.0,
+          "margin": 370.0
+        },
+        {
+          "day": 25,
+          "our_money": 90501.0,
+          "their_money": 90044.0,
+          "margin": 457.0
+        },
+        {
+          "day": 26,
+          "our_money": 95292.0,
+          "their_money": 94280.0,
+          "margin": 1012.0
+        },
+        {
+          "day": 27,
+          "our_money": 101024.0,
+          "their_money": 99969.0,
+          "margin": 1055.0
+        },
+        {
+          "day": 28,
+          "our_money": 105021.0,
+          "their_money": 103822.0,
+          "margin": 1199.0
+        },
+        {
+          "day": 29,
+          "our_money": 112556.0,
+          "their_money": 111194.0,
+          "margin": 1362.0
+        },
+        {
+          "day": 30,
+          "our_money": 118292.0,
+          "their_money": 117054.0,
+          "margin": 1238.0
+        }
+      ]
+    },
+    {
+      "episode_id": 112006552,
+      "seed": 939624428,
+      "our_seat": 1,
+      "opponent": "Haramball forever!",
+      "our_reward": 66722.0,
+      "their_reward": 65455.0,
+      "margin": 1267.0,
+      "outcome": "W",
+      "win": true,
+      "tie": false,
+      "loss": false,
+      "comeback": true,
+      "blown_lead": false,
+      "max_daily_lead": 1466.0,
+      "min_daily_lead": -90.0,
+      "first_negative_day": 4,
+      "last_lead_day": 30,
+      "shops": [
+        "BAKERY",
+        "PIZZA_SHOP",
+        "PET_CAFE",
+        "YARN_STORE",
+        "PIZZA_SHOP",
+        "PET_CAFE",
+        "PET_CAFE",
+        "YARN_STORE"
+      ],
+      "our_tiles": {
+        "COOP": 2,
+        "COW": 8,
+        "GOOSE": 2,
+        "SHEEP": 6,
+        "WEED": 1
+      },
+      "their_tiles": {
+        "COOP": 2,
+        "COW": 8,
+        "GOOSE": 2,
+        "SHEEP": 6
+      },
+      "our_market": {
+        "BUY_ANIMAL:COW": 8,
+        "BUY_ANIMAL:GOOSE": 3,
+        "BUY_ANIMAL:SHEEP": 6,
+        "BUY_LAND": 2,
+        "BUY_PRODUCT:FERTILIZER": 93,
+        "BUY_PRODUCT:WHEAT": 135,
+        "BUY_SEED:CARROT": 48,
+        "BUY_SEED:MELON": 12,
+        "BUY_SEED:STRAWBERRY": 33,
+        "BUY_SEED:WHEAT": 150,
+        "HIRE": 267,
+        "SELL:CARROT": 162,
+        "SELL:EGG": 86,
+        "SELL:FERTILIZER": 2361,
+        "SELL:MELON": 72,
+        "SELL:MILK": 229,
+        "SELL:STRAWBERRY": 302,
+        "SELL:WHEAT": 406,
+        "SELL:WOOL": 160
+      },
+      "their_market": {
+        "BUY_ANIMAL:COW": 8,
+        "BUY_ANIMAL:GOOSE": 3,
+        "BUY_ANIMAL:SHEEP": 6,
+        "BUY_LAND": 2,
+        "BUY_PRODUCT:FERTILIZER": 93,
+        "BUY_PRODUCT:WHEAT": 138,
+        "BUY_SEED:CARROT": 54,
+        "BUY_SEED:MELON": 12,
+        "BUY_SEED:STRAWBERRY": 33,
+        "BUY_SEED:WHEAT": 150,
+        "HIRE": 267,
+        "SELL:CARROT": 162,
+        "SELL:EGG": 86,
+        "SELL:FERTILIZER": 2360,
+        "SELL:MELON": 72,
+        "SELL:MILK": 221,
+        "SELL:STRAWBERRY": 270,
+        "SELL:WHEAT": 406,
+        "SELL:WOOL": 160
+      },
+      "our_field": {
+        "BUILD_COOP": 5,
+        "BUILD_PASTURE": 14,
+        "CARE": 404,
+        "COLLECT_FERTILIZER": 375,
+        "DIG": 37,
+        "DROP": 52,
+        "EAST": 587,
+        "FEED": 316,
+        "FERTILIZE": 118,
+        "HARVEST": 482,
+        "NORTH": 918,
+        "PASS": 462,
+        "PICKUP": 208,
+        "PLACE": 99,
+        "PLANT": 239,
+        "SOUTH": 499,
+        "WATER": 1100,
+        "WEST": 873
+      },
+      "their_field": {
+        "BUILD_COOP": 5,
+        "BUILD_PASTURE": 14,
+        "CARE": 404,
+        "COLLECT_FERTILIZER": 375,
+        "DIG": 38,
+        "DROP": 52,
+        "EAST": 587,
+        "FEED": 316,
+        "FERTILIZE": 121,
+        "HARVEST": 482,
+        "NORTH": 918,
+        "PASS": 459,
+        "PICKUP": 208,
+        "PLACE": 99,
+        "PLANT": 238,
+        "SOUTH": 499,
+        "WATER": 1100,
+        "WEST": 873
+      },
+      "daily": [
+        {
+          "day": 0,
+          "our_money": 3000.0,
+          "their_money": 3000.0,
+          "margin": 0.0
+        },
+        {
+          "day": 1,
+          "our_money": 12.0,
+          "their_money": 12.0,
+          "margin": 0.0
+        },
+        {
+          "day": 2,
+          "our_money": 101.0,
+          "their_money": 101.0,
+          "margin": 0.0
+        },
+        {
+          "day": 3,
+          "our_money": 214.0,
+          "their_money": 214.0,
+          "margin": 0.0
+        },
+        {
+          "day": 4,
+          "our_money": 267.0,
+          "their_money": 357.0,
+          "margin": -90.0
+        },
+        {
+          "day": 5,
+          "our_money": 674.0,
+          "their_money": 764.0,
+          "margin": -90.0
+        },
+        {
+          "day": 6,
+          "our_money": 789.0,
+          "their_money": 879.0,
+          "margin": -90.0
+        },
+        {
+          "day": 7,
+          "our_money": 1052.0,
+          "their_money": 763.0,
+          "margin": 289.0
+        },
+        {
+          "day": 8,
+          "our_money": 472.0,
+          "their_money": 559.0,
+          "margin": -87.0
+        },
+        {
+          "day": 9,
+          "our_money": 1335.0,
+          "their_money": 1422.0,
+          "margin": -87.0
+        },
+        {
+          "day": 10,
+          "our_money": 2139.0,
+          "their_money": 2226.0,
+          "margin": -87.0
+        },
+        {
+          "day": 11,
+          "our_money": 15718.0,
+          "their_money": 15683.0,
+          "margin": 35.0
+        },
+        {
+          "day": 12,
+          "our_money": 14814.0,
+          "their_money": 14779.0,
+          "margin": 35.0
+        },
+        {
+          "day": 13,
+          "our_money": 18412.0,
+          "their_money": 18377.0,
+          "margin": 35.0
+        },
+        {
+          "day": 14,
+          "our_money": 19939.0,
+          "their_money": 19904.0,
+          "margin": 35.0
+        },
+        {
+          "day": 15,
+          "our_money": 23810.0,
+          "their_money": 23738.0,
+          "margin": 72.0
+        },
+        {
+          "day": 16,
+          "our_money": 26727.0,
+          "their_money": 26660.0,
+          "margin": 67.0
+        },
+        {
+          "day": 17,
+          "our_money": 31748.0,
+          "their_money": 31602.0,
+          "margin": 146.0
+        },
+        {
+          "day": 18,
+          "our_money": 33021.0,
+          "their_money": 32875.0,
+          "margin": 146.0
+        },
+        {
+          "day": 19,
+          "our_money": 35737.0,
+          "their_money": 35445.0,
+          "margin": 292.0
+        },
+        {
+          "day": 20,
+          "our_money": 37397.0,
+          "their_money": 36593.0,
+          "margin": 804.0
+        },
+        {
+          "day": 21,
+          "our_money": 38679.0,
+          "their_money": 38172.0,
+          "margin": 507.0
+        },
+        {
+          "day": 22,
+          "our_money": 40679.0,
+          "their_money": 40101.0,
+          "margin": 578.0
+        },
+        {
+          "day": 23,
+          "our_money": 42392.0,
+          "their_money": 41720.0,
+          "margin": 672.0
+        },
+        {
+          "day": 24,
+          "our_money": 44284.0,
+          "their_money": 43365.0,
+          "margin": 919.0
+        },
+        {
+          "day": 25,
+          "our_money": 45947.0,
+          "their_money": 45057.0,
+          "margin": 890.0
+        },
+        {
+          "day": 26,
+          "our_money": 47554.0,
+          "their_money": 46529.0,
+          "margin": 1025.0
+        },
+        {
+          "day": 27,
+          "our_money": 49158.0,
+          "their_money": 48092.0,
+          "margin": 1066.0
+        },
+        {
+          "day": 28,
+          "our_money": 52731.0,
+          "their_money": 51470.0,
+          "margin": 1261.0
+        },
+        {
+          "day": 29,
+          "our_money": 57639.0,
+          "their_money": 56173.0,
+          "margin": 1466.0
+        },
+        {
+          "day": 30,
+          "our_money": 66722.0,
+          "their_money": 65455.0,
+          "margin": 1267.0
+        }
+      ]
+    },
+    {
+      "episode_id": 112013377,
+      "seed": 400240430,
+      "our_seat": 0,
+      "opponent": "Heisnotanimposter",
+      "our_reward": 112098.0,
+      "their_reward": 112290.0,
+      "margin": -192.0,
+      "outcome": "L",
+      "win": false,
+      "tie": false,
+      "loss": true,
+      "comeback": false,
+      "blown_lead": true,
+      "max_daily_lead": 678.0,
+      "min_daily_lead": -192.0,
+      "first_negative_day": 19,
+      "last_lead_day": 28,
+      "shops": [
+        "PIZZA_SHOP",
+        "BAKERY",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "SMOOTHIE_SHOP",
+        "YARN_STORE",
+        "BAKERY",
+        "BRUNCH_SPOT"
+      ],
+      "our_tiles": {
+        "COOP": 1,
+        "COW": 9,
+        "GOOSE": 3,
+        "SHEEP": 5
+      },
+      "their_tiles": {
+        "COOP": 1,
+        "COW": 9,
+        "GOOSE": 3,
+        "SHEEP": 5
+      },
+      "our_market": {
+        "BUY_ANIMAL:COW": 9,
+        "BUY_ANIMAL:GOOSE": 3,
+        "BUY_ANIMAL:SHEEP": 5,
+        "BUY_LAND": 2,
+        "BUY_PRODUCT:FERTILIZER": 98,
+        "BUY_PRODUCT:WHEAT": 135,
+        "BUY_SEED:CARROT": 31,
+        "BUY_SEED:MELON": 12,
+        "BUY_SEED:STRAWBERRY": 33,
+        "BUY_SEED:WHEAT": 164,
+        "HIRE": 268,
+        "SELL:CARROT": 97,
+        "SELL:EGG": 92,
+        "SELL:FERTILIZER": 361,
+        "SELL:MELON": 72,
+        "SELL:MILK": 278,
+        "SELL:STRAWBERRY": 291,
+        "SELL:WHEAT": 446,
+        "SELL:WOOL": 147
+      },
+      "their_market": {
+        "BUY_ANIMAL:COW": 9,
+        "BUY_ANIMAL:GOOSE": 3,
+        "BUY_ANIMAL:SHEEP": 5,
+        "BUY_LAND": 2,
+        "BUY_PRODUCT:FERTILIZER": 98,
+        "BUY_PRODUCT:WHEAT": 135,
+        "BUY_SEED:CARROT": 31,
+        "BUY_SEED:MELON": 12,
+        "BUY_SEED:STRAWBERRY": 33,
+        "BUY_SEED:WHEAT": 164,
+        "HIRE": 268,
+        "SELL:CARROT": 97,
+        "SELL:EGG": 92,
+        "SELL:FERTILIZER": 362,
+        "SELL:MELON": 72,
+        "SELL:MILK": 296,
+        "SELL:STRAWBERRY": 291,
+        "SELL:WHEAT": 446,
+        "SELL:WOOL": 149
+      },
+      "our_field": {
+        "BUILD_COOP": 5,
+        "BUILD_PASTURE": 14,
+        "CARE": 404,
+        "COLLECT_FERTILIZER": 373,
+        "DIG": 38,
+        "DROP": 52,
+        "EAST": 588,
+        "FEED": 355,
+        "FERTILIZE": 124,
+        "HARVEST": 482,
+        "NORTH": 924,
+        "PASS": 425,
+        "PICKUP": 209,
+        "PLACE": 99,
+        "PLANT": 239,
+        "SOUTH": 499,
+        "WATER": 1099,
+        "WEST": 878
+      },
+      "their_field": {
+        "BUILD_COOP": 5,
+        "BUILD_PASTURE": 14,
+        "CARE": 404,
+        "COLLECT_FERTILIZER": 373,
+        "DIG": 38,
+        "DROP": 52,
+        "EAST": 588,
+        "FEED": 355,
+        "FERTILIZE": 126,
+        "HARVEST": 482,
+        "NORTH": 924,
+        "PASS": 423,
+        "PICKUP": 209,
+        "PLACE": 99,
+        "PLANT": 239,
+        "SOUTH": 499,
+        "WATER": 1099,
+        "WEST": 878
+      },
+      "daily": [
+        {
+          "day": 0,
+          "our_money": 3000.0,
+          "their_money": 3000.0,
+          "margin": 0.0
+        },
+        {
+          "day": 1,
+          "our_money": 12.0,
+          "their_money": 12.0,
+          "margin": 0.0
+        },
+        {
+          "day": 2,
+          "our_money": 101.0,
+          "their_money": 101.0,
+          "margin": 0.0
+        },
+        {
+          "day": 3,
+          "our_money": 214.0,
+          "their_money": 214.0,
+          "margin": 0.0
+        },
+        {
+          "day": 4,
+          "our_money": 267.0,
+          "their_money": 267.0,
+          "margin": 0.0
+        },
+        {
+          "day": 5,
+          "our_money": 672.0,
+          "their_money": 672.0,
+          "margin": 0.0
+        },
+        {
+          "day": 6,
+          "our_money": 787.0,
+          "their_money": 787.0,
+          "margin": 0.0
+        },
+        {
+          "day": 7,
+          "our_money": 1115.0,
+          "their_money": 1108.0,
+          "margin": 7.0
+        },
+        {
+          "day": 8,
+          "our_money": 535.0,
+          "their_money": 528.0,
+          "margin": 7.0
+        },
+        {
+          "day": 9,
+          "our_money": 1715.0,
+          "their_money": 1708.0,
+          "margin": 7.0
+        },
+        {
+          "day": 10,
+          "our_money": 2620.0,
+          "their_money": 2613.0,
+          "margin": 7.0
+        },
+        {
+          "day": 11,
+          "our_money": 16465.0,
+          "their_money": 16456.0,
+          "margin": 9.0
+        },
+        {
+          "day": 12,
+          "our_money": 15926.0,
+          "their_money": 15917.0,
+          "margin": 9.0
+        },
+        {
+          "day": 13,
+          "our_money": 19867.0,
+          "their_money": 19858.0,
+          "margin": 9.0
+        },
+        {
+          "day": 14,
+          "our_money": 21931.0,
+          "their_money": 21922.0,
+          "margin": 9.0
+        },
+        {
+          "day": 15,
+          "our_money": 26017.0,
+          "their_money": 26008.0,
+          "margin": 9.0
+        },
+        {
+          "day": 16,
+          "our_money": 32830.0,
+          "their_money": 32823.0,
+          "margin": 7.0
+        },
+        {
+          "day": 17,
+          "our_money": 38872.0,
+          "their_money": 38851.0,
+          "margin": 21.0
+        },
+        {
+          "day": 18,
+          "our_money": 43141.0,
+          "their_money": 43120.0,
+          "margin": 21.0
+        },
+        {
+          "day": 19,
+          "our_money": 50032.0,
+          "their_money": 50040.0,
+          "margin": -8.0
+        },
+        {
+          "day": 20,
+          "our_money": 56634.0,
+          "their_money": 56647.0,
+          "margin": -13.0
+        },
+        {
+          "day": 21,
+          "our_money": 63340.0,
+          "their_money": 63337.0,
+          "margin": 3.0
+        },
+        {
+          "day": 22,
+          "our_money": 67502.0,
+          "their_money": 67484.0,
+          "margin": 18.0
+        },
+        {
+          "day": 23,
+          "our_money": 72631.0,
+          "their_money": 72482.0,
+          "margin": 149.0
+        },
+        {
+          "day": 24,
+          "our_money": 77088.0,
+          "their_money": 76927.0,
+          "margin": 161.0
+        },
+        {
+          "day": 25,
+          "our_money": 81908.0,
+          "their_money": 81234.0,
+          "margin": 674.0
+        },
+        {
+          "day": 26,
+          "our_money": 87140.0,
+          "their_money": 86469.0,
+          "margin": 671.0
+        },
+        {
+          "day": 27,
+          "our_money": 91199.0,
+          "their_money": 90521.0,
+          "margin": 678.0
+        },
+        {
+          "day": 28,
+          "our_money": 96583.0,
+          "their_money": 95956.0,
+          "margin": 627.0
+        },
+        {
+          "day": 29,
+          "our_money": 103200.0,
+          "their_money": 103389.0,
+          "margin": -189.0
+        },
+        {
+          "day": 30,
+          "our_money": 112098.0,
+          "their_money": 112290.0,
+          "margin": -192.0
+        }
+      ]
+    },
+    {
+      "episode_id": 112019064,
+      "seed": 845234433,
+      "our_seat": 1,
+      "opponent": "yw8837",
+      "our_reward": 88037.0,
+      "their_reward": 87136.0,
+      "margin": 901.0,
+      "outcome": "W",
+      "win": true,
+      "tie": false,
+      "loss": false,
+      "comeback": true,
+      "blown_lead": false,
+      "max_daily_lead": 903.0,
+      "min_daily_lead": -12.0,
+      "first_negative_day": 1,
+      "last_lead_day": 30,
+      "shops": [
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "PET_CAFE",
+        "PET_CAFE",
+        "ICE_CREAM_SHOP",
+        "SMOOTHIE_SHOP",
+        "FARMERS_MARKET"
+      ],
+      "our_tiles": {
+        "COOP": 1,
+        "COW": 6,
+        "SHEEP": 11
+      },
+      "their_tiles": {
+        "COOP": 1,
+        "COW": 6,
+        "SHEEP": 11
+      },
+      "our_market": {
+        "BUY_ANIMAL:COW": 6,
+        "BUY_ANIMAL:SHEEP": 11,
+        "BUY_LAND": 2,
+        "BUY_PRODUCT:FERTILIZER": 64,
+        "BUY_PRODUCT:WHEAT": 162,
+        "BUY_SEED:CARROT": 53,
+        "BUY_SEED:MELON": 12,
+        "BUY_SEED:STRAWBERRY": 33,
+        "BUY_SEED:WHEAT": 144,
+        "HIRE": 282,
+        "SELL:CARROT": 167,
+        "SELL:FERTILIZER": 2335,
+        "SELL:MELON": 72,
+        "SELL:MILK": 205,
+        "SELL:STRAWBERRY": 267,
+        "SELL:WHEAT": 350,
+        "SELL:WOOL": 291
+      },
+      "their_market": {
+        "BUY_ANIMAL:COW": 6,
+        "BUY_ANIMAL:SHEEP": 11,
+        "BUY_LAND": 2,
+        "BUY_PRODUCT:FERTILIZER": 62,
+        "BUY_PRODUCT:WHEAT": 152,
+        "BUY_SEED:CARROT": 61,
+        "BUY_SEED:MELON": 12,
+        "BUY_SEED:STRAWBERRY": 33,
+        "BUY_SEED:WHEAT": 144,
+        "HIRE": 282,
+        "SELL:CARROT": 167,
+        "SELL:FERTILIZER": 1335,
+        "SELL:MELON": 72,
+        "SELL:MILK": 223,
+        "SELL:STRAWBERRY": 292,
+        "SELL:WHEAT": 340,
+        "SELL:WOOL": 345
+      },
+      "our_field": {
+        "BUILD_COOP": 2,
+        "BUILD_PASTURE": 17,
+        "CARE": 397,
+        "COLLECT_FERTILIZER": 377,
+        "DIG": 36,
+        "DROP": 29,
+        "EAST": 622,
+        "FEED": 324,
+        "FERTILIZE": 109,
+        "HARVEST": 466,
+        "NORTH": 944,
+        "PASS": 703,
+        "PICKUP": 157,
+        "PLACE": 112,
+        "PLANT": 239,
+        "SOUTH": 581,
+        "WATER": 1097,
+        "WEST": 906
+      },
+      "their_field": {
+        "BUILD_COOP": 2,
+        "BUILD_PASTURE": 17,
+        "CARE": 397,
+        "COLLECT_FERTILIZER": 377,
+        "DIG": 36,
+        "DROP": 29,
+        "EAST": 622,
+        "FEED": 324,
+        "FERTILIZE": 109,
+        "HARVEST": 466,
+        "NORTH": 944,
+        "PASS": 695,
+        "PICKUP": 157,
+        "PLACE": 112,
+        "PLANT": 239,
+        "SOUTH": 581,
+        "WATER": 1105,
+        "WEST": 906
+      },
+      "daily": [
+        {
+          "day": 0,
+          "our_money": 3000.0,
+          "their_money": 3000.0,
+          "margin": 0.0
+        },
+        {
+          "day": 1,
+          "our_money": 6.0,
+          "their_money": 18.0,
+          "margin": -12.0
+        },
+        {
+          "day": 2,
+          "our_money": 95.0,
+          "their_money": 107.0,
+          "margin": -12.0
+        },
+        {
+          "day": 3,
+          "our_money": 208.0,
+          "their_money": 220.0,
+          "margin": -12.0
+        },
+        {
+          "day": 4,
+          "our_money": 259.0,
+          "their_money": 271.0,
+          "margin": -12.0
+        },
+        {
+          "day": 5,
+          "our_money": 669.0,
+          "their_money": 681.0,
+          "margin": -12.0
+        },
+        {
+          "day": 6,
+          "our_money": 782.0,
+          "their_money": 794.0,
+          "margin": -12.0
+        },
+        {
+          "day": 7,
+          "our_money": 1389.0,
+          "their_money": 1401.0,
+          "margin": -12.0
+        },
+        {
+          "day": 8,
+          "our_money": 461.0,
+          "their_money": 473.0,
+          "margin": -12.0
+        },
+        {
+          "day": 9,
+          "our_money": 1257.0,
+          "their_money": 1269.0,
+          "margin": -12.0
+        },
+        {
+          "day": 10,
+          "our_money": 3841.0,
+          "their_money": 3853.0,
+          "margin": -12.0
+        },
+        {
+          "day": 11,
+          "our_money": 15676.0,
+          "their_money": 15688.0,
+          "margin": -12.0
+        },
+        {
+          "day": 12,
+          "our_money": 13674.0,
+          "their_money": 13686.0,
+          "margin": -12.0
+        },
+        {
+          "day": 13,
+          "our_money": 17786.0,
+          "their_money": 17783.0,
+          "margin": 3.0
+        },
+        {
+          "day": 14,
+          "our_money": 19834.0,
+          "their_money": 19813.0,
+          "margin": 21.0
+        },
+        {
+          "day": 15,
+          "our_money": 22797.0,
+          "their_money": 22776.0,
+          "margin": 21.0
+        },
+        {
+          "day": 16,
+          "our_money": 27728.0,
+          "their_money": 27707.0,
+          "margin": 21.0
+        },
+        {
+          "day": 17,
+          "our_money": 37464.0,
+          "their_money": 37441.0,
+          "margin": 23.0
+        },
+        {
+          "day": 18,
+          "our_money": 44363.0,
+          "their_money": 44354.0,
+          "margin": 9.0
+        },
+        {
+          "day": 19,
+          "our_money": 51443.0,
+          "their_money": 51434.0,
+          "margin": 9.0
+        },
+        {
+          "day": 20,
+          "our_money": 56125.0,
+          "their_money": 56116.0,
+          "margin": 9.0
+        },
+        {
+          "day": 21,
+          "our_money": 62177.0,
+          "their_money": 62168.0,
+          "margin": 9.0
+        },
+        {
+          "day": 22,
+          "our_money": 65071.0,
+          "their_money": 65062.0,
+          "margin": 9.0
+        },
+        {
+          "day": 23,
+          "our_money": 67401.0,
+          "their_money": 67392.0,
+          "margin": 9.0
+        },
+        {
+          "day": 24,
+          "our_money": 67688.0,
+          "their_money": 67266.0,
+          "margin": 422.0
+        },
+        {
+          "day": 25,
+          "our_money": 69036.0,
+          "their_money": 68614.0,
+          "margin": 422.0
+        },
+        {
+          "day": 26,
+          "our_money": 71096.0,
+          "their_money": 70402.0,
+          "margin": 694.0
+        },
+        {
+          "day": 27,
+          "our_money": 73498.0,
+          "their_money": 72804.0,
+          "margin": 694.0
+        },
+        {
+          "day": 28,
+          "our_money": 76734.0,
+          "their_money": 75831.0,
+          "margin": 903.0
+        },
+        {
+          "day": 29,
+          "our_money": 81352.0,
+          "their_money": 80449.0,
+          "margin": 903.0
+        },
+        {
+          "day": 30,
+          "our_money": 88037.0,
+          "their_money": 87136.0,
+          "margin": 901.0
+        }
+      ]
+    },
+    {
+      "episode_id": 112020183,
+      "seed": 1273901294,
+      "our_seat": 0,
+      "opponent": "Have a nice trip in USST",
+      "our_reward": 121242.0,
+      "their_reward": 120826.0,
+      "margin": 416.0,
+      "outcome": "W",
+      "win": true,
+      "tie": false,
+      "loss": false,
+      "comeback": true,
+      "blown_lead": false,
+      "max_daily_lead": 488.0,
+      "min_daily_lead": -1055.0,
+      "first_negative_day": 1,
+      "last_lead_day": 30,
+      "shops": [
+        "SMOOTHIE_SHOP",
+        "YARN_STORE",
+        "SMOOTHIE_SHOP",
+        "PIZZA_SHOP",
+        "SMOOTHIE_SHOP",
+        "PIZZA_SHOP",
+        "FARMERS_MARKET",
+        "FARMERS_MARKET"
+      ],
+      "our_tiles": {
+        "COOP": 1,
+        "COW": 6,
+        "SHEEP": 11
+      },
+      "their_tiles": {
+        "COOP": 1,
+        "COW": 6,
+        "SHEEP": 11,
+        "WEED": 2
+      },
+      "our_market": {
+        "BUY_ANIMAL:COW": 6,
+        "BUY_ANIMAL:SHEEP": 11,
+        "BUY_LAND": 2,
+        "BUY_PRODUCT:FERTILIZER": 49,
+        "BUY_PRODUCT:WHEAT": 162,
+        "BUY_SEED:CARROT": 28,
+        "BUY_SEED:MELON": 12,
+        "BUY_SEED:STRAWBERRY": 33,
+        "BUY_SEED:WHEAT": 166,
+        "HIRE": 280,
+        "SELL:CARROT": 86,
+        "SELL:FERTILIZER": 2334,
+        "SELL:MELON": 72,
+        "SELL:MILK": 226,
+        "SELL:STRAWBERRY": 254,
+        "SELL:WHEAT": 386,
+        "SELL:WOOL": 312
+      },
+      "their_market": {
+        "BUY_ANIMAL:COW": 6,
+        "BUY_ANIMAL:SHEEP": 11,
+        "BUY_LAND": 2,
+        "BUY_PRODUCT:FERTILIZER": 49,
+        "BUY_PRODUCT:WHEAT": 153,
+        "BUY_SEED:CARROT": 36,
+        "BUY_SEED:MELON": 12,
+        "BUY_SEED:STRAWBERRY": 33,
+        "BUY_SEED:WHEAT": 166,
+        "HIRE": 280,
+        "SELL:CARROT": 86,
+        "SELL:FERTILIZER": 1334,
+        "SELL:MELON": 72,
+        "SELL:MILK": 236,
+        "SELL:STRAWBERRY": 246,
+        "SELL:WHEAT": 376,
+        "SELL:WOOL": 351
+      },
+      "our_field": {
+        "BUILD_COOP": 2,
+        "BUILD_PASTURE": 17,
+        "CARE": 397,
+        "COLLECT_FERTILIZER": 377,
+        "DIG": 36,
+        "DROP": 29,
+        "EAST": 619,
+        "FEED": 355,
+        "FERTILIZE": 95,
+        "HARVEST": 464,
+        "NORTH": 935,
+        "PASS": 674,
+        "PICKUP": 155,
+        "PLACE": 112,
+        "PLANT": 239,
+        "SOUTH": 576,
+        "WATER": 1095,
+        "WEST": 898
+      },
+      "their_field": {
+        "BUILD_COOP": 2,
+        "BUILD_PASTURE": 17,
+        "CARE": 397,
+        "COLLECT_FERTILIZER": 377,
+        "DIG": 36,
+        "DROP": 29,
+        "EAST": 617,
+        "FEED": 355,
+        "FERTILIZE": 96,
+        "HARVEST": 464,
+        "NORTH": 935,
+        "PASS": 676,
+        "PICKUP": 155,
+        "PLACE": 112,
+        "PLANT": 239,
+        "SOUTH": 576,
+        "WATER": 1094,
+        "WEST": 898
+      },
+      "daily": [
+        {
+          "day": 0,
+          "our_money": 3000.0,
+          "their_money": 3000.0,
+          "margin": 0.0
+        },
+        {
+          "day": 1,
+          "our_money": 6.0,
+          "their_money": 18.0,
+          "margin": -12.0
+        },
+        {
+          "day": 2,
+          "our_money": 95.0,
+          "their_money": 107.0,
+          "margin": -12.0
+        },
+        {
+          "day": 3,
+          "our_money": 208.0,
+          "their_money": 280.0,
+          "margin": -72.0
+        },
+        {
+          "day": 4,
+          "our_money": 258.0,
+          "their_money": 330.0,
+          "margin": -72.0
+        },
+        {
+          "day": 5,
+          "our_money": 670.0,
+          "their_money": 742.0,
+          "margin": -72.0
+        },
+        {
+          "day": 6,
+          "our_money": 783.0,
+          "their_money": 855.0,
+          "margin": -72.0
+        },
+        {
+          "day": 7,
+          "our_money": 1093.0,
+          "their_money": 1165.0,
+          "margin": -72.0
+        },
+        {
+          "day": 8,
+          "our_money": 177.0,
+          "their_money": 221.0,
+          "margin": -44.0
+        },
+        {
+          "day": 9,
+          "our_money": 1558.0,
+          "their_money": 1602.0,
+          "margin": -44.0
+        },
+        {
+          "day": 10,
+          "our_money": 4059.0,
+          "their_money": 4103.0,
+          "margin": -44.0
+        },
+        {
+          "day": 11,
+          "our_money": 17007.0,
+          "their_money": 17127.0,
+          "margin": -120.0
+        },
+        {
+          "day": 12,
+          "our_money": 15789.0,
+          "their_money": 15909.0,
+          "margin": -120.0
+        },
+        {
+          "day": 13,
+          "our_money": 20872.0,
+          "their_money": 20991.0,
+          "margin": -119.0
+        },
+        {
+          "day": 14,
+          "our_money": 23817.0,
+          "their_money": 23881.0,
+          "margin": -64.0
+        },
+        {
+          "day": 15,
+          "our_money": 28552.0,
+          "their_money": 28616.0,
+          "margin": -64.0
+        },
+        {
+          "day": 16,
+          "our_money": 34479.0,
+          "their_money": 34543.0,
+          "margin": -64.0
+        },
+        {
+          "day": 17,
+          "our_money": 45611.0,
+          "their_money": 45641.0,
+          "margin": -30.0
+        },
+        {
+          "day": 18,
+          "our_money": 53489.0,
+          "their_money": 53482.0,
+          "margin": 7.0
+        },
+        {
+          "day": 19,
+          "our_money": 62824.0,
+          "their_money": 62743.0,
+          "margin": 81.0
+        },
+        {
+          "day": 20,
+          "our_money": 67441.0,
+          "their_money": 67360.0,
+          "margin": 81.0
+        },
+        {
+          "day": 21,
+          "our_money": 75190.0,
+          "their_money": 75109.0,
+          "margin": 81.0
+        },
+        {
+          "day": 22,
+          "our_money": 80604.0,
+          "their_money": 80523.0,
+          "margin": 81.0
+        },
+        {
+          "day": 23,
+          "our_money": 87262.0,
+          "their_money": 88317.0,
+          "margin": -1055.0
+        },
+        {
+          "day": 24,
+          "our_money": 89903.0,
+          "their_money": 90457.0,
+          "margin": -554.0
+        },
+        {
+          "day": 25,
+          "our_money": 93475.0,
+          "their_money": 94029.0,
+          "margin": -554.0
+        },
+        {
+          "day": 26,
+          "our_money": 97522.0,
+          "their_money": 97405.0,
+          "margin": 117.0
+        },
+        {
+          "day": 27,
+          "our_money": 101396.0,
+          "their_money": 101091.0,
+          "margin": 305.0
+        },
+        {
+          "day": 28,
+          "our_money": 106997.0,
+          "their_money": 106509.0,
+          "margin": 488.0
+        },
+        {
+          "day": 29,
+          "our_money": 112565.0,
+          "their_money": 113261.0,
+          "margin": -696.0
+        },
+        {
+          "day": 30,
+          "our_money": 121242.0,
+          "their_money": 120826.0,
+          "margin": 416.0
+        }
+      ]
+    },
+    {
+      "episode_id": 112021324,
+      "seed": 2004432595,
+      "our_seat": 1,
+      "opponent": "kiyoc",
+      "our_reward": 98260.0,
+      "their_reward": 98309.0,
+      "margin": -49.0,
+      "outcome": "L",
+      "win": false,
+      "tie": false,
+      "loss": true,
+      "comeback": false,
+      "blown_lead": true,
+      "max_daily_lead": 574.0,
+      "min_daily_lead": -110.0,
+      "first_negative_day": 25,
+      "last_lead_day": 27,
+      "shops": [
+        "PIZZA_SHOP",
+        "PET_CAFE",
+        "SMOOTHIE_SHOP",
+        "FARMERS_MARKET",
+        "PIZZA_SHOP",
+        "FARMERS_MARKET",
+        "SMOOTHIE_SHOP",
+        "ICE_CREAM_SHOP"
+      ],
+      "our_tiles": {
+        "COOP": 2,
+        "COW": 9,
+        "GOOSE": 2,
+        "SHEEP": 5,
+        "TOMATO": 10,
+        "WEED": 1
+      },
+      "their_tiles": {
+        "COOP": 2,
+        "COW": 9,
+        "GOOSE": 2,
+        "SHEEP": 5,
+        "TOMATO": 10
+      },
+      "our_market": {
+        "BUY_ANIMAL:COW": 9,
+        "BUY_ANIMAL:GOOSE": 3,
+        "BUY_ANIMAL:SHEEP": 5,
+        "BUY_LAND": 3,
+        "BUY_PRODUCT:FERTILIZER": 101,
+        "BUY_PRODUCT:WHEAT": 135,
+        "BUY_SEED:CARROT": 55,
+        "BUY_SEED:MELON": 12,
+        "BUY_SEED:STRAWBERRY": 33,
+        "BUY_SEED:TOMATO": 10,
+        "BUY_SEED:WHEAT": 143,
+        "HIRE": 283,
+        "SELL:CARROT": 172,
+        "SELL:EGG": 88,
+        "SELL:FERTILIZER": 2351,
+        "SELL:MELON": 72,
+        "SELL:MILK": 301,
+        "SELL:STRAWBERRY": 283,
+        "SELL:TOMATO": 80,
+        "SELL:WHEAT": 363,
+        "SELL:WOOL": 100
+      },
+      "their_market": {
+        "BUY_ANIMAL:COW": 9,
+        "BUY_ANIMAL:GOOSE": 3,
+        "BUY_ANIMAL:SHEEP": 5,
+        "BUY_LAND": 3,
+        "BUY_PRODUCT:FERTILIZER": 101,
+        "BUY_PRODUCT:WHEAT": 135,
+        "BUY_SEED:CARROT": 55,
+        "BUY_SEED:MELON": 12,
+        "BUY_SEED:STRAWBERRY": 33,
+        "BUY_SEED:TOMATO": 10,
+        "BUY_SEED:WHEAT": 143,
+        "HIRE": 283,
+        "SELL:CARROT": 172,
+        "SELL:EGG": 86,
+        "SELL:FERTILIZER": 2351,
+        "SELL:MELON": 72,
+        "SELL:MILK": 322,
+        "SELL:STRAWBERRY": 311,
+        "SELL:TOMATO": 80,
+        "SELL:WHEAT": 363,
+        "SELL:WOOL": 127
+      },
+      "our_field": {
+        "BUILD_COOP": 5,
+        "BUILD_PASTURE": 14,
+        "CARE": 405,
+        "COLLECT_FERTILIZER": 368,
+        "DIG": 38,
+        "DROP": 49,
+        "EAST": 653,
+        "FEED": 333,
+        "FERTILIZE": 128,
+        "HARVEST": 522,
+        "NORTH": 919,
+        "PASS": 532,
+        "PICKUP": 211,
+        "PLACE": 108,
+        "PLANT": 249,
+        "SOUTH": 508,
+        "WATER": 1177,
+        "WEST": 903
+      },
+      "their_field": {
+        "BUILD_COOP": 5,
+        "BUILD_PASTURE": 14,
+        "CARE": 405,
+        "COLLECT_FERTILIZER": 368,
+        "DIG": 38,
+        "DROP": 49,
+        "EAST": 653,
+        "FEED": 333,
+        "FERTILIZE": 128,
+        "HARVEST": 522,
+        "NORTH": 919,
+        "PASS": 532,
+        "PICKUP": 211,
+        "PLACE": 108,
+        "PLANT": 249,
+        "SOUTH": 508,
+        "WATER": 1177,
+        "WEST": 903
+      },
+      "daily": [
+        {
+          "day": 0,
+          "our_money": 3000.0,
+          "their_money": 3000.0,
+          "margin": 0.0
+        },
+        {
+          "day": 1,
+          "our_money": 12.0,
+          "their_money": 12.0,
+          "margin": 0.0
+        },
+        {
+          "day": 2,
+          "our_money": 101.0,
+          "their_money": 101.0,
+          "margin": 0.0
+        },
+        {
+          "day": 3,
+          "our_money": 214.0,
+          "their_money": 214.0,
+          "margin": 0.0
+        },
+        {
+          "day": 4,
+          "our_money": 267.0,
+          "their_money": 267.0,
+          "margin": 0.0
+        },
+        {
+          "day": 5,
+          "our_money": 672.0,
+          "their_money": 672.0,
+          "margin": 0.0
+        },
+        {
+          "day": 6,
+          "our_money": 787.0,
+          "their_money": 787.0,
+          "margin": 0.0
+        },
+        {
+          "day": 7,
+          "our_money": 1113.0,
+          "their_money": 1106.0,
+          "margin": 7.0
+        },
+        {
+          "day": 8,
+          "our_money": 533.0,
+          "their_money": 526.0,
+          "margin": 7.0
+        },
+        {
+          "day": 9,
+          "our_money": 1724.0,
+          "their_money": 1717.0,
+          "margin": 7.0
+        },
+        {
+          "day": 10,
+          "our_money": 2643.0,
+          "their_money": 2636.0,
+          "margin": 7.0
+        },
+        {
+          "day": 11,
+          "our_money": 16518.0,
+          "their_money": 16509.0,
+          "margin": 9.0
+        },
+        {
+          "day": 12,
+          "our_money": 15979.0,
+          "their_money": 15970.0,
+          "margin": 9.0
+        },
+        {
+          "day": 13,
+          "our_money": 19865.0,
+          "their_money": 19856.0,
+          "margin": 9.0
+        },
+        {
+          "day": 14,
+          "our_money": 21896.0,
+          "their_money": 21887.0,
+          "margin": 9.0
+        },
+        {
+          "day": 15,
+          "our_money": 25784.0,
+          "their_money": 25775.0,
+          "margin": 9.0
+        },
+        {
+          "day": 16,
+          "our_money": 31616.0,
+          "their_money": 31512.0,
+          "margin": 104.0
+        },
+        {
+          "day": 17,
+          "our_money": 36915.0,
+          "their_money": 36536.0,
+          "margin": 379.0
+        },
+        {
+          "day": 18,
+          "our_money": 40881.0,
+          "their_money": 40548.0,
+          "margin": 333.0
+        },
+        {
+          "day": 19,
+          "our_money": 41302.0,
+          "their_money": 40865.0,
+          "margin": 437.0
+        },
+        {
+          "day": 20,
+          "our_money": 46091.0,
+          "their_money": 45746.0,
+          "margin": 345.0
+        },
+        {
+          "day": 21,
+          "our_money": 49901.0,
+          "their_money": 49330.0,
+          "margin": 571.0
+        },
+        {
+          "day": 22,
+          "our_money": 52140.0,
+          "their_money": 51737.0,
+          "margin": 403.0
+        },
+        {
+          "day": 23,
+          "our_money": 54486.0,
+          "their_money": 53912.0,
+          "margin": 574.0
+        },
+        {
+          "day": 24,
+          "our_money": 56357.0,
+          "their_money": 56293.0,
+          "margin": 64.0
+        },
+        {
+          "day": 25,
+          "our_money": 57120.0,
+          "their_money": 57230.0,
+          "margin": -110.0
+        },
+        {
+          "day": 26,
+          "our_money": 60998.0,
+          "their_money": 60929.0,
+          "margin": 69.0
+        },
+        {
+          "day": 27,
+          "our_money": 66807.0,
+          "their_money": 66734.0,
+          "margin": 73.0
+        },
+        {
+          "day": 28,
+          "our_money": 76820.0,
+          "their_money": 76874.0,
+          "margin": -54.0
+        },
+        {
+          "day": 29,
+          "our_money": 86370.0,
+          "their_money": 86420.0,
+          "margin": -50.0
+        },
+        {
+          "day": 30,
+          "our_money": 98260.0,
+          "their_money": 98309.0,
+          "margin": -49.0
+        }
+      ]
+    },
+    {
+      "episode_id": 112022441,
+      "seed": 2054203604,
+      "our_seat": 1,
+      "opponent": "Aura Farmers",
+      "our_reward": 130043.0,
+      "their_reward": 128619.0,
+      "margin": 1424.0,
+      "outcome": "W",
+      "win": true,
+      "tie": false,
+      "loss": false,
+      "comeback": true,
+      "blown_lead": false,
+      "max_daily_lead": 1541.0,
+      "min_daily_lead": -60.0,
+      "first_negative_day": 3,
+      "last_lead_day": 30,
+      "shops": [
+        "ICE_CREAM_SHOP",
+        "BRUNCH_SPOT",
+        "SMOOTHIE_SHOP",
+        "FARMERS_MARKET",
+        "SMOOTHIE_SHOP",
+        "SMOOTHIE_SHOP",
+        "BAKERY",
+        "PET_CAFE"
+      ],
+      "our_tiles": {
+        "COOP": 1,
+        "COW": 9,
+        "GOOSE": 3,
+        "SHEEP": 5,
+        "WEED": 1
+      },
+      "their_tiles": {
+        "COOP": 1,
+        "COW": 9,
+        "GOOSE": 3,
+        "SHEEP": 5
+      },
+      "our_market": {
+        "BUY_ANIMAL:COW": 9,
+        "BUY_ANIMAL:GOOSE": 3,
+        "BUY_ANIMAL:SHEEP": 5,
+        "BUY_LAND": 2,
+        "BUY_PRODUCT:FERTILIZER": 85,
+        "BUY_PRODUCT:WHEAT": 135,
+        "BUY_SEED:CARROT": 31,
+        "BUY_SEED:MELON": 12,
+        "BUY_SEED:STRAWBERRY": 33,
+        "BUY_SEED:WHEAT": 164,
+        "HIRE": 266,
+        "SELL:CARROT": 97,
+        "SELL:EGG": 95,
+        "SELL:FERTILIZER": 361,
+        "SELL:MELON": 72,
+        "SELL:MILK": 312,
+        "SELL:STRAWBERRY": 270,
+        "SELL:WHEAT": 433,
+        "SELL:WOOL": 112
+      },
+      "their_market": {
+        "BUY_ANIMAL:COW": 9,
+        "BUY_ANIMAL:GOOSE": 3,
+        "BUY_ANIMAL:SHEEP": 5,
+        "BUY_LAND": 2,
+        "BUY_PRODUCT:FERTILIZER": 85,
+        "BUY_PRODUCT:WHEAT": 138,
+        "BUY_SEED:CARROT": 31,
+        "BUY_SEED:MELON": 12,
+        "BUY_SEED:STRAWBERRY": 33,
+        "BUY_SEED:WHEAT": 164,
+        "HIRE": 266,
+        "SELL:CARROT": 97,
+        "SELL:EGG": 93,
+        "SELL:FERTILIZER": 360,
+        "SELL:MELON": 72,
+        "SELL:MILK": 313,
+        "SELL:STRAWBERRY": 267,
+        "SELL:WHEAT": 435,
+        "SELL:WOOL": 130
+      },
+      "our_field": {
+        "BUILD_COOP": 5,
+        "BUILD_PASTURE": 14,
+        "CARE": 404,
+        "COLLECT_FERTILIZER": 373,
+        "DIG": 38,
+        "DROP": 52,
+        "EAST": 586,
+        "FEED": 333,
+        "FERTILIZE": 112,
+        "HARVEST": 482,
+        "NORTH": 917,
+        "PASS": 446,
+        "PICKUP": 207,
+        "PLACE": 99,
+        "PLANT": 239,
+        "SOUTH": 493,
+        "WATER": 1097,
+        "WEST": 870
+      },
+      "their_field": {
+        "BUILD_COOP": 5,
+        "BUILD_PASTURE": 14,
+        "CARE": 404,
+        "COLLECT_FERTILIZER": 373,
+        "DIG": 38,
+        "DROP": 52,
+        "EAST": 584,
+        "FEED": 333,
+        "FERTILIZE": 115,
+        "HARVEST": 482,
+        "NORTH": 917,
+        "PASS": 446,
+        "PICKUP": 207,
+        "PLACE": 99,
+        "PLANT": 239,
+        "SOUTH": 493,
+        "WATER": 1096,
+        "WEST": 870
+      },
+      "daily": [
+        {
+          "day": 0,
+          "our_money": 3000.0,
+          "their_money": 3000.0,
+          "margin": 0.0
+        },
+        {
+          "day": 1,
+          "our_money": 12.0,
+          "their_money": 12.0,
+          "margin": 0.0
+        },
+        {
+          "day": 2,
+          "our_money": 101.0,
+          "their_money": 101.0,
+          "margin": 0.0
+        },
+        {
+          "day": 3,
+          "our_money": 214.0,
+          "their_money": 274.0,
+          "margin": -60.0
+        },
+        {
+          "day": 4,
+          "our_money": 266.0,
+          "their_money": 326.0,
+          "margin": -60.0
+        },
+        {
+          "day": 5,
+          "our_money": 671.0,
+          "their_money": 731.0,
+          "margin": -60.0
+        },
+        {
+          "day": 6,
+          "our_money": 786.0,
+          "their_money": 846.0,
+          "margin": -60.0
+        },
+        {
+          "day": 7,
+          "our_money": 1112.0,
+          "their_money": 1172.0,
+          "margin": -60.0
+        },
+        {
+          "day": 8,
+          "our_money": 532.0,
+          "their_money": 592.0,
+          "margin": -60.0
+        },
+        {
+          "day": 9,
+          "our_money": 1714.0,
+          "their_money": 1774.0,
+          "margin": -60.0
+        },
+        {
+          "day": 10,
+          "our_money": 2619.0,
+          "their_money": 2679.0,
+          "margin": -60.0
+        },
+        {
+          "day": 11,
+          "our_money": 16475.0,
+          "their_money": 16413.0,
+          "margin": 62.0
+        },
+        {
+          "day": 12,
+          "our_money": 15935.0,
+          "their_money": 15873.0,
+          "margin": 62.0
+        },
+        {
+          "day": 13,
+          "our_money": 19844.0,
+          "their_money": 19782.0,
+          "margin": 62.0
+        },
+        {
+          "day": 14,
+          "our_money": 21871.0,
+          "their_money": 21809.0,
+          "margin": 62.0
+        },
+        {
+          "day": 15,
+          "our_money": 25757.0,
+          "their_money": 25695.0,
+          "margin": 62.0
+        },
+        {
+          "day": 16,
+          "our_money": 32147.0,
+          "their_money": 32088.0,
+          "margin": 59.0
+        },
+        {
+          "day": 17,
+          "our_money": 38370.0,
+          "their_money": 38276.0,
+          "margin": 94.0
+        },
+        {
+          "day": 18,
+          "our_money": 43368.0,
+          "their_money": 43274.0,
+          "margin": 94.0
+        },
+        {
+          "day": 19,
+          "our_money": 50191.0,
+          "their_money": 50112.0,
+          "margin": 79.0
+        },
+        {
+          "day": 20,
+          "our_money": 57057.0,
+          "their_money": 56982.0,
+          "margin": 75.0
+        },
+        {
+          "day": 21,
+          "our_money": 65409.0,
+          "their_money": 64838.0,
+          "margin": 571.0
+        },
+        {
+          "day": 22,
+          "our_money": 73851.0,
+          "their_money": 73849.0,
+          "margin": 2.0
+        },
+        {
+          "day": 23,
+          "our_money": 81791.0,
+          "their_money": 81711.0,
+          "margin": 80.0
+        },
+        {
+          "day": 24,
+          "our_money": 89303.0,
+          "their_money": 88656.0,
+          "margin": 647.0
+        },
+        {
+          "day": 25,
+          "our_money": 96150.0,
+          "their_money": 95409.0,
+          "margin": 741.0
+        },
+        {
+          "day": 26,
+          "our_money": 102571.0,
+          "their_money": 101063.0,
+          "margin": 1508.0
+        },
+        {
+          "day": 27,
+          "our_money": 109381.0,
+          "their_money": 107840.0,
+          "margin": 1541.0
+        },
+        {
+          "day": 28,
+          "our_money": 113915.0,
+          "their_money": 112382.0,
+          "margin": 1533.0
+        },
+        {
+          "day": 29,
+          "our_money": 122952.0,
+          "their_money": 121528.0,
+          "margin": 1424.0
+        },
+        {
+          "day": 30,
+          "our_money": 130043.0,
+          "their_money": 128619.0,
+          "margin": 1424.0
+        }
+      ]
+    },
+    {
+      "episode_id": 112023576,
+      "seed": 1318897300,
+      "our_seat": 0,
+      "opponent": "Fabian Friedland",
+      "our_reward": 109132.0,
+      "their_reward": 110401.0,
+      "margin": -1269.0,
+      "outcome": "L",
+      "win": false,
+      "tie": false,
+      "loss": true,
+      "comeback": false,
+      "blown_lead": true,
+      "max_daily_lead": 353.0,
+      "min_daily_lead": -1548.0,
+      "first_negative_day": 4,
+      "last_lead_day": 21,
+      "shops": [
+        "ICE_CREAM_SHOP",
+        "PIZZA_SHOP",
+        "BRUNCH_SPOT",
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "SMOOTHIE_SHOP",
+        "SMOOTHIE_SHOP",
+        "FARMERS_MARKET"
+      ],
+      "our_tiles": {
+        "COOP": 1,
+        "COW": 9,
+        "GOOSE": 3,
+        "SHEEP": 5
+      },
+      "their_tiles": {
+        "COOP": 1,
+        "COW": 9,
+        "GOOSE": 3,
+        "SHEEP": 5
+      },
+      "our_market": {
+        "BUY_ANIMAL:COW": 9,
+        "BUY_ANIMAL:GOOSE": 3,
+        "BUY_ANIMAL:SHEEP": 5,
+        "BUY_LAND": 2,
+        "BUY_PRODUCT:FERTILIZER": 95,
+        "BUY_PRODUCT:WHEAT": 135,
+        "BUY_SEED:CARROT": 31,
+        "BUY_SEED:MELON": 12,
+        "BUY_SEED:STRAWBERRY": 33,
+        "BUY_SEED:WHEAT": 164,
+        "HIRE": 268,
+        "SELL:CARROT": 93,
+        "SELL:EGG": 95,
+        "SELL:FERTILIZER": 360,
+        "SELL:MELON": 72,
+        "SELL:MILK": 316,
+        "SELL:STRAWBERRY": 274,
+        "SELL:WHEAT": 466,
+        "SELL:WOOL": 113
+      },
+      "their_market": {
+        "BUY_ANIMAL:COW": 9,
+        "BUY_ANIMAL:GOOSE": 3,
+        "BUY_ANIMAL:SHEEP": 5,
+        "BUY_LAND": 2,
+        "BUY_PRODUCT:FERTILIZER": 92,
+        "BUY_PRODUCT:WHEAT": 138,
+        "BUY_SEED:CARROT": 31,
+        "BUY_SEED:MELON": 12,
+        "BUY_SEED:STRAWBERRY": 33,
+        "BUY_SEED:WHEAT": 164,
+        "HIRE": 267,
+        "SELL:CARROT": 97,
+        "SELL:EGG": 91,
+        "SELL:FERTILIZER": 361,
+        "SELL:MELON": 72,
+        "SELL:MILK": 309,
+        "SELL:STRAWBERRY": 272,
+        "SELL:WHEAT": 448,
+        "SELL:WOOL": 126
+      },
+      "our_field": {
+        "BUILD_COOP": 5,
+        "BUILD_PASTURE": 14,
+        "CARE": 404,
+        "COLLECT_FERTILIZER": 373,
+        "DIG": 39,
+        "DROP": 52,
+        "EAST": 588,
+        "FEED": 333,
+        "FERTILIZE": 122,
+        "HARVEST": 482,
+        "NORTH": 920,
+        "PASS": 449,
+        "PICKUP": 209,
+        "PLACE": 99,
+        "PLANT": 239,
+        "SOUTH": 499,
+        "WATER": 1097,
+        "WEST": 877
+      },
+      "their_field": {
+        "BUILD_COOP": 5,
+        "BUILD_PASTURE": 14,
+        "CARE": 405,
+        "COLLECT_FERTILIZER": 373,
+        "DIG": 37,
+        "DROP": 52,
+        "EAST": 588,
+        "FEED": 333,
+        "FERTILIZE": 121,
+        "HARVEST": 481,
+        "NORTH": 918,
+        "PASS": 443,
+        "PICKUP": 208,
+        "PLACE": 99,
+        "PLANT": 239,
+        "SOUTH": 498,
+        "WATER": 1099,
+        "WEST": 874
+      },
+      "daily": [
+        {
+          "day": 0,
+          "our_money": 3000.0,
+          "their_money": 3000.0,
+          "margin": 0.0
+        },
+        {
+          "day": 1,
+          "our_money": 12.0,
+          "their_money": 12.0,
+          "margin": 0.0
+        },
+        {
+          "day": 2,
+          "our_money": 101.0,
+          "their_money": 101.0,
+          "margin": 0.0
+        },
+        {
+          "day": 3,
+          "our_money": 214.0,
+          "their_money": 214.0,
+          "margin": 0.0
+        },
+        {
+          "day": 4,
+          "our_money": 267.0,
+          "their_money": 357.0,
+          "margin": -90.0
+        },
+        {
+          "day": 5,
+          "our_money": 674.0,
+          "their_money": 764.0,
+          "margin": -90.0
+        },
+        {
+          "day": 6,
+          "our_money": 789.0,
+          "their_money": 879.0,
+          "margin": -90.0
+        },
+        {
+          "day": 7,
+          "our_money": 1116.0,
+          "their_money": 763.0,
+          "margin": 353.0
+        },
+        {
+          "day": 8,
+          "our_money": 536.0,
+          "their_money": 559.0,
+          "margin": -23.0
+        },
+        {
+          "day": 9,
+          "our_money": 1827.0,
+          "their_money": 1784.0,
+          "margin": 43.0
+        },
+        {
+          "day": 10,
+          "our_money": 2732.0,
+          "their_money": 2689.0,
+          "margin": 43.0
+        },
+        {
+          "day": 11,
+          "our_money": 16724.0,
+          "their_money": 16719.0,
+          "margin": 5.0
+        },
+        {
+          "day": 12,
+          "our_money": 16269.0,
+          "their_money": 16264.0,
+          "margin": 5.0
+        },
+        {
+          "day": 13,
+          "our_money": 20275.0,
+          "their_money": 20270.0,
+          "margin": 5.0
+        },
+        {
+          "day": 14,
+          "our_money": 22381.0,
+          "their_money": 22376.0,
+          "margin": 5.0
+        },
+        {
+          "day": 15,
+          "our_money": 26522.0,
+          "their_money": 26517.0,
+          "margin": 5.0
+        },
+        {
+          "day": 16,
+          "our_money": 33337.0,
+          "their_money": 33337.0,
+          "margin": 0.0
+        },
+        {
+          "day": 17,
+          "our_money": 39336.0,
+          "their_money": 39258.0,
+          "margin": 78.0
+        },
+        {
+          "day": 18,
+          "our_money": 43840.0,
+          "their_money": 43756.0,
+          "margin": 84.0
+        },
+        {
+          "day": 19,
+          "our_money": 50001.0,
+          "their_money": 49952.0,
+          "margin": 49.0
+        },
+        {
+          "day": 20,
+          "our_money": 55544.0,
+          "their_money": 55491.0,
+          "margin": 53.0
+        },
+        {
+          "day": 21,
+          "our_money": 62281.0,
+          "their_money": 62026.0,
+          "margin": 255.0
+        },
+        {
+          "day": 22,
+          "our_money": 68785.0,
+          "their_money": 68808.0,
+          "margin": -23.0
+        },
+        {
+          "day": 23,
+          "our_money": 74093.0,
+          "their_money": 74860.0,
+          "margin": -767.0
+        },
+        {
+          "day": 24,
+          "our_money": 79650.0,
+          "their_money": 80140.0,
+          "margin": -490.0
+        },
+        {
+          "day": 25,
+          "our_money": 83015.0,
+          "their_money": 84454.0,
+          "margin": -1439.0
+        },
+        {
+          "day": 26,
+          "our_money": 87300.0,
+          "their_money": 88848.0,
+          "margin": -1548.0
+        },
+        {
+          "day": 27,
+          "our_money": 92335.0,
+          "their_money": 93503.0,
+          "margin": -1168.0
+        },
+        {
+          "day": 28,
+          "our_money": 96202.0,
+          "their_money": 97306.0,
+          "margin": -1104.0
+        },
+        {
+          "day": 29,
+          "our_money": 103297.0,
+          "their_money": 104223.0,
+          "margin": -926.0
+        },
+        {
+          "day": 30,
+          "our_money": 109132.0,
+          "their_money": 110401.0,
+          "margin": -1269.0
+        }
+      ]
+    },
+    {
+      "episode_id": 112024704,
+      "seed": 147361095,
+      "our_seat": 1,
+      "opponent": "Santiago Maniches",
+      "our_reward": 103295.0,
+      "their_reward": 103191.0,
+      "margin": 104.0,
+      "outcome": "W",
+      "win": true,
+      "tie": false,
+      "loss": false,
+      "comeback": false,
+      "blown_lead": false,
+      "max_daily_lead": 128.0,
+      "min_daily_lead": 0.0,
+      "first_negative_day": null,
+      "last_lead_day": 30,
+      "shops": [
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "PIZZA_SHOP",
+        "FARMERS_MARKET",
+        "FARMERS_MARKET",
+        "BRUNCH_SPOT",
+        "PET_CAFE",
+        "ICE_CREAM_SHOP"
+      ],
+      "our_tiles": {
+        "COOP": 1,
+        "COW": 6,
+        "GOOSE": 5,
+        "SHEEP": 6,
+        "TOMATO": 10,
+        "WEED": 1
+      },
+      "their_tiles": {
+        "COOP": 1,
+        "COW": 6,
+        "GOOSE": 5,
+        "SHEEP": 6,
+        "TOMATO": 10,
+        "WEED": 2
+      },
+      "our_market": {
+        "BUY_ANIMAL:COW": 6,
+        "BUY_ANIMAL:GOOSE": 5,
+        "BUY_ANIMAL:SHEEP": 6,
+        "BUY_LAND": 3,
+        "BUY_PRODUCT:FERTILIZER": 84,
+        "BUY_PRODUCT:WHEAT": 3436,
+        "BUY_SEED:CARROT": 34,
+        "BUY_SEED:MELON": 12,
+        "BUY_SEED:STRAWBERRY": 33,
+        "BUY_SEED:TOMATO": 10,
+        "BUY_SEED:WHEAT": 163,
+        "HIRE": 282,
+        "SELL:CARROT": 97,
+        "SELL:EGG": 165,
+        "SELL:FERTILIZER": 2339,
+        "SELL:MELON": 72,
+        "SELL:MILK": 201,
+        "SELL:STRAWBERRY": 285,
+        "SELL:TOMATO": 80,
+        "SELL:WHEAT": 3694,
+        "SELL:WOOL": 133
+      },
+      "their_market": {
+        "BUY_ANIMAL:COW": 6,
+        "BUY_ANIMAL:GOOSE": 5,
+        "BUY_ANIMAL:SHEEP": 6,
+        "BUY_LAND": 3,
+        "BUY_PRODUCT:FERTILIZER": 82,
+        "BUY_PRODUCT:WHEAT": 3436,
+        "BUY_SEED:CARROT": 34,
+        "BUY_SEED:MELON": 12,
+        "BUY_SEED:STRAWBERRY": 33,
+        "BUY_SEED:TOMATO": 10,
+        "BUY_SEED:WHEAT": 163,
+        "HIRE": 282,
+        "SELL:CARROT": 97,
+        "SELL:EGG": 165,
+        "SELL:FERTILIZER": 2339,
+        "SELL:MELON": 72,
+        "SELL:MILK": 201,
+        "SELL:STRAWBERRY": 285,
+        "SELL:TOMATO": 80,
+        "SELL:WHEAT": 3694,
+        "SELL:WOOL": 133
+      },
+      "our_field": {
+        "BUILD_COOP": 7,
+        "BUILD_PASTURE": 12,
+        "CARE": 410,
+        "COLLECT_FERTILIZER": 364,
+        "DIG": 37,
+        "DROP": 51,
+        "EAST": 650,
+        "FEED": 296,
+        "FERTILIZE": 125,
+        "HARVEST": 533,
+        "NORTH": 922,
+        "PASS": 524,
+        "PICKUP": 211,
+        "PLACE": 106,
+        "PLANT": 249,
+        "SOUTH": 516,
+        "WATER": 1183,
+        "WEST": 905
+      },
+      "their_field": {
+        "BUILD_COOP": 7,
+        "BUILD_PASTURE": 12,
+        "CARE": 410,
+        "COLLECT_FERTILIZER": 364,
+        "DIG": 37,
+        "DROP": 51,
+        "EAST": 650,
+        "FEED": 296,
+        "FERTILIZE": 125,
+        "HARVEST": 533,
+        "NORTH": 922,
+        "PASS": 524,
+        "PICKUP": 211,
+        "PLACE": 106,
+        "PLANT": 249,
+        "SOUTH": 516,
+        "WATER": 1183,
+        "WEST": 905
+      },
+      "daily": [
+        {
+          "day": 0,
+          "our_money": 3000.0,
+          "their_money": 3000.0,
+          "margin": 0.0
+        },
+        {
+          "day": 1,
+          "our_money": 12.0,
+          "their_money": 12.0,
+          "margin": 0.0
+        },
+        {
+          "day": 2,
+          "our_money": 101.0,
+          "their_money": 101.0,
+          "margin": 0.0
+        },
+        {
+          "day": 3,
+          "our_money": 214.0,
+          "their_money": 214.0,
+          "margin": 0.0
+        },
+        {
+          "day": 4,
+          "our_money": 267.0,
+          "their_money": 267.0,
+          "margin": 0.0
+        },
+        {
+          "day": 5,
+          "our_money": 672.0,
+          "their_money": 672.0,
+          "margin": 0.0
+        },
+        {
+          "day": 6,
+          "our_money": 787.0,
+          "their_money": 787.0,
+          "margin": 0.0
+        },
+        {
+          "day": 7,
+          "our_money": 1313.0,
+          "their_money": 1313.0,
+          "margin": 0.0
+        },
+        {
+          "day": 8,
+          "our_money": 733.0,
+          "their_money": 733.0,
+          "margin": 0.0
+        },
+        {
+          "day": 9,
+          "our_money": 1344.0,
+          "their_money": 1344.0,
+          "margin": 0.0
+        },
+        {
+          "day": 10,
+          "our_money": 2149.0,
+          "their_money": 2149.0,
+          "margin": 0.0
+        },
+        {
+          "day": 11,
+          "our_money": 14581.0,
+          "their_money": 14581.0,
+          "margin": 0.0
+        },
+        {
+          "day": 12,
+          "our_money": 13834.0,
+          "their_money": 13834.0,
+          "margin": 0.0
+        },
+        {
+          "day": 13,
+          "our_money": 17143.0,
+          "their_money": 17143.0,
+          "margin": 0.0
+        },
+        {
+          "day": 14,
+          "our_money": 19286.0,
+          "their_money": 19286.0,
+          "margin": 0.0
+        },
+        {
+          "day": 15,
+          "our_money": 21132.0,
+          "their_money": 21132.0,
+          "margin": 0.0
+        },
+        {
+          "day": 16,
+          "our_money": 24925.0,
+          "their_money": 24925.0,
+          "margin": 0.0
+        },
+        {
+          "day": 17,
+          "our_money": 29877.0,
+          "their_money": 29877.0,
+          "margin": 0.0
+        },
+        {
+          "day": 18,
+          "our_money": 34612.0,
+          "their_money": 34612.0,
+          "margin": 0.0
+        },
+        {
+          "day": 19,
+          "our_money": 34673.0,
+          "their_money": 34673.0,
+          "margin": 0.0
+        },
+        {
+          "day": 20,
+          "our_money": 39503.0,
+          "their_money": 39503.0,
+          "margin": 0.0
+        },
+        {
+          "day": 21,
+          "our_money": 45430.0,
+          "their_money": 45430.0,
+          "margin": 0.0
+        },
+        {
+          "day": 22,
+          "our_money": 53274.0,
+          "their_money": 53274.0,
+          "margin": 0.0
+        },
+        {
+          "day": 23,
+          "our_money": 58502.0,
+          "their_money": 58502.0,
+          "margin": 0.0
+        },
+        {
+          "day": 24,
+          "our_money": 64338.0,
+          "their_money": 64338.0,
+          "margin": 0.0
+        },
+        {
+          "day": 25,
+          "our_money": 68946.0,
+          "their_money": 68946.0,
+          "margin": 0.0
+        },
+        {
+          "day": 26,
+          "our_money": 72883.0,
+          "their_money": 72883.0,
+          "margin": 0.0
+        },
+        {
+          "day": 27,
+          "our_money": 81005.0,
+          "their_money": 80877.0,
+          "margin": 128.0
+        },
+        {
+          "day": 28,
+          "our_money": 86026.0,
+          "their_money": 85918.0,
+          "margin": 108.0
+        },
+        {
+          "day": 29,
+          "our_money": 94561.0,
+          "their_money": 94453.0,
+          "margin": 108.0
+        },
+        {
+          "day": 30,
+          "our_money": 103295.0,
+          "their_money": 103191.0,
+          "margin": 104.0
+        }
+      ]
+    },
+    {
+      "episode_id": 112025708,
+      "seed": 2121481286,
+      "our_seat": 0,
+      "opponent": "Aleksandrov Andrey Alekseevich",
+      "our_reward": 76649.0,
+      "their_reward": 76057.0,
+      "margin": 592.0,
+      "outcome": "W",
+      "win": true,
+      "tie": false,
+      "loss": false,
+      "comeback": false,
+      "blown_lead": false,
+      "max_daily_lead": 1105.0,
+      "min_daily_lead": 0.0,
+      "first_negative_day": null,
+      "last_lead_day": 30,
+      "shops": [
+        "PET_CAFE",
+        "FARMERS_MARKET",
+        "BAKERY",
+        "PET_CAFE",
+        "YARN_STORE",
+        "PIZZA_SHOP",
+        "ICE_CREAM_SHOP",
+        "SMOOTHIE_SHOP"
+      ],
+      "our_tiles": {
+        "COOP": 2,
+        "COW": 4,
+        "GOOSE": 6,
+        "SHEEP": 6
+      },
+      "their_tiles": {
+        "COOP": 2,
+        "COW": 4,
+        "GOOSE": 6,
+        "SHEEP": 6
+      },
+      "our_market": {
+        "BUY_ANIMAL:COW": 4,
+        "BUY_ANIMAL:GOOSE": 7,
+        "BUY_ANIMAL:SHEEP": 6,
+        "BUY_LAND": 2,
+        "BUY_PRODUCT:FERTILIZER": 100,
+        "BUY_PRODUCT:WHEAT": 146,
+        "BUY_SEED:CARROT": 68,
+        "BUY_SEED:MELON": 12,
+        "BUY_SEED:STRAWBERRY": 33,
+        "BUY_SEED:WHEAT": 130,
+        "HIRE": 268,
+        "SELL:CARROT": 219,
+        "SELL:EGG": 238,
+        "SELL:FERTILIZER": 2370,
+        "SELL:MELON": 72,
+        "SELL:MILK": 183,
+        "SELL:STRAWBERRY": 278,
+        "SELL:WHEAT": 335,
+        "SELL:WOOL": 131
+      },
+      "their_market": {
+        "BUY_ANIMAL:COW": 4,
+        "BUY_ANIMAL:GOOSE": 7,
+        "BUY_ANIMAL:SHEEP": 6,
+        "BUY_LAND": 2,
+        "BUY_PRODUCT:FERTILIZER": 100,
+        "BUY_PRODUCT:WHEAT": 146,
+        "BUY_SEED:CARROT": 68,
+        "BUY_SEED:MELON": 12,
+        "BUY_SEED:STRAWBERRY": 33,
+        "BUY_SEED:WHEAT": 130,
+        "HIRE": 268,
+        "SELL:CARROT": 219,
+        "SELL:EGG": 233,
+        "SELL:FERTILIZER": 2370,
+        "SELL:MELON": 72,
+        "SELL:MILK": 172,
+        "SELL:STRAWBERRY": 292,
+        "SELL:WHEAT": 335,
+        "SELL:WOOL": 148
+      },
+      "our_field": {
+        "BUILD_COOP": 9,
+        "BUILD_PASTURE": 10,
+        "CARE": 397,
+        "COLLECT_FERTILIZER": 361,
+        "DIG": 36,
+        "DROP": 54,
+        "EAST": 581,
+        "FEED": 323,
+        "FERTILIZE": 115,
+        "HARVEST": 490,
+        "NORTH": 927,
+        "PASS": 488,
+        "PICKUP": 209,
+        "PLACE": 93,
+        "PLANT": 239,
+        "SOUTH": 509,
+        "WATER": 1094,
+        "WEST": 876
+      },
+      "their_field": {
+        "BUILD_COOP": 9,
+        "BUILD_PASTURE": 10,
+        "CARE": 397,
+        "COLLECT_FERTILIZER": 361,
+        "DIG": 36,
+        "DROP": 54,
+        "EAST": 581,
+        "FEED": 323,
+        "FERTILIZE": 115,
+        "HARVEST": 490,
+        "NORTH": 927,
+        "PASS": 488,
+        "PICKUP": 209,
+        "PLACE": 93,
+        "PLANT": 239,
+        "SOUTH": 509,
+        "WATER": 1094,
+        "WEST": 876
+      },
+      "daily": [
+        {
+          "day": 0,
+          "our_money": 3000.0,
+          "their_money": 3000.0,
+          "margin": 0.0
+        },
+        {
+          "day": 1,
+          "our_money": 12.0,
+          "their_money": 12.0,
+          "margin": 0.0
+        },
+        {
+          "day": 2,
+          "our_money": 101.0,
+          "their_money": 101.0,
+          "margin": 0.0
+        },
+        {
+          "day": 3,
+          "our_money": 214.0,
+          "their_money": 214.0,
+          "margin": 0.0
+        },
+        {
+          "day": 4,
+          "our_money": 265.0,
+          "their_money": 265.0,
+          "margin": 0.0
+        },
+        {
+          "day": 5,
+          "our_money": 675.0,
+          "their_money": 675.0,
+          "margin": 0.0
+        },
+        {
+          "day": 6,
+          "our_money": 788.0,
+          "their_money": 788.0,
+          "margin": 0.0
+        },
+        {
+          "day": 7,
+          "our_money": 1318.0,
+          "their_money": 939.0,
+          "margin": 379.0
+        },
+        {
+          "day": 8,
+          "our_money": 938.0,
+          "their_money": 935.0,
+          "margin": 3.0
+        },
+        {
+          "day": 9,
+          "our_money": 1579.0,
+          "their_money": 1576.0,
+          "margin": 3.0
+        },
+        {
+          "day": 10,
+          "our_money": 2407.0,
+          "their_money": 2404.0,
+          "margin": 3.0
+        },
+        {
+          "day": 11,
+          "our_money": 14934.0,
+          "their_money": 14929.0,
+          "margin": 5.0
+        },
+        {
+          "day": 12,
+          "our_money": 13730.0,
+          "their_money": 13725.0,
+          "margin": 5.0
+        },
+        {
+          "day": 13,
+          "our_money": 16808.0,
+          "their_money": 16728.0,
+          "margin": 80.0
+        },
+        {
+          "day": 14,
+          "our_money": 17906.0,
+          "their_money": 17826.0,
+          "margin": 80.0
+        },
+        {
+          "day": 15,
+          "our_money": 19833.0,
+          "their_money": 19753.0,
+          "margin": 80.0
+        },
+        {
+          "day": 16,
+          "our_money": 22478.0,
+          "their_money": 22394.0,
+          "margin": 84.0
+        },
+        {
+          "day": 17,
+          "our_money": 27141.0,
+          "their_money": 26634.0,
+          "margin": 507.0
+        },
+        {
+          "day": 18,
+          "our_money": 30792.0,
+          "their_money": 30285.0,
+          "margin": 507.0
+        },
+        {
+          "day": 19,
+          "our_money": 34885.0,
+          "their_money": 34638.0,
+          "margin": 247.0
+        },
+        {
+          "day": 20,
+          "our_money": 37621.0,
+          "their_money": 37100.0,
+          "margin": 521.0
+        },
+        {
+          "day": 21,
+          "our_money": 39278.0,
+          "their_money": 39069.0,
+          "margin": 209.0
+        },
+        {
+          "day": 22,
+          "our_money": 41036.0,
+          "their_money": 40793.0,
+          "margin": 243.0
+        },
+        {
+          "day": 23,
+          "our_money": 42774.0,
+          "their_money": 42443.0,
+          "margin": 331.0
+        },
+        {
+          "day": 24,
+          "our_money": 44748.0,
+          "their_money": 44612.0,
+          "margin": 136.0
+        },
+        {
+          "day": 25,
+          "our_money": 48994.0,
+          "their_money": 48647.0,
+          "margin": 347.0
+        },
+        {
+          "day": 26,
+          "our_money": 52057.0,
+          "their_money": 51619.0,
+          "margin": 438.0
+        },
+        {
+          "day": 27,
+          "our_money": 54877.0,
+          "their_money": 54434.0,
+          "margin": 443.0
+        },
+        {
+          "day": 28,
+          "our_money": 59878.0,
+          "their_money": 59314.0,
+          "margin": 564.0
+        },
+        {
+          "day": 29,
+          "our_money": 66244.0,
+          "their_money": 65139.0,
+          "margin": 1105.0
+        },
+        {
+          "day": 30,
+          "our_money": 76649.0,
+          "their_money": 76057.0,
+          "margin": 592.0
+        }
+      ]
+    },
+    {
+      "episode_id": 112025836,
+      "seed": 627540639,
+      "our_seat": 0,
+      "opponent": "Bala Baskar",
+      "our_reward": 122740.0,
+      "their_reward": 122094.0,
+      "margin": 646.0,
+      "outcome": "W",
+      "win": true,
+      "tie": false,
+      "loss": false,
+      "comeback": true,
+      "blown_lead": false,
+      "max_daily_lead": 703.0,
+      "min_daily_lead": -90.0,
+      "first_negative_day": 4,
+      "last_lead_day": 30,
+      "shops": [
+        "BAKERY",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "SMOOTHIE_SHOP",
+        "BAKERY",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "YARN_STORE"
+      ],
+      "our_tiles": {
+        "COOP": 1,
+        "COW": 8,
+        "GOOSE": 3,
+        "SHEEP": 6
+      },
+      "their_tiles": {
+        "COOP": 1,
+        "COW": 8,
+        "GOOSE": 3,
+        "SHEEP": 6
+      },
+      "our_market": {
+        "BUY_ANIMAL:COW": 8,
+        "BUY_ANIMAL:GOOSE": 3,
+        "BUY_ANIMAL:SHEEP": 6,
+        "BUY_LAND": 2,
+        "BUY_PRODUCT:FERTILIZER": 98,
+        "BUY_PRODUCT:WHEAT": 135,
+        "BUY_SEED:CARROT": 31,
+        "BUY_SEED:MELON": 12,
+        "BUY_SEED:STRAWBERRY": 33,
+        "BUY_SEED:WHEAT": 164,
+        "HIRE": 268,
+        "SELL:CARROT": 97,
+        "SELL:EGG": 93,
+        "SELL:FERTILIZER": 362,
+        "SELL:MELON": 72,
+        "SELL:MILK": 274,
+        "SELL:STRAWBERRY": 285,
+        "SELL:WHEAT": 456,
+        "SELL:WOOL": 130
+      },
+      "their_market": {
+        "BUY_ANIMAL:COW": 8,
+        "BUY_ANIMAL:GOOSE": 3,
+        "BUY_ANIMAL:SHEEP": 6,
+        "BUY_LAND": 2,
+        "BUY_PRODUCT:FERTILIZER": 98,
+        "BUY_PRODUCT:WHEAT": 138,
+        "BUY_SEED:CARROT": 31,
+        "BUY_SEED:MELON": 12,
+        "BUY_SEED:STRAWBERRY": 33,
+        "BUY_SEED:WHEAT": 164,
+        "HIRE": 268,
+        "SELL:CARROT": 97,
+        "SELL:EGG": 91,
+        "SELL:FERTILIZER": 361,
+        "SELL:MELON": 72,
+        "SELL:MILK": 286,
+        "SELL:STRAWBERRY": 284,
+        "SELL:WHEAT": 459,
+        "SELL:WOOL": 150
+      },
+      "our_field": {
+        "BUILD_COOP": 5,
+        "BUILD_PASTURE": 14,
+        "CARE": 404,
+        "COLLECT_FERTILIZER": 373,
+        "DIG": 38,
+        "DROP": 52,
+        "EAST": 589,
+        "FEED": 334,
+        "FERTILIZE": 124,
+        "HARVEST": 482,
+        "NORTH": 923,
+        "PASS": 446,
+        "PICKUP": 209,
+        "PLACE": 99,
+        "PLANT": 239,
+        "SOUTH": 499,
+        "WATER": 1098,
+        "WEST": 880
+      },
+      "their_field": {
+        "BUILD_COOP": 5,
+        "BUILD_PASTURE": 14,
+        "CARE": 404,
+        "COLLECT_FERTILIZER": 373,
+        "DIG": 38,
+        "DROP": 52,
+        "EAST": 589,
+        "FEED": 334,
+        "FERTILIZE": 127,
+        "HARVEST": 482,
+        "NORTH": 923,
+        "PASS": 443,
+        "PICKUP": 209,
+        "PLACE": 99,
+        "PLANT": 239,
+        "SOUTH": 499,
+        "WATER": 1098,
+        "WEST": 880
+      },
+      "daily": [
+        {
+          "day": 0,
+          "our_money": 3000.0,
+          "their_money": 3000.0,
+          "margin": 0.0
+        },
+        {
+          "day": 1,
+          "our_money": 12.0,
+          "their_money": 12.0,
+          "margin": 0.0
+        },
+        {
+          "day": 2,
+          "our_money": 101.0,
+          "their_money": 101.0,
+          "margin": 0.0
+        },
+        {
+          "day": 3,
+          "our_money": 214.0,
+          "their_money": 214.0,
+          "margin": 0.0
+        },
+        {
+          "day": 4,
+          "our_money": 267.0,
+          "their_money": 357.0,
+          "margin": -90.0
+        },
+        {
+          "day": 5,
+          "our_money": 674.0,
+          "their_money": 764.0,
+          "margin": -90.0
+        },
+        {
+          "day": 6,
+          "our_money": 789.0,
+          "their_money": 879.0,
+          "margin": -90.0
+        },
+        {
+          "day": 7,
+          "our_money": 1114.0,
+          "their_money": 1204.0,
+          "margin": -90.0
+        },
+        {
+          "day": 8,
+          "our_money": 534.0,
+          "their_money": 624.0,
+          "margin": -90.0
+        },
+        {
+          "day": 9,
+          "our_money": 1474.0,
+          "their_money": 1564.0,
+          "margin": -90.0
+        },
+        {
+          "day": 10,
+          "our_money": 2281.0,
+          "their_money": 2371.0,
+          "margin": -90.0
+        },
+        {
+          "day": 11,
+          "our_money": 15930.0,
+          "their_money": 15900.0,
+          "margin": 30.0
+        },
+        {
+          "day": 12,
+          "our_money": 15243.0,
+          "their_money": 15213.0,
+          "margin": 30.0
+        },
+        {
+          "day": 13,
+          "our_money": 19071.0,
+          "their_money": 19041.0,
+          "margin": 30.0
+        },
+        {
+          "day": 14,
+          "our_money": 21036.0,
+          "their_money": 21006.0,
+          "margin": 30.0
+        },
+        {
+          "day": 15,
+          "our_money": 24813.0,
+          "their_money": 24783.0,
+          "margin": 30.0
+        },
+        {
+          "day": 16,
+          "our_money": 31003.0,
+          "their_money": 30978.0,
+          "margin": 25.0
+        },
+        {
+          "day": 17,
+          "our_money": 36766.0,
+          "their_money": 36707.0,
+          "margin": 59.0
+        },
+        {
+          "day": 18,
+          "our_money": 41225.0,
+          "their_money": 41160.0,
+          "margin": 65.0
+        },
+        {
+          "day": 19,
+          "our_money": 47427.0,
+          "their_money": 47393.0,
+          "margin": 34.0
+        },
+        {
+          "day": 20,
+          "our_money": 52751.0,
+          "their_money": 52720.0,
+          "margin": 31.0
+        },
+        {
+          "day": 21,
+          "our_money": 60143.0,
+          "their_money": 59923.0,
+          "margin": 220.0
+        },
+        {
+          "day": 22,
+          "our_money": 67114.0,
+          "their_money": 67053.0,
+          "margin": 61.0
+        },
+        {
+          "day": 23,
+          "our_money": 74184.0,
+          "their_money": 74114.0,
+          "margin": 70.0
+        },
+        {
+          "day": 24,
+          "our_money": 79841.0,
+          "their_money": 79572.0,
+          "margin": 269.0
+        },
+        {
+          "day": 25,
+          "our_money": 85231.0,
+          "their_money": 84708.0,
+          "margin": 523.0
+        },
+        {
+          "day": 26,
+          "our_money": 91399.0,
+          "their_money": 91205.0,
+          "margin": 194.0
+        },
+        {
+          "day": 27,
+          "our_money": 97506.0,
+          "their_money": 96803.0,
+          "margin": 703.0
+        },
+        {
+          "day": 28,
+          "our_money": 103476.0,
+          "their_money": 102830.0,
+          "margin": 646.0
+        },
+        {
+          "day": 29,
+          "our_money": 113037.0,
+          "their_money": 112391.0,
+          "margin": 646.0
+        },
+        {
+          "day": 30,
+          "our_money": 122740.0,
+          "their_money": 122094.0,
+          "margin": 646.0
+        }
+      ]
+    },
+    {
+      "episode_id": 112026995,
+      "seed": 517833586,
+      "our_seat": 0,
+      "opponent": "Ilya Usmanov",
+      "our_reward": 108663.0,
+      "their_reward": 107869.0,
+      "margin": 794.0,
+      "outcome": "W",
+      "win": true,
+      "tie": false,
+      "loss": false,
+      "comeback": true,
+      "blown_lead": false,
+      "max_daily_lead": 794.0,
+      "min_daily_lead": -1180.0,
+      "first_negative_day": 4,
+      "last_lead_day": 30,
+      "shops": [
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "YARN_STORE",
+        "SMOOTHIE_SHOP",
+        "PIZZA_SHOP",
+        "BRUNCH_SPOT",
+        "PIZZA_SHOP",
+        "BAKERY"
+      ],
+      "our_tiles": {
+        "COW": 8,
+        "PASTURE": 1,
+        "SHEEP": 9
+      },
+      "their_tiles": {
+        "COW": 8,
+        "PASTURE": 1,
+        "SHEEP": 9
+      },
+      "our_market": {
+        "BUY_ANIMAL:COW": 8,
+        "BUY_ANIMAL:SHEEP": 9,
+        "BUY_LAND": 2,
+        "BUY_PRODUCT:FERTILIZER": 92,
+        "BUY_PRODUCT:WHEAT": 135,
+        "BUY_SEED:CARROT": 31,
+        "BUY_SEED:MELON": 12,
+        "BUY_SEED:STRAWBERRY": 33,
+        "BUY_SEED:WHEAT": 164,
+        "HIRE": 267,
+        "SELL:CARROT": 97,
+        "SELL:FERTILIZER": 365,
+        "SELL:MELON": 72,
+        "SELL:MILK": 277,
+        "SELL:STRAWBERRY": 263,
+        "SELL:WHEAT": 435,
+        "SELL:WOOL": 220
+      },
+      "their_market": {
+        "BUY_ANIMAL:COW": 8,
+        "BUY_ANIMAL:SHEEP": 9,
+        "BUY_LAND": 2,
+        "BUY_PRODUCT:FERTILIZER": 92,
+        "BUY_PRODUCT:WHEAT": 138,
+        "BUY_SEED:CARROT": 31,
+        "BUY_SEED:MELON": 12,
+        "BUY_SEED:STRAWBERRY": 33,
+        "BUY_SEED:WHEAT": 164,
+        "HIRE": 267,
+        "SELL:CARROT": 97,
+        "SELL:FERTILIZER": 364,
+        "SELL:MELON": 72,
+        "SELL:MILK": 307,
+        "SELL:STRAWBERRY": 289,
+        "SELL:WHEAT": 438,
+        "SELL:WOOL": 243
+      },
+      "our_field": {
+        "BUILD_PASTURE": 19,
+        "CARE": 404,
+        "COLLECT_FERTILIZER": 379,
+        "DIG": 38,
+        "DROP": 52,
+        "EAST": 588,
+        "FEED": 348,
+        "FERTILIZE": 118,
+        "HARVEST": 477,
+        "NORTH": 921,
+        "PASS": 433,
+        "PICKUP": 208,
+        "PLACE": 99,
+        "PLANT": 239,
+        "SOUTH": 494,
+        "WATER": 1097,
+        "WEST": 873
+      },
+      "their_field": {
+        "BUILD_PASTURE": 19,
+        "CARE": 404,
+        "COLLECT_FERTILIZER": 379,
+        "DIG": 38,
+        "DROP": 52,
+        "EAST": 588,
+        "FEED": 348,
+        "FERTILIZE": 122,
+        "HARVEST": 477,
+        "NORTH": 921,
+        "PASS": 429,
+        "PICKUP": 208,
+        "PLACE": 99,
+        "PLANT": 239,
+        "SOUTH": 494,
+        "WATER": 1097,
+        "WEST": 873
+      },
+      "daily": [
+        {
+          "day": 0,
+          "our_money": 3000.0,
+          "their_money": 3000.0,
+          "margin": 0.0
+        },
+        {
+          "day": 1,
+          "our_money": 12.0,
+          "their_money": 12.0,
+          "margin": 0.0
+        },
+        {
+          "day": 2,
+          "our_money": 101.0,
+          "their_money": 101.0,
+          "margin": 0.0
+        },
+        {
+          "day": 3,
+          "our_money": 214.0,
+          "their_money": 214.0,
+          "margin": 0.0
+        },
+        {
+          "day": 4,
+          "our_money": 267.0,
+          "their_money": 357.0,
+          "margin": -90.0
+        },
+        {
+          "day": 5,
+          "our_money": 674.0,
+          "their_money": 764.0,
+          "margin": -90.0
+        },
+        {
+          "day": 6,
+          "our_money": 789.0,
+          "their_money": 879.0,
+          "margin": -90.0
+        },
+        {
+          "day": 7,
+          "our_money": 1116.0,
+          "their_money": 1199.0,
+          "margin": -83.0
+        },
+        {
+          "day": 8,
+          "our_money": 536.0,
+          "their_money": 619.0,
+          "margin": -83.0
+        },
+        {
+          "day": 9,
+          "our_money": 1476.0,
+          "their_money": 1559.0,
+          "margin": -83.0
+        },
+        {
+          "day": 10,
+          "our_money": 2354.0,
+          "their_money": 2437.0,
+          "margin": -83.0
+        },
+        {
+          "day": 11,
+          "our_money": 15381.0,
+          "their_money": 15342.0,
+          "margin": 39.0
+        },
+        {
+          "day": 12,
+          "our_money": 14277.0,
+          "their_money": 14238.0,
+          "margin": 39.0
+        },
+        {
+          "day": 13,
+          "our_money": 18437.0,
+          "their_money": 18447.0,
+          "margin": -10.0
+        },
+        {
+          "day": 14,
+          "our_money": 20064.0,
+          "their_money": 20074.0,
+          "margin": -10.0
+        },
+        {
+          "day": 15,
+          "our_money": 24979.0,
+          "their_money": 24970.0,
+          "margin": 9.0
+        },
+        {
+          "day": 16,
+          "our_money": 29039.0,
+          "their_money": 29035.0,
+          "margin": 4.0
+        },
+        {
+          "day": 17,
+          "our_money": 37780.0,
+          "their_money": 37985.0,
+          "margin": -205.0
+        },
+        {
+          "day": 18,
+          "our_money": 45839.0,
+          "their_money": 46235.0,
+          "margin": -396.0
+        },
+        {
+          "day": 19,
+          "our_money": 51511.0,
+          "their_money": 51907.0,
+          "margin": -396.0
+        },
+        {
+          "day": 20,
+          "our_money": 57157.0,
+          "their_money": 57009.0,
+          "margin": 148.0
+        },
+        {
+          "day": 21,
+          "our_money": 63851.0,
+          "their_money": 65031.0,
+          "margin": -1180.0
+        },
+        {
+          "day": 22,
+          "our_money": 70445.0,
+          "their_money": 71221.0,
+          "margin": -776.0
+        },
+        {
+          "day": 23,
+          "our_money": 75239.0,
+          "their_money": 76378.0,
+          "margin": -1139.0
+        },
+        {
+          "day": 24,
+          "our_money": 80305.0,
+          "their_money": 80634.0,
+          "margin": -329.0
+        },
+        {
+          "day": 25,
+          "our_money": 84832.0,
+          "their_money": 84966.0,
+          "margin": -134.0
+        },
+        {
+          "day": 26,
+          "our_money": 88665.0,
+          "their_money": 89072.0,
+          "margin": -407.0
+        },
+        {
+          "day": 27,
+          "our_money": 93401.0,
+          "their_money": 93140.0,
+          "margin": 261.0
+        },
+        {
+          "day": 28,
+          "our_money": 97344.0,
+          "their_money": 96890.0,
+          "margin": 454.0
+        },
+        {
+          "day": 29,
+          "our_money": 103147.0,
+          "their_money": 102353.0,
+          "margin": 794.0
+        },
+        {
+          "day": 30,
+          "our_money": 108663.0,
+          "their_money": 107869.0,
+          "margin": 794.0
+        }
+      ]
+    },
+    {
+      "episode_id": 112028154,
+      "seed": 389469822,
+      "our_seat": 0,
+      "opponent": "chunsuri",
+      "our_reward": 67025.0,
+      "their_reward": 66475.0,
+      "margin": 550.0,
+      "outcome": "W",
+      "win": true,
+      "tie": false,
+      "loss": false,
+      "comeback": true,
+      "blown_lead": false,
+      "max_daily_lead": 633.0,
+      "min_daily_lead": -188.0,
+      "first_negative_day": 4,
+      "last_lead_day": 30,
+      "shops": [
+        "BAKERY",
+        "PIZZA_SHOP",
+        "PIZZA_SHOP",
+        "BAKERY",
+        "ICE_CREAM_SHOP",
+        "BRUNCH_SPOT",
+        "PET_CAFE",
+        "ICE_CREAM_SHOP"
+      ],
+      "our_tiles": {
+        "COOP": 1,
+        "COW": 8,
+        "GOOSE": 3,
+        "SHEEP": 6
+      },
+      "their_tiles": {
+        "COOP": 1,
+        "COW": 8,
+        "GOOSE": 3,
+        "SHEEP": 6
+      },
+      "our_market": {
+        "BUY_ANIMAL:COW": 8,
+        "BUY_ANIMAL:GOOSE": 3,
+        "BUY_ANIMAL:SHEEP": 6,
+        "BUY_LAND": 2,
+        "BUY_PRODUCT:FERTILIZER": 99,
+        "BUY_PRODUCT:WHEAT": 135,
+        "BUY_SEED:CARROT": 31,
+        "BUY_SEED:MELON": 12,
+        "BUY_SEED:STRAWBERRY": 33,
+        "BUY_SEED:WHEAT": 164,
+        "HIRE": 268,
+        "SELL:CARROT": 97,
+        "SELL:EGG": 93,
+        "SELL:FERTILIZER": 362,
+        "SELL:MELON": 72,
+        "SELL:MILK": 282,
+        "SELL:STRAWBERRY": 306,
+        "SELL:WHEAT": 463,
+        "SELL:WOOL": 116
+      },
+      "their_market": {
+        "BUY_ANIMAL:COW": 8,
+        "BUY_ANIMAL:GOOSE": 3,
+        "BUY_ANIMAL:SHEEP": 6,
+        "BUY_LAND": 2,
+        "BUY_PRODUCT:FERTILIZER": 99,
+        "BUY_PRODUCT:WHEAT": 138,
+        "BUY_SEED:CARROT": 31,
+        "BUY_SEED:MELON": 12,
+        "BUY_SEED:STRAWBERRY": 33,
+        "BUY_SEED:WHEAT": 164,
+        "HIRE": 268,
+        "SELL:CARROT": 97,
+        "SELL:EGG": 93,
+        "SELL:FERTILIZER": 362,
+        "SELL:MELON": 72,
+        "SELL:MILK": 299,
+        "SELL:STRAWBERRY": 305,
+        "SELL:WHEAT": 466,
+        "SELL:WOOL": 125
+      },
+      "our_field": {
+        "BUILD_COOP": 5,
+        "BUILD_PASTURE": 14,
+        "CARE": 404,
+        "COLLECT_FERTILIZER": 373,
+        "DIG": 37,
+        "DROP": 52,
+        "EAST": 590,
+        "FEED": 327,
+        "FERTILIZE": 124,
+        "HARVEST": 482,
+        "NORTH": 922,
+        "PASS": 456,
+        "PICKUP": 209,
+        "PLACE": 99,
+        "PLANT": 239,
+        "SOUTH": 499,
+        "WATER": 1099,
+        "WEST": 877
+      },
+      "their_field": {
+        "BUILD_COOP": 5,
+        "BUILD_PASTURE": 14,
+        "CARE": 404,
+        "COLLECT_FERTILIZER": 373,
+        "DIG": 37,
+        "DROP": 52,
+        "EAST": 590,
+        "FEED": 327,
+        "FERTILIZE": 128,
+        "HARVEST": 482,
+        "NORTH": 922,
+        "PASS": 452,
+        "PICKUP": 209,
+        "PLACE": 99,
+        "PLANT": 239,
+        "SOUTH": 499,
+        "WATER": 1099,
+        "WEST": 877
+      },
+      "daily": [
+        {
+          "day": 0,
+          "our_money": 3000.0,
+          "their_money": 3000.0,
+          "margin": 0.0
+        },
+        {
+          "day": 1,
+          "our_money": 12.0,
+          "their_money": 12.0,
+          "margin": 0.0
+        },
+        {
+          "day": 2,
+          "our_money": 101.0,
+          "their_money": 101.0,
+          "margin": 0.0
+        },
+        {
+          "day": 3,
+          "our_money": 214.0,
+          "their_money": 214.0,
+          "margin": 0.0
+        },
+        {
+          "day": 4,
+          "our_money": 267.0,
+          "their_money": 357.0,
+          "margin": -90.0
+        },
+        {
+          "day": 5,
+          "our_money": 674.0,
+          "their_money": 764.0,
+          "margin": -90.0
+        },
+        {
+          "day": 6,
+          "our_money": 789.0,
+          "their_money": 879.0,
+          "margin": -90.0
+        },
+        {
+          "day": 7,
+          "our_money": 1052.0,
+          "their_money": 763.0,
+          "margin": 289.0
+        },
+        {
+          "day": 8,
+          "our_money": 472.0,
+          "their_money": 559.0,
+          "margin": -87.0
+        },
+        {
+          "day": 9,
+          "our_money": 1335.0,
+          "their_money": 1422.0,
+          "margin": -87.0
+        },
+        {
+          "day": 10,
+          "our_money": 2136.0,
+          "their_money": 2223.0,
+          "margin": -87.0
+        },
+        {
+          "day": 11,
+          "our_money": 15941.0,
+          "their_money": 15906.0,
+          "margin": 35.0
+        },
+        {
+          "day": 12,
+          "our_money": 15254.0,
+          "their_money": 15219.0,
+          "margin": 35.0
+        },
+        {
+          "day": 13,
+          "our_money": 19057.0,
+          "their_money": 19022.0,
+          "margin": 35.0
+        },
+        {
+          "day": 14,
+          "our_money": 20953.0,
+          "their_money": 20918.0,
+          "margin": 35.0
+        },
+        {
+          "day": 15,
+          "our_money": 24369.0,
+          "their_money": 24313.0,
+          "margin": 56.0
+        },
+        {
+          "day": 16,
+          "our_money": 29182.0,
+          "their_money": 29131.0,
+          "margin": 51.0
+        },
+        {
+          "day": 17,
+          "our_money": 32928.0,
+          "their_money": 32865.0,
+          "margin": 63.0
+        },
+        {
+          "day": 18,
+          "our_money": 34994.0,
+          "their_money": 34931.0,
+          "margin": 63.0
+        },
+        {
+          "day": 19,
+          "our_money": 37793.0,
+          "their_money": 37744.0,
+          "margin": 49.0
+        },
+        {
+          "day": 20,
+          "our_money": 38935.0,
+          "their_money": 38923.0,
+          "margin": 12.0
+        },
+        {
+          "day": 21,
+          "our_money": 40484.0,
+          "their_money": 40499.0,
+          "margin": -15.0
+        },
+        {
+          "day": 22,
+          "our_money": 42065.0,
+          "their_money": 42229.0,
+          "margin": -164.0
+        },
+        {
+          "day": 23,
+          "our_money": 43927.0,
+          "their_money": 43999.0,
+          "margin": -72.0
+        },
+        {
+          "day": 24,
+          "our_money": 46091.0,
+          "their_money": 45952.0,
+          "margin": 139.0
+        },
+        {
+          "day": 25,
+          "our_money": 47577.0,
+          "their_money": 47419.0,
+          "margin": 158.0
+        },
+        {
+          "day": 26,
+          "our_money": 50544.0,
+          "their_money": 50732.0,
+          "margin": -188.0
+        },
+        {
+          "day": 27,
+          "our_money": 53553.0,
+          "their_money": 52920.0,
+          "margin": 633.0
+        },
+        {
+          "day": 28,
+          "our_money": 56351.0,
+          "their_money": 55786.0,
+          "margin": 565.0
+        },
+        {
+          "day": 29,
+          "our_money": 60079.0,
+          "their_money": 59529.0,
+          "margin": 550.0
+        },
+        {
+          "day": 30,
+          "our_money": 67025.0,
+          "their_money": 66475.0,
+          "margin": 550.0
+        }
+      ]
+    },
+    {
+      "episode_id": 112028642,
+      "seed": 691138722,
+      "our_seat": 1,
+      "opponent": "Vsevolod Rakita",
+      "our_reward": 64534.0,
+      "their_reward": 64870.0,
+      "margin": -336.0,
+      "outcome": "L",
+      "win": false,
+      "tie": false,
+      "loss": true,
+      "comeback": false,
+      "blown_lead": true,
+      "max_daily_lead": 379.0,
+      "min_daily_lead": -336.0,
+      "first_negative_day": 21,
+      "last_lead_day": 26,
+      "shops": [
+        "PET_CAFE",
+        "PIZZA_SHOP",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "PIZZA_SHOP",
+        "PET_CAFE",
+        "PIZZA_SHOP",
+        "BAKERY"
+      ],
+      "our_tiles": {
+        "COOP": 2,
+        "COW": 8,
+        "GOOSE": 2,
+        "SHEEP": 6
+      },
+      "their_tiles": {
+        "COOP": 2,
+        "COW": 8,
+        "GOOSE": 2,
+        "SHEEP": 6,
+        "WEED": 1
+      },
+      "our_market": {
+        "BUY_ANIMAL:COW": 8,
+        "BUY_ANIMAL:GOOSE": 3,
+        "BUY_ANIMAL:SHEEP": 6,
+        "BUY_LAND": 2,
+        "BUY_PRODUCT:FERTILIZER": 88,
+        "BUY_PRODUCT:WHEAT": 135,
+        "BUY_SEED:CARROT": 57,
+        "BUY_SEED:MELON": 12,
+        "BUY_SEED:STRAWBERRY": 33,
+        "BUY_SEED:WHEAT": 141,
+        "HIRE": 266,
+        "SELL:CARROT": 184,
+        "SELL:EGG": 88,
+        "SELL:FERTILIZER": 2362,
+        "SELL:MELON": 72,
+        "SELL:MILK": 252,
+        "SELL:STRAWBERRY": 299,
+        "SELL:WHEAT": 395,
+        "SELL:WOOL": 107
+      },
+      "their_market": {
+        "BUY_ANIMAL:COW": 8,
+        "BUY_ANIMAL:GOOSE": 3,
+        "BUY_ANIMAL:SHEEP": 6,
+        "BUY_LAND": 2,
+        "BUY_PRODUCT:FERTILIZER": 88,
+        "BUY_PRODUCT:WHEAT": 135,
+        "BUY_SEED:CARROT": 57,
+        "BUY_SEED:MELON": 12,
+        "BUY_SEED:STRAWBERRY": 33,
+        "BUY_SEED:WHEAT": 141,
+        "HIRE": 266,
+        "SELL:CARROT": 184,
+        "SELL:EGG": 88,
+        "SELL:FERTILIZER": 2361,
+        "SELL:MELON": 72,
+        "SELL:MILK": 272,
+        "SELL:STRAWBERRY": 313,
+        "SELL:WHEAT": 392,
+        "SELL:WOOL": 125
+      },
+      "our_field": {
+        "BUILD_COOP": 5,
+        "BUILD_PASTURE": 14,
+        "CARE": 403,
+        "COLLECT_FERTILIZER": 376,
+        "DIG": 37,
+        "DROP": 52,
+        "EAST": 585,
+        "FEED": 302,
+        "FERTILIZE": 112,
+        "HARVEST": 482,
+        "NORTH": 919,
+        "PASS": 473,
+        "PICKUP": 207,
+        "PLACE": 99,
+        "PLANT": 239,
+        "SOUTH": 495,
+        "WATER": 1100,
+        "WEST": 867
+      },
+      "their_field": {
+        "BUILD_COOP": 5,
+        "BUILD_PASTURE": 14,
+        "CARE": 403,
+        "COLLECT_FERTILIZER": 375,
+        "DIG": 37,
+        "DROP": 52,
+        "EAST": 585,
+        "FEED": 302,
+        "FERTILIZE": 112,
+        "HARVEST": 483,
+        "NORTH": 919,
+        "PASS": 473,
+        "PICKUP": 207,
+        "PLACE": 99,
+        "PLANT": 239,
+        "SOUTH": 495,
+        "WATER": 1100,
+        "WEST": 867
+      },
+      "daily": [
+        {
+          "day": 0,
+          "our_money": 3000.0,
+          "their_money": 3000.0,
+          "margin": 0.0
+        },
+        {
+          "day": 1,
+          "our_money": 12.0,
+          "their_money": 12.0,
+          "margin": 0.0
+        },
+        {
+          "day": 2,
+          "our_money": 101.0,
+          "their_money": 101.0,
+          "margin": 0.0
+        },
+        {
+          "day": 3,
+          "our_money": 214.0,
+          "their_money": 214.0,
+          "margin": 0.0
+        },
+        {
+          "day": 4,
+          "our_money": 265.0,
+          "their_money": 265.0,
+          "margin": 0.0
+        },
+        {
+          "day": 5,
+          "our_money": 675.0,
+          "their_money": 675.0,
+          "margin": 0.0
+        },
+        {
+          "day": 6,
+          "our_money": 788.0,
+          "their_money": 788.0,
+          "margin": 0.0
+        },
+        {
+          "day": 7,
+          "our_money": 1056.0,
+          "their_money": 677.0,
+          "margin": 379.0
+        },
+        {
+          "day": 8,
+          "our_money": 476.0,
+          "their_money": 473.0,
+          "margin": 3.0
+        },
+        {
+          "day": 9,
+          "our_money": 1373.0,
+          "their_money": 1370.0,
+          "margin": 3.0
+        },
+        {
+          "day": 10,
+          "our_money": 2194.0,
+          "their_money": 2191.0,
+          "margin": 3.0
+        },
+        {
+          "day": 11,
+          "our_money": 15796.0,
+          "their_money": 15791.0,
+          "margin": 5.0
+        },
+        {
+          "day": 12,
+          "our_money": 14896.0,
+          "their_money": 14891.0,
+          "margin": 5.0
+        },
+        {
+          "day": 13,
+          "our_money": 18355.0,
+          "their_money": 18350.0,
+          "margin": 5.0
+        },
+        {
+          "day": 14,
+          "our_money": 19884.0,
+          "their_money": 19879.0,
+          "margin": 5.0
+        },
+        {
+          "day": 15,
+          "our_money": 22230.0,
+          "their_money": 22225.0,
+          "margin": 5.0
+        },
+        {
+          "day": 16,
+          "our_money": 25641.0,
+          "their_money": 25641.0,
+          "margin": 0.0
+        },
+        {
+          "day": 17,
+          "our_money": 29458.0,
+          "their_money": 29412.0,
+          "margin": 46.0
+        },
+        {
+          "day": 18,
+          "our_money": 33000.0,
+          "their_money": 32954.0,
+          "margin": 46.0
+        },
+        {
+          "day": 19,
+          "our_money": 36632.0,
+          "their_money": 36601.0,
+          "margin": 31.0
+        },
+        {
+          "day": 20,
+          "our_money": 39533.0,
+          "their_money": 39498.0,
+          "margin": 35.0
+        },
+        {
+          "day": 21,
+          "our_money": 42062.0,
+          "their_money": 42077.0,
+          "margin": -15.0
+        },
+        {
+          "day": 22,
+          "our_money": 43266.0,
+          "their_money": 43319.0,
+          "margin": -53.0
+        },
+        {
+          "day": 23,
+          "our_money": 44403.0,
+          "their_money": 44562.0,
+          "margin": -159.0
+        },
+        {
+          "day": 24,
+          "our_money": 46040.0,
+          "their_money": 46067.0,
+          "margin": -27.0
+        },
+        {
+          "day": 25,
+          "our_money": 47446.0,
+          "their_money": 47450.0,
+          "margin": -4.0
+        },
+        {
+          "day": 26,
+          "our_money": 49784.0,
+          "their_money": 49761.0,
+          "margin": 23.0
+        },
+        {
+          "day": 27,
+          "our_money": 51597.0,
+          "their_money": 51854.0,
+          "margin": -257.0
+        },
+        {
+          "day": 28,
+          "our_money": 54533.0,
+          "their_money": 54649.0,
+          "margin": -116.0
+        },
+        {
+          "day": 29,
+          "our_money": 57596.0,
+          "their_money": 57932.0,
+          "margin": -336.0
+        },
+        {
+          "day": 30,
+          "our_money": 64534.0,
+          "their_money": 64870.0,
+          "margin": -336.0
+        }
+      ]
+    },
+    {
+      "episode_id": 112029277,
+      "seed": 2086385503,
+      "our_seat": 1,
+      "opponent": "Haramball forever!",
+      "our_reward": 102507.0,
+      "their_reward": 100498.0,
+      "margin": 2009.0,
+      "outcome": "W",
+      "win": true,
+      "tie": false,
+      "loss": false,
+      "comeback": true,
+      "blown_lead": false,
+      "max_daily_lead": 2123.0,
+      "min_daily_lead": -87.0,
+      "first_negative_day": 4,
+      "last_lead_day": 30,
+      "shops": [
+        "SMOOTHIE_SHOP",
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "FARMERS_MARKET",
+        "ICE_CREAM_SHOP",
+        "SMOOTHIE_SHOP",
+        "PET_CAFE",
+        "FARMERS_MARKET"
+      ],
+      "our_tiles": {
+        "COOP": 1,
+        "COW": 8,
+        "GOOSE": 3,
+        "SHEEP": 6
+      },
+      "their_tiles": {
+        "COOP": 1,
+        "COW": 8,
+        "GOOSE": 3,
+        "SHEEP": 6
+      },
+      "our_market": {
+        "BUY_ANIMAL:COW": 8,
+        "BUY_ANIMAL:GOOSE": 3,
+        "BUY_ANIMAL:SHEEP": 6,
+        "BUY_LAND": 2,
+        "BUY_PRODUCT:FERTILIZER": 85,
+        "BUY_PRODUCT:WHEAT": 135,
+        "BUY_SEED:CARROT": 39,
+        "BUY_SEED:MELON": 12,
+        "BUY_SEED:STRAWBERRY": 33,
+        "BUY_SEED:WHEAT": 160,
+        "HIRE": 266,
+        "SELL:CARROT": 117,
+        "SELL:EGG": 95,
+        "SELL:FERTILIZER": 2358,
+        "SELL:MELON": 72,
+        "SELL:MILK": 278,
+        "SELL:STRAWBERRY": 268,
+        "SELL:WHEAT": 438,
+        "SELL:WOOL": 147
+      },
+      "their_market": {
+        "BUY_ANIMAL:COW": 8,
+        "BUY_ANIMAL:GOOSE": 3,
+        "BUY_ANIMAL:SHEEP": 6,
+        "BUY_LAND": 2,
+        "BUY_PRODUCT:FERTILIZER": 85,
+        "BUY_PRODUCT:WHEAT": 138,
+        "BUY_SEED:CARROT": 45,
+        "BUY_SEED:MELON": 12,
+        "BUY_SEED:STRAWBERRY": 33,
+        "BUY_SEED:WHEAT": 160,
+        "HIRE": 266,
+        "SELL:CARROT": 117,
+        "SELL:EGG": 91,
+        "SELL:FERTILIZER": 2357,
+        "SELL:MELON": 72,
+        "SELL:MILK": 251,
+        "SELL:STRAWBERRY": 263,
+        "SELL:WHEAT": 441,
+        "SELL:WOOL": 133
+      },
+      "our_field": {
+        "BUILD_COOP": 5,
+        "BUILD_PASTURE": 14,
+        "CARE": 404,
+        "COLLECT_FERTILIZER": 373,
+        "DIG": 38,
+        "DROP": 52,
+        "EAST": 586,
+        "FEED": 312,
+        "FERTILIZE": 112,
+        "HARVEST": 482,
+        "NORTH": 917,
+        "PASS": 467,
+        "PICKUP": 207,
+        "PLACE": 99,
+        "PLANT": 239,
+        "SOUTH": 493,
+        "WATER": 1097,
+        "WEST": 870
+      },
+      "their_field": {
+        "BUILD_COOP": 5,
+        "BUILD_PASTURE": 14,
+        "CARE": 405,
+        "COLLECT_FERTILIZER": 373,
+        "DIG": 38,
+        "DROP": 52,
+        "EAST": 586,
+        "FEED": 312,
+        "FERTILIZE": 115,
+        "HARVEST": 481,
+        "NORTH": 917,
+        "PASS": 464,
+        "PICKUP": 207,
+        "PLACE": 99,
+        "PLANT": 239,
+        "SOUTH": 493,
+        "WATER": 1097,
+        "WEST": 870
+      },
+      "daily": [
+        {
+          "day": 0,
+          "our_money": 3000.0,
+          "their_money": 3000.0,
+          "margin": 0.0
+        },
+        {
+          "day": 1,
+          "our_money": 12.0,
+          "their_money": 12.0,
+          "margin": 0.0
+        },
+        {
+          "day": 2,
+          "our_money": 101.0,
+          "their_money": 101.0,
+          "margin": 0.0
+        },
+        {
+          "day": 3,
+          "our_money": 214.0,
+          "their_money": 214.0,
+          "margin": 0.0
+        },
+        {
+          "day": 4,
+          "our_money": 265.0,
+          "their_money": 352.0,
+          "margin": -87.0
+        },
+        {
+          "day": 5,
+          "our_money": 676.0,
+          "their_money": 763.0,
+          "margin": -87.0
+        },
+        {
+          "day": 6,
+          "our_money": 789.0,
+          "their_money": 876.0,
+          "margin": -87.0
+        },
+        {
+          "day": 7,
+          "our_money": 1119.0,
+          "their_money": 1199.0,
+          "margin": -80.0
+        },
+        {
+          "day": 8,
+          "our_money": 539.0,
+          "their_money": 619.0,
+          "margin": -80.0
+        },
+        {
+          "day": 9,
+          "our_money": 1754.0,
+          "their_money": 1834.0,
+          "margin": -80.0
+        },
+        {
+          "day": 10,
+          "our_money": 2586.0,
+          "their_money": 2666.0,
+          "margin": -80.0
+        },
+        {
+          "day": 11,
+          "our_money": 16367.0,
+          "their_money": 16330.0,
+          "margin": 37.0
+        },
+        {
+          "day": 12,
+          "our_money": 15733.0,
+          "their_money": 15696.0,
+          "margin": 37.0
+        },
+        {
+          "day": 13,
+          "our_money": 19458.0,
+          "their_money": 19421.0,
+          "margin": 37.0
+        },
+        {
+          "day": 14,
+          "our_money": 21230.0,
+          "their_money": 21193.0,
+          "margin": 37.0
+        },
+        {
+          "day": 15,
+          "our_money": 24162.0,
+          "their_money": 24106.0,
+          "margin": 56.0
+        },
+        {
+          "day": 16,
+          "our_money": 28647.0,
+          "their_money": 28596.0,
+          "margin": 51.0
+        },
+        {
+          "day": 17,
+          "our_money": 33433.0,
+          "their_money": 33332.0,
+          "margin": 101.0
+        },
+        {
+          "day": 18,
+          "our_money": 37789.0,
+          "their_money": 37688.0,
+          "margin": 101.0
+        },
+        {
+          "day": 19,
+          "our_money": 42514.0,
+          "their_money": 42428.0,
+          "margin": 86.0
+        },
+        {
+          "day": 20,
+          "our_money": 47092.0,
+          "their_money": 47008.0,
+          "margin": 84.0
+        },
+        {
+          "day": 21,
+          "our_money": 53555.0,
+          "their_money": 53264.0,
+          "margin": 291.0
+        },
+        {
+          "day": 22,
+          "our_money": 60492.0,
+          "their_money": 60367.0,
+          "margin": 125.0
+        },
+        {
+          "day": 23,
+          "our_money": 66287.0,
+          "their_money": 66149.0,
+          "margin": 138.0
+        },
+        {
+          "day": 24,
+          "our_money": 71865.0,
+          "their_money": 71405.0,
+          "margin": 460.0
+        },
+        {
+          "day": 25,
+          "our_money": 77103.0,
+          "their_money": 76549.0,
+          "margin": 554.0
+        },
+        {
+          "day": 26,
+          "our_money": 81236.0,
+          "their_money": 80031.0,
+          "margin": 1205.0
+        },
+        {
+          "day": 27,
+          "our_money": 86615.0,
+          "their_money": 85133.0,
+          "margin": 1482.0
+        },
+        {
+          "day": 28,
+          "our_money": 89436.0,
+          "their_money": 87613.0,
+          "margin": 1823.0
+        },
+        {
+          "day": 29,
+          "our_money": 96146.0,
+          "their_money": 94023.0,
+          "margin": 2123.0
+        },
+        {
+          "day": 30,
+          "our_money": 102507.0,
+          "their_money": 100498.0,
+          "margin": 2009.0
+        }
+      ]
+    },
+    {
+      "episode_id": 112030420,
+      "seed": 2123899554,
+      "our_seat": 1,
+      "opponent": "Boiled-Sweet-Potato",
+      "our_reward": 82672.0,
+      "their_reward": 82494.0,
+      "margin": 178.0,
+      "outcome": "W",
+      "win": true,
+      "tie": false,
+      "loss": false,
+      "comeback": true,
+      "blown_lead": false,
+      "max_daily_lead": 805.0,
+      "min_daily_lead": -677.0,
+      "first_negative_day": 24,
+      "last_lead_day": 30,
+      "shops": [
+        "FARMERS_MARKET",
+        "YARN_STORE",
+        "PIZZA_SHOP",
+        "BAKERY",
+        "PIZZA_SHOP",
+        "YARN_STORE",
+        "PET_CAFE",
+        "ICE_CREAM_SHOP"
+      ],
+      "our_tiles": {
+        "COOP": 1,
+        "COW": 6,
+        "SHEEP": 11,
+        "TOMATO": 10,
+        "WEED": 2
+      },
+      "their_tiles": {
+        "COOP": 1,
+        "COW": 6,
+        "SHEEP": 11,
+        "TOMATO": 10,
+        "WEED": 1
+      },
+      "our_market": {
+        "BUY_ANIMAL:COW": 6,
+        "BUY_ANIMAL:SHEEP": 11,
+        "BUY_LAND": 3,
+        "BUY_PRODUCT:FERTILIZER": 65,
+        "BUY_PRODUCT:WHEAT": 162,
+        "BUY_SEED:CARROT": 28,
+        "BUY_SEED:MELON": 12,
+        "BUY_SEED:STRAWBERRY": 33,
+        "BUY_SEED:TOMATO": 10,
+        "BUY_SEED:WHEAT": 166,
+        "HIRE": 295,
+        "SELL:CARROT": 85,
+        "SELL:FERTILIZER": 329,
+        "SELL:MELON": 72,
+        "SELL:MILK": 226,
+        "SELL:STRAWBERRY": 260,
+        "SELL:TOMATO": 80,
+        "SELL:WHEAT": 391,
+        "SELL:WOOL": 315
+      },
+      "their_market": {
+        "BUY_ANIMAL:COW": 6,
+        "BUY_ANIMAL:SHEEP": 11,
+        "BUY_LAND": 3,
+        "BUY_PRODUCT:FERTILIZER": 65,
+        "BUY_PRODUCT:WHEAT": 162,
+        "BUY_SEED:CARROT": 28,
+        "BUY_SEED:MELON": 12,
+        "BUY_SEED:STRAWBERRY": 33,
+        "BUY_SEED:TOMATO": 10,
+        "BUY_SEED:WHEAT": 166,
+        "HIRE": 295,
+        "SELL:CARROT": 85,
+        "SELL:FERTILIZER": 329,
+        "SELL:MELON": 72,
+        "SELL:MILK": 224,
+        "SELL:STRAWBERRY": 252,
+        "SELL:TOMATO": 80,
+        "SELL:WHEAT": 391,
+        "SELL:WOOL": 322
+      },
+      "our_field": {
+        "BUILD_COOP": 2,
+        "BUILD_PASTURE": 17,
+        "CARE": 398,
+        "COLLECT_FERTILIZER": 369,
+        "DIG": 36,
+        "DROP": 25,
+        "EAST": 681,
+        "FEED": 356,
+        "FERTILIZE": 113,
+        "HARVEST": 505,
+        "NORTH": 931,
+        "PASS": 736,
+        "PICKUP": 159,
+        "PLACE": 122,
+        "PLANT": 249,
+        "SOUTH": 591,
+        "WATER": 1175,
+        "WEST": 936
+      },
+      "their_field": {
+        "BUILD_COOP": 2,
+        "BUILD_PASTURE": 17,
+        "CARE": 398,
+        "COLLECT_FERTILIZER": 369,
+        "DIG": 36,
+        "DROP": 25,
+        "EAST": 681,
+        "FEED": 356,
+        "FERTILIZE": 113,
+        "HARVEST": 505,
+        "NORTH": 931,
+        "PASS": 736,
+        "PICKUP": 159,
+        "PLACE": 122,
+        "PLANT": 249,
+        "SOUTH": 591,
+        "WATER": 1175,
+        "WEST": 936
+      },
+      "daily": [
+        {
+          "day": 0,
+          "our_money": 3000.0,
+          "their_money": 3000.0,
+          "margin": 0.0
+        },
+        {
+          "day": 1,
+          "our_money": 12.0,
+          "their_money": 12.0,
+          "margin": 0.0
+        },
+        {
+          "day": 2,
+          "our_money": 101.0,
+          "their_money": 101.0,
+          "margin": 0.0
+        },
+        {
+          "day": 3,
+          "our_money": 214.0,
+          "their_money": 214.0,
+          "margin": 0.0
+        },
+        {
+          "day": 4,
+          "our_money": 267.0,
+          "their_money": 267.0,
+          "margin": 0.0
+        },
+        {
+          "day": 5,
+          "our_money": 672.0,
+          "their_money": 672.0,
+          "margin": 0.0
+        },
+        {
+          "day": 6,
+          "our_money": 787.0,
+          "their_money": 787.0,
+          "margin": 0.0
+        },
+        {
+          "day": 7,
+          "our_money": 1112.0,
+          "their_money": 1112.0,
+          "margin": 0.0
+        },
+        {
+          "day": 8,
+          "our_money": 173.0,
+          "their_money": 173.0,
+          "margin": 0.0
+        },
+        {
+          "day": 9,
+          "our_money": 952.0,
+          "their_money": 952.0,
+          "margin": 0.0
+        },
+        {
+          "day": 10,
+          "our_money": 3469.0,
+          "their_money": 3469.0,
+          "margin": 0.0
+        },
+        {
+          "day": 11,
+          "our_money": 15521.0,
+          "their_money": 15521.0,
+          "margin": 0.0
+        },
+        {
+          "day": 12,
+          "our_money": 13683.0,
+          "their_money": 13683.0,
+          "margin": 0.0
+        },
+        {
+          "day": 13,
+          "our_money": 17789.0,
+          "their_money": 17786.0,
+          "margin": 3.0
+        },
+        {
+          "day": 14,
+          "our_money": 20307.0,
+          "their_money": 20290.0,
+          "margin": 17.0
+        },
+        {
+          "day": 15,
+          "our_money": 23576.0,
+          "their_money": 23559.0,
+          "margin": 17.0
+        },
+        {
+          "day": 16,
+          "our_money": 28837.0,
+          "their_money": 28814.0,
+          "margin": 23.0
+        },
+        {
+          "day": 17,
+          "our_money": 36977.0,
+          "their_money": 36954.0,
+          "margin": 23.0
+        },
+        {
+          "day": 18,
+          "our_money": 43608.0,
+          "their_money": 43585.0,
+          "margin": 23.0
+        },
+        {
+          "day": 19,
+          "our_money": 43872.0,
+          "their_money": 43678.0,
+          "margin": 194.0
+        },
+        {
+          "day": 20,
+          "our_money": 45801.0,
+          "their_money": 45607.0,
+          "margin": 194.0
+        },
+        {
+          "day": 21,
+          "our_money": 48285.0,
+          "their_money": 48091.0,
+          "margin": 194.0
+        },
+        {
+          "day": 22,
+          "our_money": 49167.0,
+          "their_money": 48973.0,
+          "margin": 194.0
+        },
+        {
+          "day": 23,
+          "our_money": 51745.0,
+          "their_money": 51551.0,
+          "margin": 194.0
+        },
+        {
+          "day": 24,
+          "our_money": 52242.0,
+          "their_money": 52919.0,
+          "margin": -677.0
+        },
+        {
+          "day": 25,
+          "our_money": 54291.0,
+          "their_money": 54480.0,
+          "margin": -189.0
+        },
+        {
+          "day": 26,
+          "our_money": 55906.0,
+          "their_money": 55813.0,
+          "margin": 93.0
+        },
+        {
+          "day": 27,
+          "our_money": 61373.0,
+          "their_money": 60568.0,
+          "margin": 805.0
+        },
+        {
+          "day": 28,
+          "our_money": 67633.0,
+          "their_money": 66903.0,
+          "margin": 730.0
+        },
+        {
+          "day": 29,
+          "our_money": 73683.0,
+          "their_money": 73505.0,
+          "margin": 178.0
+        },
+        {
+          "day": 30,
+          "our_money": 82672.0,
+          "their_money": 82494.0,
+          "margin": 178.0
+        }
+      ]
+    },
+    {
+      "episode_id": 112031540,
+      "seed": 1136800356,
+      "our_seat": 1,
+      "opponent": "Junichiro Morita",
+      "our_reward": 81419.0,
+      "their_reward": 80939.0,
+      "margin": 480.0,
+      "outcome": "W",
+      "win": true,
+      "tie": false,
+      "loss": false,
+      "comeback": false,
+      "blown_lead": false,
+      "max_daily_lead": 1645.0,
+      "min_daily_lead": 0.0,
+      "first_negative_day": null,
+      "last_lead_day": 30,
+      "shops": [
+        "PET_CAFE",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "SMOOTHIE_SHOP",
+        "PIZZA_SHOP"
+      ],
+      "our_tiles": {
+        "COW": 6,
+        "GOOSE": 2,
+        "PASTURE": 1,
+        "SHEEP": 15
+      },
+      "their_tiles": {
+        "COW": 6,
+        "GOOSE": 2,
+        "PASTURE": 2,
+        "SHEEP": 14,
+        "WEED": 2
+      },
+      "our_market": {
+        "BUY_ANIMAL:COW": 6,
+        "BUY_ANIMAL:GOOSE": 2,
+        "BUY_ANIMAL:SHEEP": 15,
+        "BUY_LAND": 3,
+        "BUY_PRODUCT:FERTILIZER": 85,
+        "BUY_PRODUCT:WHEAT": 236,
+        "BUY_SEED:CARROT": 41,
+        "BUY_SEED:MELON": 12,
+        "BUY_SEED:STRAWBERRY": 33,
+        "BUY_SEED:WHEAT": 158,
+        "HIRE": 291,
+        "SELL:CARROT": 122,
+        "SELL:EGG": 72,
+        "SELL:FERTILIZER": 2419,
+        "SELL:MELON": 72,
+        "SELL:MILK": 218,
+        "SELL:STRAWBERRY": 292,
+        "SELL:WHEAT": 436,
+        "SELL:WOOL": 330
+      },
+      "their_market": {
+        "BUY_ANIMAL:COW": 6,
+        "BUY_ANIMAL:GOOSE": 2,
+        "BUY_ANIMAL:SHEEP": 15,
+        "BUY_LAND": 3,
+        "BUY_PRODUCT:FERTILIZER": 86,
+        "BUY_PRODUCT:WHEAT": 244,
+        "BUY_SEED:CARROT": 65,
+        "BUY_SEED:MELON": 12,
+        "BUY_SEED:STRAWBERRY": 33,
+        "BUY_SEED:WHEAT": 142,
+        "HIRE": 291,
+        "SELL:CARROT": 173,
+        "SELL:EGG": 78,
+        "SELL:FERTILIZER": 1419,
+        "SELL:MELON": 72,
+        "SELL:MILK": 239,
+        "SELL:STRAWBERRY": 303,
+        "SELL:WHEAT": 408,
+        "SELL:WOOL": 325
+      },
+      "our_field": {
+        "BUILD_COOP": 2,
+        "BUILD_PASTURE": 23,
+        "CARE": 501,
+        "COLLECT_FERTILIZER": 440,
+        "DIG": 37,
+        "DROP": 50,
+        "EAST": 640,
+        "FEED": 422,
+        "FERTILIZE": 114,
+        "HARVEST": 507,
+        "NORTH": 928,
+        "PASS": 519,
+        "PICKUP": 234,
+        "PLACE": 127,
+        "PLANT": 239,
+        "SOUTH": 528,
+        "WATER": 1099,
+        "WEST": 897
+      },
+      "their_field": {
+        "BUILD_COOP": 2,
+        "BUILD_PASTURE": 23,
+        "CARE": 501,
+        "COLLECT_FERTILIZER": 440,
+        "DIG": 37,
+        "DROP": 50,
+        "EAST": 639,
+        "FEED": 422,
+        "FERTILIZE": 118,
+        "HARVEST": 507,
+        "NORTH": 931,
+        "PASS": 514,
+        "PICKUP": 234,
+        "PLACE": 127,
+        "PLANT": 239,
+        "SOUTH": 528,
+        "WATER": 1099,
+        "WEST": 896
+      },
+      "daily": [
+        {
+          "day": 0,
+          "our_money": 3000.0,
+          "their_money": 3000.0,
+          "margin": 0.0
+        },
+        {
+          "day": 1,
+          "our_money": 12.0,
+          "their_money": 12.0,
+          "margin": 0.0
+        },
+        {
+          "day": 2,
+          "our_money": 101.0,
+          "their_money": 101.0,
+          "margin": 0.0
+        },
+        {
+          "day": 3,
+          "our_money": 214.0,
+          "their_money": 214.0,
+          "margin": 0.0
+        },
+        {
+          "day": 4,
+          "our_money": 265.0,
+          "their_money": 265.0,
+          "margin": 0.0
+        },
+        {
+          "day": 5,
+          "our_money": 675.0,
+          "their_money": 675.0,
+          "margin": 0.0
+        },
+        {
+          "day": 6,
+          "our_money": 788.0,
+          "their_money": 788.0,
+          "margin": 0.0
+        },
+        {
+          "day": 7,
+          "our_money": 1318.0,
+          "their_money": 1151.0,
+          "margin": 167.0
+        },
+        {
+          "day": 8,
+          "our_money": 738.0,
+          "their_money": 581.0,
+          "margin": 157.0
+        },
+        {
+          "day": 9,
+          "our_money": 1379.0,
+          "their_money": 1232.0,
+          "margin": 147.0
+        },
+        {
+          "day": 10,
+          "our_money": 2281.0,
+          "their_money": 2154.0,
+          "margin": 127.0
+        },
+        {
+          "day": 11,
+          "our_money": 14565.0,
+          "their_money": 14468.0,
+          "margin": 97.0
+        },
+        {
+          "day": 12,
+          "our_money": 13095.0,
+          "their_money": 12998.0,
+          "margin": 97.0
+        },
+        {
+          "day": 13,
+          "our_money": 9348.0,
+          "their_money": 9326.0,
+          "margin": 22.0
+        },
+        {
+          "day": 14,
+          "our_money": 10403.0,
+          "their_money": 10381.0,
+          "margin": 22.0
+        },
+        {
+          "day": 15,
+          "our_money": 14320.0,
+          "their_money": 14097.0,
+          "margin": 223.0
+        },
+        {
+          "day": 16,
+          "our_money": 16176.0,
+          "their_money": 16172.0,
+          "margin": 4.0
+        },
+        {
+          "day": 17,
+          "our_money": 24325.0,
+          "their_money": 24217.0,
+          "margin": 108.0
+        },
+        {
+          "day": 18,
+          "our_money": 32459.0,
+          "their_money": 32457.0,
+          "margin": 2.0
+        },
+        {
+          "day": 19,
+          "our_money": 43805.0,
+          "their_money": 43801.0,
+          "margin": 4.0
+        },
+        {
+          "day": 20,
+          "our_money": 48062.0,
+          "their_money": 46469.0,
+          "margin": 1593.0
+        },
+        {
+          "day": 21,
+          "our_money": 52977.0,
+          "their_money": 52808.0,
+          "margin": 169.0
+        },
+        {
+          "day": 22,
+          "our_money": 58909.0,
+          "their_money": 58708.0,
+          "margin": 201.0
+        },
+        {
+          "day": 23,
+          "our_money": 59900.0,
+          "their_money": 59511.0,
+          "margin": 389.0
+        },
+        {
+          "day": 24,
+          "our_money": 62306.0,
+          "their_money": 60661.0,
+          "margin": 1645.0
+        },
+        {
+          "day": 25,
+          "our_money": 62899.0,
+          "their_money": 61464.0,
+          "margin": 1435.0
+        },
+        {
+          "day": 26,
+          "our_money": 64453.0,
+          "their_money": 63115.0,
+          "margin": 1338.0
+        },
+        {
+          "day": 27,
+          "our_money": 66902.0,
+          "their_money": 65898.0,
+          "margin": 1004.0
+        },
+        {
+          "day": 28,
+          "our_money": 71016.0,
+          "their_money": 70284.0,
+          "margin": 732.0
+        },
+        {
+          "day": 29,
+          "our_money": 74526.0,
+          "their_money": 73906.0,
+          "margin": 620.0
+        },
+        {
+          "day": 30,
+          "our_money": 81419.0,
+          "their_money": 80939.0,
+          "margin": 480.0
+        }
+      ]
+    },
+    {
+      "episode_id": 112031915,
+      "seed": 1699014818,
+      "our_seat": 0,
+      "opponent": "MKGA",
+      "our_reward": 83464.0,
+      "their_reward": 82171.0,
+      "margin": 1293.0,
+      "outcome": "W",
+      "win": true,
+      "tie": false,
+      "loss": false,
+      "comeback": true,
+      "blown_lead": false,
+      "max_daily_lead": 1367.0,
+      "min_daily_lead": -90.0,
+      "first_negative_day": 4,
+      "last_lead_day": 30,
+      "shops": [
+        "BRUNCH_SPOT",
+        "PIZZA_SHOP",
+        "BRUNCH_SPOT",
+        "SMOOTHIE_SHOP",
+        "PET_CAFE",
+        "PIZZA_SHOP",
+        "BAKERY",
+        "BAKERY"
+      ],
+      "our_tiles": {
+        "COOP": 1,
+        "COW": 8,
+        "GOOSE": 3,
+        "SHEEP": 6,
+        "WEED": 1
+      },
+      "their_tiles": {
+        "COOP": 1,
+        "COW": 8,
+        "GOOSE": 3,
+        "SHEEP": 6
+      },
+      "our_market": {
+        "BUY_ANIMAL:COW": 8,
+        "BUY_ANIMAL:GOOSE": 3,
+        "BUY_ANIMAL:SHEEP": 6,
+        "BUY_LAND": 2,
+        "BUY_PRODUCT:FERTILIZER": 92,
+        "BUY_PRODUCT:WHEAT": 135,
+        "BUY_SEED:CARROT": 31,
+        "BUY_SEED:MELON": 12,
+        "BUY_SEED:STRAWBERRY": 33,
+        "BUY_SEED:WHEAT": 164,
+        "HIRE": 267,
+        "SELL:CARROT": 97,
+        "SELL:EGG": 89,
+        "SELL:FERTILIZER": 361,
+        "SELL:MELON": 72,
+        "SELL:MILK": 260,
+        "SELL:STRAWBERRY": 289,
+        "SELL:WHEAT": 470,
+        "SELL:WOOL": 126
+      },
+      "their_market": {
+        "BUY_ANIMAL:COW": 8,
+        "BUY_ANIMAL:GOOSE": 3,
+        "BUY_ANIMAL:SHEEP": 6,
+        "BUY_LAND": 2,
+        "BUY_PRODUCT:FERTILIZER": 92,
+        "BUY_PRODUCT:WHEAT": 138,
+        "BUY_SEED:CARROT": 31,
+        "BUY_SEED:MELON": 12,
+        "BUY_SEED:STRAWBERRY": 33,
+        "BUY_SEED:WHEAT": 164,
+        "HIRE": 267,
+        "SELL:CARROT": 97,
+        "SELL:EGG": 91,
+        "SELL:FERTILIZER": 361,
+        "SELL:MELON": 72,
+        "SELL:MILK": 283,
+        "SELL:STRAWBERRY": 280,
+        "SELL:WHEAT": 473,
+        "SELL:WOOL": 125
+      },
+      "our_field": {
+        "BUILD_COOP": 5,
+        "BUILD_PASTURE": 14,
+        "CARE": 405,
+        "COLLECT_FERTILIZER": 374,
+        "DIG": 37,
+        "DROP": 52,
+        "EAST": 588,
+        "FEED": 308,
+        "FERTILIZE": 118,
+        "HARVEST": 480,
+        "NORTH": 918,
+        "PASS": 472,
+        "PICKUP": 208,
+        "PLACE": 99,
+        "PLANT": 239,
+        "SOUTH": 498,
+        "WATER": 1099,
+        "WEST": 874
+      },
+      "their_field": {
+        "BUILD_COOP": 5,
+        "BUILD_PASTURE": 14,
+        "CARE": 404,
+        "COLLECT_FERTILIZER": 374,
+        "DIG": 37,
+        "DROP": 52,
+        "EAST": 588,
+        "FEED": 308,
+        "FERTILIZE": 121,
+        "HARVEST": 481,
+        "NORTH": 918,
+        "PASS": 469,
+        "PICKUP": 208,
+        "PLACE": 99,
+        "PLANT": 239,
+        "SOUTH": 498,
+        "WATER": 1099,
+        "WEST": 874
+      },
+      "daily": [
+        {
+          "day": 0,
+          "our_money": 3000.0,
+          "their_money": 3000.0,
+          "margin": 0.0
+        },
+        {
+          "day": 1,
+          "our_money": 12.0,
+          "their_money": 12.0,
+          "margin": 0.0
+        },
+        {
+          "day": 2,
+          "our_money": 101.0,
+          "their_money": 101.0,
+          "margin": 0.0
+        },
+        {
+          "day": 3,
+          "our_money": 214.0,
+          "their_money": 214.0,
+          "margin": 0.0
+        },
+        {
+          "day": 4,
+          "our_money": 267.0,
+          "their_money": 357.0,
+          "margin": -90.0
+        },
+        {
+          "day": 5,
+          "our_money": 674.0,
+          "their_money": 764.0,
+          "margin": -90.0
+        },
+        {
+          "day": 6,
+          "our_money": 789.0,
+          "their_money": 879.0,
+          "margin": -90.0
+        },
+        {
+          "day": 7,
+          "our_money": 1050.0,
+          "their_money": 1140.0,
+          "margin": -90.0
+        },
+        {
+          "day": 8,
+          "our_money": 470.0,
+          "their_money": 560.0,
+          "margin": -90.0
+        },
+        {
+          "day": 9,
+          "our_money": 1333.0,
+          "their_money": 1423.0,
+          "margin": -90.0
+        },
+        {
+          "day": 10,
+          "our_money": 2134.0,
+          "their_money": 2224.0,
+          "margin": -90.0
+        },
+        {
+          "day": 11,
+          "our_money": 15708.0,
+          "their_money": 15676.0,
+          "margin": 32.0
+        },
+        {
+          "day": 12,
+          "our_money": 14806.0,
+          "their_money": 14774.0,
+          "margin": 32.0
+        },
+        {
+          "day": 13,
+          "our_money": 18338.0,
+          "their_money": 18306.0,
+          "margin": 32.0
+        },
+        {
+          "day": 14,
+          "our_money": 19963.0,
+          "their_money": 19931.0,
+          "margin": 32.0
+        },
+        {
+          "day": 15,
+          "our_money": 22767.0,
+          "their_money": 22716.0,
+          "margin": 51.0
+        },
+        {
+          "day": 16,
+          "our_money": 27256.0,
+          "their_money": 27210.0,
+          "margin": 46.0
+        },
+        {
+          "day": 17,
+          "our_money": 32005.0,
+          "their_money": 31894.0,
+          "margin": 111.0
+        },
+        {
+          "day": 18,
+          "our_money": 36277.0,
+          "their_money": 36172.0,
+          "margin": 105.0
+        },
+        {
+          "day": 19,
+          "our_money": 40845.0,
+          "their_money": 40762.0,
+          "margin": 83.0
+        },
+        {
+          "day": 20,
+          "our_money": 44861.0,
+          "their_money": 44780.0,
+          "margin": 81.0
+        },
+        {
+          "day": 21,
+          "our_money": 50832.0,
+          "their_money": 50575.0,
+          "margin": 257.0
+        },
+        {
+          "day": 22,
+          "our_money": 57069.0,
+          "their_money": 56973.0,
+          "margin": 96.0
+        },
+        {
+          "day": 23,
+          "our_money": 61501.0,
+          "their_money": 61347.0,
+          "margin": 154.0
+        },
+        {
+          "day": 24,
+          "our_money": 65035.0,
+          "their_money": 64749.0,
+          "margin": 286.0
+        },
+        {
+          "day": 25,
+          "our_money": 67446.0,
+          "their_money": 67056.0,
+          "margin": 390.0
+        },
+        {
+          "day": 26,
+          "our_money": 70232.0,
+          "their_money": 69454.0,
+          "margin": 778.0
+        },
+        {
+          "day": 27,
+          "our_money": 72380.0,
+          "their_money": 71013.0,
+          "margin": 1367.0
+        },
+        {
+          "day": 28,
+          "our_money": 74248.0,
+          "their_money": 72978.0,
+          "margin": 1270.0
+        },
+        {
+          "day": 29,
+          "our_money": 77236.0,
+          "their_money": 76069.0,
+          "margin": 1167.0
+        },
+        {
+          "day": 30,
+          "our_money": 83464.0,
+          "their_money": 82171.0,
+          "margin": 1293.0
+        }
+      ]
+    }
+  ]
+}
