@@ -1,0 +1,18 @@
+{
+  "EXP012": "agents/candidates/exp012/main.py",
+  "EXP014": "agents/candidates/exp014/main.py",
+  "V55": "external/gold_20260922/v55/extracted/main.py",
+  "V56": "external/gold_20260922/v56/extracted/main.py",
+  "OrderBook": "external/gold_20260922/order-book/extracted/main.py",
+  "Pipe18": "external/gold_20260922/pipe18/extracted/main.py",
+  "Pipe19": "external/gold_20260922/pipe19/extracted/main.py",
+  "SeedLeak": "external/gold_20260922/seed-leak/extracted/main.py",
+  "Clone48": "external/gold_20260922/clone-race/extracted/main.py",
+  "Race72": "external/gold_20260922/v54-fork/extracted/main.py",
+  "DemandPreserving": "external/gold_20260922/demand-preserving/extracted/main.py",
+  "MasterV3": "external/gold_20260922/master-v3/extracted/main.py",
+  "MasterV4": "external/gold_20260922/master-v4/extracted/main.py",
+  "MoreWheatSales": "external/gold_20260922/more-wheat-sales/extracted/main.py",
+  "WheatSeller": "external/gold_20260922/wheat-seller/extracted/main.py",
+  "IdleSeller": "external/gold_20260922/idle-seller/extracted/main.py"
+}

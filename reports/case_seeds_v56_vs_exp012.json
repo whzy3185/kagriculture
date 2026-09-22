@@ -1,0 +1,139 @@
+{
+  "protocol": "paired-seats-current-official-interpreter",
+  "candidate": "E:\\kaggriculture\\external\\gold_20260922\\v56\\extracted\\main.py",
+  "candidate_sha256": "A1AD0FD1D174477EE2CBDD561A812BCB7029647CE34599E79D6B79E9057EFF6C",
+  "opponent": "E:\\kaggriculture\\agents\\candidates\\exp012\\main.py",
+  "opponent_sha256": "53FA8F8A8FFA183A486FCA629AE535FEB404B646ADE2DF8D4994E9466B23146B",
+  "seeds": [
+    609826993,
+    432894656,
+    1385291368,
+    974135651
+  ],
+  "games_count": 8,
+  "wins": 6,
+  "ties": 0,
+  "losses": 2,
+  "win_rate": 0.75,
+  "mean_margin": 300.5,
+  "median_margin": 187.5,
+  "min_margin": -56.0,
+  "max_margin": 883.0,
+  "mean_candidate_money": 113293.5,
+  "mean_opponent_money": 112993.0,
+  "total_elapsed_seconds": 105.33694660001493,
+  "games": [
+    {
+      "seed": 609826993,
+      "candidate_seat": 0,
+      "candidate_money": 141313.0,
+      "opponent_money": 141102.0,
+      "margin": 211.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.982247399995686
+    },
+    {
+      "seed": 609826993,
+      "candidate_seat": 1,
+      "candidate_money": 141313.0,
+      "opponent_money": 141102.0,
+      "margin": 211.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 13.023473599998397
+    },
+    {
+      "seed": 432894656,
+      "candidate_seat": 0,
+      "candidate_money": 79740.0,
+      "opponent_money": 79796.0,
+      "margin": -56.0,
+      "win": false,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 13.751535600007628
+    },
+    {
+      "seed": 432894656,
+      "candidate_seat": 1,
+      "candidate_money": 79740.0,
+      "opponent_money": 79796.0,
+      "margin": -56.0,
+      "win": false,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 14.057302100001834
+    },
+    {
+      "seed": 1385291368,
+      "candidate_seat": 0,
+      "candidate_money": 131651.0,
+      "opponent_money": 131487.0,
+      "margin": 164.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 13.125463100004708
+    },
+    {
+      "seed": 1385291368,
+      "candidate_seat": 1,
+      "candidate_money": 131651.0,
+      "opponent_money": 131487.0,
+      "margin": 164.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 13.500099900003988
+    },
+    {
+      "seed": 974135651,
+      "candidate_seat": 0,
+      "candidate_money": 100470.0,
+      "opponent_money": 99587.0,
+      "margin": 883.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.852823900000658
+    },
+    {
+      "seed": 974135651,
+      "candidate_seat": 1,
+      "candidate_money": 100470.0,
+      "opponent_money": 99587.0,
+      "margin": 883.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 13.044001000002027
+    }
+  ]
+}

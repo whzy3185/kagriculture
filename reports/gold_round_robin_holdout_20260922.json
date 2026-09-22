@@ -1,0 +1,2238 @@
+{
+  "protocol": "paired-seats-current-official-interpreter-round-robin",
+  "complete": true,
+  "seeds": [
+    7013,
+    7027,
+    7051,
+    7099
+  ],
+  "agents": {
+    "EXP012": {
+      "path": "E:\\kaggriculture\\agents\\candidates\\exp012\\main.py",
+      "sha256": "53FA8F8A8FFA183A486FCA629AE535FEB404B646ADE2DF8D4994E9466B23146B"
+    },
+    "V56": {
+      "path": "E:\\kaggriculture\\external\\gold_20260922\\v56\\extracted\\main.py",
+      "sha256": "A1AD0FD1D174477EE2CBDD561A812BCB7029647CE34599E79D6B79E9057EFF6C"
+    },
+    "OrderBook": {
+      "path": "E:\\kaggriculture\\external\\gold_20260922\\order-book\\extracted\\main.py",
+      "sha256": "A16E0E9B40C489972630A0B9D04F30E9C1CAB03159FA78676DB74277D84D82AB"
+    },
+    "Pipe18": {
+      "path": "E:\\kaggriculture\\external\\gold_20260922\\pipe18\\extracted\\main.py",
+      "sha256": "A4A563C66EA84746CDB5B18341E78D97677BA5A8CEF67E9A157AFDAF1D6207D7"
+    },
+    "Pipe19": {
+      "path": "E:\\kaggriculture\\external\\gold_20260922\\pipe19\\extracted\\main.py",
+      "sha256": "111863BD708CC8134D0A7CC26AE9AC8B7CB5266E061CD71D8429CAEFB48B1C51"
+    },
+    "Clone48": {
+      "path": "E:\\kaggriculture\\external\\gold_20260922\\clone-race\\extracted\\main.py",
+      "sha256": "0070F9E125902D690995ACBBB0DF1E3F46185A560771C0843D074F315345C778"
+    }
+  },
+  "expected_games": 120,
+  "completed_games": 120,
+  "standings": [
+    {
+      "agent": "Pipe19",
+      "games": 40,
+      "wins": 38,
+      "ties": 0,
+      "losses": 2,
+      "match_points": 0.95,
+      "wilson95_low": 0.834958291820748,
+      "wilson95_high": 0.9861796228538989,
+      "mean_margin": 569.15,
+      "median_margin": 482.5,
+      "rank": 1
+    },
+    {
+      "agent": "Clone48",
+      "games": 40,
+      "wins": 34,
+      "ties": 0,
+      "losses": 6,
+      "match_points": 0.85,
+      "wilson95_low": 0.7092737396097997,
+      "wilson95_high": 0.9293890829149256,
+      "mean_margin": 509.35,
+      "median_margin": 230.5,
+      "rank": 2
+    },
+    {
+      "agent": "Pipe18",
+      "games": 40,
+      "wins": 16,
+      "ties": 6,
+      "losses": 18,
+      "match_points": 0.475,
+      "wilson95_low": 0.32935229550181694,
+      "wilson95_high": 0.6250289314607027,
+      "mean_margin": -81.75,
+      "median_margin": -0.0,
+      "rank": 3
+    },
+    {
+      "agent": "V56",
+      "games": 40,
+      "wins": 14,
+      "ties": 6,
+      "losses": 20,
+      "match_points": 0.425,
+      "wilson95_low": 0.28509168524815875,
+      "wilson95_high": 0.5780519956394001,
+      "mean_margin": -83.95,
+      "median_margin": -3.0,
+      "rank": 4
+    },
+    {
+      "agent": "OrderBook",
+      "games": 40,
+      "wins": 8,
+      "ties": 0,
+      "losses": 32,
+      "match_points": 0.2,
+      "wilson95_low": 0.10499864973166874,
+      "wilson95_high": 0.34757607381856676,
+      "mean_margin": -543.8,
+      "median_margin": -614.0,
+      "rank": 5
+    },
+    {
+      "agent": "EXP012",
+      "games": 40,
+      "wins": 4,
+      "ties": 0,
+      "losses": 36,
+      "match_points": 0.1,
+      "wilson95_low": 0.03957888759557486,
+      "wilson95_high": 0.23052074380473897,
+      "mean_margin": -369.0,
+      "median_margin": -241.0,
+      "rank": 6
+    }
+  ],
+  "pairwise": [
+    {
+      "agent_a": "EXP012",
+      "agent_b": "V56",
+      "games": 8,
+      "wins_a": 0,
+      "ties": 0,
+      "losses_a": 8,
+      "match_points_a": 0.0,
+      "mean_margin_a": -286.75,
+      "median_margin_a": -226.5,
+      "min_margin_a": -606.0,
+      "max_margin_a": -88.0
+    },
+    {
+      "agent_a": "EXP012",
+      "agent_b": "OrderBook",
+      "games": 8,
+      "wins_a": 4,
+      "ties": 0,
+      "losses_a": 4,
+      "match_points_a": 0.5,
+      "mean_margin_a": 278.5,
+      "median_margin_a": 274.5,
+      "min_margin_a": -93.0,
+      "max_margin_a": 658.0
+    },
+    {
+      "agent_a": "EXP012",
+      "agent_b": "Pipe18",
+      "games": 8,
+      "wins_a": 0,
+      "ties": 0,
+      "losses_a": 8,
+      "match_points_a": 0.0,
+      "mean_margin_a": -288.25,
+      "median_margin_a": -226.5,
+      "min_margin_a": -606.0,
+      "max_margin_a": -94.0
+    },
+    {
+      "agent_a": "EXP012",
+      "agent_b": "Pipe19",
+      "games": 8,
+      "wins_a": 0,
+      "ties": 0,
+      "losses_a": 8,
+      "match_points_a": 0.0,
+      "mean_margin_a": -637.25,
+      "median_margin_a": -615.0,
+      "min_margin_a": -875.0,
+      "max_margin_a": -444.0
+    },
+    {
+      "agent_a": "EXP012",
+      "agent_b": "Clone48",
+      "games": 8,
+      "wins_a": 0,
+      "ties": 0,
+      "losses_a": 8,
+      "match_points_a": 0.0,
+      "mean_margin_a": -911.25,
+      "median_margin_a": -587.0,
+      "min_margin_a": -2344.0,
+      "max_margin_a": -127.0
+    },
+    {
+      "agent_a": "V56",
+      "agent_b": "OrderBook",
+      "games": 8,
+      "wins_a": 6,
+      "ties": 0,
+      "losses_a": 2,
+      "match_points_a": 0.75,
+      "mean_margin_a": 434.25,
+      "median_margin_a": 360.0,
+      "min_margin_a": -64.0,
+      "max_margin_a": 1081.0
+    },
+    {
+      "agent_a": "V56",
+      "agent_b": "Pipe18",
+      "games": 8,
+      "wins_a": 0,
+      "ties": 6,
+      "losses_a": 2,
+      "match_points_a": 0.375,
+      "mean_margin_a": -1.5,
+      "median_margin_a": 0.0,
+      "min_margin_a": -6.0,
+      "max_margin_a": 0.0
+    },
+    {
+      "agent_a": "V56",
+      "agent_b": "Pipe19",
+      "games": 8,
+      "wins_a": 0,
+      "ties": 0,
+      "losses_a": 8,
+      "match_points_a": 0.0,
+      "mean_margin_a": -401.25,
+      "median_margin_a": -341.0,
+      "min_margin_a": -816.0,
+      "max_margin_a": -107.0
+    },
+    {
+      "agent_a": "V56",
+      "agent_b": "Clone48",
+      "games": 8,
+      "wins_a": 0,
+      "ties": 0,
+      "losses_a": 8,
+      "match_points_a": 0.0,
+      "mean_margin_a": -738.0,
+      "median_margin_a": -230.5,
+      "min_margin_a": -2323.0,
+      "max_margin_a": -168.0
+    },
+    {
+      "agent_a": "OrderBook",
+      "agent_b": "Pipe18",
+      "games": 8,
+      "wins_a": 2,
+      "ties": 0,
+      "losses_a": 6,
+      "match_points_a": 0.25,
+      "mean_margin_a": -437.25,
+      "median_margin_a": -366.0,
+      "min_margin_a": -1081.0,
+      "max_margin_a": 64.0
+    },
+    {
+      "agent_a": "OrderBook",
+      "agent_b": "Pipe19",
+      "games": 8,
+      "wins_a": 0,
+      "ties": 0,
+      "losses_a": 8,
+      "match_points_a": 0.0,
+      "mean_margin_a": -857.0,
+      "median_margin_a": -946.5,
+      "min_margin_a": -1210.0,
+      "max_margin_a": -325.0
+    },
+    {
+      "agent_a": "OrderBook",
+      "agent_b": "Clone48",
+      "games": 8,
+      "wins_a": 0,
+      "ties": 0,
+      "losses_a": 8,
+      "match_points_a": 0.0,
+      "mean_margin_a": -712.0,
+      "median_margin_a": -717.5,
+      "min_margin_a": -1298.0,
+      "max_margin_a": -115.0
+    },
+    {
+      "agent_a": "Pipe18",
+      "agent_b": "Pipe19",
+      "games": 8,
+      "wins_a": 0,
+      "ties": 0,
+      "losses_a": 8,
+      "match_points_a": 0.0,
+      "mean_margin_a": -400.75,
+      "median_margin_a": -340.0,
+      "min_margin_a": -816.0,
+      "max_margin_a": -107.0
+    },
+    {
+      "agent_a": "Pipe18",
+      "agent_b": "Clone48",
+      "games": 8,
+      "wins_a": 0,
+      "ties": 0,
+      "losses_a": 8,
+      "match_points_a": 0.0,
+      "mean_margin_a": -735.0,
+      "median_margin_a": -230.5,
+      "min_margin_a": -2311.0,
+      "max_margin_a": -168.0
+    },
+    {
+      "agent_a": "Pipe19",
+      "agent_b": "Clone48",
+      "games": 8,
+      "wins_a": 6,
+      "ties": 0,
+      "losses_a": 2,
+      "match_points_a": 0.75,
+      "mean_margin_a": 549.5,
+      "median_margin_a": 690.5,
+      "min_margin_a": -136.0,
+      "max_margin_a": 953.0
+    }
+  ],
+  "games": [
+    {
+      "key": "EXP012|Clone48|7013|0",
+      "agent_a": "EXP012",
+      "agent_b": "Clone48",
+      "seed": 7013,
+      "seat_a": 0,
+      "money_a": 117916.0,
+      "money_b": 118630.0,
+      "margin_a": -714.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.797847699999693
+    },
+    {
+      "key": "EXP012|Clone48|7013|1",
+      "agent_a": "EXP012",
+      "agent_b": "Clone48",
+      "seed": 7013,
+      "seat_a": 1,
+      "money_a": 117916.0,
+      "money_b": 118630.0,
+      "margin_a": -714.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.589736599999014
+    },
+    {
+      "key": "EXP012|Clone48|7027|0",
+      "agent_a": "EXP012",
+      "agent_b": "Clone48",
+      "seed": 7027,
+      "seat_a": 0,
+      "money_a": 60220.0,
+      "money_b": 60347.0,
+      "margin_a": -127.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.36591330000374
+    },
+    {
+      "key": "EXP012|Clone48|7027|1",
+      "agent_a": "EXP012",
+      "agent_b": "Clone48",
+      "seed": 7027,
+      "seat_a": 1,
+      "money_a": 60220.0,
+      "money_b": 60347.0,
+      "margin_a": -127.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.089659199991729
+    },
+    {
+      "key": "EXP012|Clone48|7051|0",
+      "agent_a": "EXP012",
+      "agent_b": "Clone48",
+      "seed": 7051,
+      "seat_a": 0,
+      "money_a": 79736.0,
+      "money_b": 82080.0,
+      "margin_a": -2344.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.415385700005572
+    },
+    {
+      "key": "EXP012|Clone48|7051|1",
+      "agent_a": "EXP012",
+      "agent_b": "Clone48",
+      "seed": 7051,
+      "seat_a": 1,
+      "money_a": 79736.0,
+      "money_b": 82080.0,
+      "margin_a": -2344.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.271882800007006
+    },
+    {
+      "key": "EXP012|Clone48|7099|0",
+      "agent_a": "EXP012",
+      "agent_b": "Clone48",
+      "seed": 7099,
+      "seat_a": 0,
+      "money_a": 95755.0,
+      "money_b": 96215.0,
+      "margin_a": -460.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.01366219999909
+    },
+    {
+      "key": "EXP012|Clone48|7099|1",
+      "agent_a": "EXP012",
+      "agent_b": "Clone48",
+      "seed": 7099,
+      "seat_a": 1,
+      "money_a": 95755.0,
+      "money_b": 96215.0,
+      "margin_a": -460.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.912055600012536
+    },
+    {
+      "key": "EXP012|OrderBook|7013|0",
+      "agent_a": "EXP012",
+      "agent_b": "OrderBook",
+      "seed": 7013,
+      "seat_a": 0,
+      "money_a": 117472.0,
+      "money_b": 116869.0,
+      "margin_a": 603.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.752938899997389
+    },
+    {
+      "key": "EXP012|OrderBook|7013|1",
+      "agent_a": "EXP012",
+      "agent_b": "OrderBook",
+      "seed": 7013,
+      "seat_a": 1,
+      "money_a": 117472.0,
+      "money_b": 116869.0,
+      "margin_a": 603.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.710506400006125
+    },
+    {
+      "key": "EXP012|OrderBook|7027|0",
+      "agent_a": "EXP012",
+      "agent_b": "OrderBook",
+      "seed": 7027,
+      "seat_a": 0,
+      "money_a": 59882.0,
+      "money_b": 59975.0,
+      "margin_a": -93.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.153442599999835
+    },
+    {
+      "key": "EXP012|OrderBook|7027|1",
+      "agent_a": "EXP012",
+      "agent_b": "OrderBook",
+      "seed": 7027,
+      "seat_a": 1,
+      "money_a": 59882.0,
+      "money_b": 59975.0,
+      "margin_a": -93.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.269371700007468
+    },
+    {
+      "key": "EXP012|OrderBook|7051|0",
+      "agent_a": "EXP012",
+      "agent_b": "OrderBook",
+      "seed": 7051,
+      "seat_a": 0,
+      "money_a": 81669.0,
+      "money_b": 81011.0,
+      "margin_a": 658.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.371422900003381
+    },
+    {
+      "key": "EXP012|OrderBook|7051|1",
+      "agent_a": "EXP012",
+      "agent_b": "OrderBook",
+      "seed": 7051,
+      "seat_a": 1,
+      "money_a": 81669.0,
+      "money_b": 81011.0,
+      "margin_a": 658.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.376803099992685
+    },
+    {
+      "key": "EXP012|OrderBook|7099|0",
+      "agent_a": "EXP012",
+      "agent_b": "OrderBook",
+      "seed": 7099,
+      "seat_a": 0,
+      "money_a": 96177.0,
+      "money_b": 96231.0,
+      "margin_a": -54.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.046464799990645
+    },
+    {
+      "key": "EXP012|OrderBook|7099|1",
+      "agent_a": "EXP012",
+      "agent_b": "OrderBook",
+      "seed": 7099,
+      "seat_a": 1,
+      "money_a": 96177.0,
+      "money_b": 96231.0,
+      "margin_a": -54.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.06729190000624
+    },
+    {
+      "key": "EXP012|Pipe18|7013|0",
+      "agent_a": "EXP012",
+      "agent_b": "Pipe18",
+      "seed": 7013,
+      "seat_a": 0,
+      "money_a": 117974.0,
+      "money_b": 118580.0,
+      "margin_a": -606.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.685417300002882
+    },
+    {
+      "key": "EXP012|Pipe18|7013|1",
+      "agent_a": "EXP012",
+      "agent_b": "Pipe18",
+      "seed": 7013,
+      "seat_a": 1,
+      "money_a": 117974.0,
+      "money_b": 118580.0,
+      "margin_a": -606.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.603300899994792
+    },
+    {
+      "key": "EXP012|Pipe18|7027|0",
+      "agent_a": "EXP012",
+      "agent_b": "Pipe18",
+      "seed": 7027,
+      "seat_a": 0,
+      "money_a": 60343.0,
+      "money_b": 60555.0,
+      "margin_a": -212.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.127362799990806
+    },
+    {
+      "key": "EXP012|Pipe18|7027|1",
+      "agent_a": "EXP012",
+      "agent_b": "Pipe18",
+      "seed": 7027,
+      "seat_a": 1,
+      "money_a": 60343.0,
+      "money_b": 60555.0,
+      "margin_a": -212.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.453083699991112
+    },
+    {
+      "key": "EXP012|Pipe18|7051|0",
+      "agent_a": "EXP012",
+      "agent_b": "Pipe18",
+      "seed": 7051,
+      "seat_a": 0,
+      "money_a": 81487.0,
+      "money_b": 81581.0,
+      "margin_a": -94.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.60640049999347
+    },
+    {
+      "key": "EXP012|Pipe18|7051|1",
+      "agent_a": "EXP012",
+      "agent_b": "Pipe18",
+      "seed": 7051,
+      "seat_a": 1,
+      "money_a": 81487.0,
+      "money_b": 81581.0,
+      "margin_a": -94.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.571712500008289
+    },
+    {
+      "key": "EXP012|Pipe18|7099|0",
+      "agent_a": "EXP012",
+      "agent_b": "Pipe18",
+      "seed": 7099,
+      "seat_a": 0,
+      "money_a": 96309.0,
+      "money_b": 96550.0,
+      "margin_a": -241.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.379360000006272
+    },
+    {
+      "key": "EXP012|Pipe18|7099|1",
+      "agent_a": "EXP012",
+      "agent_b": "Pipe18",
+      "seed": 7099,
+      "seat_a": 1,
+      "money_a": 96309.0,
+      "money_b": 96550.0,
+      "margin_a": -241.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.376765799999703
+    },
+    {
+      "key": "EXP012|Pipe19|7013|0",
+      "agent_a": "EXP012",
+      "agent_b": "Pipe19",
+      "seed": 7013,
+      "seat_a": 0,
+      "money_a": 117868.0,
+      "money_b": 118585.0,
+      "margin_a": -717.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 13.071318900008919
+    },
+    {
+      "key": "EXP012|Pipe19|7013|1",
+      "agent_a": "EXP012",
+      "agent_b": "Pipe19",
+      "seed": 7013,
+      "seat_a": 1,
+      "money_a": 117868.0,
+      "money_b": 118585.0,
+      "margin_a": -717.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.813954400000512
+    },
+    {
+      "key": "EXP012|Pipe19|7027|0",
+      "agent_a": "EXP012",
+      "agent_b": "Pipe19",
+      "seed": 7027,
+      "seat_a": 0,
+      "money_a": 59859.0,
+      "money_b": 60303.0,
+      "margin_a": -444.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.602180500005488
+    },
+    {
+      "key": "EXP012|Pipe19|7027|1",
+      "agent_a": "EXP012",
+      "agent_b": "Pipe19",
+      "seed": 7027,
+      "seat_a": 1,
+      "money_a": 59859.0,
+      "money_b": 60303.0,
+      "margin_a": -444.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.418812799995067
+    },
+    {
+      "key": "EXP012|Pipe19|7051|0",
+      "agent_a": "EXP012",
+      "agent_b": "Pipe19",
+      "seed": 7051,
+      "seat_a": 0,
+      "money_a": 80898.0,
+      "money_b": 81773.0,
+      "margin_a": -875.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.583473099992261
+    },
+    {
+      "key": "EXP012|Pipe19|7051|1",
+      "agent_a": "EXP012",
+      "agent_b": "Pipe19",
+      "seed": 7051,
+      "seat_a": 1,
+      "money_a": 80898.0,
+      "money_b": 81773.0,
+      "margin_a": -875.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.598989700010861
+    },
+    {
+      "key": "EXP012|Pipe19|7099|0",
+      "agent_a": "EXP012",
+      "agent_b": "Pipe19",
+      "seed": 7099,
+      "seat_a": 0,
+      "money_a": 95619.0,
+      "money_b": 96132.0,
+      "margin_a": -513.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.407822799999849
+    },
+    {
+      "key": "EXP012|Pipe19|7099|1",
+      "agent_a": "EXP012",
+      "agent_b": "Pipe19",
+      "seed": 7099,
+      "seat_a": 1,
+      "money_a": 95619.0,
+      "money_b": 96132.0,
+      "margin_a": -513.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.368118999991566
+    },
+    {
+      "key": "EXP012|V56|7013|0",
+      "agent_a": "EXP012",
+      "agent_b": "V56",
+      "seed": 7013,
+      "seat_a": 0,
+      "money_a": 117974.0,
+      "money_b": 118580.0,
+      "margin_a": -606.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.750701099997968
+    },
+    {
+      "key": "EXP012|V56|7013|1",
+      "agent_a": "EXP012",
+      "agent_b": "V56",
+      "seed": 7013,
+      "seat_a": 1,
+      "money_a": 117974.0,
+      "money_b": 118580.0,
+      "margin_a": -606.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.753676899999846
+    },
+    {
+      "key": "EXP012|V56|7027|0",
+      "agent_a": "EXP012",
+      "agent_b": "V56",
+      "seed": 7027,
+      "seat_a": 0,
+      "money_a": 60343.0,
+      "money_b": 60555.0,
+      "margin_a": -212.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.290420100005576
+    },
+    {
+      "key": "EXP012|V56|7027|1",
+      "agent_a": "EXP012",
+      "agent_b": "V56",
+      "seed": 7027,
+      "seat_a": 1,
+      "money_a": 60343.0,
+      "money_b": 60555.0,
+      "margin_a": -212.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.296941200009314
+    },
+    {
+      "key": "EXP012|V56|7051|0",
+      "agent_a": "EXP012",
+      "agent_b": "V56",
+      "seed": 7051,
+      "seat_a": 0,
+      "money_a": 81490.0,
+      "money_b": 81578.0,
+      "margin_a": -88.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.354221100002178
+    },
+    {
+      "key": "EXP012|V56|7051|1",
+      "agent_a": "EXP012",
+      "agent_b": "V56",
+      "seed": 7051,
+      "seat_a": 1,
+      "money_a": 81490.0,
+      "money_b": 81578.0,
+      "margin_a": -88.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.248329000009107
+    },
+    {
+      "key": "EXP012|V56|7099|0",
+      "agent_a": "EXP012",
+      "agent_b": "V56",
+      "seed": 7099,
+      "seat_a": 0,
+      "money_a": 96309.0,
+      "money_b": 96550.0,
+      "margin_a": -241.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.131340599997202
+    },
+    {
+      "key": "EXP012|V56|7099|1",
+      "agent_a": "EXP012",
+      "agent_b": "V56",
+      "seed": 7099,
+      "seat_a": 1,
+      "money_a": 96309.0,
+      "money_b": 96550.0,
+      "margin_a": -241.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.122766999993473
+    },
+    {
+      "key": "OrderBook|Clone48|7013|0",
+      "agent_a": "OrderBook",
+      "agent_b": "Clone48",
+      "seed": 7013,
+      "seat_a": 0,
+      "money_a": 116761.0,
+      "money_b": 118059.0,
+      "margin_a": -1298.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.815138699996169
+    },
+    {
+      "key": "OrderBook|Clone48|7013|1",
+      "agent_a": "OrderBook",
+      "agent_b": "Clone48",
+      "seed": 7013,
+      "seat_a": 1,
+      "money_a": 116761.0,
+      "money_b": 118059.0,
+      "margin_a": -1298.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.755136000007042
+    },
+    {
+      "key": "OrderBook|Clone48|7027|0",
+      "agent_a": "OrderBook",
+      "agent_b": "Clone48",
+      "seed": 7027,
+      "seat_a": 0,
+      "money_a": 60114.0,
+      "money_b": 60229.0,
+      "margin_a": -115.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.293878200012841
+    },
+    {
+      "key": "OrderBook|Clone48|7027|1",
+      "agent_a": "OrderBook",
+      "agent_b": "Clone48",
+      "seed": 7027,
+      "seat_a": 1,
+      "money_a": 60114.0,
+      "money_b": 60229.0,
+      "margin_a": -115.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.058616199996322
+    },
+    {
+      "key": "OrderBook|Clone48|7051|0",
+      "agent_a": "OrderBook",
+      "agent_b": "Clone48",
+      "seed": 7051,
+      "seat_a": 0,
+      "money_a": 80203.0,
+      "money_b": 81082.0,
+      "margin_a": -879.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.141830699998536
+    },
+    {
+      "key": "OrderBook|Clone48|7051|1",
+      "agent_a": "OrderBook",
+      "agent_b": "Clone48",
+      "seed": 7051,
+      "seat_a": 1,
+      "money_a": 80203.0,
+      "money_b": 81082.0,
+      "margin_a": -879.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.480163899992476
+    },
+    {
+      "key": "OrderBook|Clone48|7099|0",
+      "agent_a": "OrderBook",
+      "agent_b": "Clone48",
+      "seed": 7099,
+      "seat_a": 0,
+      "money_a": 95888.0,
+      "money_b": 96444.0,
+      "margin_a": -556.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.089944699997432
+    },
+    {
+      "key": "OrderBook|Clone48|7099|1",
+      "agent_a": "OrderBook",
+      "agent_b": "Clone48",
+      "seed": 7099,
+      "seat_a": 1,
+      "money_a": 95888.0,
+      "money_b": 96444.0,
+      "margin_a": -556.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.03161910000199
+    },
+    {
+      "key": "OrderBook|Pipe18|7013|0",
+      "agent_a": "OrderBook",
+      "agent_b": "Pipe18",
+      "seed": 7013,
+      "seat_a": 0,
+      "money_a": 116860.0,
+      "money_b": 117941.0,
+      "margin_a": -1081.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.862169900006847
+    },
+    {
+      "key": "OrderBook|Pipe18|7013|1",
+      "agent_a": "OrderBook",
+      "agent_b": "Pipe18",
+      "seed": 7013,
+      "seat_a": 1,
+      "money_a": 116860.0,
+      "money_b": 117941.0,
+      "margin_a": -1081.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.851949299991247
+    },
+    {
+      "key": "OrderBook|Pipe18|7027|0",
+      "agent_a": "OrderBook",
+      "agent_b": "Pipe18",
+      "seed": 7027,
+      "seat_a": 0,
+      "money_a": 60114.0,
+      "money_b": 60209.0,
+      "margin_a": -95.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.38909810000041
+    },
+    {
+      "key": "OrderBook|Pipe18|7027|1",
+      "agent_a": "OrderBook",
+      "agent_b": "Pipe18",
+      "seed": 7027,
+      "seat_a": 1,
+      "money_a": 60114.0,
+      "money_b": 60209.0,
+      "margin_a": -95.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.122477999990224
+    },
+    {
+      "key": "OrderBook|Pipe18|7051|0",
+      "agent_a": "OrderBook",
+      "agent_b": "Pipe18",
+      "seed": 7051,
+      "seat_a": 0,
+      "money_a": 80953.0,
+      "money_b": 81590.0,
+      "margin_a": -637.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.278453199993237
+    },
+    {
+      "key": "OrderBook|Pipe18|7051|1",
+      "agent_a": "OrderBook",
+      "agent_b": "Pipe18",
+      "seed": 7051,
+      "seat_a": 1,
+      "money_a": 80953.0,
+      "money_b": 81590.0,
+      "margin_a": -637.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.528628700005356
+    },
+    {
+      "key": "OrderBook|Pipe18|7099|0",
+      "agent_a": "OrderBook",
+      "agent_b": "Pipe18",
+      "seed": 7099,
+      "seat_a": 0,
+      "money_a": 96226.0,
+      "money_b": 96162.0,
+      "margin_a": 64.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.150762299992493
+    },
+    {
+      "key": "OrderBook|Pipe18|7099|1",
+      "agent_a": "OrderBook",
+      "agent_b": "Pipe18",
+      "seed": 7099,
+      "seat_a": 1,
+      "money_a": 96226.0,
+      "money_b": 96162.0,
+      "margin_a": 64.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.135156599993934
+    },
+    {
+      "key": "OrderBook|Pipe19|7013|0",
+      "agent_a": "OrderBook",
+      "agent_b": "Pipe19",
+      "seed": 7013,
+      "seat_a": 0,
+      "money_a": 116741.0,
+      "money_b": 117951.0,
+      "margin_a": -1210.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.567091799995978
+    },
+    {
+      "key": "OrderBook|Pipe19|7013|1",
+      "agent_a": "OrderBook",
+      "agent_b": "Pipe19",
+      "seed": 7013,
+      "seat_a": 1,
+      "money_a": 116741.0,
+      "money_b": 117951.0,
+      "margin_a": -1210.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 13.031057500003953
+    },
+    {
+      "key": "OrderBook|Pipe19|7027|0",
+      "agent_a": "OrderBook",
+      "agent_b": "Pipe19",
+      "seed": 7027,
+      "seat_a": 0,
+      "money_a": 59828.0,
+      "money_b": 60153.0,
+      "margin_a": -325.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.4512459999969
+    },
+    {
+      "key": "OrderBook|Pipe19|7027|1",
+      "agent_a": "OrderBook",
+      "agent_b": "Pipe19",
+      "seed": 7027,
+      "seat_a": 1,
+      "money_a": 59828.0,
+      "money_b": 60153.0,
+      "margin_a": -325.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.267665000006673
+    },
+    {
+      "key": "OrderBook|Pipe19|7051|0",
+      "agent_a": "OrderBook",
+      "agent_b": "Pipe19",
+      "seed": 7051,
+      "seat_a": 0,
+      "money_a": 80661.0,
+      "money_b": 81870.0,
+      "margin_a": -1209.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.698020700001507
+    },
+    {
+      "key": "OrderBook|Pipe19|7051|1",
+      "agent_a": "OrderBook",
+      "agent_b": "Pipe19",
+      "seed": 7051,
+      "seat_a": 1,
+      "money_a": 80661.0,
+      "money_b": 81870.0,
+      "margin_a": -1209.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.395316499998444
+    },
+    {
+      "key": "OrderBook|Pipe19|7099|0",
+      "agent_a": "OrderBook",
+      "agent_b": "Pipe19",
+      "seed": 7099,
+      "seat_a": 0,
+      "money_a": 95231.0,
+      "money_b": 95915.0,
+      "margin_a": -684.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.241010500001721
+    },
+    {
+      "key": "OrderBook|Pipe19|7099|1",
+      "agent_a": "OrderBook",
+      "agent_b": "Pipe19",
+      "seed": 7099,
+      "seat_a": 1,
+      "money_a": 95231.0,
+      "money_b": 95915.0,
+      "margin_a": -684.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.978413499993621
+    },
+    {
+      "key": "Pipe18|Clone48|7013|0",
+      "agent_a": "Pipe18",
+      "agent_b": "Clone48",
+      "seed": 7013,
+      "seat_a": 0,
+      "money_a": 118368.0,
+      "money_b": 118611.0,
+      "margin_a": -243.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.97617030001129
+    },
+    {
+      "key": "Pipe18|Clone48|7013|1",
+      "agent_a": "Pipe18",
+      "agent_b": "Clone48",
+      "seed": 7013,
+      "seat_a": 1,
+      "money_a": 118368.0,
+      "money_b": 118611.0,
+      "margin_a": -243.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.63670989999082
+    },
+    {
+      "key": "Pipe18|Clone48|7027|0",
+      "agent_a": "Pipe18",
+      "agent_b": "Clone48",
+      "seed": 7027,
+      "seat_a": 0,
+      "money_a": 60177.0,
+      "money_b": 60345.0,
+      "margin_a": -168.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.562537400008296
+    },
+    {
+      "key": "Pipe18|Clone48|7027|1",
+      "agent_a": "Pipe18",
+      "agent_b": "Clone48",
+      "seed": 7027,
+      "seat_a": 1,
+      "money_a": 60177.0,
+      "money_b": 60345.0,
+      "margin_a": -168.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.652459799995995
+    },
+    {
+      "key": "Pipe18|Clone48|7051|0",
+      "agent_a": "Pipe18",
+      "agent_b": "Clone48",
+      "seed": 7051,
+      "seat_a": 0,
+      "money_a": 79750.0,
+      "money_b": 82061.0,
+      "margin_a": -2311.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.740825600005337
+    },
+    {
+      "key": "Pipe18|Clone48|7051|1",
+      "agent_a": "Pipe18",
+      "agent_b": "Clone48",
+      "seed": 7051,
+      "seat_a": 1,
+      "money_a": 79750.0,
+      "money_b": 82061.0,
+      "margin_a": -2311.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.542408499997691
+    },
+    {
+      "key": "Pipe18|Clone48|7099|0",
+      "agent_a": "Pipe18",
+      "agent_b": "Clone48",
+      "seed": 7099,
+      "seat_a": 0,
+      "money_a": 95969.0,
+      "money_b": 96187.0,
+      "margin_a": -218.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.563863300005323
+    },
+    {
+      "key": "Pipe18|Clone48|7099|1",
+      "agent_a": "Pipe18",
+      "agent_b": "Clone48",
+      "seed": 7099,
+      "seat_a": 1,
+      "money_a": 95969.0,
+      "money_b": 96187.0,
+      "margin_a": -218.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.353191200003494
+    },
+    {
+      "key": "Pipe18|Pipe19|7013|0",
+      "agent_a": "Pipe18",
+      "agent_b": "Pipe19",
+      "seed": 7013,
+      "seat_a": 0,
+      "money_a": 118398.0,
+      "money_b": 118505.0,
+      "margin_a": -107.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.743933499994455
+    },
+    {
+      "key": "Pipe18|Pipe19|7013|1",
+      "agent_a": "Pipe18",
+      "agent_b": "Pipe19",
+      "seed": 7013,
+      "seat_a": 1,
+      "money_a": 118398.0,
+      "money_b": 118505.0,
+      "margin_a": -107.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.79782979999436
+    },
+    {
+      "key": "Pipe18|Pipe19|7027|0",
+      "agent_a": "Pipe18",
+      "agent_b": "Pipe19",
+      "seed": 7027,
+      "seat_a": 0,
+      "money_a": 60179.0,
+      "money_b": 60415.0,
+      "margin_a": -236.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.213598899994395
+    },
+    {
+      "key": "Pipe18|Pipe19|7027|1",
+      "agent_a": "Pipe18",
+      "agent_b": "Pipe19",
+      "seed": 7027,
+      "seat_a": 1,
+      "money_a": 60179.0,
+      "money_b": 60415.0,
+      "margin_a": -236.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.567353699996602
+    },
+    {
+      "key": "Pipe18|Pipe19|7051|0",
+      "agent_a": "Pipe18",
+      "agent_b": "Pipe19",
+      "seed": 7051,
+      "seat_a": 0,
+      "money_a": 80929.0,
+      "money_b": 81745.0,
+      "margin_a": -816.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.763780299996142
+    },
+    {
+      "key": "Pipe18|Pipe19|7051|1",
+      "agent_a": "Pipe18",
+      "agent_b": "Pipe19",
+      "seed": 7051,
+      "seat_a": 1,
+      "money_a": 80929.0,
+      "money_b": 81745.0,
+      "margin_a": -816.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.499921099995845
+    },
+    {
+      "key": "Pipe18|Pipe19|7099|0",
+      "agent_a": "Pipe18",
+      "agent_b": "Pipe19",
+      "seed": 7099,
+      "seat_a": 0,
+      "money_a": 95537.0,
+      "money_b": 95981.0,
+      "margin_a": -444.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.244871700007934
+    },
+    {
+      "key": "Pipe18|Pipe19|7099|1",
+      "agent_a": "Pipe18",
+      "agent_b": "Pipe19",
+      "seed": 7099,
+      "seat_a": 1,
+      "money_a": 95537.0,
+      "money_b": 95981.0,
+      "margin_a": -444.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.218095500007621
+    },
+    {
+      "key": "Pipe19|Clone48|7013|0",
+      "agent_a": "Pipe19",
+      "agent_b": "Clone48",
+      "seed": 7013,
+      "seat_a": 0,
+      "money_a": 118373.0,
+      "money_b": 118509.0,
+      "margin_a": -136.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 13.0257552999974
+    },
+    {
+      "key": "Pipe19|Clone48|7013|1",
+      "agent_a": "Pipe19",
+      "agent_b": "Clone48",
+      "seed": 7013,
+      "seat_a": 1,
+      "money_a": 118373.0,
+      "money_b": 118509.0,
+      "margin_a": -136.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.881990199995926
+    },
+    {
+      "key": "Pipe19|Clone48|7027|0",
+      "agent_a": "Pipe19",
+      "agent_b": "Clone48",
+      "seed": 7027,
+      "seat_a": 0,
+      "money_a": 60471.0,
+      "money_b": 60019.0,
+      "margin_a": 452.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.43782320000173
+    },
+    {
+      "key": "Pipe19|Clone48|7027|1",
+      "agent_a": "Pipe19",
+      "agent_b": "Clone48",
+      "seed": 7027,
+      "seat_a": 1,
+      "money_a": 60471.0,
+      "money_b": 60019.0,
+      "margin_a": 452.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.475703600008273
+    },
+    {
+      "key": "Pipe19|Clone48|7051|0",
+      "agent_a": "Pipe19",
+      "agent_b": "Clone48",
+      "seed": 7051,
+      "seat_a": 0,
+      "money_a": 81642.0,
+      "money_b": 80689.0,
+      "margin_a": 953.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.521698199998355
+    },
+    {
+      "key": "Pipe19|Clone48|7051|1",
+      "agent_a": "Pipe19",
+      "agent_b": "Clone48",
+      "seed": 7051,
+      "seat_a": 1,
+      "money_a": 81642.0,
+      "money_b": 80689.0,
+      "margin_a": 953.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.532887699999264
+    },
+    {
+      "key": "Pipe19|Clone48|7099|0",
+      "agent_a": "Pipe19",
+      "agent_b": "Clone48",
+      "seed": 7099,
+      "seat_a": 0,
+      "money_a": 96160.0,
+      "money_b": 95231.0,
+      "margin_a": 929.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.391664700000547
+    },
+    {
+      "key": "Pipe19|Clone48|7099|1",
+      "agent_a": "Pipe19",
+      "agent_b": "Clone48",
+      "seed": 7099,
+      "seat_a": 1,
+      "money_a": 96160.0,
+      "money_b": 95231.0,
+      "margin_a": 929.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.386927400002605
+    },
+    {
+      "key": "V56|Clone48|7013|0",
+      "agent_a": "V56",
+      "agent_b": "Clone48",
+      "seed": 7013,
+      "seat_a": 0,
+      "money_a": 118368.0,
+      "money_b": 118611.0,
+      "margin_a": -243.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.520600200004992
+    },
+    {
+      "key": "V56|Clone48|7013|1",
+      "agent_a": "V56",
+      "agent_b": "Clone48",
+      "seed": 7013,
+      "seat_a": 1,
+      "money_a": 118368.0,
+      "money_b": 118611.0,
+      "margin_a": -243.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.19595149999077
+    },
+    {
+      "key": "V56|Clone48|7027|0",
+      "agent_a": "V56",
+      "agent_b": "Clone48",
+      "seed": 7027,
+      "seat_a": 0,
+      "money_a": 60177.0,
+      "money_b": 60345.0,
+      "margin_a": -168.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.893593499989947
+    },
+    {
+      "key": "V56|Clone48|7027|1",
+      "agent_a": "V56",
+      "agent_b": "Clone48",
+      "seed": 7027,
+      "seat_a": 1,
+      "money_a": 60177.0,
+      "money_b": 60345.0,
+      "margin_a": -168.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.928575099998852
+    },
+    {
+      "key": "V56|Clone48|7051|0",
+      "agent_a": "V56",
+      "agent_b": "Clone48",
+      "seed": 7051,
+      "seat_a": 0,
+      "money_a": 79744.0,
+      "money_b": 82067.0,
+      "margin_a": -2323.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.970618799998192
+    },
+    {
+      "key": "V56|Clone48|7051|1",
+      "agent_a": "V56",
+      "agent_b": "Clone48",
+      "seed": 7051,
+      "seat_a": 1,
+      "money_a": 79744.0,
+      "money_b": 82067.0,
+      "margin_a": -2323.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.250997000010102
+    },
+    {
+      "key": "V56|Clone48|7099|0",
+      "agent_a": "V56",
+      "agent_b": "Clone48",
+      "seed": 7099,
+      "seat_a": 0,
+      "money_a": 95969.0,
+      "money_b": 96187.0,
+      "margin_a": -218.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.0157540999935
+    },
+    {
+      "key": "V56|Clone48|7099|1",
+      "agent_a": "V56",
+      "agent_b": "Clone48",
+      "seed": 7099,
+      "seat_a": 1,
+      "money_a": 95969.0,
+      "money_b": 96187.0,
+      "margin_a": -218.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.849318299995502
+    },
+    {
+      "key": "V56|OrderBook|7013|0",
+      "agent_a": "V56",
+      "agent_b": "OrderBook",
+      "seed": 7013,
+      "seat_a": 0,
+      "money_a": 117941.0,
+      "money_b": 116860.0,
+      "margin_a": 1081.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 13.202494200013462
+    },
+    {
+      "key": "V56|OrderBook|7013|1",
+      "agent_a": "V56",
+      "agent_b": "OrderBook",
+      "seed": 7013,
+      "seat_a": 1,
+      "money_a": 117941.0,
+      "money_b": 116860.0,
+      "margin_a": 1081.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 13.210102299999562
+    },
+    {
+      "key": "V56|OrderBook|7027|0",
+      "agent_a": "V56",
+      "agent_b": "OrderBook",
+      "seed": 7027,
+      "seat_a": 0,
+      "money_a": 60209.0,
+      "money_b": 60114.0,
+      "margin_a": 95.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.486374999993131
+    },
+    {
+      "key": "V56|OrderBook|7027|1",
+      "agent_a": "V56",
+      "agent_b": "OrderBook",
+      "seed": 7027,
+      "seat_a": 1,
+      "money_a": 60209.0,
+      "money_b": 60114.0,
+      "margin_a": 95.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.811197200004244
+    },
+    {
+      "key": "V56|OrderBook|7051|0",
+      "agent_a": "V56",
+      "agent_b": "OrderBook",
+      "seed": 7051,
+      "seat_a": 0,
+      "money_a": 81584.0,
+      "money_b": 80959.0,
+      "margin_a": 625.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.806437199993525
+    },
+    {
+      "key": "V56|OrderBook|7051|1",
+      "agent_a": "V56",
+      "agent_b": "OrderBook",
+      "seed": 7051,
+      "seat_a": 1,
+      "money_a": 81584.0,
+      "money_b": 80959.0,
+      "margin_a": 625.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.827504799992312
+    },
+    {
+      "key": "V56|OrderBook|7099|0",
+      "agent_a": "V56",
+      "agent_b": "OrderBook",
+      "seed": 7099,
+      "seat_a": 0,
+      "money_a": 96162.0,
+      "money_b": 96226.0,
+      "margin_a": -64.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.756605600006878
+    },
+    {
+      "key": "V56|OrderBook|7099|1",
+      "agent_a": "V56",
+      "agent_b": "OrderBook",
+      "seed": 7099,
+      "seat_a": 1,
+      "money_a": 96162.0,
+      "money_b": 96226.0,
+      "margin_a": -64.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.478255900001386
+    },
+    {
+      "key": "V56|Pipe18|7013|0",
+      "agent_a": "V56",
+      "agent_b": "Pipe18",
+      "seed": 7013,
+      "seat_a": 0,
+      "money_a": 118500.0,
+      "money_b": 118500.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.862492299987935
+    },
+    {
+      "key": "V56|Pipe18|7013|1",
+      "agent_a": "V56",
+      "agent_b": "Pipe18",
+      "seed": 7013,
+      "seat_a": 1,
+      "money_a": 118500.0,
+      "money_b": 118500.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 13.253087799996138
+    },
+    {
+      "key": "V56|Pipe18|7027|0",
+      "agent_a": "V56",
+      "agent_b": "Pipe18",
+      "seed": 7027,
+      "seat_a": 0,
+      "money_a": 60404.0,
+      "money_b": 60404.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.564544399996521
+    },
+    {
+      "key": "V56|Pipe18|7027|1",
+      "agent_a": "V56",
+      "agent_b": "Pipe18",
+      "seed": 7027,
+      "seat_a": 1,
+      "money_a": 60404.0,
+      "money_b": 60404.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.485879800005932
+    },
+    {
+      "key": "V56|Pipe18|7051|0",
+      "agent_a": "V56",
+      "agent_b": "Pipe18",
+      "seed": 7051,
+      "seat_a": 0,
+      "money_a": 81522.0,
+      "money_b": 81528.0,
+      "margin_a": -6.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.614621799992165
+    },
+    {
+      "key": "V56|Pipe18|7051|1",
+      "agent_a": "V56",
+      "agent_b": "Pipe18",
+      "seed": 7051,
+      "seat_a": 1,
+      "money_a": 81522.0,
+      "money_b": 81528.0,
+      "margin_a": -6.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.911272700002883
+    },
+    {
+      "key": "V56|Pipe18|7099|0",
+      "agent_a": "V56",
+      "agent_b": "Pipe18",
+      "seed": 7099,
+      "seat_a": 0,
+      "money_a": 96352.0,
+      "money_b": 96352.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.282283900000039
+    },
+    {
+      "key": "V56|Pipe18|7099|1",
+      "agent_a": "V56",
+      "agent_b": "Pipe18",
+      "seed": 7099,
+      "seat_a": 1,
+      "money_a": 96352.0,
+      "money_b": 96352.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.32791960000759
+    },
+    {
+      "key": "V56|Pipe19|7013|0",
+      "agent_a": "V56",
+      "agent_b": "Pipe19",
+      "seed": 7013,
+      "seat_a": 0,
+      "money_a": 118398.0,
+      "money_b": 118505.0,
+      "margin_a": -107.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 13.06729949999135
+    },
+    {
+      "key": "V56|Pipe19|7013|1",
+      "agent_a": "V56",
+      "agent_b": "Pipe19",
+      "seed": 7013,
+      "seat_a": 1,
+      "money_a": 118398.0,
+      "money_b": 118505.0,
+      "margin_a": -107.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 13.113165200004005
+    },
+    {
+      "key": "V56|Pipe19|7027|0",
+      "agent_a": "V56",
+      "agent_b": "Pipe19",
+      "seed": 7027,
+      "seat_a": 0,
+      "money_a": 60178.0,
+      "money_b": 60416.0,
+      "margin_a": -238.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.392681699988316
+    },
+    {
+      "key": "V56|Pipe19|7027|1",
+      "agent_a": "V56",
+      "agent_b": "Pipe19",
+      "seed": 7027,
+      "seat_a": 1,
+      "money_a": 60178.0,
+      "money_b": 60416.0,
+      "margin_a": -238.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.452631799998926
+    },
+    {
+      "key": "V56|Pipe19|7051|0",
+      "agent_a": "V56",
+      "agent_b": "Pipe19",
+      "seed": 7051,
+      "seat_a": 0,
+      "money_a": 80929.0,
+      "money_b": 81745.0,
+      "margin_a": -816.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.833143299998483
+    },
+    {
+      "key": "V56|Pipe19|7051|1",
+      "agent_a": "V56",
+      "agent_b": "Pipe19",
+      "seed": 7051,
+      "seat_a": 1,
+      "money_a": 80929.0,
+      "money_b": 81745.0,
+      "margin_a": -816.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.785690599994268
+    },
+    {
+      "key": "V56|Pipe19|7099|0",
+      "agent_a": "V56",
+      "agent_b": "Pipe19",
+      "seed": 7099,
+      "seat_a": 0,
+      "money_a": 95537.0,
+      "money_b": 95981.0,
+      "margin_a": -444.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.47193870000774
+    },
+    {
+      "key": "V56|Pipe19|7099|1",
+      "agent_a": "V56",
+      "agent_b": "Pipe19",
+      "seed": 7099,
+      "seat_a": 1,
+      "money_a": 95537.0,
+      "money_b": 95981.0,
+      "margin_a": -444.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.291297499992652
+    }
+  ],
+  "errors": []
+}
