@@ -1,0 +1,2926 @@
+{
+  "protocol": "paired-seats-current-official-interpreter-round-robin",
+  "complete": true,
+  "seeds": [
+    1403,
+    698377590,
+    960101,
+    960202,
+    960303,
+    960404
+  ],
+  "agents": {
+    "EXP067_W6": {
+      "path": "E:\\Codex\\visualizations\\2026\\09\\29\\01a0ec66-2b7c-78f1-888c-a4efbbd033e9\\fresh-kaggriculture\\experiments\\exp067_pizza3_wheat6\\main.py",
+      "sha256": "3163510ADC33BAB3CA2EDAD20E121E58A1BB8A267CE0D50E77C536C9C8FE1F9B"
+    },
+    "EXP066": {
+      "path": "E:\\Codex\\visualizations\\2026\\09\\29\\01a0ec66-2b7c-78f1-888c-a4efbbd033e9\\fresh-kaggriculture\\experiments\\exp066_liquidity_wool_flush\\main.py",
+      "sha256": "8D2C5D42D492F4C5A38C9736AF5704A80E0F2F415D4D2EC54C01E9D8EA84B640"
+    },
+    "RankAgentV11": {
+      "path": "E:\\kaggriculture\\external\\final_meta_20260926\\rank_agent_v11\\output\\main.py",
+      "sha256": "8F03B16618586E1D9A55C38D5232EA61729B82CDC5ABCF383CCA73227D4875B5"
+    },
+    "Farm2945": {
+      "path": "E:\\kaggriculture\\external\\final_meta_20260926\\farm2945\\output\\main.py",
+      "sha256": "BFEE70E9DAAEBEAE0737A880F1DF8F1C60D0783C59AF620136CC0D28EF482BC7"
+    },
+    "Thomas2944": {
+      "path": "E:\\kaggriculture\\external\\final_meta_20260926\\thomas2944\\extracted\\main.py",
+      "sha256": "2714B6EB6C67FEA70EB1DFD90FFF0E25BBF15EA8C3391FADF890C7AE274BAE70"
+    },
+    "Peak2950": {
+      "path": "E:\\kaggriculture\\external\\final_meta_20260926\\peak2950\\output\\main.py",
+      "sha256": "827DDF2997FA442E80BAADEBC4CC91FFAEEDEC1FF333C1FA7D872B0F1D448181"
+    },
+    "MarketSmart": {
+      "path": "E:\\kaggriculture\\external\\final_meta_20260927\\market_smart\\output\\main.py",
+      "sha256": "F6A756CFB900B9D5F499905D596B63F1FDE2445342AC4B1AE04E353739BD62D2"
+    },
+    "V43": {
+      "path": "E:\\kaggriculture\\external\\final_meta_20260927\\v43\\output\\main.py",
+      "sha256": "919FC1D61050CD96F799979E49177AE3AC7BCE98EC9835724238BEA73F4A08ED"
+    },
+    "TopMeta": {
+      "path": "E:\\kaggriculture\\external\\final_meta_20260927\\top_meta_current\\output\\main.py",
+      "sha256": "489F5D197527F107027626CCE79D850FD2CA90EDD43D94384B849B6511E27BDB"
+    },
+    "MultiRoute": {
+      "path": "E:\\kaggriculture\\external\\final_meta_20260927\\multi_route\\output\\main.py",
+      "sha256": "36812D632B181FEE7E0F249FA3A1EB364E0D373D6E4211F4E49803E8DD3582AA"
+    },
+    "PopulationRobust": {
+      "path": "E:\\kaggriculture\\external\\gold_20260925\\population_robust\\extracted\\main.py",
+      "sha256": "3EC06D07C1076DD8FDFE444CB5E19F1789F1E4F8D66597DB3B3F70A5E80895FC"
+    },
+    "Devas_L48_WF": {
+      "path": "E:\\kaggriculture\\external\\latest_20260929\\devasad67\\bots\\L48_wf\\main.py",
+      "sha256": "87C3E9E4218258E8DB3D99C67B199B799DB9E46413050896EF28EE06057371DB"
+    },
+    "Devas_L48_MC": {
+      "path": "E:\\kaggriculture\\external\\latest_20260929\\devasad67\\bots\\L48_mc\\main.py",
+      "sha256": "FDAFE002D9A4F30A28DBA6BD6C3977D9D50BED4AC1C4F1C802B947A4E50C1ED4"
+    },
+    "Vicky_Current": {
+      "path": "E:\\kaggriculture\\external\\latest_20260929\\vicky0718\\main.py",
+      "sha256": "2016DC8F3A28A153802001BE3CCBB101BC5FC367B70D818009220CBB78E9610A"
+    }
+  },
+  "expected_games": 156,
+  "completed_games": 156,
+  "standings": [
+    {
+      "agent": "EXP067_W6",
+      "games": 156,
+      "wins": 134,
+      "ties": 12,
+      "losses": 10,
+      "match_points": 0.8974358974358975,
+      "wilson95_low": 0.8398900249906909,
+      "wilson95_high": 0.935877985339536,
+      "mean_margin": 9217.51282051282,
+      "median_margin": 993.5,
+      "rank": 1
+    },
+    {
+      "agent": "EXP066",
+      "games": 12,
+      "wins": 0,
+      "ties": 12,
+      "losses": 0,
+      "match_points": 0.5,
+      "wilson95_low": 0.2537781703934222,
+      "wilson95_high": 0.7462218296065778,
+      "mean_margin": 0.0,
+      "median_margin": -0.0,
+      "rank": 2
+    },
+    {
+      "agent": "Devas_L48_WF",
+      "games": 12,
+      "wins": 2,
+      "ties": 0,
+      "losses": 10,
+      "match_points": 0.16666666666666666,
+      "wilson95_low": 0.04696414761482223,
+      "wilson95_high": 0.44803635738467273,
+      "mean_margin": 275.8333333333333,
+      "median_margin": -332.0,
+      "rank": 3
+    },
+    {
+      "agent": "MultiRoute",
+      "games": 12,
+      "wins": 2,
+      "ties": 0,
+      "losses": 10,
+      "match_points": 0.16666666666666666,
+      "wilson95_low": 0.04696414761482223,
+      "wilson95_high": 0.44803635738467273,
+      "mean_margin": -31.0,
+      "median_margin": -631.5,
+      "rank": 4
+    },
+    {
+      "agent": "Devas_L48_MC",
+      "games": 12,
+      "wins": 2,
+      "ties": 0,
+      "losses": 10,
+      "match_points": 0.16666666666666666,
+      "wilson95_low": 0.04696414761482223,
+      "wilson95_high": 0.44803635738467273,
+      "mean_margin": -435.0,
+      "median_margin": -332.0,
+      "rank": 5
+    },
+    {
+      "agent": "Farm2945",
+      "games": 12,
+      "wins": 2,
+      "ties": 0,
+      "losses": 10,
+      "match_points": 0.16666666666666666,
+      "wilson95_low": 0.04696414761482223,
+      "wilson95_high": 0.44803635738467273,
+      "mean_margin": -517.5,
+      "median_margin": -578.5,
+      "rank": 6
+    },
+    {
+      "agent": "PopulationRobust",
+      "games": 12,
+      "wins": 2,
+      "ties": 0,
+      "losses": 10,
+      "match_points": 0.16666666666666666,
+      "wilson95_low": 0.04696414761482223,
+      "wilson95_high": 0.44803635738467273,
+      "mean_margin": -517.5,
+      "median_margin": -578.5,
+      "rank": 7
+    },
+    {
+      "agent": "Peak2950",
+      "games": 12,
+      "wins": 0,
+      "ties": 0,
+      "losses": 12,
+      "match_points": 0.0,
+      "wilson95_low": 0.0,
+      "wilson95_high": 0.2425007574992425,
+      "mean_margin": -712.3333333333334,
+      "median_margin": -781.5,
+      "rank": 8
+    },
+    {
+      "agent": "Thomas2944",
+      "games": 12,
+      "wins": 0,
+      "ties": 0,
+      "losses": 12,
+      "match_points": 0.0,
+      "wilson95_low": 0.0,
+      "wilson95_high": 0.2425007574992425,
+      "mean_margin": -1101.3333333333333,
+      "median_margin": -835.5,
+      "rank": 9
+    },
+    {
+      "agent": "MarketSmart",
+      "games": 12,
+      "wins": 0,
+      "ties": 0,
+      "losses": 12,
+      "match_points": 0.0,
+      "wilson95_low": 0.0,
+      "wilson95_high": 0.2425007574992425,
+      "mean_margin": -2592.8333333333335,
+      "median_margin": -2739.0,
+      "rank": 10
+    },
+    {
+      "agent": "RankAgentV11",
+      "games": 12,
+      "wins": 0,
+      "ties": 0,
+      "losses": 12,
+      "match_points": 0.0,
+      "wilson95_low": 0.0,
+      "wilson95_high": 0.2425007574992425,
+      "mean_margin": -2952.1666666666665,
+      "median_margin": -2914.5,
+      "rank": 11
+    },
+    {
+      "agent": "V43",
+      "games": 12,
+      "wins": 0,
+      "ties": 0,
+      "losses": 12,
+      "match_points": 0.0,
+      "wilson95_low": 0.0,
+      "wilson95_high": 0.2425007574992425,
+      "mean_margin": -2968.8333333333335,
+      "median_margin": -2971.5,
+      "rank": 12
+    },
+    {
+      "agent": "TopMeta",
+      "games": 12,
+      "wins": 0,
+      "ties": 0,
+      "losses": 12,
+      "match_points": 0.0,
+      "wilson95_low": 0.0,
+      "wilson95_high": 0.2425007574992425,
+      "mean_margin": -30725.0,
+      "median_margin": -25521.5,
+      "rank": 13
+    },
+    {
+      "agent": "Vicky_Current",
+      "games": 12,
+      "wins": 0,
+      "ties": 0,
+      "losses": 12,
+      "match_points": 0.0,
+      "wilson95_low": 0.0,
+      "wilson95_high": 0.2425007574992425,
+      "mean_margin": -77550.0,
+      "median_margin": -78232.5,
+      "rank": 14
+    }
+  ],
+  "pairwise": [
+    {
+      "agent_a": "EXP067_W6",
+      "agent_b": "EXP066",
+      "games": 12,
+      "wins_a": 0,
+      "ties": 12,
+      "losses_a": 0,
+      "match_points_a": 0.5,
+      "mean_margin_a": 0.0,
+      "median_margin_a": 0.0,
+      "min_margin_a": 0.0,
+      "max_margin_a": 0.0
+    },
+    {
+      "agent_a": "EXP067_W6",
+      "agent_b": "RankAgentV11",
+      "games": 12,
+      "wins_a": 12,
+      "ties": 0,
+      "losses_a": 0,
+      "match_points_a": 1.0,
+      "mean_margin_a": 2952.1666666666665,
+      "median_margin_a": 2914.5,
+      "min_margin_a": 1738.0,
+      "max_margin_a": 4804.0
+    },
+    {
+      "agent_a": "EXP067_W6",
+      "agent_b": "Farm2945",
+      "games": 12,
+      "wins_a": 10,
+      "ties": 0,
+      "losses_a": 2,
+      "match_points_a": 0.8333333333333334,
+      "mean_margin_a": 517.5,
+      "median_margin_a": 578.5,
+      "min_margin_a": -1349.0,
+      "max_margin_a": 1677.0
+    },
+    {
+      "agent_a": "EXP067_W6",
+      "agent_b": "Thomas2944",
+      "games": 12,
+      "wins_a": 12,
+      "ties": 0,
+      "losses_a": 0,
+      "match_points_a": 1.0,
+      "mean_margin_a": 1101.3333333333333,
+      "median_margin_a": 835.5,
+      "min_margin_a": 557.0,
+      "max_margin_a": 2758.0
+    },
+    {
+      "agent_a": "EXP067_W6",
+      "agent_b": "Peak2950",
+      "games": 12,
+      "wins_a": 12,
+      "ties": 0,
+      "losses_a": 0,
+      "match_points_a": 1.0,
+      "mean_margin_a": 712.3333333333334,
+      "median_margin_a": 781.5,
+      "min_margin_a": 200.0,
+      "max_margin_a": 996.0
+    },
+    {
+      "agent_a": "EXP067_W6",
+      "agent_b": "MarketSmart",
+      "games": 12,
+      "wins_a": 12,
+      "ties": 0,
+      "losses_a": 0,
+      "match_points_a": 1.0,
+      "mean_margin_a": 2592.8333333333335,
+      "median_margin_a": 2739.0,
+      "min_margin_a": 1783.0,
+      "max_margin_a": 3669.0
+    },
+    {
+      "agent_a": "EXP067_W6",
+      "agent_b": "V43",
+      "games": 12,
+      "wins_a": 12,
+      "ties": 0,
+      "losses_a": 0,
+      "match_points_a": 1.0,
+      "mean_margin_a": 2968.8333333333335,
+      "median_margin_a": 2971.5,
+      "min_margin_a": 821.0,
+      "max_margin_a": 5729.0
+    },
+    {
+      "agent_a": "EXP067_W6",
+      "agent_b": "TopMeta",
+      "games": 12,
+      "wins_a": 12,
+      "ties": 0,
+      "losses_a": 0,
+      "match_points_a": 1.0,
+      "mean_margin_a": 30725.0,
+      "median_margin_a": 25521.5,
+      "min_margin_a": 16930.0,
+      "max_margin_a": 50085.0
+    },
+    {
+      "agent_a": "EXP067_W6",
+      "agent_b": "MultiRoute",
+      "games": 12,
+      "wins_a": 10,
+      "ties": 0,
+      "losses_a": 2,
+      "match_points_a": 0.8333333333333334,
+      "mean_margin_a": 31.0,
+      "median_margin_a": 631.5,
+      "min_margin_a": -3698.0,
+      "max_margin_a": 1528.0
+    },
+    {
+      "agent_a": "EXP067_W6",
+      "agent_b": "PopulationRobust",
+      "games": 12,
+      "wins_a": 10,
+      "ties": 0,
+      "losses_a": 2,
+      "match_points_a": 0.8333333333333334,
+      "mean_margin_a": 517.5,
+      "median_margin_a": 578.5,
+      "min_margin_a": -1349.0,
+      "max_margin_a": 1677.0
+    },
+    {
+      "agent_a": "EXP067_W6",
+      "agent_b": "Devas_L48_WF",
+      "games": 12,
+      "wins_a": 10,
+      "ties": 0,
+      "losses_a": 2,
+      "match_points_a": 0.8333333333333334,
+      "mean_margin_a": -275.8333333333333,
+      "median_margin_a": 332.0,
+      "min_margin_a": -4477.0,
+      "max_margin_a": 1541.0
+    },
+    {
+      "agent_a": "EXP067_W6",
+      "agent_b": "Devas_L48_MC",
+      "games": 12,
+      "wins_a": 10,
+      "ties": 0,
+      "losses_a": 2,
+      "match_points_a": 0.8333333333333334,
+      "mean_margin_a": 435.0,
+      "median_margin_a": 332.0,
+      "min_margin_a": -212.0,
+      "max_margin_a": 1541.0
+    },
+    {
+      "agent_a": "EXP067_W6",
+      "agent_b": "Vicky_Current",
+      "games": 12,
+      "wins_a": 12,
+      "ties": 0,
+      "losses_a": 0,
+      "match_points_a": 1.0,
+      "mean_margin_a": 77550.0,
+      "median_margin_a": 78232.5,
+      "min_margin_a": 55956.0,
+      "max_margin_a": 106900.0
+    }
+  ],
+  "games": [
+    {
+      "key": "EXP067_W6|Devas_L48_MC|1403|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Devas_L48_MC",
+      "seed": 1403,
+      "seat_a": 0,
+      "money_a": 98858.0,
+      "money_b": 99070.0,
+      "margin_a": -212.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 13.324116200004937
+    },
+    {
+      "key": "EXP067_W6|Devas_L48_MC|1403|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Devas_L48_MC",
+      "seed": 1403,
+      "seat_a": 1,
+      "money_a": 98858.0,
+      "money_b": 99070.0,
+      "margin_a": -212.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 13.327289400011068
+    },
+    {
+      "key": "EXP067_W6|Devas_L48_MC|698377590|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Devas_L48_MC",
+      "seed": 698377590,
+      "seat_a": 0,
+      "money_a": 110659.0,
+      "money_b": 110570.0,
+      "margin_a": 89.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 13.936990600006538
+    },
+    {
+      "key": "EXP067_W6|Devas_L48_MC|698377590|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Devas_L48_MC",
+      "seed": 698377590,
+      "seat_a": 1,
+      "money_a": 110659.0,
+      "money_b": 110570.0,
+      "margin_a": 89.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 13.997710000010557
+    },
+    {
+      "key": "EXP067_W6|Devas_L48_MC|960101|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Devas_L48_MC",
+      "seed": 960101,
+      "seat_a": 0,
+      "money_a": 130767.0,
+      "money_b": 130437.0,
+      "margin_a": 330.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 13.00985309999669
+    },
+    {
+      "key": "EXP067_W6|Devas_L48_MC|960101|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Devas_L48_MC",
+      "seed": 960101,
+      "seat_a": 1,
+      "money_a": 130767.0,
+      "money_b": 130437.0,
+      "margin_a": 330.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 13.123083600003156
+    },
+    {
+      "key": "EXP067_W6|Devas_L48_MC|960202|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Devas_L48_MC",
+      "seed": 960202,
+      "seat_a": 0,
+      "money_a": 94842.0,
+      "money_b": 94314.0,
+      "margin_a": 528.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 13.237708699991344
+    },
+    {
+      "key": "EXP067_W6|Devas_L48_MC|960202|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Devas_L48_MC",
+      "seed": 960202,
+      "seat_a": 1,
+      "money_a": 94842.0,
+      "money_b": 94314.0,
+      "margin_a": 528.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 13.302093300007982
+    },
+    {
+      "key": "EXP067_W6|Devas_L48_MC|960303|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Devas_L48_MC",
+      "seed": 960303,
+      "seat_a": 0,
+      "money_a": 111491.0,
+      "money_b": 111157.0,
+      "margin_a": 334.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.96856240001216
+    },
+    {
+      "key": "EXP067_W6|Devas_L48_MC|960303|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Devas_L48_MC",
+      "seed": 960303,
+      "seat_a": 1,
+      "money_a": 111491.0,
+      "money_b": 111157.0,
+      "margin_a": 334.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.948979799999506
+    },
+    {
+      "key": "EXP067_W6|Devas_L48_MC|960404|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Devas_L48_MC",
+      "seed": 960404,
+      "seat_a": 0,
+      "money_a": 71818.0,
+      "money_b": 70277.0,
+      "margin_a": 1541.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 13.533702800006722
+    },
+    {
+      "key": "EXP067_W6|Devas_L48_MC|960404|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Devas_L48_MC",
+      "seed": 960404,
+      "seat_a": 1,
+      "money_a": 71818.0,
+      "money_b": 70277.0,
+      "margin_a": 1541.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 13.591151500004344
+    },
+    {
+      "key": "EXP067_W6|Devas_L48_WF|1403|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Devas_L48_WF",
+      "seed": 1403,
+      "seat_a": 0,
+      "money_a": 96689.0,
+      "money_b": 101166.0,
+      "margin_a": -4477.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 13.10752040000807
+    },
+    {
+      "key": "EXP067_W6|Devas_L48_WF|1403|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Devas_L48_WF",
+      "seed": 1403,
+      "seat_a": 1,
+      "money_a": 96689.0,
+      "money_b": 101166.0,
+      "margin_a": -4477.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 13.139030999998795
+    },
+    {
+      "key": "EXP067_W6|Devas_L48_WF|698377590|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Devas_L48_WF",
+      "seed": 698377590,
+      "seat_a": 0,
+      "money_a": 110659.0,
+      "money_b": 110570.0,
+      "margin_a": 89.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 13.734766900000977
+    },
+    {
+      "key": "EXP067_W6|Devas_L48_WF|698377590|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Devas_L48_WF",
+      "seed": 698377590,
+      "seat_a": 1,
+      "money_a": 110659.0,
+      "money_b": 110570.0,
+      "margin_a": 89.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 13.771722100005718
+    },
+    {
+      "key": "EXP067_W6|Devas_L48_WF|960101|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Devas_L48_WF",
+      "seed": 960101,
+      "seat_a": 0,
+      "money_a": 130767.0,
+      "money_b": 130437.0,
+      "margin_a": 330.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.93492719999631
+    },
+    {
+      "key": "EXP067_W6|Devas_L48_WF|960101|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Devas_L48_WF",
+      "seed": 960101,
+      "seat_a": 1,
+      "money_a": 130767.0,
+      "money_b": 130437.0,
+      "margin_a": 330.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.891358300010324
+    },
+    {
+      "key": "EXP067_W6|Devas_L48_WF|960202|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Devas_L48_WF",
+      "seed": 960202,
+      "seat_a": 0,
+      "money_a": 94842.0,
+      "money_b": 94314.0,
+      "margin_a": 528.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 13.170345300008194
+    },
+    {
+      "key": "EXP067_W6|Devas_L48_WF|960202|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Devas_L48_WF",
+      "seed": 960202,
+      "seat_a": 1,
+      "money_a": 94842.0,
+      "money_b": 94314.0,
+      "margin_a": 528.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 13.214119099997333
+    },
+    {
+      "key": "EXP067_W6|Devas_L48_WF|960303|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Devas_L48_WF",
+      "seed": 960303,
+      "seat_a": 0,
+      "money_a": 111491.0,
+      "money_b": 111157.0,
+      "margin_a": 334.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.842343700001948
+    },
+    {
+      "key": "EXP067_W6|Devas_L48_WF|960303|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Devas_L48_WF",
+      "seed": 960303,
+      "seat_a": 1,
+      "money_a": 111491.0,
+      "money_b": 111157.0,
+      "margin_a": 334.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.849794299996574
+    },
+    {
+      "key": "EXP067_W6|Devas_L48_WF|960404|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Devas_L48_WF",
+      "seed": 960404,
+      "seat_a": 0,
+      "money_a": 71818.0,
+      "money_b": 70277.0,
+      "margin_a": 1541.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 13.196599000002607
+    },
+    {
+      "key": "EXP067_W6|Devas_L48_WF|960404|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Devas_L48_WF",
+      "seed": 960404,
+      "seat_a": 1,
+      "money_a": 71818.0,
+      "money_b": 70277.0,
+      "margin_a": 1541.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 13.510621199995512
+    },
+    {
+      "key": "EXP067_W6|EXP066|1403|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "EXP066",
+      "seed": 1403,
+      "seat_a": 0,
+      "money_a": 100947.0,
+      "money_b": 100947.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 9.994171500002267
+    },
+    {
+      "key": "EXP067_W6|EXP066|1403|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "EXP066",
+      "seed": 1403,
+      "seat_a": 1,
+      "money_a": 100947.0,
+      "money_b": 100947.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 9.989708200009773
+    },
+    {
+      "key": "EXP067_W6|EXP066|698377590|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "EXP066",
+      "seed": 698377590,
+      "seat_a": 0,
+      "money_a": 110592.0,
+      "money_b": 110592.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 9.92423730000155
+    },
+    {
+      "key": "EXP067_W6|EXP066|698377590|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "EXP066",
+      "seed": 698377590,
+      "seat_a": 1,
+      "money_a": 110592.0,
+      "money_b": 110592.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 9.931739099993138
+    },
+    {
+      "key": "EXP067_W6|EXP066|960101|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "EXP066",
+      "seed": 960101,
+      "seat_a": 0,
+      "money_a": 130562.0,
+      "money_b": 130562.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 9.868057699990459
+    },
+    {
+      "key": "EXP067_W6|EXP066|960101|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "EXP066",
+      "seed": 960101,
+      "seat_a": 1,
+      "money_a": 130562.0,
+      "money_b": 130562.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 9.821734800003469
+    },
+    {
+      "key": "EXP067_W6|EXP066|960202|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "EXP066",
+      "seed": 960202,
+      "seat_a": 0,
+      "money_a": 95691.0,
+      "money_b": 95691.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 9.2363117000059
+    },
+    {
+      "key": "EXP067_W6|EXP066|960202|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "EXP066",
+      "seed": 960202,
+      "seat_a": 1,
+      "money_a": 95691.0,
+      "money_b": 95691.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 9.261628200009
+    },
+    {
+      "key": "EXP067_W6|EXP066|960303|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "EXP066",
+      "seed": 960303,
+      "seat_a": 0,
+      "money_a": 112993.0,
+      "money_b": 112993.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 9.135797099996125
+    },
+    {
+      "key": "EXP067_W6|EXP066|960303|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "EXP066",
+      "seed": 960303,
+      "seat_a": 1,
+      "money_a": 112993.0,
+      "money_b": 112993.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 9.145216000004439
+    },
+    {
+      "key": "EXP067_W6|EXP066|960404|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "EXP066",
+      "seed": 960404,
+      "seat_a": 0,
+      "money_a": 72577.0,
+      "money_b": 72577.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 10.650519600007101
+    },
+    {
+      "key": "EXP067_W6|EXP066|960404|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "EXP066",
+      "seed": 960404,
+      "seat_a": 1,
+      "money_a": 72577.0,
+      "money_b": 72577.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 10.622814700007439
+    },
+    {
+      "key": "EXP067_W6|Farm2945|1403|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Farm2945",
+      "seed": 1403,
+      "seat_a": 0,
+      "money_a": 100164.0,
+      "money_b": 101513.0,
+      "margin_a": -1349.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 9.412207300003502
+    },
+    {
+      "key": "EXP067_W6|Farm2945|1403|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Farm2945",
+      "seed": 1403,
+      "seat_a": 1,
+      "money_a": 100164.0,
+      "money_b": 101513.0,
+      "margin_a": -1349.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 9.475283299994771
+    },
+    {
+      "key": "EXP067_W6|Farm2945|698377590|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Farm2945",
+      "seed": 698377590,
+      "seat_a": 0,
+      "money_a": 110754.0,
+      "money_b": 109077.0,
+      "margin_a": 1677.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 9.582982199994149
+    },
+    {
+      "key": "EXP067_W6|Farm2945|698377590|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Farm2945",
+      "seed": 698377590,
+      "seat_a": 1,
+      "money_a": 110754.0,
+      "money_b": 109077.0,
+      "margin_a": 1677.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 9.612625800000387
+    },
+    {
+      "key": "EXP067_W6|Farm2945|960101|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Farm2945",
+      "seed": 960101,
+      "seat_a": 0,
+      "money_a": 131380.0,
+      "money_b": 130161.0,
+      "margin_a": 1219.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 8.790783700009342
+    },
+    {
+      "key": "EXP067_W6|Farm2945|960101|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Farm2945",
+      "seed": 960101,
+      "seat_a": 1,
+      "money_a": 131380.0,
+      "money_b": 130161.0,
+      "margin_a": 1219.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 8.820972000001348
+    },
+    {
+      "key": "EXP067_W6|Farm2945|960202|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Farm2945",
+      "seed": 960202,
+      "seat_a": 0,
+      "money_a": 95554.0,
+      "money_b": 95153.0,
+      "margin_a": 401.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 8.516008499995223
+    },
+    {
+      "key": "EXP067_W6|Farm2945|960202|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Farm2945",
+      "seed": 960202,
+      "seat_a": 1,
+      "money_a": 95554.0,
+      "money_b": 95153.0,
+      "margin_a": 401.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 8.588997200000449
+    },
+    {
+      "key": "EXP067_W6|Farm2945|960303|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Farm2945",
+      "seed": 960303,
+      "seat_a": 0,
+      "money_a": 112957.0,
+      "money_b": 112382.0,
+      "margin_a": 575.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 8.374128499999642
+    },
+    {
+      "key": "EXP067_W6|Farm2945|960303|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Farm2945",
+      "seed": 960303,
+      "seat_a": 1,
+      "money_a": 112957.0,
+      "money_b": 112382.0,
+      "margin_a": 575.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 8.428648799992516
+    },
+    {
+      "key": "EXP067_W6|Farm2945|960404|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Farm2945",
+      "seed": 960404,
+      "seat_a": 0,
+      "money_a": 72241.0,
+      "money_b": 71659.0,
+      "margin_a": 582.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 9.086462099992787
+    },
+    {
+      "key": "EXP067_W6|Farm2945|960404|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Farm2945",
+      "seed": 960404,
+      "seat_a": 1,
+      "money_a": 72241.0,
+      "money_b": 71659.0,
+      "margin_a": 582.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 9.205425599997398
+    },
+    {
+      "key": "EXP067_W6|MarketSmart|1403|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "MarketSmart",
+      "seed": 1403,
+      "seat_a": 0,
+      "money_a": 99787.0,
+      "money_b": 96118.0,
+      "margin_a": 3669.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.732850599990343
+    },
+    {
+      "key": "EXP067_W6|MarketSmart|1403|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "MarketSmart",
+      "seed": 1403,
+      "seat_a": 1,
+      "money_a": 99787.0,
+      "money_b": 96118.0,
+      "margin_a": 3669.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.830218899995089
+    },
+    {
+      "key": "EXP067_W6|MarketSmart|698377590|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "MarketSmart",
+      "seed": 698377590,
+      "seat_a": 0,
+      "money_a": 111560.0,
+      "money_b": 108790.0,
+      "margin_a": 2770.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.140895499993348
+    },
+    {
+      "key": "EXP067_W6|MarketSmart|698377590|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "MarketSmart",
+      "seed": 698377590,
+      "seat_a": 1,
+      "money_a": 111560.0,
+      "money_b": 108790.0,
+      "margin_a": 2770.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.171412900002906
+    },
+    {
+      "key": "EXP067_W6|MarketSmart|960101|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "MarketSmart",
+      "seed": 960101,
+      "seat_a": 0,
+      "money_a": 132394.0,
+      "money_b": 130554.0,
+      "margin_a": 1840.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.820365200008382
+    },
+    {
+      "key": "EXP067_W6|MarketSmart|960101|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "MarketSmart",
+      "seed": 960101,
+      "seat_a": 1,
+      "money_a": 132394.0,
+      "money_b": 130554.0,
+      "margin_a": 1840.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.909802800000762
+    },
+    {
+      "key": "EXP067_W6|MarketSmart|960202|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "MarketSmart",
+      "seed": 960202,
+      "seat_a": 0,
+      "money_a": 97240.0,
+      "money_b": 94453.0,
+      "margin_a": 2787.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.404847300000256
+    },
+    {
+      "key": "EXP067_W6|MarketSmart|960202|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "MarketSmart",
+      "seed": 960202,
+      "seat_a": 1,
+      "money_a": 97240.0,
+      "money_b": 94453.0,
+      "margin_a": 2787.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.41064099999494
+    },
+    {
+      "key": "EXP067_W6|MarketSmart|960303|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "MarketSmart",
+      "seed": 960303,
+      "seat_a": 0,
+      "money_a": 118167.0,
+      "money_b": 116384.0,
+      "margin_a": 1783.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.276905500009889
+    },
+    {
+      "key": "EXP067_W6|MarketSmart|960303|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "MarketSmart",
+      "seed": 960303,
+      "seat_a": 1,
+      "money_a": 118167.0,
+      "money_b": 116384.0,
+      "margin_a": 1783.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.044727499989676
+    },
+    {
+      "key": "EXP067_W6|MarketSmart|960404|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "MarketSmart",
+      "seed": 960404,
+      "seat_a": 0,
+      "money_a": 73195.0,
+      "money_b": 70487.0,
+      "margin_a": 2708.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.421638899992104
+    },
+    {
+      "key": "EXP067_W6|MarketSmart|960404|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "MarketSmart",
+      "seed": 960404,
+      "seat_a": 1,
+      "money_a": 73195.0,
+      "money_b": 70487.0,
+      "margin_a": 2708.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.434146999992663
+    },
+    {
+      "key": "EXP067_W6|MultiRoute|1403|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "MultiRoute",
+      "seed": 1403,
+      "seat_a": 0,
+      "money_a": 98432.0,
+      "money_b": 102130.0,
+      "margin_a": -3698.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.233176299996558
+    },
+    {
+      "key": "EXP067_W6|MultiRoute|1403|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "MultiRoute",
+      "seed": 1403,
+      "seat_a": 1,
+      "money_a": 98432.0,
+      "money_b": 102130.0,
+      "margin_a": -3698.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.24922910000896
+    },
+    {
+      "key": "EXP067_W6|MultiRoute|698377590|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "MultiRoute",
+      "seed": 698377590,
+      "seat_a": 0,
+      "money_a": 110741.0,
+      "money_b": 110312.0,
+      "margin_a": 429.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.509031199995661
+    },
+    {
+      "key": "EXP067_W6|MultiRoute|698377590|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "MultiRoute",
+      "seed": 698377590,
+      "seat_a": 1,
+      "money_a": 110741.0,
+      "money_b": 110312.0,
+      "margin_a": 429.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.558267999993404
+    },
+    {
+      "key": "EXP067_W6|MultiRoute|960101|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "MultiRoute",
+      "seed": 960101,
+      "seat_a": 0,
+      "money_a": 131151.0,
+      "money_b": 131015.0,
+      "margin_a": 136.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.487083500003791
+    },
+    {
+      "key": "EXP067_W6|MultiRoute|960101|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "MultiRoute",
+      "seed": 960101,
+      "seat_a": 1,
+      "money_a": 131151.0,
+      "money_b": 131015.0,
+      "margin_a": 136.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.271726699997089
+    },
+    {
+      "key": "EXP067_W6|MultiRoute|960202|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "MultiRoute",
+      "seed": 960202,
+      "seat_a": 0,
+      "money_a": 95441.0,
+      "money_b": 94607.0,
+      "margin_a": 834.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.161145400008536
+    },
+    {
+      "key": "EXP067_W6|MultiRoute|960202|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "MultiRoute",
+      "seed": 960202,
+      "seat_a": 1,
+      "money_a": 95441.0,
+      "money_b": 94607.0,
+      "margin_a": 834.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.237693599992781
+    },
+    {
+      "key": "EXP067_W6|MultiRoute|960303|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "MultiRoute",
+      "seed": 960303,
+      "seat_a": 0,
+      "money_a": 112945.0,
+      "money_b": 111417.0,
+      "margin_a": 1528.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.746018399993773
+    },
+    {
+      "key": "EXP067_W6|MultiRoute|960303|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "MultiRoute",
+      "seed": 960303,
+      "seat_a": 1,
+      "money_a": 112945.0,
+      "money_b": 111417.0,
+      "margin_a": 1528.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.766472799994517
+    },
+    {
+      "key": "EXP067_W6|MultiRoute|960404|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "MultiRoute",
+      "seed": 960404,
+      "seat_a": 0,
+      "money_a": 72336.0,
+      "money_b": 71379.0,
+      "margin_a": 957.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.246386099999654
+    },
+    {
+      "key": "EXP067_W6|MultiRoute|960404|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "MultiRoute",
+      "seed": 960404,
+      "seat_a": 1,
+      "money_a": 72336.0,
+      "money_b": 71379.0,
+      "margin_a": 957.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.367266600005678
+    },
+    {
+      "key": "EXP067_W6|Peak2950|1403|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Peak2950",
+      "seed": 1403,
+      "seat_a": 0,
+      "money_a": 101076.0,
+      "money_b": 100876.0,
+      "margin_a": 200.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.509489000003668
+    },
+    {
+      "key": "EXP067_W6|Peak2950|1403|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Peak2950",
+      "seed": 1403,
+      "seat_a": 1,
+      "money_a": 101076.0,
+      "money_b": 100876.0,
+      "margin_a": 200.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.485521199996583
+    },
+    {
+      "key": "EXP067_W6|Peak2950|698377590|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Peak2950",
+      "seed": 698377590,
+      "seat_a": 0,
+      "money_a": 110776.0,
+      "money_b": 109780.0,
+      "margin_a": 996.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 13.309432200010633
+    },
+    {
+      "key": "EXP067_W6|Peak2950|698377590|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Peak2950",
+      "seed": 698377590,
+      "seat_a": 1,
+      "money_a": 110776.0,
+      "money_b": 109780.0,
+      "margin_a": 996.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 13.303683299993281
+    },
+    {
+      "key": "EXP067_W6|Peak2950|960101|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Peak2950",
+      "seed": 960101,
+      "seat_a": 0,
+      "money_a": 131383.0,
+      "money_b": 130392.0,
+      "margin_a": 991.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.42820429999847
+    },
+    {
+      "key": "EXP067_W6|Peak2950|960101|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Peak2950",
+      "seed": 960101,
+      "seat_a": 1,
+      "money_a": 131383.0,
+      "money_b": 130392.0,
+      "margin_a": 991.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.417947399997502
+    },
+    {
+      "key": "EXP067_W6|Peak2950|960202|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Peak2950",
+      "seed": 960202,
+      "seat_a": 0,
+      "money_a": 96116.0,
+      "money_b": 95387.0,
+      "margin_a": 729.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.18754810000246
+    },
+    {
+      "key": "EXP067_W6|Peak2950|960202|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Peak2950",
+      "seed": 960202,
+      "seat_a": 1,
+      "money_a": 96116.0,
+      "money_b": 95387.0,
+      "margin_a": 729.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.42786630000046
+    },
+    {
+      "key": "EXP067_W6|Peak2950|960303|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Peak2950",
+      "seed": 960303,
+      "seat_a": 0,
+      "money_a": 113307.0,
+      "money_b": 112783.0,
+      "margin_a": 524.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.91117469999881
+    },
+    {
+      "key": "EXP067_W6|Peak2950|960303|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Peak2950",
+      "seed": 960303,
+      "seat_a": 1,
+      "money_a": 113307.0,
+      "money_b": 112783.0,
+      "margin_a": 524.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.882968000005349
+    },
+    {
+      "key": "EXP067_W6|Peak2950|960404|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Peak2950",
+      "seed": 960404,
+      "seat_a": 0,
+      "money_a": 72593.0,
+      "money_b": 71759.0,
+      "margin_a": 834.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.125814099999843
+    },
+    {
+      "key": "EXP067_W6|Peak2950|960404|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Peak2950",
+      "seed": 960404,
+      "seat_a": 1,
+      "money_a": 72593.0,
+      "money_b": 71759.0,
+      "margin_a": 834.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.053145400001085
+    },
+    {
+      "key": "EXP067_W6|PopulationRobust|1403|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "PopulationRobust",
+      "seed": 1403,
+      "seat_a": 0,
+      "money_a": 100164.0,
+      "money_b": 101513.0,
+      "margin_a": -1349.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.735868399991887
+    },
+    {
+      "key": "EXP067_W6|PopulationRobust|1403|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "PopulationRobust",
+      "seed": 1403,
+      "seat_a": 1,
+      "money_a": 100164.0,
+      "money_b": 101513.0,
+      "margin_a": -1349.0,
+      "outcome_a": "L",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.815472999995109
+    },
+    {
+      "key": "EXP067_W6|PopulationRobust|698377590|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "PopulationRobust",
+      "seed": 698377590,
+      "seat_a": 0,
+      "money_a": 110754.0,
+      "money_b": 109077.0,
+      "margin_a": 1677.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.97926870000083
+    },
+    {
+      "key": "EXP067_W6|PopulationRobust|698377590|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "PopulationRobust",
+      "seed": 698377590,
+      "seat_a": 1,
+      "money_a": 110754.0,
+      "money_b": 109077.0,
+      "margin_a": 1677.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 13.031736300006742
+    },
+    {
+      "key": "EXP067_W6|PopulationRobust|960101|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "PopulationRobust",
+      "seed": 960101,
+      "seat_a": 0,
+      "money_a": 131380.0,
+      "money_b": 130161.0,
+      "margin_a": 1219.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.097770699998364
+    },
+    {
+      "key": "EXP067_W6|PopulationRobust|960101|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "PopulationRobust",
+      "seed": 960101,
+      "seat_a": 1,
+      "money_a": 131380.0,
+      "money_b": 130161.0,
+      "margin_a": 1219.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.180958900004043
+    },
+    {
+      "key": "EXP067_W6|PopulationRobust|960202|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "PopulationRobust",
+      "seed": 960202,
+      "seat_a": 0,
+      "money_a": 95554.0,
+      "money_b": 95153.0,
+      "margin_a": 401.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.189548299997114
+    },
+    {
+      "key": "EXP067_W6|PopulationRobust|960202|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "PopulationRobust",
+      "seed": 960202,
+      "seat_a": 1,
+      "money_a": 95554.0,
+      "money_b": 95153.0,
+      "margin_a": 401.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.192743899999186
+    },
+    {
+      "key": "EXP067_W6|PopulationRobust|960303|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "PopulationRobust",
+      "seed": 960303,
+      "seat_a": 0,
+      "money_a": 112957.0,
+      "money_b": 112382.0,
+      "margin_a": 575.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.012073100006091
+    },
+    {
+      "key": "EXP067_W6|PopulationRobust|960303|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "PopulationRobust",
+      "seed": 960303,
+      "seat_a": 1,
+      "money_a": 112957.0,
+      "money_b": 112382.0,
+      "margin_a": 575.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.980278400005773
+    },
+    {
+      "key": "EXP067_W6|PopulationRobust|960404|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "PopulationRobust",
+      "seed": 960404,
+      "seat_a": 0,
+      "money_a": 72241.0,
+      "money_b": 71659.0,
+      "margin_a": 582.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.872093400001177
+    },
+    {
+      "key": "EXP067_W6|PopulationRobust|960404|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "PopulationRobust",
+      "seed": 960404,
+      "seat_a": 1,
+      "money_a": 72241.0,
+      "money_b": 71659.0,
+      "margin_a": 582.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.860898099999758
+    },
+    {
+      "key": "EXP067_W6|RankAgentV11|1403|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "RankAgentV11",
+      "seed": 1403,
+      "seat_a": 0,
+      "money_a": 100367.0,
+      "money_b": 95563.0,
+      "margin_a": 4804.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 8.57745490000525
+    },
+    {
+      "key": "EXP067_W6|RankAgentV11|1403|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "RankAgentV11",
+      "seed": 1403,
+      "seat_a": 1,
+      "money_a": 100367.0,
+      "money_b": 95563.0,
+      "margin_a": 4804.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 8.627792500003125
+    },
+    {
+      "key": "EXP067_W6|RankAgentV11|698377590|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "RankAgentV11",
+      "seed": 698377590,
+      "seat_a": 0,
+      "money_a": 110863.0,
+      "money_b": 108382.0,
+      "margin_a": 2481.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 8.805679000011878
+    },
+    {
+      "key": "EXP067_W6|RankAgentV11|698377590|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "RankAgentV11",
+      "seed": 698377590,
+      "seat_a": 1,
+      "money_a": 110863.0,
+      "money_b": 108382.0,
+      "margin_a": 2481.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 8.80102430000261
+    },
+    {
+      "key": "EXP067_W6|RankAgentV11|960101|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "RankAgentV11",
+      "seed": 960101,
+      "seat_a": 0,
+      "money_a": 133775.0,
+      "money_b": 132037.0,
+      "margin_a": 1738.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 8.305865499991341
+    },
+    {
+      "key": "EXP067_W6|RankAgentV11|960101|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "RankAgentV11",
+      "seed": 960101,
+      "seat_a": 1,
+      "money_a": 133775.0,
+      "money_b": 132037.0,
+      "margin_a": 1738.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 8.305465199999162
+    },
+    {
+      "key": "EXP067_W6|RankAgentV11|960202|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "RankAgentV11",
+      "seed": 960202,
+      "seat_a": 0,
+      "money_a": 96992.0,
+      "money_b": 95177.0,
+      "margin_a": 1815.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 8.234282299992628
+    },
+    {
+      "key": "EXP067_W6|RankAgentV11|960202|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "RankAgentV11",
+      "seed": 960202,
+      "seat_a": 1,
+      "money_a": 96992.0,
+      "money_b": 95177.0,
+      "margin_a": 1815.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 8.191290000002482
+    },
+    {
+      "key": "EXP067_W6|RankAgentV11|960303|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "RankAgentV11",
+      "seed": 960303,
+      "seat_a": 0,
+      "money_a": 119652.0,
+      "money_b": 116125.0,
+      "margin_a": 3527.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 8.082203500001924
+    },
+    {
+      "key": "EXP067_W6|RankAgentV11|960303|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "RankAgentV11",
+      "seed": 960303,
+      "seat_a": 1,
+      "money_a": 119652.0,
+      "money_b": 116125.0,
+      "margin_a": 3527.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 8.13535930000944
+    },
+    {
+      "key": "EXP067_W6|RankAgentV11|960404|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "RankAgentV11",
+      "seed": 960404,
+      "seat_a": 0,
+      "money_a": 71266.0,
+      "money_b": 67918.0,
+      "margin_a": 3348.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 8.18818189999729
+    },
+    {
+      "key": "EXP067_W6|RankAgentV11|960404|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "RankAgentV11",
+      "seed": 960404,
+      "seat_a": 1,
+      "money_a": 71266.0,
+      "money_b": 67918.0,
+      "margin_a": 3348.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 8.263718100002734
+    },
+    {
+      "key": "EXP067_W6|Thomas2944|1403|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Thomas2944",
+      "seed": 1403,
+      "seat_a": 0,
+      "money_a": 101485.0,
+      "money_b": 98727.0,
+      "margin_a": 2758.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.097691799994209
+    },
+    {
+      "key": "EXP067_W6|Thomas2944|1403|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Thomas2944",
+      "seed": 1403,
+      "seat_a": 1,
+      "money_a": 101485.0,
+      "money_b": 98727.0,
+      "margin_a": 2758.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 10.935804499997175
+    },
+    {
+      "key": "EXP067_W6|Thomas2944|698377590|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Thomas2944",
+      "seed": 698377590,
+      "seat_a": 0,
+      "money_a": 110716.0,
+      "money_b": 109857.0,
+      "margin_a": 859.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.567987799993716
+    },
+    {
+      "key": "EXP067_W6|Thomas2944|698377590|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Thomas2944",
+      "seed": 698377590,
+      "seat_a": 1,
+      "money_a": 110716.0,
+      "money_b": 109857.0,
+      "margin_a": 859.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.324277000006987
+    },
+    {
+      "key": "EXP067_W6|Thomas2944|960101|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Thomas2944",
+      "seed": 960101,
+      "seat_a": 0,
+      "money_a": 131335.0,
+      "money_b": 130318.0,
+      "margin_a": 1017.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.081783599991468
+    },
+    {
+      "key": "EXP067_W6|Thomas2944|960101|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Thomas2944",
+      "seed": 960101,
+      "seat_a": 1,
+      "money_a": 131335.0,
+      "money_b": 130318.0,
+      "margin_a": 1017.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 10.931430500000715
+    },
+    {
+      "key": "EXP067_W6|Thomas2944|960202|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Thomas2944",
+      "seed": 960202,
+      "seat_a": 0,
+      "money_a": 96182.0,
+      "money_b": 95370.0,
+      "margin_a": 812.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.541470399999525
+    },
+    {
+      "key": "EXP067_W6|Thomas2944|960202|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Thomas2944",
+      "seed": 960202,
+      "seat_a": 1,
+      "money_a": 96182.0,
+      "money_b": 95370.0,
+      "margin_a": 812.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.53352040000027
+    },
+    {
+      "key": "EXP067_W6|Thomas2944|960303|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Thomas2944",
+      "seed": 960303,
+      "seat_a": 0,
+      "money_a": 113251.0,
+      "money_b": 112694.0,
+      "margin_a": 557.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.484176199999638
+    },
+    {
+      "key": "EXP067_W6|Thomas2944|960303|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Thomas2944",
+      "seed": 960303,
+      "seat_a": 1,
+      "money_a": 113251.0,
+      "money_b": 112694.0,
+      "margin_a": 557.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.25397140000132
+    },
+    {
+      "key": "EXP067_W6|Thomas2944|960404|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Thomas2944",
+      "seed": 960404,
+      "seat_a": 0,
+      "money_a": 72374.0,
+      "money_b": 71769.0,
+      "margin_a": 605.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.71211239999684
+    },
+    {
+      "key": "EXP067_W6|Thomas2944|960404|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Thomas2944",
+      "seed": 960404,
+      "seat_a": 1,
+      "money_a": 72374.0,
+      "money_b": 71769.0,
+      "margin_a": 605.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.737426399995456
+    },
+    {
+      "key": "EXP067_W6|TopMeta|1403|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "TopMeta",
+      "seed": 1403,
+      "seat_a": 0,
+      "money_a": 110555.0,
+      "money_b": 88531.0,
+      "margin_a": 22024.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 10.682303500012495
+    },
+    {
+      "key": "EXP067_W6|TopMeta|1403|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "TopMeta",
+      "seed": 1403,
+      "seat_a": 1,
+      "money_a": 110555.0,
+      "money_b": 88531.0,
+      "margin_a": 22024.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 10.601199900003849
+    },
+    {
+      "key": "EXP067_W6|TopMeta|698377590|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "TopMeta",
+      "seed": 698377590,
+      "seat_a": 0,
+      "money_a": 128909.0,
+      "money_b": 111979.0,
+      "margin_a": 16930.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 10.985753200002364
+    },
+    {
+      "key": "EXP067_W6|TopMeta|698377590|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "TopMeta",
+      "seed": 698377590,
+      "seat_a": 1,
+      "money_a": 119819.0,
+      "money_b": 97400.0,
+      "margin_a": 22419.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.54212379999808
+    },
+    {
+      "key": "EXP067_W6|TopMeta|960101|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "TopMeta",
+      "seed": 960101,
+      "seat_a": 0,
+      "money_a": 129602.0,
+      "money_b": 106745.0,
+      "margin_a": 22857.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 10.431386299998849
+    },
+    {
+      "key": "EXP067_W6|TopMeta|960101|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "TopMeta",
+      "seed": 960101,
+      "seat_a": 1,
+      "money_a": 129602.0,
+      "money_b": 106745.0,
+      "margin_a": 22857.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 10.621029300004011
+    },
+    {
+      "key": "EXP067_W6|TopMeta|960202|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "TopMeta",
+      "seed": 960202,
+      "seat_a": 0,
+      "money_a": 95109.0,
+      "money_b": 45024.0,
+      "margin_a": 50085.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 10.546538599999622
+    },
+    {
+      "key": "EXP067_W6|TopMeta|960202|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "TopMeta",
+      "seed": 960202,
+      "seat_a": 1,
+      "money_a": 95109.0,
+      "money_b": 45024.0,
+      "margin_a": 50085.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 10.460237300008885
+    },
+    {
+      "key": "EXP067_W6|TopMeta|960303|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "TopMeta",
+      "seed": 960303,
+      "seat_a": 0,
+      "money_a": 104664.0,
+      "money_b": 64276.0,
+      "margin_a": 40388.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 10.607508100001724
+    },
+    {
+      "key": "EXP067_W6|TopMeta|960303|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "TopMeta",
+      "seed": 960303,
+      "seat_a": 1,
+      "money_a": 106935.0,
+      "money_b": 64276.0,
+      "margin_a": 42659.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 10.639208699998562
+    },
+    {
+      "key": "EXP067_W6|TopMeta|960404|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "TopMeta",
+      "seed": 960404,
+      "seat_a": 0,
+      "money_a": 81788.0,
+      "money_b": 53602.0,
+      "margin_a": 28186.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 10.391752699986682
+    },
+    {
+      "key": "EXP067_W6|TopMeta|960404|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "TopMeta",
+      "seed": 960404,
+      "seat_a": 1,
+      "money_a": 81788.0,
+      "money_b": 53602.0,
+      "margin_a": 28186.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 10.201468700004625
+    },
+    {
+      "key": "EXP067_W6|V43|1403|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "V43",
+      "seed": 1403,
+      "seat_a": 0,
+      "money_a": 100988.0,
+      "money_b": 95259.0,
+      "margin_a": 5729.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.630755300007877
+    },
+    {
+      "key": "EXP067_W6|V43|1403|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "V43",
+      "seed": 1403,
+      "seat_a": 1,
+      "money_a": 100988.0,
+      "money_b": 95259.0,
+      "margin_a": 5729.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.525221700008842
+    },
+    {
+      "key": "EXP067_W6|V43|698377590|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "V43",
+      "seed": 698377590,
+      "seat_a": 0,
+      "money_a": 111215.0,
+      "money_b": 108487.0,
+      "margin_a": 2728.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.750784200005
+    },
+    {
+      "key": "EXP067_W6|V43|698377590|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "V43",
+      "seed": 698377590,
+      "seat_a": 1,
+      "money_a": 111215.0,
+      "money_b": 108487.0,
+      "margin_a": 2728.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.000304200002574
+    },
+    {
+      "key": "EXP067_W6|V43|960101|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "V43",
+      "seed": 960101,
+      "seat_a": 0,
+      "money_a": 132817.0,
+      "money_b": 131996.0,
+      "margin_a": 821.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.24552290000429
+    },
+    {
+      "key": "EXP067_W6|V43|960101|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "V43",
+      "seed": 960101,
+      "seat_a": 1,
+      "money_a": 132817.0,
+      "money_b": 131996.0,
+      "margin_a": 821.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.46629350000876
+    },
+    {
+      "key": "EXP067_W6|V43|960202|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "V43",
+      "seed": 960202,
+      "seat_a": 0,
+      "money_a": 96488.0,
+      "money_b": 94742.0,
+      "margin_a": 1746.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.337276599995675
+    },
+    {
+      "key": "EXP067_W6|V43|960202|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "V43",
+      "seed": 960202,
+      "seat_a": 1,
+      "money_a": 96488.0,
+      "money_b": 94742.0,
+      "margin_a": 1746.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.234182600004715
+    },
+    {
+      "key": "EXP067_W6|V43|960303|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "V43",
+      "seed": 960303,
+      "seat_a": 0,
+      "money_a": 119618.0,
+      "money_b": 116044.0,
+      "margin_a": 3574.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.008683399995789
+    },
+    {
+      "key": "EXP067_W6|V43|960303|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "V43",
+      "seed": 960303,
+      "seat_a": 1,
+      "money_a": 119618.0,
+      "money_b": 116044.0,
+      "margin_a": 3574.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.13084450000315
+    },
+    {
+      "key": "EXP067_W6|V43|960404|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "V43",
+      "seed": 960404,
+      "seat_a": 0,
+      "money_a": 72926.0,
+      "money_b": 69711.0,
+      "margin_a": 3215.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.574363300009281
+    },
+    {
+      "key": "EXP067_W6|V43|960404|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "V43",
+      "seed": 960404,
+      "seat_a": 1,
+      "money_a": 72926.0,
+      "money_b": 69711.0,
+      "margin_a": 3215.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.466123799997149
+    },
+    {
+      "key": "EXP067_W6|Vicky_Current|1403|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Vicky_Current",
+      "seed": 1403,
+      "seat_a": 0,
+      "money_a": 129710.0,
+      "money_b": 41445.0,
+      "margin_a": 88265.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 13.232248999993317
+    },
+    {
+      "key": "EXP067_W6|Vicky_Current|1403|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Vicky_Current",
+      "seed": 1403,
+      "seat_a": 1,
+      "money_a": 129721.0,
+      "money_b": 41200.0,
+      "margin_a": 88521.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 13.279202999998233
+    },
+    {
+      "key": "EXP067_W6|Vicky_Current|698377590|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Vicky_Current",
+      "seed": 698377590,
+      "seat_a": 0,
+      "money_a": 93020.0,
+      "money_b": 37064.0,
+      "margin_a": 55956.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 13.037075100000948
+    },
+    {
+      "key": "EXP067_W6|Vicky_Current|698377590|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Vicky_Current",
+      "seed": 698377590,
+      "seat_a": 1,
+      "money_a": 93020.0,
+      "money_b": 37064.0,
+      "margin_a": 55956.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 13.045291900009033
+    },
+    {
+      "key": "EXP067_W6|Vicky_Current|960101|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Vicky_Current",
+      "seed": 960101,
+      "seat_a": 0,
+      "money_a": 156067.0,
+      "money_b": 88196.0,
+      "margin_a": 67871.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 13.04134989999875
+    },
+    {
+      "key": "EXP067_W6|Vicky_Current|960101|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Vicky_Current",
+      "seed": 960101,
+      "seat_a": 1,
+      "money_a": 156067.0,
+      "money_b": 88196.0,
+      "margin_a": 67871.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 13.02707549999468
+    },
+    {
+      "key": "EXP067_W6|Vicky_Current|960202|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Vicky_Current",
+      "seed": 960202,
+      "seat_a": 0,
+      "money_a": 139614.0,
+      "money_b": 83446.0,
+      "margin_a": 56168.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.41968619999534
+    },
+    {
+      "key": "EXP067_W6|Vicky_Current|960202|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Vicky_Current",
+      "seed": 960202,
+      "seat_a": 1,
+      "money_a": 129458.0,
+      "money_b": 55465.0,
+      "margin_a": 73993.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 13.38577740000619
+    },
+    {
+      "key": "EXP067_W6|Vicky_Current|960303|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Vicky_Current",
+      "seed": 960303,
+      "seat_a": 0,
+      "money_a": 156250.0,
+      "money_b": 73778.0,
+      "margin_a": 82472.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.222193900001002
+    },
+    {
+      "key": "EXP067_W6|Vicky_Current|960303|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Vicky_Current",
+      "seed": 960303,
+      "seat_a": 1,
+      "money_a": 156250.0,
+      "money_b": 73778.0,
+      "margin_a": 82472.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.224113800009945
+    },
+    {
+      "key": "EXP067_W6|Vicky_Current|960404|0",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Vicky_Current",
+      "seed": 960404,
+      "seat_a": 0,
+      "money_a": 156400.0,
+      "money_b": 49500.0,
+      "margin_a": 106900.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.601552699998138
+    },
+    {
+      "key": "EXP067_W6|Vicky_Current|960404|1",
+      "agent_a": "EXP067_W6",
+      "agent_b": "Vicky_Current",
+      "seed": 960404,
+      "seat_a": 1,
+      "money_a": 154517.0,
+      "money_b": 50362.0,
+      "margin_a": 104155.0,
+      "outcome_a": "W",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 12.584194899987779
+    }
+  ],
+  "errors": []
+}

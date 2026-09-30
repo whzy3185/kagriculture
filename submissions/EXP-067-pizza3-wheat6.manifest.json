@@ -1,0 +1,14 @@
+{
+  "source": "E:\\kaggriculture\\agents\\candidates\\exp067_pizza3_wheat6\\main.py",
+  "archive": "E:\\kaggriculture\\submissions\\EXP-067-pizza3-wheat6.tar.gz",
+  "root_members": [
+    "main.py"
+  ],
+  "main_py_bytes": 1211446,
+  "main_py_sha256": "3163510ADC33BAB3CA2EDAD20E121E58A1BB8A267CE0D50E77C536C9C8FE1F9B",
+  "member_sha256": {
+    "main.py": "3163510ADC33BAB3CA2EDAD20E121E58A1BB8A267CE0D50E77C536C9C8FE1F9B"
+  },
+  "archive_bytes": 657261,
+  "archive_sha256": "A56835625E85A3BA789C8DE7015491B75829F3BC58572696E8E2D71ED2F68638"
+}

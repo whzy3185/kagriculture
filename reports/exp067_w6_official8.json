@@ -1,0 +1,117 @@
+{
+  "summary": [
+    {
+      "candidate": "EXP067_W6",
+      "wins": 0,
+      "ties": 0,
+      "losses": 8,
+      "mean_margin": -12229.5
+    }
+  ],
+  "results": [
+    {
+      "episode": 114759781,
+      "seed": 1547930047,
+      "our_seat": 1,
+      "opponent": "Yasasvi Josyula",
+      "path": "recovered/online_reruns_20260929_selected_opponents/114759781/main.py",
+      "actions": 719,
+      "candidate": "EXP067_W6",
+      "our_reward": 96178.0,
+      "rival_reward": 103237.0,
+      "margin": -7059.0,
+      "outcome": "L"
+    },
+    {
+      "episode": 114784844,
+      "seed": 797206234,
+      "our_seat": 1,
+      "opponent": "MINGXI LIU",
+      "path": "recovered/online_reruns_20260929_selected_opponents/114784844/main.py",
+      "actions": 719,
+      "candidate": "EXP067_W6",
+      "our_reward": 111960.0,
+      "rival_reward": 117701.0,
+      "margin": -5741.0,
+      "outcome": "L"
+    },
+    {
+      "episode": 114785174,
+      "seed": 2142424317,
+      "our_seat": 1,
+      "opponent": "macbook air m4",
+      "path": "recovered/online_reruns_20260929_selected_opponents/114785174/main.py",
+      "actions": 719,
+      "candidate": "EXP067_W6",
+      "our_reward": 118415.0,
+      "rival_reward": 133256.0,
+      "margin": -14841.0,
+      "outcome": "L"
+    },
+    {
+      "episode": 114826333,
+      "seed": 1692335265,
+      "our_seat": 0,
+      "opponent": "Araik Tamazian",
+      "path": "recovered/online_reruns_20260929_selected_opponents/114826333/main.py",
+      "actions": 719,
+      "candidate": "EXP067_W6",
+      "our_reward": 92436.0,
+      "rival_reward": 97075.0,
+      "margin": -4639.0,
+      "outcome": "L"
+    },
+    {
+      "episode": 114833554,
+      "seed": 984127690,
+      "our_seat": 1,
+      "opponent": "Blu3s",
+      "path": "recovered/online_reruns_20260929_selected_opponents/114833554/main.py",
+      "actions": 719,
+      "candidate": "EXP067_W6",
+      "our_reward": 93775.0,
+      "rival_reward": 103969.0,
+      "margin": -10194.0,
+      "outcome": "L"
+    },
+    {
+      "episode": 114924649,
+      "seed": 931849258,
+      "our_seat": 0,
+      "opponent": "ctree4113",
+      "path": "recovered/online_reruns_20260929_selected_opponents/114924649/main.py",
+      "actions": 719,
+      "candidate": "EXP067_W6",
+      "our_reward": 74651.0,
+      "rival_reward": 78698.0,
+      "margin": -4047.0,
+      "outcome": "L"
+    },
+    {
+      "episode": 114928680,
+      "seed": 1409908779,
+      "our_seat": 1,
+      "opponent": "Farmer",
+      "path": "recovered/online_reruns_20260929_selected_opponents/114928680/main.py",
+      "actions": 719,
+      "candidate": "EXP067_W6",
+      "our_reward": 96105.0,
+      "rival_reward": 106263.0,
+      "margin": -10158.0,
+      "outcome": "L"
+    },
+    {
+      "episode": 115058783,
+      "seed": 933791657,
+      "our_seat": 1,
+      "opponent": "Happy Farm",
+      "path": "recovered/online_reruns_20260929_selected_opponents/115058783/main.py",
+      "actions": 719,
+      "candidate": "EXP067_W6",
+      "our_reward": 130912.0,
+      "rival_reward": 172069.0,
+      "margin": -41157.0,
+      "outcome": "L"
+    }
+  ]
+}

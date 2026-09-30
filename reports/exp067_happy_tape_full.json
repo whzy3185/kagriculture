@@ -1,0 +1,166 @@
+{
+  "summary": [
+    {
+      "candidate": "EXP054",
+      "wins": 0,
+      "ties": 0,
+      "losses": 1,
+      "mean_margin": -44082.0
+    },
+    {
+      "candidate": "EXP066",
+      "wins": 0,
+      "ties": 0,
+      "losses": 1,
+      "mean_margin": -44082.0
+    },
+    {
+      "candidate": "EXP067_W4",
+      "wins": 0,
+      "ties": 0,
+      "losses": 1,
+      "mean_margin": -47798.0
+    },
+    {
+      "candidate": "EXP067_W6",
+      "wins": 0,
+      "ties": 0,
+      "losses": 1,
+      "mean_margin": -41157.0
+    },
+    {
+      "candidate": "EXP067_W8",
+      "wins": 0,
+      "ties": 0,
+      "losses": 1,
+      "mean_margin": -41651.0
+    },
+    {
+      "candidate": "EXP067_W10",
+      "wins": 0,
+      "ties": 0,
+      "losses": 1,
+      "mean_margin": -41212.0
+    },
+    {
+      "candidate": "EXP067_W13",
+      "wins": 0,
+      "ties": 0,
+      "losses": 1,
+      "mean_margin": -53997.0
+    },
+    {
+      "candidate": "EXP067_W16",
+      "wins": 0,
+      "ties": 0,
+      "losses": 1,
+      "mean_margin": -53997.0
+    }
+  ],
+  "results": [
+    {
+      "episode": 115058783,
+      "seed": 933791657,
+      "our_seat": 1,
+      "opponent": "Happy Farm",
+      "path": "recovered/online_reruns_20260929_selected_opponents/115058783/main.py",
+      "actions": 719,
+      "candidate": "EXP054",
+      "our_reward": 133102.0,
+      "rival_reward": 177184.0,
+      "margin": -44082.0,
+      "outcome": "L"
+    },
+    {
+      "episode": 115058783,
+      "seed": 933791657,
+      "our_seat": 1,
+      "opponent": "Happy Farm",
+      "path": "recovered/online_reruns_20260929_selected_opponents/115058783/main.py",
+      "actions": 719,
+      "candidate": "EXP066",
+      "our_reward": 133102.0,
+      "rival_reward": 177184.0,
+      "margin": -44082.0,
+      "outcome": "L"
+    },
+    {
+      "episode": 115058783,
+      "seed": 933791657,
+      "our_seat": 1,
+      "opponent": "Happy Farm",
+      "path": "recovered/online_reruns_20260929_selected_opponents/115058783/main.py",
+      "actions": 719,
+      "candidate": "EXP067_W4",
+      "our_reward": 137645.0,
+      "rival_reward": 185443.0,
+      "margin": -47798.0,
+      "outcome": "L"
+    },
+    {
+      "episode": 115058783,
+      "seed": 933791657,
+      "our_seat": 1,
+      "opponent": "Happy Farm",
+      "path": "recovered/online_reruns_20260929_selected_opponents/115058783/main.py",
+      "actions": 719,
+      "candidate": "EXP067_W6",
+      "our_reward": 130912.0,
+      "rival_reward": 172069.0,
+      "margin": -41157.0,
+      "outcome": "L"
+    },
+    {
+      "episode": 115058783,
+      "seed": 933791657,
+      "our_seat": 1,
+      "opponent": "Happy Farm",
+      "path": "recovered/online_reruns_20260929_selected_opponents/115058783/main.py",
+      "actions": 719,
+      "candidate": "EXP067_W8",
+      "our_reward": 119177.0,
+      "rival_reward": 160828.0,
+      "margin": -41651.0,
+      "outcome": "L"
+    },
+    {
+      "episode": 115058783,
+      "seed": 933791657,
+      "our_seat": 1,
+      "opponent": "Happy Farm",
+      "path": "recovered/online_reruns_20260929_selected_opponents/115058783/main.py",
+      "actions": 719,
+      "candidate": "EXP067_W10",
+      "our_reward": 118940.0,
+      "rival_reward": 160152.0,
+      "margin": -41212.0,
+      "outcome": "L"
+    },
+    {
+      "episode": 115058783,
+      "seed": 933791657,
+      "our_seat": 1,
+      "opponent": "Happy Farm",
+      "path": "recovered/online_reruns_20260929_selected_opponents/115058783/main.py",
+      "actions": 719,
+      "candidate": "EXP067_W13",
+      "our_reward": 137413.0,
+      "rival_reward": 191410.0,
+      "margin": -53997.0,
+      "outcome": "L"
+    },
+    {
+      "episode": 115058783,
+      "seed": 933791657,
+      "our_seat": 1,
+      "opponent": "Happy Farm",
+      "path": "recovered/online_reruns_20260929_selected_opponents/115058783/main.py",
+      "actions": 719,
+      "candidate": "EXP067_W16",
+      "our_reward": 137413.0,
+      "rival_reward": 191410.0,
+      "margin": -53997.0,
+      "outcome": "L"
+    }
+  ]
+}
