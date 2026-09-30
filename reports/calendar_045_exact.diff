@@ -1,0 +1,15 @@
+--- benchmark_packages/EXP-045-masterv4-step1002/main.py
++++ agents/candidates/exp20260930_calendar_045/main.py
+@@ -6743,10 +6743,10 @@
+     day = int(obs['step']) // 24
+     shops = float(sum(s in ('PIZZA_SHOP', 'FARMERS_MARKET')
+                       for s in obs['town']['unlocked_shops']))
+-    # The unlock schedule is deterministic -- seven shops by day 22, eight by day 24 -- and
++    # The unlock schedule is deterministic -- seven shops by day 21, eight by day 24 -- and
+     # each draw is uniform over the eight types, so each remaining slot demands tomatoes with
+     # probability 2/8.  Carrying the expectation is enough: the draw lands before the harvest.
+-    pending = {22: 0.25, 24: 0.25}
++    pending = {21: 0.25, 24: 0.25}
+     last = max(_CXTB_HARVEST_DAYS)
+     theirs = _cxtb_their_supply(obs, last)
+     revenue = 0.0

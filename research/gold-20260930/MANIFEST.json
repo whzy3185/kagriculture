@@ -1,0 +1,65 @@
+{
+  "files": [
+    {
+      "path": "GOLD_STRATEGY_REVIEW_20260930.md",
+      "bytes": 17945,
+      "sha256": "6cf78a9962ceefb82c7cffb51adbb8f031f0f7b4f3bb34f20db61e8697b6b6fa"
+    },
+    {
+      "path": "GOLD_REPLAY_MECHANICS_20260930.md",
+      "bytes": 33229,
+      "sha256": "6c8a987141aa783ebb0c121ec1ae4eff1c7a983fdbbb94d8c42e468f51b95c89"
+    },
+    {
+      "path": "EXP054_MINIMAL_CANDIDATE_NOTES.md",
+      "bytes": 4835,
+      "sha256": "f600e893a19d021246f5afd2427b5f01dfb5e57231bfc58bb8400eb3e4f01989"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2306,
+      "sha256": "66b63f9a25e0ddbd66304a139d84aaca9b599b9252848a6ddfaf3b85e9904dcf"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 3027,
+      "sha256": "77d9a83c3a5c9f14ab5f7d16aa5ba2c8b20b64d3a44a5fd95f59b1f125f62337"
+    },
+    {
+      "path": "gold_replay_features.json",
+      "bytes": 248705,
+      "sha256": "1ee4324382ebb6cb5ffad7cd5ac4d127ebe89e52b807952de4c5c7d7d7c92a1f"
+    },
+    {
+      "path": "daily_layouts.csv",
+      "bytes": 89978,
+      "sha256": "c9802e347e5d5f1588017833412c916b326e7504370ce669b750fb17fd92fe3b"
+    },
+    {
+      "path": "overflow_fixtures.json",
+      "bytes": 436818,
+      "sha256": "3e24120be04f5f07d6129f13eeae3ad0fbe02ff78451f2dde0e82061340bbba8"
+    },
+    {
+      "path": "analyze_exact.py",
+      "bytes": 6777,
+      "sha256": "13de34c9f65bf36738d2adb2b36c10298270ab148975177e9c8b2c753d17fa8b"
+    },
+    {
+      "path": "build_report.py",
+      "bytes": 14455,
+      "sha256": "3f52132d95f7aae8640653c6c5ee0e9423e1ac66dd5e1cd36c1beb80352ee466"
+    },
+    {
+      "path": "reference/kaggriculture.py",
+      "bytes": 40356,
+      "sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e"
+    },
+    {
+      "path": "reference/kaggriculture.json",
+      "bytes": 6002,
+      "sha256": "a82c89c1a2315b93f39775d8e025471a01b738647c9772658368ee6b1b6f4867"
+    }
+  ],
+  "excluded": "large raw replays and regenerated full exact ledgers; download identifiers and hashes retained in provenance.json"
+}

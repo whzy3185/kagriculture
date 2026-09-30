@@ -1,0 +1,44 @@
+{
+  "mechanism": "calendar-only: seventh future shop opens on day 21, not day 22",
+  "base_commit": "a1d81080538d33f9cbd0646eb8dd845f360e353b",
+  "candidates": {
+    "045": {
+      "base_package": "EXP-045-masterv4-step1002",
+      "base_sha256": "6744b67f9491a65404b70b200bd61a0fd588de513db4f11b119ca0213493686b",
+      "candidate": "agents/candidates/exp20260930_calendar_045/main.py",
+      "candidate_sha256": "26055dd62aa231af41552b62d6776e8441d85736a9d9a3cc7734fcbd3818b50b",
+      "bytes": 1196674,
+      "diff": "reports/calendar_045_exact.diff",
+      "changes": [
+        "one integer calendar key: 22 to 21",
+        "matching explanatory comment"
+      ],
+      "unchanged": [
+        "0.25 probability",
+        "9000 revenue gate",
+        "HD2 future multiplier 0.0",
+        "production/action/market layers",
+        "entry point and licensing notices"
+      ]
+    },
+    "054": {
+      "base_package": "EXP-054-highquote-150",
+      "base_sha256": "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7",
+      "candidate": "agents/candidates/exp20260930_calendar_054/main.py",
+      "candidate_sha256": "2f374edf443ba58fd5e1e7ad5b9375890984f1cd9cd9bfc3a8f1e040ed1468e1",
+      "bytes": 1203145,
+      "diff": "reports/calendar_054_exact.diff",
+      "changes": [
+        "one integer calendar key: 22 to 21",
+        "matching explanatory comment"
+      ],
+      "unchanged": [
+        "0.25 probability",
+        "9000 revenue gate",
+        "HD2 future multiplier 0.0",
+        "production/action/market layers",
+        "entry point and licensing notices"
+      ]
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "frozen_at_utc": "2026-09-30T07:18:07.851910+00:00",
+  "hypothesis": "Correcting the seventh-shop opening day may change marginal tomato investment decisions; it does not by itself establish a playing-strength gain.",
+  "single_mechanism": "pending day 22 becomes day 21; existing 0.25 expectation and every other guard stay fixed",
+  "bases": [
+    "EXP045",
+    "EXP054"
+  ],
+  "development_seeds": [
+    260930501,
+    260930502,
+    260930503,
+    260930504,
+    260930505,
+    260930506,
+    260930507,
+    260930508,
+    260930509,
+    260930510,
+    260930511,
+    260930512,
+    260930513,
+    260930514,
+    260930515,
+    260930516,
+    260930517,
+    260930518,
+    260930519,
+    260930520,
+    260930521,
+    260930522,
+    260930523,
+    260930524
+  ],
+  "matches": "each candidate versus its exact base on every seed and both seats; 48 games per base, 96 total",
+  "primary_metrics": [
+    "valid complete official games",
+    "paired-seed win/tie/loss points",
+    "actual step-432 qualification flips"
+  ],
+  "secondary_metrics": [
+    "money margin",
+    "lower-tail margin",
+    "action trace hashes",
+    "runtime",
+    "tomato production and worker shortfalls"
+  ],
+  "validity": "official pinned interpreter; real unaltered shop RNG; hidden seed absent from agent input; independently reacting opponent; DONE/DONE; 719 calls each and 720 recorded states",
+  "no_trigger_rule": "If no investment qualification changes and all action hashes match, report no behavioral evidence or strength gain and do not run an unnecessary promotion holdout.",
+  "trigger_rule": "Any changed policy remains experimental. Compare both candidate and its frozen base against the independently reacting V38 v2 on this paired seed set before claiming any gain; unseen holdout is required for promotion.",
+  "negative_rule": "Any regression is retained as evidence. Do not tune dates, probabilities, thresholds, or seed selection in response.",
+  "publication": "return source diffs, builder, contract tests, runner, immutable identities and complete result JSON for the single research branch; no Kaggle submission"
+}

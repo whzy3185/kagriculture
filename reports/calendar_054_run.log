@@ -1,0 +1,64 @@
+{"finished": 1, "seed": 260930501, "seat": 0, "margin": 0.0, "valid": true}
+{"finished": 2, "seed": 260930501, "seat": 1, "margin": 0.0, "valid": true}
+{"finished": 3, "seed": 260930502, "seat": 0, "margin": 0.0, "valid": true}
+{"finished": 4, "seed": 260930502, "seat": 1, "margin": 0.0, "valid": true}
+{"finished": 5, "seed": 260930503, "seat": 1, "margin": 0.0, "valid": true}
+{"finished": 6, "seed": 260930503, "seat": 0, "margin": 0.0, "valid": true}
+{"finished": 7, "seed": 260930504, "seat": 1, "margin": -80.0, "valid": true}
+{"finished": 8, "seed": 260930504, "seat": 0, "margin": 80.0, "valid": true}
+{"finished": 9, "seed": 260930505, "seat": 1, "margin": 0.0, "valid": true}
+{"finished": 10, "seed": 260930505, "seat": 0, "margin": 0.0, "valid": true}
+{"finished": 11, "seed": 260930506, "seat": 0, "margin": 0.0, "valid": true}
+{"finished": 12, "seed": 260930506, "seat": 1, "margin": 0.0, "valid": true}
+{"finished": 13, "seed": 260930507, "seat": 1, "margin": 811.0, "valid": true}
+{"finished": 14, "seed": 260930507, "seat": 0, "margin": -811.0, "valid": true}
+{"finished": 15, "seed": 260930508, "seat": 1, "margin": 0.0, "valid": true}
+{"finished": 16, "seed": 260930508, "seat": 0, "margin": 0.0, "valid": true}
+{"finished": 17, "seed": 260930509, "seat": 0, "margin": 0.0, "valid": true}
+{"finished": 18, "seed": 260930509, "seat": 1, "margin": 0.0, "valid": true}
+{"finished": 19, "seed": 260930510, "seat": 0, "margin": 116.0, "valid": true}
+{"finished": 20, "seed": 260930510, "seat": 1, "margin": -116.0, "valid": true}
+{"finished": 21, "seed": 260930511, "seat": 0, "margin": 0.0, "valid": true}
+{"finished": 22, "seed": 260930511, "seat": 1, "margin": 0.0, "valid": true}
+{"finished": 23, "seed": 260930512, "seat": 1, "margin": 0.0, "valid": true}
+{"finished": 24, "seed": 260930512, "seat": 0, "margin": 0.0, "valid": true}
+{"finished": 25, "seed": 260930513, "seat": 0, "margin": -80.0, "valid": true}
+{"finished": 26, "seed": 260930513, "seat": 1, "margin": 80.0, "valid": true}
+{"finished": 27, "seed": 260930514, "seat": 0, "margin": 0.0, "valid": true}
+{"finished": 28, "seed": 260930514, "seat": 1, "margin": 0.0, "valid": true}
+{"finished": 29, "seed": 260930515, "seat": 0, "margin": 0.0, "valid": true}
+{"finished": 30, "seed": 260930515, "seat": 1, "margin": 0.0, "valid": true}
+{"finished": 31, "seed": 260930516, "seat": 0, "margin": 0.0, "valid": true}
+{"finished": 32, "seed": 260930516, "seat": 1, "margin": 0.0, "valid": true}
+{"finished": 33, "seed": 260930517, "seat": 0, "margin": 0.0, "valid": true}
+{"finished": 34, "seed": 260930517, "seat": 1, "margin": 0.0, "valid": true}
+{"finished": 35, "seed": 260930518, "seat": 1, "margin": 0.0, "valid": true}
+{"finished": 36, "seed": 260930518, "seat": 0, "margin": 0.0, "valid": true}
+{"finished": 37, "seed": 260930519, "seat": 0, "margin": 0.0, "valid": true}
+{"finished": 38, "seed": 260930519, "seat": 1, "margin": 0.0, "valid": true}
+{"finished": 39, "seed": 260930520, "seat": 0, "margin": 0.0, "valid": true}
+{"finished": 40, "seed": 260930520, "seat": 1, "margin": 0.0, "valid": true}
+{"finished": 41, "seed": 260930521, "seat": 0, "margin": 0.0, "valid": true}
+{"finished": 42, "seed": 260930521, "seat": 1, "margin": 0.0, "valid": true}
+{"finished": 43, "seed": 260930522, "seat": 0, "margin": 0.0, "valid": true}
+{"finished": 44, "seed": 260930522, "seat": 1, "margin": 0.0, "valid": true}
+{"finished": 45, "seed": 260930523, "seat": 1, "margin": 0.0, "valid": true}
+{"finished": 46, "seed": 260930523, "seat": 0, "margin": 0.0, "valid": true}
+{"finished": 47, "seed": 260930524, "seat": 0, "margin": 0.0, "valid": true}
+{"finished": 48, "seed": 260930524, "seat": 1, "margin": 0.0, "valid": true}
+{
+  "valid_games": 48,
+  "invalid_games": 0,
+  "wins": 4,
+  "ties": 40,
+  "losses": 4,
+  "points": 0.5,
+  "win_rate": 0.08333333333333333,
+  "mean_margin": 0.0,
+  "median_margin": 0.0,
+  "p10_margin": 0.0,
+  "min_margin": -811.0,
+  "max_margin": 811.0,
+  "margin_variance": 28499.041666666668,
+  "elapsed_seconds": 551.4584270170026
+}

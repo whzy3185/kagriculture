@@ -1,0 +1,98 @@
+{
+  "directory": "kagriculture-calendar",
+  "base_commit": "a1d81080538d33f9cbd0646eb8dd845f360e353b",
+  "purpose": "Merge new paths into one coherent research branch; do not replace the frozen baselines. No push was performed from this workspace.",
+  "files": [
+    {
+      "path": "agents/candidates/exp20260930_calendar_045/main.py",
+      "bytes": 1196674,
+      "sha256": "26055dd62aa231af41552b62d6776e8441d85736a9d9a3cc7734fcbd3818b50b"
+    },
+    {
+      "path": "agents/candidates/exp20260930_calendar_054/main.py",
+      "bytes": 1203145,
+      "sha256": "2f374edf443ba58fd5e1e7ad5b9375890984f1cd9cd9bfc3a8f1e040ed1468e1"
+    },
+    {
+      "path": "configs/calendar_protocol_20260930.json",
+      "bytes": 2122,
+      "sha256": "b9db84de51d96cec97f925ff003148bdd33ae4cad4f8350a460a4e794a9e278c"
+    },
+    {
+      "path": "reports/CALENDAR_ONLY_AUDIT_20260930.md",
+      "bytes": 6166,
+      "sha256": "6e432d68802f85f3f492a2d9ad2d888e281cadf89dc53b52aaad85bf268be473"
+    },
+    {
+      "path": "reports/calendar_045_exact.diff",
+      "bytes": 843,
+      "sha256": "d7d29ae817fb0dd24479d7eb3bb83a9018f1a375cfca219502ad138f60ff1195"
+    },
+    {
+      "path": "reports/calendar_045_run.log",
+      "bytes": 4038,
+      "sha256": "3c1a3dece068561aef993ab5bc38c5c105029b99e41fc6713e52d9bf19934275"
+    },
+    {
+      "path": "reports/calendar_045_vs045_fresh24.json",
+      "bytes": 354321,
+      "sha256": "ae3f12e918653069295e85ea471a49bee17c1df8c2f50f70eba0178cb0af6602"
+    },
+    {
+      "path": "reports/calendar_054_exact.diff",
+      "bytes": 839,
+      "sha256": "47242786b5c21dcb7beb5765f99c2dbf230b14403090e2898b8f87b08833147f"
+    },
+    {
+      "path": "reports/calendar_054_run.log",
+      "bytes": 4038,
+      "sha256": "44e90dfa587df00e024b3b4b9fc2fc5866d14eacf5e982fb1266b8a03cdc8253"
+    },
+    {
+      "path": "reports/calendar_054_vs054_fresh24.json",
+      "bytes": 374865,
+      "sha256": "0470ccb2e1e08d990ae87fb1cfa37bacd2bc793588a05ea91d04acac7d26d41c"
+    },
+    {
+      "path": "reports/calendar_candidate_manifest.json",
+      "bytes": 1609,
+      "sha256": "3d5d75344ca19b8e45fa3a7779c175d799349cc316e6d21127e4d5152074fc9d"
+    },
+    {
+      "path": "reports/calendar_contract_results.json",
+      "bytes": 863,
+      "sha256": "343c266b30be34e9acd21477767ad7159305957e53b3bfaeed95dd9a821b0cc9"
+    },
+    {
+      "path": "reports/calendar_decision_20260930.json",
+      "bytes": 41486,
+      "sha256": "0fc51bde267b62269b2a3f5897084a91c9b8ce77d908823882224e6ef1934231"
+    },
+    {
+      "path": "scripts/build_calendar_candidates.py",
+      "bytes": 3181,
+      "sha256": "184f6ab46f19af3632730030d67780c5833b57a49349897c66763e6cc8fdd95b"
+    },
+    {
+      "path": "scripts/evaluate_calendar_agents.py",
+      "bytes": 10910,
+      "sha256": "27f8a1bcc343f261d55865fb054160ada0dc40429ea52ac7c54005ac02b9a0ba"
+    },
+    {
+      "path": "scripts/summarize_calendar_results.py",
+      "bytes": 4492,
+      "sha256": "e747c70dd09db023b230e8f26f687bb65917efca3490b28aa791691a257f9292"
+    },
+    {
+      "path": "tests/test_calendar_contract.py",
+      "bytes": 5407,
+      "sha256": "2c666c974fddd3ec663ebae77205afc5b2bce3c32df18a80a4a2037805b899a6"
+    }
+  ],
+  "inherited_dependencies": [
+    "src/current_env.py",
+    "data/reference/master/kaggriculture.py",
+    "data/reference/master/kaggriculture.json",
+    "original EXP045/EXP054 submission archives"
+  ]
+}

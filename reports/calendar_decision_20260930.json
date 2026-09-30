@@ -1,0 +1,1519 @@
+{
+  "decision": "MODEL_CORRECTION_ONLY_NO_BEHAVIORAL_GAIN",
+  "mechanism": "seventh expected shop: day 22 to day 21 only",
+  "protocol_sha256": "b9db84de51d96cec97f925ff003148bdd33ae4cad4f8350a460a4e794a9e278c",
+  "bases": {
+    "045": {
+      "source_result": "reports/calendar_045_vs045_fresh24.json",
+      "source_result_sha256": "ae3f12e918653069295e85ea471a49bee17c1df8c2f50f70eba0178cb0af6602",
+      "summary": {
+        "valid_games": 48,
+        "invalid_games": 0,
+        "wins": 4,
+        "ties": 40,
+        "losses": 4,
+        "points": 0.5,
+        "win_rate": 0.08333333333333333,
+        "mean_margin": 0.0,
+        "median_margin": 0.0,
+        "p10_margin": 0.0,
+        "min_margin": -811.0,
+        "max_margin": 811.0,
+        "margin_variance": 28499.041666666668,
+        "elapsed_seconds": 550.3484125859968
+      },
+      "seeds": 24,
+      "decisions": 48,
+      "qualification_flips": 0,
+      "same_action_seat_traces": 48,
+      "total_action_seat_traces": 48,
+      "paired_points": 0.5,
+      "paired_mean_margin": 0.0,
+      "minimum_ev_delta": 15,
+      "maximum_ev_delta": 195,
+      "minimum_baseline_distance_to_9000": 767,
+      "games_with_any_structural_invalid_status": 0,
+      "paired_checks": [
+        {
+          "seed": 260930501,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 14605,
+              "new_ev": 14800,
+              "delta_ev": 195,
+              "old_eligible": true,
+              "new_eligible": true,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 14605,
+              "new_ev": 14800,
+              "delta_ev": 195,
+              "old_eligible": true,
+              "new_eligible": true,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930502,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 6080,
+              "new_ev": 6096,
+              "delta_ev": 16,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 6080,
+              "new_ev": 6096,
+              "delta_ev": 16,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930503,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 5993,
+              "new_ev": 6010,
+              "delta_ev": 17,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 5993,
+              "new_ev": 6010,
+              "delta_ev": 17,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930504,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 6691,
+              "new_ev": 6712,
+              "delta_ev": 21,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 6691,
+              "new_ev": 6712,
+              "delta_ev": 21,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930505,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 7463,
+              "new_ev": 7525,
+              "delta_ev": 62,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 7463,
+              "new_ev": 7525,
+              "delta_ev": 62,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930506,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 5906,
+              "new_ev": 5922,
+              "delta_ev": 16,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 5906,
+              "new_ev": 5922,
+              "delta_ev": 16,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930507,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 6691,
+              "new_ev": 6712,
+              "delta_ev": 21,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 6691,
+              "new_ev": 6712,
+              "delta_ev": 21,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930508,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 5560,
+              "new_ev": 5578,
+              "delta_ev": 18,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 5560,
+              "new_ev": 5578,
+              "delta_ev": 18,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930509,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 5906,
+              "new_ev": 5922,
+              "delta_ev": 16,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 5906,
+              "new_ev": 5922,
+              "delta_ev": 16,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930510,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 5734,
+              "new_ev": 5752,
+              "delta_ev": 18,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 5734,
+              "new_ev": 5752,
+              "delta_ev": 18,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930511,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 9767,
+              "new_ev": 9892,
+              "delta_ev": 125,
+              "old_eligible": true,
+              "new_eligible": true,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 9767,
+              "new_ev": 9892,
+              "delta_ev": 125,
+              "old_eligible": true,
+              "new_eligible": true,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930512,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 5215,
+              "new_ev": 5232,
+              "delta_ev": 17,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 5215,
+              "new_ev": 5232,
+              "delta_ev": 17,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930513,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 6080,
+              "new_ev": 6096,
+              "delta_ev": 16,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 6080,
+              "new_ev": 6096,
+              "delta_ev": 16,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930514,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 4035,
+              "new_ev": 4081,
+              "delta_ev": 46,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 4035,
+              "new_ev": 4081,
+              "delta_ev": 46,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930515,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 6166,
+              "new_ev": 6183,
+              "delta_ev": 17,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 6166,
+              "new_ev": 6183,
+              "delta_ev": 17,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930516,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 4035,
+              "new_ev": 4081,
+              "delta_ev": 46,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 4035,
+              "new_ev": 4081,
+              "delta_ev": 46,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930517,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 4035,
+              "new_ev": 4081,
+              "delta_ev": 46,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 4035,
+              "new_ev": 4081,
+              "delta_ev": 46,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930518,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 5906,
+              "new_ev": 5922,
+              "delta_ev": 16,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 5906,
+              "new_ev": 5922,
+              "delta_ev": 16,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930519,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 5906,
+              "new_ev": 5922,
+              "delta_ev": 16,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 5906,
+              "new_ev": 5922,
+              "delta_ev": 16,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930520,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 5389,
+              "new_ev": 5404,
+              "delta_ev": 15,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 5389,
+              "new_ev": 5404,
+              "delta_ev": 15,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930521,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 4035,
+              "new_ev": 4081,
+              "delta_ev": 46,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 4035,
+              "new_ev": 4081,
+              "delta_ev": 46,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930522,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 5906,
+              "new_ev": 5922,
+              "delta_ev": 16,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 5906,
+              "new_ev": 5922,
+              "delta_ev": 16,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930523,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 6691,
+              "new_ev": 6712,
+              "delta_ev": 21,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 6691,
+              "new_ev": 6712,
+              "delta_ev": 21,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930524,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 6166,
+              "new_ev": 6183,
+              "delta_ev": 17,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 6166,
+              "new_ev": 6183,
+              "delta_ev": 17,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            }
+          ]
+        }
+      ]
+    },
+    "054": {
+      "source_result": "reports/calendar_054_vs054_fresh24.json",
+      "source_result_sha256": "0470ccb2e1e08d990ae87fb1cfa37bacd2bc793588a05ea91d04acac7d26d41c",
+      "summary": {
+        "valid_games": 48,
+        "invalid_games": 0,
+        "wins": 4,
+        "ties": 40,
+        "losses": 4,
+        "points": 0.5,
+        "win_rate": 0.08333333333333333,
+        "mean_margin": 0.0,
+        "median_margin": 0.0,
+        "p10_margin": 0.0,
+        "min_margin": -811.0,
+        "max_margin": 811.0,
+        "margin_variance": 28499.041666666668,
+        "elapsed_seconds": 551.4584270170026
+      },
+      "seeds": 24,
+      "decisions": 48,
+      "qualification_flips": 0,
+      "same_action_seat_traces": 48,
+      "total_action_seat_traces": 48,
+      "paired_points": 0.5,
+      "paired_mean_margin": 0.0,
+      "minimum_ev_delta": 15,
+      "maximum_ev_delta": 195,
+      "minimum_baseline_distance_to_9000": 767,
+      "games_with_any_structural_invalid_status": 0,
+      "paired_checks": [
+        {
+          "seed": 260930501,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 14605,
+              "new_ev": 14800,
+              "delta_ev": 195,
+              "old_eligible": true,
+              "new_eligible": true,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 14605,
+              "new_ev": 14800,
+              "delta_ev": 195,
+              "old_eligible": true,
+              "new_eligible": true,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930502,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 6080,
+              "new_ev": 6096,
+              "delta_ev": 16,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 6080,
+              "new_ev": 6096,
+              "delta_ev": 16,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930503,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 5993,
+              "new_ev": 6010,
+              "delta_ev": 17,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 5993,
+              "new_ev": 6010,
+              "delta_ev": 17,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930504,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 6691,
+              "new_ev": 6712,
+              "delta_ev": 21,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 6691,
+              "new_ev": 6712,
+              "delta_ev": 21,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930505,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 7463,
+              "new_ev": 7525,
+              "delta_ev": 62,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 7463,
+              "new_ev": 7525,
+              "delta_ev": 62,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930506,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 5906,
+              "new_ev": 5922,
+              "delta_ev": 16,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 5906,
+              "new_ev": 5922,
+              "delta_ev": 16,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930507,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 6691,
+              "new_ev": 6712,
+              "delta_ev": 21,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 6691,
+              "new_ev": 6712,
+              "delta_ev": 21,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930508,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 5560,
+              "new_ev": 5578,
+              "delta_ev": 18,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 5560,
+              "new_ev": 5578,
+              "delta_ev": 18,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930509,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 5906,
+              "new_ev": 5922,
+              "delta_ev": 16,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 5906,
+              "new_ev": 5922,
+              "delta_ev": 16,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930510,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 5734,
+              "new_ev": 5752,
+              "delta_ev": 18,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 5734,
+              "new_ev": 5752,
+              "delta_ev": 18,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930511,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 9767,
+              "new_ev": 9892,
+              "delta_ev": 125,
+              "old_eligible": true,
+              "new_eligible": true,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 9767,
+              "new_ev": 9892,
+              "delta_ev": 125,
+              "old_eligible": true,
+              "new_eligible": true,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930512,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 5215,
+              "new_ev": 5232,
+              "delta_ev": 17,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 5215,
+              "new_ev": 5232,
+              "delta_ev": 17,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930513,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 6080,
+              "new_ev": 6096,
+              "delta_ev": 16,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 6080,
+              "new_ev": 6096,
+              "delta_ev": 16,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930514,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 4035,
+              "new_ev": 4081,
+              "delta_ev": 46,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 4035,
+              "new_ev": 4081,
+              "delta_ev": 46,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930515,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 6166,
+              "new_ev": 6183,
+              "delta_ev": 17,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 6166,
+              "new_ev": 6183,
+              "delta_ev": 17,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930516,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 4035,
+              "new_ev": 4081,
+              "delta_ev": 46,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 4035,
+              "new_ev": 4081,
+              "delta_ev": 46,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930517,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 4035,
+              "new_ev": 4081,
+              "delta_ev": 46,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 4035,
+              "new_ev": 4081,
+              "delta_ev": 46,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930518,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 5906,
+              "new_ev": 5922,
+              "delta_ev": 16,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 5906,
+              "new_ev": 5922,
+              "delta_ev": 16,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930519,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 5906,
+              "new_ev": 5922,
+              "delta_ev": 16,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 5906,
+              "new_ev": 5922,
+              "delta_ev": 16,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930520,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 5389,
+              "new_ev": 5404,
+              "delta_ev": 15,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 5389,
+              "new_ev": 5404,
+              "delta_ev": 15,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930521,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 4035,
+              "new_ev": 4081,
+              "delta_ev": 46,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 4035,
+              "new_ev": 4081,
+              "delta_ev": 46,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930522,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 5906,
+              "new_ev": 5922,
+              "delta_ev": 16,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 5906,
+              "new_ev": 5922,
+              "delta_ev": 16,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930523,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 6691,
+              "new_ev": 6712,
+              "delta_ev": 21,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 6691,
+              "new_ev": 6712,
+              "delta_ev": 21,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            }
+          ]
+        },
+        {
+          "seed": 260930524,
+          "action_sha_equal_by_physical_seat": [
+            true,
+            true
+          ],
+          "paired_mean_margin": 0.0,
+          "paired_points": 0.5,
+          "final_shops_equal": true,
+          "decisions": [
+            {
+              "seat": 0,
+              "old_ev": 6166,
+              "new_ev": 6183,
+              "delta_ev": 17,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            },
+            {
+              "seat": 1,
+              "old_ev": 6166,
+              "new_ev": 6183,
+              "delta_ev": 17,
+              "old_eligible": false,
+              "new_eligible": false,
+              "qualified_changed": false
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "limitations": [
+    "Synthetic threshold-crossing tests prove model sensitivity, not real match strength.",
+    "No silent-no-op frequency audit was performed; complete DONE status alone does not prove every action executed.",
+    "The mean-demand projection, 0.25 probability, 2.4 drain slack, rival supply model and 9000 threshold remain unchanged.",
+    "These are current-base mirror tests, not a broad independent-opponent strength evaluation."
+  ]
+}

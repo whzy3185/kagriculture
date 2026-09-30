@@ -1,0 +1,97 @@
+{
+  "observed_leaderboard_at_utc": "2026-09-30T07:14:00Z",
+  "captured_utc_interval": "2026-09-30T07:16:00Z/2026-09-30T07:24:00Z",
+  "source_method": "Kaggle leaderboard Game History > More actions > Download replay, public unauthenticated cloud browser",
+  "replays": [
+    {
+      "episode_id": 115649229,
+      "submission_id_selected": 56679033,
+      "url": "https://www.kaggle.com/competitions/kaggriculture/leaderboard?submissionId=56679033&episodeId=115649229",
+      "raw_filename": "episode115649229.json",
+      "raw_bytes": 40930279,
+      "sha256": "62d9382c3b694eea8d7a609b1ae5659dbf9e22a4353757388ed23c6410b3d3a4",
+      "frames": 720,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "seed": 177327100,
+      "teams_in_seat_order": [
+        "DECEM",
+        "M & M & P & Q"
+      ],
+      "rewards": [
+        104285.0,
+        106701.0
+      ]
+    },
+    {
+      "episode_id": 115650653,
+      "submission_id_selected": 56689315,
+      "url": "https://www.kaggle.com/competitions/kaggriculture/leaderboard?submissionId=56689315&episodeId=115650653",
+      "raw_filename": "episode115650653.json",
+      "raw_bytes": 34558200,
+      "sha256": "931ba7f7b3ecfb365bbdf27b845171bcc736445e42e6b641d846fc60b4354ad9",
+      "frames": 720,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "seed": 43187779,
+      "teams_in_seat_order": [
+        "Unknown Mother-Goose",
+        "CDE"
+      ],
+      "rewards": [
+        137700.0,
+        137711.0
+      ]
+    },
+    {
+      "episode_id": 115653683,
+      "submission_id_selected": 56689469,
+      "url": "https://www.kaggle.com/competitions/kaggriculture/leaderboard?submissionId=56689469&episodeId=115653683",
+      "raw_filename": "episode115653683.json",
+      "raw_bytes": 34805351,
+      "sha256": "eee0d0e02d118d1ad6c83cb24a1e7a59dfc84b3bc437031f5f9d48dff2f5e81e",
+      "frames": 720,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "seed": 398463326,
+      "teams_in_seat_order": [
+        "yuto083",
+        "Happy Farm"
+      ],
+      "rewards": [
+        93533.0,
+        97246.0
+      ]
+    },
+    {
+      "episode_id": 115648413,
+      "submission_id_selected": 56689469,
+      "url": "https://www.kaggle.com/competitions/kaggriculture/leaderboard?submissionId=56689469&episodeId=115648413",
+      "raw_filename": "episode115648413.json",
+      "raw_bytes": 34636731,
+      "sha256": "b1b851acc8e9dad556f93ced24a59d82c4fb99a83dc907a9d41d8b4a2edd7621",
+      "frames": 720,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "seed": 1421196692,
+      "teams_in_seat_order": [
+        "Happy Farm",
+        "Random Mambo"
+      ],
+      "rewards": [
+        119783.0,
+        134684.0
+      ]
+    }
+  ],
+  "raw_replays_in_repository": false,
+  "validation": "Each of 2876 transitions reproduced from original initial state with original action sequence; both seats farms/private/market/town/day/hour equal. Eight final-cash ledgers close. This is not a reactive-opponent counterfactual."
+}
