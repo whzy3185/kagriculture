@@ -1,0 +1,10 @@
+Generated EXP-20260930-01 outputs are intentionally not duplicated in this research branch. Rebuild the exact rejected main.py and archive with:
+
+python3 scripts/materialize_benchmark_baselines.py
+python3 scripts/build_exp20260930_expected_demand.py
+python3 scripts/package_submission.py agents/candidates/exp20260930_expected_demand/main.py submissions/EXP-20260930-01-expected-demand-REJECTED.tar.gz --manifest submissions/EXP-20260930-01-expected-demand-REJECTED.manifest.json
+
+Expected main.py SHA-256: 144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5
+Expected archive SHA-256: b2de3c59cf7e3183f80311809d061d993af242fd2f71be3302ec5bfd3f1c29ab
+
+All strategy code changes are retained in the builder and exact diff; full rejected outputs were also delivered in the review ZIP. EXP045/EXP054 original packages remain unchanged. This is a rejected experiment, not a Kaggle submission recommendation.

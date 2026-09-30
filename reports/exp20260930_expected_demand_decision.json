@@ -1,0 +1,536 @@
+{
+  "decision": "NO_GO_KEEP_EXP054",
+  "holdout96": "NOT_RUN: development regression and three fresh opponent loss flips; seeds remain unconsumed",
+  "head_to_head": {
+    "valid_games": 48,
+    "invalid_games": 0,
+    "wins": 6,
+    "ties": 32,
+    "losses": 10,
+    "points": 0.4583333333333333,
+    "win_rate": 0.125,
+    "mean_margin": -176.5,
+    "median_margin": 0.0,
+    "p10_margin": -2008.0,
+    "min_margin": -4839.0,
+    "max_margin": 5083.0,
+    "margin_variance": 2421146.625,
+    "elapsed_seconds": 477.40009870999984
+  },
+  "versus_v38_candidate": {
+    "valid_games": 48,
+    "invalid_games": 0,
+    "wins": 42,
+    "ties": 0,
+    "losses": 6,
+    "points": 0.875,
+    "win_rate": 0.875,
+    "mean_margin": 4620.4375,
+    "median_margin": 3429.5,
+    "p10_margin": -893.0,
+    "min_margin": -2459.0,
+    "max_margin": 21646.0,
+    "margin_variance": 21770390.87109375,
+    "elapsed_seconds": 449.7179529209998
+  },
+  "versus_v38_parent": {
+    "valid_games": 48,
+    "invalid_games": 0,
+    "wins": 48,
+    "ties": 0,
+    "losses": 0,
+    "points": 1.0,
+    "win_rate": 1.0,
+    "mean_margin": 4723.395833333333,
+    "median_margin": 3318.5,
+    "p10_margin": 1493.0,
+    "min_margin": 426.0,
+    "max_margin": 21646.0,
+    "margin_variance": 18419758.822482638,
+    "elapsed_seconds": 438.11636968200037
+  },
+  "paired_margin_delta": {
+    "seed_count": 24,
+    "mean": -102.95833333333333,
+    "median_seed_mean": 0.0,
+    "bootstrap_95pct_ci": [
+      -784.875,
+      640.1666666666666
+    ],
+    "bootstrap_draws": 20000,
+    "bootstrap_seed": 20260930,
+    "unit": "seed; both seats aggregated before resampling"
+  },
+  "paired_points_delta": {
+    "seed_count": 24,
+    "mean": -0.125,
+    "median_seed_mean": 0.0,
+    "bootstrap_95pct_ci": [
+      -0.25,
+      0.0
+    ],
+    "bootstrap_draws": 20000,
+    "bootstrap_seed": 20260930,
+    "unit": "seed; both seats aggregated before resampling"
+  },
+  "head_to_head_seed_margin": {
+    "seed_count": 24,
+    "mean": -176.5,
+    "median_seed_mean": 0.0,
+    "bootstrap_95pct_ci": [
+      -796.5833333333334,
+      449.8333333333333
+    ],
+    "bootstrap_draws": 20000,
+    "bootstrap_seed": 20260930,
+    "unit": "seed; both seats aggregated before resampling"
+  },
+  "new_loss_seeds": [
+    260930201,
+    260930215,
+    260930223
+  ],
+  "paired_cash_better_equal_worse": [
+    4,
+    36,
+    8
+  ],
+  "paired_rows": [
+    {
+      "seed": 260930201,
+      "seat": 0,
+      "candidate_margin": -893.0,
+      "parent_margin": 1493.0,
+      "margin_delta": -2386.0,
+      "candidate_money_delta": -9922.0,
+      "points_delta": -1
+    },
+    {
+      "seed": 260930201,
+      "seat": 1,
+      "candidate_margin": -893.0,
+      "parent_margin": 1493.0,
+      "margin_delta": -2386.0,
+      "candidate_money_delta": -9922.0,
+      "points_delta": -1
+    },
+    {
+      "seed": 260930202,
+      "seat": 0,
+      "candidate_margin": 7242.0,
+      "parent_margin": 965.0,
+      "margin_delta": 6277.0,
+      "candidate_money_delta": 2978.0,
+      "points_delta": 0
+    },
+    {
+      "seed": 260930202,
+      "seat": 1,
+      "candidate_margin": 7242.0,
+      "parent_margin": 965.0,
+      "margin_delta": 6277.0,
+      "candidate_money_delta": 2978.0,
+      "points_delta": 0
+    },
+    {
+      "seed": 260930203,
+      "seat": 0,
+      "candidate_margin": 3480.0,
+      "parent_margin": 3480.0,
+      "margin_delta": 0.0,
+      "candidate_money_delta": 0.0,
+      "points_delta": 0
+    },
+    {
+      "seed": 260930203,
+      "seat": 1,
+      "candidate_margin": 3480.0,
+      "parent_margin": 3480.0,
+      "margin_delta": 0.0,
+      "candidate_money_delta": 0.0,
+      "points_delta": 0
+    },
+    {
+      "seed": 260930204,
+      "seat": 0,
+      "candidate_margin": 3009.0,
+      "parent_margin": 3009.0,
+      "margin_delta": 0.0,
+      "candidate_money_delta": 0.0,
+      "points_delta": 0
+    },
+    {
+      "seed": 260930204,
+      "seat": 1,
+      "candidate_margin": 3009.0,
+      "parent_margin": 3009.0,
+      "margin_delta": 0.0,
+      "candidate_money_delta": 0.0,
+      "points_delta": 0
+    },
+    {
+      "seed": 260930205,
+      "seat": 0,
+      "candidate_margin": 8552.0,
+      "parent_margin": 8552.0,
+      "margin_delta": 0.0,
+      "candidate_money_delta": 0.0,
+      "points_delta": 0
+    },
+    {
+      "seed": 260930205,
+      "seat": 1,
+      "candidate_margin": 8552.0,
+      "parent_margin": 8552.0,
+      "margin_delta": 0.0,
+      "candidate_money_delta": 0.0,
+      "points_delta": 0
+    },
+    {
+      "seed": 260930206,
+      "seat": 0,
+      "candidate_margin": 5639.0,
+      "parent_margin": 5639.0,
+      "margin_delta": 0.0,
+      "candidate_money_delta": 0.0,
+      "points_delta": 0
+    },
+    {
+      "seed": 260930206,
+      "seat": 1,
+      "candidate_margin": 5639.0,
+      "parent_margin": 5639.0,
+      "margin_delta": 0.0,
+      "candidate_money_delta": 0.0,
+      "points_delta": 0
+    },
+    {
+      "seed": 260930207,
+      "seat": 0,
+      "candidate_margin": 3903.0,
+      "parent_margin": 3903.0,
+      "margin_delta": 0.0,
+      "candidate_money_delta": 0.0,
+      "points_delta": 0
+    },
+    {
+      "seed": 260930207,
+      "seat": 1,
+      "candidate_margin": 3903.0,
+      "parent_margin": 3903.0,
+      "margin_delta": 0.0,
+      "candidate_money_delta": 0.0,
+      "points_delta": 0
+    },
+    {
+      "seed": 260930208,
+      "seat": 0,
+      "candidate_margin": 3991.0,
+      "parent_margin": 3991.0,
+      "margin_delta": 0.0,
+      "candidate_money_delta": 0.0,
+      "points_delta": 0
+    },
+    {
+      "seed": 260930208,
+      "seat": 1,
+      "candidate_margin": 5581.0,
+      "parent_margin": 5581.0,
+      "margin_delta": 0.0,
+      "candidate_money_delta": 0.0,
+      "points_delta": 0
+    },
+    {
+      "seed": 260930209,
+      "seat": 0,
+      "candidate_margin": 21646.0,
+      "parent_margin": 21646.0,
+      "margin_delta": 0.0,
+      "candidate_money_delta": 0.0,
+      "points_delta": 0
+    },
+    {
+      "seed": 260930209,
+      "seat": 1,
+      "candidate_margin": 21646.0,
+      "parent_margin": 21646.0,
+      "margin_delta": 0.0,
+      "candidate_money_delta": 0.0,
+      "points_delta": 0
+    },
+    {
+      "seed": 260930210,
+      "seat": 0,
+      "candidate_margin": 7500.0,
+      "parent_margin": 7500.0,
+      "margin_delta": 0.0,
+      "candidate_money_delta": 0.0,
+      "points_delta": 0
+    },
+    {
+      "seed": 260930210,
+      "seat": 1,
+      "candidate_margin": 7500.0,
+      "parent_margin": 7500.0,
+      "margin_delta": 0.0,
+      "candidate_money_delta": 0.0,
+      "points_delta": 0
+    },
+    {
+      "seed": 260930211,
+      "seat": 0,
+      "candidate_margin": 2446.0,
+      "parent_margin": 2446.0,
+      "margin_delta": 0.0,
+      "candidate_money_delta": 0.0,
+      "points_delta": 0
+    },
+    {
+      "seed": 260930211,
+      "seat": 1,
+      "candidate_margin": 2446.0,
+      "parent_margin": 2446.0,
+      "margin_delta": 0.0,
+      "candidate_money_delta": 0.0,
+      "points_delta": 0
+    },
+    {
+      "seed": 260930212,
+      "seat": 0,
+      "candidate_margin": 3258.0,
+      "parent_margin": 3258.0,
+      "margin_delta": 0.0,
+      "candidate_money_delta": 0.0,
+      "points_delta": 0
+    },
+    {
+      "seed": 260930212,
+      "seat": 1,
+      "candidate_margin": 3258.0,
+      "parent_margin": 3258.0,
+      "margin_delta": 0.0,
+      "candidate_money_delta": 0.0,
+      "points_delta": 0
+    },
+    {
+      "seed": 260930213,
+      "seat": 0,
+      "candidate_margin": 3256.0,
+      "parent_margin": 2170.0,
+      "margin_delta": 1086.0,
+      "candidate_money_delta": -9177.0,
+      "points_delta": 0
+    },
+    {
+      "seed": 260930213,
+      "seat": 1,
+      "candidate_margin": 3256.0,
+      "parent_margin": 2170.0,
+      "margin_delta": 1086.0,
+      "candidate_money_delta": -9177.0,
+      "points_delta": 0
+    },
+    {
+      "seed": 260930214,
+      "seat": 0,
+      "candidate_margin": 6291.0,
+      "parent_margin": 6291.0,
+      "margin_delta": 0.0,
+      "candidate_money_delta": 0.0,
+      "points_delta": 0
+    },
+    {
+      "seed": 260930214,
+      "seat": 1,
+      "candidate_margin": 6291.0,
+      "parent_margin": 6291.0,
+      "margin_delta": 0.0,
+      "candidate_money_delta": 0.0,
+      "points_delta": 0
+    },
+    {
+      "seed": 260930215,
+      "seat": 0,
+      "candidate_margin": -2459.0,
+      "parent_margin": 2392.0,
+      "margin_delta": -4851.0,
+      "candidate_money_delta": -5065.0,
+      "points_delta": -1
+    },
+    {
+      "seed": 260930215,
+      "seat": 1,
+      "candidate_margin": -2459.0,
+      "parent_margin": 2392.0,
+      "margin_delta": -4851.0,
+      "candidate_money_delta": -5065.0,
+      "points_delta": -1
+    },
+    {
+      "seed": 260930216,
+      "seat": 0,
+      "candidate_margin": 4986.0,
+      "parent_margin": 4986.0,
+      "margin_delta": 0.0,
+      "candidate_money_delta": 0.0,
+      "points_delta": 0
+    },
+    {
+      "seed": 260930216,
+      "seat": 1,
+      "candidate_margin": 4986.0,
+      "parent_margin": 4986.0,
+      "margin_delta": 0.0,
+      "candidate_money_delta": 0.0,
+      "points_delta": 0
+    },
+    {
+      "seed": 260930217,
+      "seat": 0,
+      "candidate_margin": 2686.0,
+      "parent_margin": 2686.0,
+      "margin_delta": 0.0,
+      "candidate_money_delta": 0.0,
+      "points_delta": 0
+    },
+    {
+      "seed": 260930217,
+      "seat": 1,
+      "candidate_margin": 2686.0,
+      "parent_margin": 2686.0,
+      "margin_delta": 0.0,
+      "candidate_money_delta": 0.0,
+      "points_delta": 0
+    },
+    {
+      "seed": 260930218,
+      "seat": 0,
+      "candidate_margin": 10918.0,
+      "parent_margin": 10918.0,
+      "margin_delta": 0.0,
+      "candidate_money_delta": 0.0,
+      "points_delta": 0
+    },
+    {
+      "seed": 260930218,
+      "seat": 1,
+      "candidate_margin": 10918.0,
+      "parent_margin": 10918.0,
+      "margin_delta": 0.0,
+      "candidate_money_delta": 0.0,
+      "points_delta": 0
+    },
+    {
+      "seed": 260930219,
+      "seat": 0,
+      "candidate_margin": 2211.0,
+      "parent_margin": 2211.0,
+      "margin_delta": 0.0,
+      "candidate_money_delta": 0.0,
+      "points_delta": 0
+    },
+    {
+      "seed": 260930219,
+      "seat": 1,
+      "candidate_margin": 2211.0,
+      "parent_margin": 2211.0,
+      "margin_delta": 0.0,
+      "candidate_money_delta": 0.0,
+      "points_delta": 0
+    },
+    {
+      "seed": 260930220,
+      "seat": 0,
+      "candidate_margin": 5618.0,
+      "parent_margin": 5618.0,
+      "margin_delta": 0.0,
+      "candidate_money_delta": 0.0,
+      "points_delta": 0
+    },
+    {
+      "seed": 260930220,
+      "seat": 1,
+      "candidate_margin": 6443.0,
+      "parent_margin": 6443.0,
+      "margin_delta": 0.0,
+      "candidate_money_delta": 0.0,
+      "points_delta": 0
+    },
+    {
+      "seed": 260930221,
+      "seat": 0,
+      "candidate_margin": 1769.0,
+      "parent_margin": 2214.0,
+      "margin_delta": -445.0,
+      "candidate_money_delta": -9354.0,
+      "points_delta": 0
+    },
+    {
+      "seed": 260930221,
+      "seat": 1,
+      "candidate_margin": 1769.0,
+      "parent_margin": 2214.0,
+      "margin_delta": -445.0,
+      "candidate_money_delta": -9354.0,
+      "points_delta": 0
+    },
+    {
+      "seed": 260930222,
+      "seat": 0,
+      "candidate_margin": 3379.0,
+      "parent_margin": 3379.0,
+      "margin_delta": 0.0,
+      "candidate_money_delta": 0.0,
+      "points_delta": 0
+    },
+    {
+      "seed": 260930222,
+      "seat": 1,
+      "candidate_margin": 3379.0,
+      "parent_margin": 3379.0,
+      "margin_delta": 0.0,
+      "candidate_money_delta": 0.0,
+      "points_delta": 0
+    },
+    {
+      "seed": 260930223,
+      "seat": 0,
+      "candidate_margin": -1726.0,
+      "parent_margin": 426.0,
+      "margin_delta": -2152.0,
+      "candidate_money_delta": -8323.0,
+      "points_delta": -1
+    },
+    {
+      "seed": 260930223,
+      "seat": 1,
+      "candidate_margin": -1726.0,
+      "parent_margin": 426.0,
+      "margin_delta": -2152.0,
+      "candidate_money_delta": -8323.0,
+      "points_delta": -1
+    },
+    {
+      "seed": 260930224,
+      "seat": 0,
+      "candidate_margin": 2981.0,
+      "parent_margin": 2981.0,
+      "margin_delta": 0.0,
+      "candidate_money_delta": 0.0,
+      "points_delta": 0
+    },
+    {
+      "seed": 260930224,
+      "seat": 1,
+      "candidate_margin": 2981.0,
+      "parent_margin": 2981.0,
+      "margin_delta": 0.0,
+      "candidate_money_delta": 0.0,
+      "points_delta": 0
+    }
+  ],
+  "total_main_development_matches": 144,
+  "extra066_diagnostic_matches": 12,
+  "generalization_limit": "V38 is a different reacting policy but shares historic lineage; not the full current ladder or twelve missing opponents",
+  "semantic_illegal_noop_count": "not instrumented; DONE/719 callbacks and structural status checks are not proof of zero silently ignored game operations"
+}

@@ -1,0 +1,14 @@
+{
+  "source": "/workspace/scratch/882b0041baf0/kagriculture-opt/agents/candidates/exp20260930_expected_demand/main.py",
+  "archive": "/workspace/scratch/882b0041baf0/kagriculture-opt/submissions/EXP-20260930-01-expected-demand-REJECTED.tar.gz",
+  "root_members": [
+    "main.py"
+  ],
+  "main_py_bytes": 1204028,
+  "main_py_sha256": "144B0B57D71BD660F6629AF63893A032083F1D6EBCB255164BE69981011DF8A5",
+  "member_sha256": {
+    "main.py": "144B0B57D71BD660F6629AF63893A032083F1D6EBCB255164BE69981011DF8A5"
+  },
+  "archive_bytes": 655380,
+  "archive_sha256": "B2DE3C59CF7E3183F80311809D061D993AF242FD2F71BE3302EC5BFD3F1C29AB"
+}

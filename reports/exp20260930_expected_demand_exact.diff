@@ -1,0 +1,26 @@
+--- EXP054/main.py
++++ EXP-20260930-01-REJECTED/main.py
+@@ -10298,3 +10298,23 @@
+ exp054_highquote_gated_closure_agent.telemetry = _E54_REPORT
+ agent = exp054_highquote_gated_closure_agent
+ kaggle_submission_agent = agent
++
++
++# EXP-20260930-01: expected future shop demand in the existing HERD2 model.
++# One strategic change: use the already-implemented expected demand of future
++# uniformly drawn shops when valuing a new supported animal choice. Keep all
++# cash, gain, ratio, timing, placement, and action-rewrite guards unchanged.
++# This is an experimental local candidate, not a promoted or submitted policy.
++_HD2_FUTURE = 1.0
++_E67_PARENT = exp054_highquote_gated_closure_agent
++_E67_REPORT = {"calls": 0, "future_demand_multiplier": 1.0}
++
++def exp20260930_expected_demand_agent(observation, configuration=None):
++    if int(observation.get("step", 0)) == 0:
++        _E67_REPORT["calls"] = 0
++    _E67_REPORT["calls"] += 1
++    return _E67_PARENT(observation, configuration)
++
++exp20260930_expected_demand_agent.telemetry = _E67_REPORT
++agent = exp20260930_expected_demand_agent
++kaggle_submission_agent = agent

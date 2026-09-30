@@ -1,0 +1,6207 @@
+{
+  "protocol": "fresh-paired-seats-pinned-official-interpreter-with-diagnostics-v1",
+  "identity": {
+    "candidate": "agents/candidates/exp20260930_expected_demand/main.py",
+    "opponent": "benchmark_packages/EXP-054-highquote-150/main.py",
+    "candidate_sha256": "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+    "opponent_sha256": "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7",
+    "interpreter_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+    "specification_sha256": "a82c89c1a2315b93f39775d8e025471a01b738647c9772658368ee6b1b6f4867",
+    "runner_sha256": "f6eed0fe91d7ca72f906dc827e7401a83f2998e59da79c670f53548b166816bf",
+    "environment_package": "1.32.7",
+    "seed_hidden_from_agents": true,
+    "shop_schedule": "unaltered real interpreter RNG",
+    "opponent_mode": "independently reacting callable; no fixed action tape"
+  },
+  "seeds": [
+    260930201,
+    260930202,
+    260930203,
+    260930204,
+    260930205,
+    260930206,
+    260930207,
+    260930208,
+    260930209,
+    260930210,
+    260930211,
+    260930212,
+    260930213,
+    260930214,
+    260930215,
+    260930216,
+    260930217,
+    260930218,
+    260930219,
+    260930220,
+    260930221,
+    260930222,
+    260930223,
+    260930224
+  ],
+  "expected_games": 48,
+  "complete": true,
+  "games": [
+    {
+      "seed": 260930201,
+      "candidate_seat": 0,
+      "candidate_money": 102714.0,
+      "opponent_money": 104743.0,
+      "margin": -2029.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 11.344856611000068,
+      "action_sha256": [
+        "9a9e7e081f286d37d5f605f283484456ae7fe9bafa88172f1e51ca9114cf06e2",
+        "bc75b9d868eb7b8d7e46d14841be8cd268609064d6175be0f217595b66b3e61e"
+      ],
+      "max_agent_seconds": [
+        0.38411540699962643,
+        0.36013361100049224
+      ],
+      "p99_agent_seconds": [
+        0.026728717640198928,
+        0.053217818939429465
+      ],
+      "agent_seconds": [
+        2.785167847988305,
+        2.927198916006091
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "COW@241",
+            "hd2_ev": "COW:7055,GOOSE:2808,SHEEP:-1450",
+            "hd2_rewrites": 14,
+            "hd2_credit_units": 53,
+            "hd2_sold_units": 53,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 143,
+            "gain": 4794.0,
+            "evals": 70881,
+            "moved_sells": 327,
+            "errors": 0,
+            "budget_hits": 43
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 824,
+            "changed": 108,
+            "early_stops": 716,
+            "maxed": 3,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 3,
+            "accepted": 0,
+            "rejected_inversion": 2,
+            "rejected_quote": 1,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "keep@241",
+            "hd2_ev": "COW:558,GOOSE:2459,SHEEP:-1450",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 180,
+            "gain": 4183.0,
+            "evals": 133720,
+            "moved_sells": 352,
+            "errors": 0,
+            "budget_hits": 96
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 851,
+            "changed": 136,
+            "early_stops": 715,
+            "maxed": 4,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 3,
+            "accepted": 2,
+            "rejected_inversion": 0,
+            "rejected_quote": 1,
+            "errors": 0
+          }
+        }
+      ],
+      "final_shops": [
+        "PET_CAFE",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "YARN_STORE",
+        "SMOOTHIE_SHOP",
+        "YARN_STORE",
+        "PIZZA_SHOP",
+        "BRUNCH_SPOT"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930201_seat0.json.gz"
+    },
+    {
+      "seed": 260930201,
+      "candidate_seat": 1,
+      "candidate_money": 102714.0,
+      "opponent_money": 104743.0,
+      "margin": -2029.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 11.066785842000172,
+      "action_sha256": [
+        "bc75b9d868eb7b8d7e46d14841be8cd268609064d6175be0f217595b66b3e61e",
+        "9a9e7e081f286d37d5f605f283484456ae7fe9bafa88172f1e51ca9114cf06e2"
+      ],
+      "max_agent_seconds": [
+        0.32254506399931415,
+        0.39498897999965266
+      ],
+      "p99_agent_seconds": [
+        0.05196519937933809,
+        0.018192250459415166
+      ],
+      "agent_seconds": [
+        2.8596573739969244,
+        2.3741859400042813
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "keep@241",
+            "hd2_ev": "COW:558,GOOSE:2459,SHEEP:-1450",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 180,
+            "gain": 4183.0,
+            "evals": 133720,
+            "moved_sells": 352,
+            "errors": 0,
+            "budget_hits": 96
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 851,
+            "changed": 136,
+            "early_stops": 715,
+            "maxed": 4,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 3,
+            "accepted": 2,
+            "rejected_inversion": 0,
+            "rejected_quote": 1,
+            "errors": 0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "COW@241",
+            "hd2_ev": "COW:7055,GOOSE:2808,SHEEP:-1450",
+            "hd2_rewrites": 14,
+            "hd2_credit_units": 53,
+            "hd2_sold_units": 53,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 143,
+            "gain": 4794.0,
+            "evals": 70881,
+            "moved_sells": 327,
+            "errors": 0,
+            "budget_hits": 43
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 824,
+            "changed": 108,
+            "early_stops": 716,
+            "maxed": 3,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 3,
+            "accepted": 0,
+            "rejected_inversion": 2,
+            "rejected_quote": 1,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        }
+      ],
+      "final_shops": [
+        "PET_CAFE",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "YARN_STORE",
+        "SMOOTHIE_SHOP",
+        "YARN_STORE",
+        "PIZZA_SHOP",
+        "BRUNCH_SPOT"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930201_seat1.json.gz"
+    },
+    {
+      "seed": 260930202,
+      "candidate_seat": 0,
+      "candidate_money": 147552.0,
+      "opponent_money": 142469.0,
+      "margin": 5083.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 9.179711898999813,
+      "action_sha256": [
+        "a977830932adc55528b1b14ed236039dc57220c9ff8b25ebabdd2bb1d9235c49",
+        "4b0ef8f7868419f671c9a857d221e86f6976465e30551b35de78d165b0ae9329"
+      ],
+      "max_agent_seconds": [
+        0.05581262800023978,
+        0.35590836700066575
+      ],
+      "p99_agent_seconds": [
+        0.014244242939930703,
+        0.024590779400041573
+      ],
+      "agent_seconds": [
+        1.5861338769927897,
+        1.9789125609959228
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "COW@241",
+            "hd2_ev": "COW:6371,GOOSE:3307,SHEEP:-1450",
+            "hd2_rewrites": 14,
+            "hd2_credit_units": 55,
+            "hd2_sold_units": 42,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 2,
+            "gain": 127.0,
+            "evals": 6292,
+            "moved_sells": 2,
+            "errors": 0,
+            "budget_hits": 0
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 720,
+            "changed": 1,
+            "early_stops": 719,
+            "maxed": 0,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 0,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 0,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "keep@241",
+            "hd2_ev": "COW:674,GOOSE:3110,SHEEP:-1450",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 51,
+            "gain": 629.0,
+            "evals": 39456,
+            "moved_sells": 77,
+            "errors": 0,
+            "budget_hits": 16
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 755,
+            "changed": 37,
+            "early_stops": 718,
+            "maxed": 1,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 1,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 1,
+            "errors": 0
+          }
+        }
+      ],
+      "final_shops": [
+        "SMOOTHIE_SHOP",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "PIZZA_SHOP",
+        "SMOOTHIE_SHOP",
+        "SMOOTHIE_SHOP",
+        "YARN_STORE",
+        "BAKERY"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930202_seat0.json.gz"
+    },
+    {
+      "seed": 260930202,
+      "candidate_seat": 1,
+      "candidate_money": 147552.0,
+      "opponent_money": 142469.0,
+      "margin": 5083.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 8.758508034000442,
+      "action_sha256": [
+        "4b0ef8f7868419f671c9a857d221e86f6976465e30551b35de78d165b0ae9329",
+        "a977830932adc55528b1b14ed236039dc57220c9ff8b25ebabdd2bb1d9235c49"
+      ],
+      "max_agent_seconds": [
+        0.33788005400037946,
+        0.047043128999575856
+      ],
+      "p99_agent_seconds": [
+        0.022160656820178808,
+        0.012953615159876813
+      ],
+      "agent_seconds": [
+        1.9791066200241403,
+        1.4090841259903755
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "keep@241",
+            "hd2_ev": "COW:674,GOOSE:3110,SHEEP:-1450",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 51,
+            "gain": 629.0,
+            "evals": 39456,
+            "moved_sells": 77,
+            "errors": 0,
+            "budget_hits": 16
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 755,
+            "changed": 37,
+            "early_stops": 718,
+            "maxed": 1,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 1,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 1,
+            "errors": 0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "COW@241",
+            "hd2_ev": "COW:6371,GOOSE:3307,SHEEP:-1450",
+            "hd2_rewrites": 14,
+            "hd2_credit_units": 55,
+            "hd2_sold_units": 42,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 2,
+            "gain": 127.0,
+            "evals": 6292,
+            "moved_sells": 2,
+            "errors": 0,
+            "budget_hits": 0
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 720,
+            "changed": 1,
+            "early_stops": 719,
+            "maxed": 0,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 0,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 0,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        }
+      ],
+      "final_shops": [
+        "SMOOTHIE_SHOP",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "PIZZA_SHOP",
+        "SMOOTHIE_SHOP",
+        "SMOOTHIE_SHOP",
+        "YARN_STORE",
+        "BAKERY"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930202_seat1.json.gz"
+    },
+    {
+      "seed": 260930203,
+      "candidate_seat": 0,
+      "candidate_money": 102381.0,
+      "opponent_money": 102381.0,
+      "margin": 0.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 9.762757749999764,
+      "action_sha256": [
+        "b6d32f4edab54d39b7d9fb6fa8ed8c84a78ae0fd78a4b8eecf5bda3bf1a17fe1",
+        "b6d32f4edab54d39b7d9fb6fa8ed8c84a78ae0fd78a4b8eecf5bda3bf1a17fe1"
+      ],
+      "max_agent_seconds": [
+        0.19246973600002093,
+        0.1295855689995733
+      ],
+      "p99_agent_seconds": [
+        0.019724197800296713,
+        0.01827602471988972
+      ],
+      "agent_seconds": [
+        1.9288600679892625,
+        1.6588950560135345
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "",
+            "hd2_ev": "",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 96,
+            "gain": 3404.0,
+            "evals": 31250,
+            "moved_sells": 184,
+            "errors": 0,
+            "budget_hits": 0
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 789,
+            "changed": 72,
+            "early_stops": 717,
+            "maxed": 2,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 2,
+            "accepted": 0,
+            "rejected_inversion": 2,
+            "rejected_quote": 0,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "",
+            "hd2_ev": "",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 96,
+            "gain": 3404.0,
+            "evals": 31250,
+            "moved_sells": 184,
+            "errors": 0,
+            "budget_hits": 0
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 789,
+            "changed": 72,
+            "early_stops": 717,
+            "maxed": 2,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 2,
+            "accepted": 0,
+            "rejected_inversion": 2,
+            "rejected_quote": 0,
+            "errors": 0
+          }
+        }
+      ],
+      "final_shops": [
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "SMOOTHIE_SHOP",
+        "BRUNCH_SPOT",
+        "FARMERS_MARKET",
+        "FARMERS_MARKET",
+        "PIZZA_SHOP",
+        "BAKERY"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930203_seat0.json.gz"
+    },
+    {
+      "seed": 260930203,
+      "candidate_seat": 1,
+      "candidate_money": 102381.0,
+      "opponent_money": 102381.0,
+      "margin": 0.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 9.460006842000439,
+      "action_sha256": [
+        "b6d32f4edab54d39b7d9fb6fa8ed8c84a78ae0fd78a4b8eecf5bda3bf1a17fe1",
+        "b6d32f4edab54d39b7d9fb6fa8ed8c84a78ae0fd78a4b8eecf5bda3bf1a17fe1"
+      ],
+      "max_agent_seconds": [
+        0.15561511000032624,
+        0.20775319899985334
+      ],
+      "p99_agent_seconds": [
+        0.021032532400258937,
+        0.01506489522053032
+      ],
+      "agent_seconds": [
+        1.8020600570098395,
+        1.751202515987643
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "",
+            "hd2_ev": "",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 96,
+            "gain": 3404.0,
+            "evals": 31250,
+            "moved_sells": 184,
+            "errors": 0,
+            "budget_hits": 0
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 789,
+            "changed": 72,
+            "early_stops": 717,
+            "maxed": 2,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 2,
+            "accepted": 0,
+            "rejected_inversion": 2,
+            "rejected_quote": 0,
+            "errors": 0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "",
+            "hd2_ev": "",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 96,
+            "gain": 3404.0,
+            "evals": 31250,
+            "moved_sells": 184,
+            "errors": 0,
+            "budget_hits": 0
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 789,
+            "changed": 72,
+            "early_stops": 717,
+            "maxed": 2,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 2,
+            "accepted": 0,
+            "rejected_inversion": 2,
+            "rejected_quote": 0,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        }
+      ],
+      "final_shops": [
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "SMOOTHIE_SHOP",
+        "BRUNCH_SPOT",
+        "FARMERS_MARKET",
+        "FARMERS_MARKET",
+        "PIZZA_SHOP",
+        "BAKERY"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930203_seat1.json.gz"
+    },
+    {
+      "seed": 260930204,
+      "candidate_seat": 0,
+      "candidate_money": 79405.0,
+      "opponent_money": 79405.0,
+      "margin": 0.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 9.239966426000137,
+      "action_sha256": [
+        "014dd136d850fe636b15ee2355cc8cfe7aebb7a8a71a11a96d091b8feefb6c60",
+        "014dd136d850fe636b15ee2355cc8cfe7aebb7a8a71a11a96d091b8feefb6c60"
+      ],
+      "max_agent_seconds": [
+        0.06707336199997371,
+        0.05277725999985705
+      ],
+      "p99_agent_seconds": [
+        0.011316441079779943,
+        0.010952035540376574
+      ],
+      "agent_seconds": [
+        1.5580536290053715,
+        1.4242353660147273
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "",
+            "hd2_ev": "",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 5,
+            "gain": 78.0,
+            "evals": 7376,
+            "moved_sells": 5,
+            "errors": 0,
+            "budget_hits": 0
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 724,
+            "changed": 5,
+            "early_stops": 719,
+            "maxed": 0,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 0,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 0,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "",
+            "hd2_ev": "",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 5,
+            "gain": 78.0,
+            "evals": 7376,
+            "moved_sells": 5,
+            "errors": 0,
+            "budget_hits": 0
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 724,
+            "changed": 5,
+            "early_stops": 719,
+            "maxed": 0,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 0,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 0,
+            "errors": 0
+          }
+        }
+      ],
+      "final_shops": [
+        "BAKERY",
+        "YARN_STORE",
+        "FARMERS_MARKET",
+        "BRUNCH_SPOT",
+        "FARMERS_MARKET",
+        "SMOOTHIE_SHOP",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930204_seat0.json.gz"
+    },
+    {
+      "seed": 260930204,
+      "candidate_seat": 1,
+      "candidate_money": 79405.0,
+      "opponent_money": 79405.0,
+      "margin": 0.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 9.130901909000386,
+      "action_sha256": [
+        "014dd136d850fe636b15ee2355cc8cfe7aebb7a8a71a11a96d091b8feefb6c60",
+        "014dd136d850fe636b15ee2355cc8cfe7aebb7a8a71a11a96d091b8feefb6c60"
+      ],
+      "max_agent_seconds": [
+        0.047888692000015,
+        0.16106954800034146
+      ],
+      "p99_agent_seconds": [
+        0.013972310339959331,
+        0.010766326840657717
+      ],
+      "agent_seconds": [
+        1.5218019540043315,
+        1.5990747230016495
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "",
+            "hd2_ev": "",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 5,
+            "gain": 78.0,
+            "evals": 7376,
+            "moved_sells": 5,
+            "errors": 0,
+            "budget_hits": 0
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 724,
+            "changed": 5,
+            "early_stops": 719,
+            "maxed": 0,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 0,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 0,
+            "errors": 0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "",
+            "hd2_ev": "",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 5,
+            "gain": 78.0,
+            "evals": 7376,
+            "moved_sells": 5,
+            "errors": 0,
+            "budget_hits": 0
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 724,
+            "changed": 5,
+            "early_stops": 719,
+            "maxed": 0,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 0,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 0,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        }
+      ],
+      "final_shops": [
+        "BAKERY",
+        "YARN_STORE",
+        "FARMERS_MARKET",
+        "BRUNCH_SPOT",
+        "FARMERS_MARKET",
+        "SMOOTHIE_SHOP",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930204_seat1.json.gz"
+    },
+    {
+      "seed": 260930205,
+      "candidate_seat": 0,
+      "candidate_money": 70173.0,
+      "opponent_money": 70173.0,
+      "margin": 0.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 10.965149565000502,
+      "action_sha256": [
+        "dd2e281255f6681b725ec2e94cfcb0b087b4a00da82e033feef608f9759fa5bc",
+        "dd2e281255f6681b725ec2e94cfcb0b087b4a00da82e033feef608f9759fa5bc"
+      ],
+      "max_agent_seconds": [
+        0.370469647000391,
+        0.38329432099999394
+      ],
+      "p99_agent_seconds": [
+        0.020576016620016378,
+        0.02301031766008248
+      ],
+      "agent_seconds": [
+        2.5690221419745285,
+        2.6472858649958653
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "skip:coop_exists",
+            "hd2_ev": "",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 132,
+            "gain": 604.0,
+            "evals": 80437,
+            "moved_sells": 238,
+            "errors": 0,
+            "budget_hits": 1
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 819,
+            "changed": 103,
+            "early_stops": 716,
+            "maxed": 3,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 3,
+            "accepted": 0,
+            "rejected_inversion": 3,
+            "rejected_quote": 0,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "skip:coop_exists",
+            "hd2_ev": "",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 132,
+            "gain": 604.0,
+            "evals": 80437,
+            "moved_sells": 238,
+            "errors": 0,
+            "budget_hits": 1
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 819,
+            "changed": 103,
+            "early_stops": 716,
+            "maxed": 3,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 3,
+            "accepted": 0,
+            "rejected_inversion": 3,
+            "rejected_quote": 0,
+            "errors": 0
+          }
+        }
+      ],
+      "final_shops": [
+        "BAKERY",
+        "PET_CAFE",
+        "FARMERS_MARKET",
+        "FARMERS_MARKET",
+        "BRUNCH_SPOT",
+        "PET_CAFE",
+        "BRUNCH_SPOT",
+        "BAKERY"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930205_seat0.json.gz"
+    },
+    {
+      "seed": 260930205,
+      "candidate_seat": 1,
+      "candidate_money": 70173.0,
+      "opponent_money": 70173.0,
+      "margin": 0.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 10.668913385999986,
+      "action_sha256": [
+        "dd2e281255f6681b725ec2e94cfcb0b087b4a00da82e033feef608f9759fa5bc",
+        "dd2e281255f6681b725ec2e94cfcb0b087b4a00da82e033feef608f9759fa5bc"
+      ],
+      "max_agent_seconds": [
+        0.3566612879994864,
+        0.38086047599972517
+      ],
+      "p99_agent_seconds": [
+        0.03236975172001622,
+        0.02449375777998313
+      ],
+      "agent_seconds": [
+        2.5121403340099278,
+        2.3947476980138163
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "skip:coop_exists",
+            "hd2_ev": "",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 132,
+            "gain": 604.0,
+            "evals": 80437,
+            "moved_sells": 238,
+            "errors": 0,
+            "budget_hits": 1
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 819,
+            "changed": 103,
+            "early_stops": 716,
+            "maxed": 3,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 3,
+            "accepted": 0,
+            "rejected_inversion": 3,
+            "rejected_quote": 0,
+            "errors": 0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "skip:coop_exists",
+            "hd2_ev": "",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 132,
+            "gain": 604.0,
+            "evals": 80437,
+            "moved_sells": 238,
+            "errors": 0,
+            "budget_hits": 1
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 819,
+            "changed": 103,
+            "early_stops": 716,
+            "maxed": 3,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 3,
+            "accepted": 0,
+            "rejected_inversion": 3,
+            "rejected_quote": 0,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        }
+      ],
+      "final_shops": [
+        "BAKERY",
+        "PET_CAFE",
+        "FARMERS_MARKET",
+        "FARMERS_MARKET",
+        "BRUNCH_SPOT",
+        "PET_CAFE",
+        "BRUNCH_SPOT",
+        "BAKERY"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930205_seat1.json.gz"
+    },
+    {
+      "seed": 260930206,
+      "candidate_seat": 0,
+      "candidate_money": 84556.0,
+      "opponent_money": 84556.0,
+      "margin": 0.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 10.706589057000201,
+      "action_sha256": [
+        "2f013589403cfec4601991b7fdd5ca26b1c446187b3ca125033997da185e99dc",
+        "2f013589403cfec4601991b7fdd5ca26b1c446187b3ca125033997da185e99dc"
+      ],
+      "max_agent_seconds": [
+        0.14687613199930638,
+        0.17677092099984293
+      ],
+      "p99_agent_seconds": [
+        0.04269335596005497,
+        0.04651108231992141
+      ],
+      "agent_seconds": [
+        2.363237211021442,
+        2.4429058620198703
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "keep@241",
+            "hd2_ev": "COW:307,GOOSE:2808,SHEEP:-1450",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 104,
+            "gain": 2628.0,
+            "evals": 87116,
+            "moved_sells": 215,
+            "errors": 0,
+            "budget_hits": 60
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 801,
+            "changed": 84,
+            "early_stops": 717,
+            "maxed": 2,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 2,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 2,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "keep@241",
+            "hd2_ev": "COW:-912,GOOSE:2459,SHEEP:-1450",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 104,
+            "gain": 2628.0,
+            "evals": 87116,
+            "moved_sells": 215,
+            "errors": 0,
+            "budget_hits": 60
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 801,
+            "changed": 84,
+            "early_stops": 717,
+            "maxed": 2,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 2,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 2,
+            "errors": 0
+          }
+        }
+      ],
+      "final_shops": [
+        "SMOOTHIE_SHOP",
+        "PET_CAFE",
+        "PET_CAFE",
+        "SMOOTHIE_SHOP",
+        "BRUNCH_SPOT",
+        "PIZZA_SHOP",
+        "SMOOTHIE_SHOP",
+        "PET_CAFE"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930206_seat0.json.gz"
+    },
+    {
+      "seed": 260930206,
+      "candidate_seat": 1,
+      "candidate_money": 84556.0,
+      "opponent_money": 84556.0,
+      "margin": 0.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 9.953242341000077,
+      "action_sha256": [
+        "2f013589403cfec4601991b7fdd5ca26b1c446187b3ca125033997da185e99dc",
+        "2f013589403cfec4601991b7fdd5ca26b1c446187b3ca125033997da185e99dc"
+      ],
+      "max_agent_seconds": [
+        0.16031629000008252,
+        0.16641126000013173
+      ],
+      "p99_agent_seconds": [
+        0.04769524853965782,
+        0.0435625794001135
+      ],
+      "agent_seconds": [
+        2.2120113939863586,
+        2.1758988040073746
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "keep@241",
+            "hd2_ev": "COW:-912,GOOSE:2459,SHEEP:-1450",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 104,
+            "gain": 2628.0,
+            "evals": 87116,
+            "moved_sells": 215,
+            "errors": 0,
+            "budget_hits": 60
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 801,
+            "changed": 84,
+            "early_stops": 717,
+            "maxed": 2,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 2,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 2,
+            "errors": 0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "keep@241",
+            "hd2_ev": "COW:307,GOOSE:2808,SHEEP:-1450",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 104,
+            "gain": 2628.0,
+            "evals": 87116,
+            "moved_sells": 215,
+            "errors": 0,
+            "budget_hits": 60
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 801,
+            "changed": 84,
+            "early_stops": 717,
+            "maxed": 2,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 2,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 2,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        }
+      ],
+      "final_shops": [
+        "SMOOTHIE_SHOP",
+        "PET_CAFE",
+        "PET_CAFE",
+        "SMOOTHIE_SHOP",
+        "BRUNCH_SPOT",
+        "PIZZA_SHOP",
+        "SMOOTHIE_SHOP",
+        "PET_CAFE"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930206_seat1.json.gz"
+    },
+    {
+      "seed": 260930207,
+      "candidate_seat": 0,
+      "candidate_money": 92338.0,
+      "opponent_money": 92338.0,
+      "margin": 0.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 10.69591015900005,
+      "action_sha256": [
+        "22d4790d6e36ab078e64d7febe69ad0f8e2017c83aec4b11ffb84fc244740caa",
+        "22d4790d6e36ab078e64d7febe69ad0f8e2017c83aec4b11ffb84fc244740caa"
+      ],
+      "max_agent_seconds": [
+        0.225607038999442,
+        0.06577070000003005
+      ],
+      "p99_agent_seconds": [
+        0.029175979539977668,
+        0.030470809540056928
+      ],
+      "agent_seconds": [
+        2.4501436859973182,
+        2.081140896000761
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "keep@241",
+            "hd2_ev": "COW:-471,GOOSE:2808,SHEEP:-1450",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 7,
+            "gain": 101.0,
+            "evals": 17513,
+            "moved_sells": 8,
+            "errors": 0,
+            "budget_hits": 1
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 723,
+            "changed": 4,
+            "early_stops": 719,
+            "maxed": 0,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 0,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 0,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "keep@241",
+            "hd2_ev": "COW:-1152,GOOSE:2459,SHEEP:-1450",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 7,
+            "gain": 101.0,
+            "evals": 17513,
+            "moved_sells": 8,
+            "errors": 0,
+            "budget_hits": 1
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 723,
+            "changed": 4,
+            "early_stops": 719,
+            "maxed": 0,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 0,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 0,
+            "errors": 0
+          }
+        }
+      ],
+      "final_shops": [
+        "FARMERS_MARKET",
+        "SMOOTHIE_SHOP",
+        "PET_CAFE",
+        "PIZZA_SHOP",
+        "PIZZA_SHOP",
+        "PIZZA_SHOP",
+        "PET_CAFE",
+        "PET_CAFE"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930207_seat0.json.gz"
+    },
+    {
+      "seed": 260930207,
+      "candidate_seat": 1,
+      "candidate_money": 92338.0,
+      "opponent_money": 92338.0,
+      "margin": 0.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 10.332225563000065,
+      "action_sha256": [
+        "22d4790d6e36ab078e64d7febe69ad0f8e2017c83aec4b11ffb84fc244740caa",
+        "22d4790d6e36ab078e64d7febe69ad0f8e2017c83aec4b11ffb84fc244740caa"
+      ],
+      "max_agent_seconds": [
+        0.22503816399967036,
+        0.052356600999701186
+      ],
+      "p99_agent_seconds": [
+        0.04219340469988323,
+        0.026408513879705785
+      ],
+      "agent_seconds": [
+        2.5616730879955867,
+        1.9888780579913146
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "keep@241",
+            "hd2_ev": "COW:-1152,GOOSE:2459,SHEEP:-1450",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 7,
+            "gain": 101.0,
+            "evals": 17513,
+            "moved_sells": 8,
+            "errors": 0,
+            "budget_hits": 1
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 723,
+            "changed": 4,
+            "early_stops": 719,
+            "maxed": 0,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 0,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 0,
+            "errors": 0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "keep@241",
+            "hd2_ev": "COW:-471,GOOSE:2808,SHEEP:-1450",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 7,
+            "gain": 101.0,
+            "evals": 17513,
+            "moved_sells": 8,
+            "errors": 0,
+            "budget_hits": 1
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 723,
+            "changed": 4,
+            "early_stops": 719,
+            "maxed": 0,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 0,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 0,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        }
+      ],
+      "final_shops": [
+        "FARMERS_MARKET",
+        "SMOOTHIE_SHOP",
+        "PET_CAFE",
+        "PIZZA_SHOP",
+        "PIZZA_SHOP",
+        "PIZZA_SHOP",
+        "PET_CAFE",
+        "PET_CAFE"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930207_seat1.json.gz"
+    },
+    {
+      "seed": 260930208,
+      "candidate_seat": 0,
+      "candidate_money": 84823.0,
+      "opponent_money": 85636.0,
+      "margin": -813.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 9.180539691999911,
+      "action_sha256": [
+        "31f0f9c2aac57a66d8fdb0628af433b014a1414d680e2fa3dff11a010046840e",
+        "2b92f3579996a7de3e8ec5cf8e911ca4df3c9f898b90ff2bf4390ed889f277f6"
+      ],
+      "max_agent_seconds": [
+        0.3146373040008257,
+        0.15636512000037328
+      ],
+      "p99_agent_seconds": [
+        0.024536859500021907,
+        0.022182633279317115
+      ],
+      "agent_seconds": [
+        2.175769713999216,
+        1.7244797309967907
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "",
+            "hd2_ev": "",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 99,
+            "gain": 4376.0,
+            "evals": 40036,
+            "moved_sells": 210,
+            "errors": 0,
+            "budget_hits": 8
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 794,
+            "changed": 77,
+            "early_stops": 717,
+            "maxed": 2,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 2,
+            "accepted": 0,
+            "rejected_inversion": 1,
+            "rejected_quote": 1,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "",
+            "hd2_ev": "",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 99,
+            "gain": 4376.0,
+            "evals": 40036,
+            "moved_sells": 210,
+            "errors": 0,
+            "budget_hits": 8
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 794,
+            "changed": 77,
+            "early_stops": 717,
+            "maxed": 2,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 2,
+            "accepted": 0,
+            "rejected_inversion": 1,
+            "rejected_quote": 1,
+            "errors": 0
+          }
+        }
+      ],
+      "final_shops": [
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "SMOOTHIE_SHOP",
+        "PET_CAFE",
+        "PET_CAFE",
+        "SMOOTHIE_SHOP",
+        "FARMERS_MARKET",
+        "SMOOTHIE_SHOP"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930208_seat0.json.gz"
+    },
+    {
+      "seed": 260930208,
+      "candidate_seat": 1,
+      "candidate_money": 85636.0,
+      "opponent_money": 84823.0,
+      "margin": 813.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 9.955065477999597,
+      "action_sha256": [
+        "31f0f9c2aac57a66d8fdb0628af433b014a1414d680e2fa3dff11a010046840e",
+        "2b92f3579996a7de3e8ec5cf8e911ca4df3c9f898b90ff2bf4390ed889f277f6"
+      ],
+      "max_agent_seconds": [
+        0.11186658699989493,
+        0.1146292599996741
+      ],
+      "p99_agent_seconds": [
+        0.02550389427986379,
+        0.026155592040031768
+      ],
+      "agent_seconds": [
+        2.0157305610100593,
+        1.8819858030074101
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "",
+            "hd2_ev": "",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 99,
+            "gain": 4376.0,
+            "evals": 40036,
+            "moved_sells": 210,
+            "errors": 0,
+            "budget_hits": 8
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 794,
+            "changed": 77,
+            "early_stops": 717,
+            "maxed": 2,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 2,
+            "accepted": 0,
+            "rejected_inversion": 1,
+            "rejected_quote": 1,
+            "errors": 0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "",
+            "hd2_ev": "",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 99,
+            "gain": 4376.0,
+            "evals": 40036,
+            "moved_sells": 210,
+            "errors": 0,
+            "budget_hits": 8
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 794,
+            "changed": 77,
+            "early_stops": 717,
+            "maxed": 2,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 2,
+            "accepted": 0,
+            "rejected_inversion": 1,
+            "rejected_quote": 1,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        }
+      ],
+      "final_shops": [
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "SMOOTHIE_SHOP",
+        "PET_CAFE",
+        "PET_CAFE",
+        "SMOOTHIE_SHOP",
+        "FARMERS_MARKET",
+        "SMOOTHIE_SHOP"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930208_seat1.json.gz"
+    },
+    {
+      "seed": 260930209,
+      "candidate_seat": 0,
+      "candidate_money": 80445.0,
+      "opponent_money": 80445.0,
+      "margin": 0.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 9.480193706000136,
+      "action_sha256": [
+        "f57acd6715a26dba3e91937b769f249bbb9a8c6b987de037ff4aa5d58e06006a",
+        "f3b35fd8885713152267616b3a67dfd365d23c1238c632ba00812632a2837daa"
+      ],
+      "max_agent_seconds": [
+        0.11842674299987266,
+        0.15728934400067374
+      ],
+      "p99_agent_seconds": [
+        0.02326402525997787,
+        0.02701932678020973
+      ],
+      "agent_seconds": [
+        2.030985601008979,
+        2.1224023489930914
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "keep@241",
+            "hd2_ev": "COW:-471,GOOSE:2808,SHEEP:-1450",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 58,
+            "gain": 858.0,
+            "evals": 50803,
+            "moved_sells": 83,
+            "errors": 0,
+            "budget_hits": 43
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 768,
+            "changed": 50,
+            "early_stops": 718,
+            "maxed": 1,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 1,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 1,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "keep@241",
+            "hd2_ev": "COW:-1152,GOOSE:2459,SHEEP:-1450",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 58,
+            "gain": 858.0,
+            "evals": 50803,
+            "moved_sells": 83,
+            "errors": 0,
+            "budget_hits": 43
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 768,
+            "changed": 50,
+            "early_stops": 718,
+            "maxed": 1,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 1,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 1,
+            "errors": 0
+          }
+        }
+      ],
+      "final_shops": [
+        "PET_CAFE",
+        "ICE_CREAM_SHOP",
+        "PET_CAFE",
+        "PET_CAFE",
+        "PET_CAFE",
+        "SMOOTHIE_SHOP",
+        "PET_CAFE",
+        "YARN_STORE"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930209_seat0.json.gz"
+    },
+    {
+      "seed": 260930209,
+      "candidate_seat": 1,
+      "candidate_money": 80445.0,
+      "opponent_money": 80445.0,
+      "margin": 0.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 10.177977970999564,
+      "action_sha256": [
+        "f57acd6715a26dba3e91937b769f249bbb9a8c6b987de037ff4aa5d58e06006a",
+        "f3b35fd8885713152267616b3a67dfd365d23c1238c632ba00812632a2837daa"
+      ],
+      "max_agent_seconds": [
+        0.15762874699976237,
+        0.2250133529996674
+      ],
+      "p99_agent_seconds": [
+        0.027453507979771686,
+        0.029254965300315475
+      ],
+      "agent_seconds": [
+        2.3030223219793697,
+        2.4610690190156674
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "keep@241",
+            "hd2_ev": "COW:-1152,GOOSE:2459,SHEEP:-1450",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 58,
+            "gain": 858.0,
+            "evals": 50803,
+            "moved_sells": 83,
+            "errors": 0,
+            "budget_hits": 43
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 768,
+            "changed": 50,
+            "early_stops": 718,
+            "maxed": 1,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 1,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 1,
+            "errors": 0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "keep@241",
+            "hd2_ev": "COW:-471,GOOSE:2808,SHEEP:-1450",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 58,
+            "gain": 858.0,
+            "evals": 50803,
+            "moved_sells": 83,
+            "errors": 0,
+            "budget_hits": 43
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 768,
+            "changed": 50,
+            "early_stops": 718,
+            "maxed": 1,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 1,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 1,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        }
+      ],
+      "final_shops": [
+        "PET_CAFE",
+        "ICE_CREAM_SHOP",
+        "PET_CAFE",
+        "PET_CAFE",
+        "PET_CAFE",
+        "SMOOTHIE_SHOP",
+        "PET_CAFE",
+        "YARN_STORE"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930209_seat1.json.gz"
+    },
+    {
+      "seed": 260930210,
+      "candidate_seat": 0,
+      "candidate_money": 77560.0,
+      "opponent_money": 77560.0,
+      "margin": 0.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 10.52592777100017,
+      "action_sha256": [
+        "d1bedc35141a176f2e6ad217e0c03aa4364320612391235ddc7d5994b2c34249",
+        "d1bedc35141a176f2e6ad217e0c03aa4364320612391235ddc7d5994b2c34249"
+      ],
+      "max_agent_seconds": [
+        0.40358932100025413,
+        0.37736139299977367
+      ],
+      "p99_agent_seconds": [
+        0.024927392999452964,
+        0.016869251280313684
+      ],
+      "agent_seconds": [
+        2.880949995993433,
+        2.3707310769941614
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "",
+            "hd2_ev": "",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 51,
+            "gain": 2777.0,
+            "evals": 32764,
+            "moved_sells": 98,
+            "errors": 0,
+            "budget_hits": 4
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 755,
+            "changed": 37,
+            "early_stops": 718,
+            "maxed": 1,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 1,
+            "accepted": 0,
+            "rejected_inversion": 1,
+            "rejected_quote": 0,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "",
+            "hd2_ev": "",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 51,
+            "gain": 2777.0,
+            "evals": 32764,
+            "moved_sells": 98,
+            "errors": 0,
+            "budget_hits": 4
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 755,
+            "changed": 37,
+            "early_stops": 718,
+            "maxed": 1,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 1,
+            "accepted": 0,
+            "rejected_inversion": 1,
+            "rejected_quote": 0,
+            "errors": 0
+          }
+        }
+      ],
+      "final_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "FARMERS_MARKET",
+        "BRUNCH_SPOT",
+        "PIZZA_SHOP",
+        "BAKERY",
+        "PIZZA_SHOP",
+        "BRUNCH_SPOT"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930210_seat0.json.gz"
+    },
+    {
+      "seed": 260930210,
+      "candidate_seat": 1,
+      "candidate_money": 77560.0,
+      "opponent_money": 77560.0,
+      "margin": 0.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 10.573568701000113,
+      "action_sha256": [
+        "d1bedc35141a176f2e6ad217e0c03aa4364320612391235ddc7d5994b2c34249",
+        "d1bedc35141a176f2e6ad217e0c03aa4364320612391235ddc7d5994b2c34249"
+      ],
+      "max_agent_seconds": [
+        0.42066345600051136,
+        0.3564438009998412
+      ],
+      "p99_agent_seconds": [
+        0.01925513895963384,
+        0.018102346059695414
+      ],
+      "agent_seconds": [
+        2.871166403000643,
+        2.5951931709796554
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "",
+            "hd2_ev": "",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 51,
+            "gain": 2777.0,
+            "evals": 32764,
+            "moved_sells": 98,
+            "errors": 0,
+            "budget_hits": 4
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 755,
+            "changed": 37,
+            "early_stops": 718,
+            "maxed": 1,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 1,
+            "accepted": 0,
+            "rejected_inversion": 1,
+            "rejected_quote": 0,
+            "errors": 0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "",
+            "hd2_ev": "",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 51,
+            "gain": 2777.0,
+            "evals": 32764,
+            "moved_sells": 98,
+            "errors": 0,
+            "budget_hits": 4
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 755,
+            "changed": 37,
+            "early_stops": 718,
+            "maxed": 1,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 1,
+            "accepted": 0,
+            "rejected_inversion": 1,
+            "rejected_quote": 0,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        }
+      ],
+      "final_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "FARMERS_MARKET",
+        "BRUNCH_SPOT",
+        "PIZZA_SHOP",
+        "BAKERY",
+        "PIZZA_SHOP",
+        "BRUNCH_SPOT"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930210_seat1.json.gz"
+    },
+    {
+      "seed": 260930211,
+      "candidate_seat": 0,
+      "candidate_money": 69809.0,
+      "opponent_money": 69809.0,
+      "margin": 0.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 10.483401324000624,
+      "action_sha256": [
+        "ea46ce9a03731a41f99ed70b4bf4676dbe35dc6db31b841a2693591dcf03bdeb",
+        "ea46ce9a03731a41f99ed70b4bf4676dbe35dc6db31b841a2693591dcf03bdeb"
+      ],
+      "max_agent_seconds": [
+        0.2672532759997921,
+        0.22775544600062858
+      ],
+      "p99_agent_seconds": [
+        0.027162110980298512,
+        0.023080608660384392
+      ],
+      "agent_seconds": [
+        2.5580235160014126,
+        2.321092039019277
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "keep@241",
+            "hd2_ev": "COW:-471,GOOSE:3388,SHEEP:-1450",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 90,
+            "gain": 3129.0,
+            "evals": 75509,
+            "moved_sells": 187,
+            "errors": 0,
+            "budget_hits": 81
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 789,
+            "changed": 72,
+            "early_stops": 717,
+            "maxed": 2,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 2,
+            "accepted": 0,
+            "rejected_inversion": 2,
+            "rejected_quote": 0,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "keep@241",
+            "hd2_ev": "COW:-1152,GOOSE:3192,SHEEP:-1450",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 90,
+            "gain": 3129.0,
+            "evals": 75509,
+            "moved_sells": 187,
+            "errors": 0,
+            "budget_hits": 81
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 789,
+            "changed": 72,
+            "early_stops": 717,
+            "maxed": 2,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 2,
+            "accepted": 0,
+            "rejected_inversion": 2,
+            "rejected_quote": 0,
+            "errors": 0
+          }
+        }
+      ],
+      "final_shops": [
+        "BAKERY",
+        "SMOOTHIE_SHOP",
+        "PET_CAFE",
+        "BAKERY",
+        "YARN_STORE",
+        "BAKERY",
+        "YARN_STORE",
+        "PIZZA_SHOP"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930211_seat0.json.gz"
+    },
+    {
+      "seed": 260930211,
+      "candidate_seat": 1,
+      "candidate_money": 69809.0,
+      "opponent_money": 69809.0,
+      "margin": 0.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 10.49517324899989,
+      "action_sha256": [
+        "ea46ce9a03731a41f99ed70b4bf4676dbe35dc6db31b841a2693591dcf03bdeb",
+        "ea46ce9a03731a41f99ed70b4bf4676dbe35dc6db31b841a2693591dcf03bdeb"
+      ],
+      "max_agent_seconds": [
+        0.22024575700015703,
+        0.2127437720000671
+      ],
+      "p99_agent_seconds": [
+        0.03425742652034399,
+        0.021457601020283622
+      ],
+      "agent_seconds": [
+        2.5790134430035323,
+        2.2483940340216577
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "keep@241",
+            "hd2_ev": "COW:-1152,GOOSE:3192,SHEEP:-1450",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 90,
+            "gain": 3129.0,
+            "evals": 75509,
+            "moved_sells": 187,
+            "errors": 0,
+            "budget_hits": 81
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 789,
+            "changed": 72,
+            "early_stops": 717,
+            "maxed": 2,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 2,
+            "accepted": 0,
+            "rejected_inversion": 2,
+            "rejected_quote": 0,
+            "errors": 0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "keep@241",
+            "hd2_ev": "COW:-471,GOOSE:3388,SHEEP:-1450",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 90,
+            "gain": 3129.0,
+            "evals": 75509,
+            "moved_sells": 187,
+            "errors": 0,
+            "budget_hits": 81
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 789,
+            "changed": 72,
+            "early_stops": 717,
+            "maxed": 2,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 2,
+            "accepted": 0,
+            "rejected_inversion": 2,
+            "rejected_quote": 0,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        }
+      ],
+      "final_shops": [
+        "BAKERY",
+        "SMOOTHIE_SHOP",
+        "PET_CAFE",
+        "BAKERY",
+        "YARN_STORE",
+        "BAKERY",
+        "YARN_STORE",
+        "PIZZA_SHOP"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930211_seat1.json.gz"
+    },
+    {
+      "seed": 260930212,
+      "candidate_seat": 0,
+      "candidate_money": 63681.0,
+      "opponent_money": 63681.0,
+      "margin": 0.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 8.88966764900033,
+      "action_sha256": [
+        "7b4b8f34ef4a1c77b51ef411912b181af1cb69dfaa7de58ed86e7a05ea72da33",
+        "7b4b8f34ef4a1c77b51ef411912b181af1cb69dfaa7de58ed86e7a05ea72da33"
+      ],
+      "max_agent_seconds": [
+        0.27451234700038185,
+        0.1355326659995626
+      ],
+      "p99_agent_seconds": [
+        0.01132783982006004,
+        0.011716859840144093
+      ],
+      "agent_seconds": [
+        1.826561384017623,
+        1.5403329840019069
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "",
+            "hd2_ev": "",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 10,
+            "gain": 971.0,
+            "evals": 4770,
+            "moved_sells": 14,
+            "errors": 0,
+            "budget_hits": 0
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 728,
+            "changed": 9,
+            "early_stops": 719,
+            "maxed": 0,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 0,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 0,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "",
+            "hd2_ev": "",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 10,
+            "gain": 971.0,
+            "evals": 4770,
+            "moved_sells": 14,
+            "errors": 0,
+            "budget_hits": 0
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 728,
+            "changed": 9,
+            "early_stops": 719,
+            "maxed": 0,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 0,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 0,
+            "errors": 0
+          }
+        }
+      ],
+      "final_shops": [
+        "BAKERY",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "PIZZA_SHOP",
+        "BRUNCH_SPOT",
+        "SMOOTHIE_SHOP"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930212_seat0.json.gz"
+    },
+    {
+      "seed": 260930212,
+      "candidate_seat": 1,
+      "candidate_money": 63681.0,
+      "opponent_money": 63681.0,
+      "margin": 0.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 8.902947849000157,
+      "action_sha256": [
+        "7b4b8f34ef4a1c77b51ef411912b181af1cb69dfaa7de58ed86e7a05ea72da33",
+        "7b4b8f34ef4a1c77b51ef411912b181af1cb69dfaa7de58ed86e7a05ea72da33"
+      ],
+      "max_agent_seconds": [
+        0.09030660899952636,
+        0.19068157299989252
+      ],
+      "p99_agent_seconds": [
+        0.014783838399526066,
+        0.015074191800195064
+      ],
+      "agent_seconds": [
+        1.6874893329777478,
+        1.8742959979826992
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "",
+            "hd2_ev": "",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 10,
+            "gain": 971.0,
+            "evals": 4770,
+            "moved_sells": 14,
+            "errors": 0,
+            "budget_hits": 0
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 728,
+            "changed": 9,
+            "early_stops": 719,
+            "maxed": 0,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 0,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 0,
+            "errors": 0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "",
+            "hd2_ev": "",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 10,
+            "gain": 971.0,
+            "evals": 4770,
+            "moved_sells": 14,
+            "errors": 0,
+            "budget_hits": 0
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 728,
+            "changed": 9,
+            "early_stops": 719,
+            "maxed": 0,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 0,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 0,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        }
+      ],
+      "final_shops": [
+        "BAKERY",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "PIZZA_SHOP",
+        "BRUNCH_SPOT",
+        "SMOOTHIE_SHOP"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930212_seat1.json.gz"
+    },
+    {
+      "seed": 260930213,
+      "candidate_seat": 0,
+      "candidate_money": 126959.0,
+      "opponent_money": 126594.0,
+      "margin": 365.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 9.062460455999826,
+      "action_sha256": [
+        "603382446c6c413a049f03fb4e7b3db6326504b1209a7a84aa8c5f2518d73fb1",
+        "9cd39f9979a054fabc68483c414dfbaaebe2fc11f49ce30049cfb8e3bac6d6b0"
+      ],
+      "max_agent_seconds": [
+        0.05051086799994664,
+        0.09515752700008306
+      ],
+      "p99_agent_seconds": [
+        0.012577130919580687,
+        0.021393325559602116
+      ],
+      "agent_seconds": [
+        1.7149647120268128,
+        1.8172470109984715
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "COW@241",
+            "hd2_ev": "COW:6371,GOOSE:2808,SHEEP:-1450",
+            "hd2_rewrites": 14,
+            "hd2_credit_units": 55,
+            "hd2_sold_units": 51,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 4,
+            "gain": 384.0,
+            "evals": 6205,
+            "moved_sells": 4,
+            "errors": 0,
+            "budget_hits": 1
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 721,
+            "changed": 2,
+            "early_stops": 719,
+            "maxed": 0,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 0,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 0,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "keep@241",
+            "hd2_ev": "COW:674,GOOSE:2459,SHEEP:-1450",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 48,
+            "gain": 992.0,
+            "evals": 17058,
+            "moved_sells": 71,
+            "errors": 0,
+            "budget_hits": 14
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 753,
+            "changed": 35,
+            "early_stops": 718,
+            "maxed": 1,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 1,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 1,
+            "errors": 0
+          }
+        }
+      ],
+      "final_shops": [
+        "SMOOTHIE_SHOP",
+        "FARMERS_MARKET",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "PET_CAFE",
+        "FARMERS_MARKET"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930213_seat0.json.gz"
+    },
+    {
+      "seed": 260930213,
+      "candidate_seat": 1,
+      "candidate_money": 126959.0,
+      "opponent_money": 126594.0,
+      "margin": 365.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 9.450065068000185,
+      "action_sha256": [
+        "9cd39f9979a054fabc68483c414dfbaaebe2fc11f49ce30049cfb8e3bac6d6b0",
+        "603382446c6c413a049f03fb4e7b3db6326504b1209a7a84aa8c5f2518d73fb1"
+      ],
+      "max_agent_seconds": [
+        0.10774206499991124,
+        0.2781895260004603
+      ],
+      "p99_agent_seconds": [
+        0.023457869040467025,
+        0.015022951079718162
+      ],
+      "agent_seconds": [
+        1.946724610005731,
+        1.944789424001101
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "keep@241",
+            "hd2_ev": "COW:674,GOOSE:2459,SHEEP:-1450",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 48,
+            "gain": 992.0,
+            "evals": 17058,
+            "moved_sells": 71,
+            "errors": 0,
+            "budget_hits": 14
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 753,
+            "changed": 35,
+            "early_stops": 718,
+            "maxed": 1,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 1,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 1,
+            "errors": 0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "COW@241",
+            "hd2_ev": "COW:6371,GOOSE:2808,SHEEP:-1450",
+            "hd2_rewrites": 14,
+            "hd2_credit_units": 55,
+            "hd2_sold_units": 51,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 4,
+            "gain": 384.0,
+            "evals": 6205,
+            "moved_sells": 4,
+            "errors": 0,
+            "budget_hits": 1
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 721,
+            "changed": 2,
+            "early_stops": 719,
+            "maxed": 0,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 0,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 0,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        }
+      ],
+      "final_shops": [
+        "SMOOTHIE_SHOP",
+        "FARMERS_MARKET",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "PET_CAFE",
+        "FARMERS_MARKET"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930213_seat1.json.gz"
+    },
+    {
+      "seed": 260930214,
+      "candidate_seat": 0,
+      "candidate_money": 99597.0,
+      "opponent_money": 99597.0,
+      "margin": 0.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 10.487246243999834,
+      "action_sha256": [
+        "400a75463a89ce5510f2e23331079bb024f659a31840ccc691beb6e45e53eb83",
+        "400a75463a89ce5510f2e23331079bb024f659a31840ccc691beb6e45e53eb83"
+      ],
+      "max_agent_seconds": [
+        0.34358579400031886,
+        0.3494435020002129
+      ],
+      "p99_agent_seconds": [
+        0.03104974257990859,
+        0.01455593671968037
+      ],
+      "agent_seconds": [
+        2.6411101299909205,
+        2.2457489740118035
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "",
+            "hd2_ev": "",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 135,
+            "gain": 5287.0,
+            "evals": 78804,
+            "moved_sells": 264,
+            "errors": 0,
+            "budget_hits": 0
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 820,
+            "changed": 104,
+            "early_stops": 716,
+            "maxed": 3,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 3,
+            "accepted": 1,
+            "rejected_inversion": 2,
+            "rejected_quote": 0,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "",
+            "hd2_ev": "",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 135,
+            "gain": 5287.0,
+            "evals": 78804,
+            "moved_sells": 264,
+            "errors": 0,
+            "budget_hits": 0
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 820,
+            "changed": 104,
+            "early_stops": 716,
+            "maxed": 3,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 3,
+            "accepted": 1,
+            "rejected_inversion": 2,
+            "rejected_quote": 0,
+            "errors": 0
+          }
+        }
+      ],
+      "final_shops": [
+        "YARN_STORE",
+        "FARMERS_MARKET",
+        "PIZZA_SHOP",
+        "PIZZA_SHOP",
+        "FARMERS_MARKET",
+        "BRUNCH_SPOT",
+        "BAKERY",
+        "FARMERS_MARKET"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930214_seat0.json.gz"
+    },
+    {
+      "seed": 260930214,
+      "candidate_seat": 1,
+      "candidate_money": 99597.0,
+      "opponent_money": 99597.0,
+      "margin": 0.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 9.520145163000052,
+      "action_sha256": [
+        "400a75463a89ce5510f2e23331079bb024f659a31840ccc691beb6e45e53eb83",
+        "400a75463a89ce5510f2e23331079bb024f659a31840ccc691beb6e45e53eb83"
+      ],
+      "max_agent_seconds": [
+        0.27855272899978445,
+        0.28949767999984033
+      ],
+      "p99_agent_seconds": [
+        0.03158445709999898,
+        0.01439708590014569
+      ],
+      "agent_seconds": [
+        2.081304364028256,
+        1.881873421983073
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "",
+            "hd2_ev": "",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 135,
+            "gain": 5287.0,
+            "evals": 78804,
+            "moved_sells": 264,
+            "errors": 0,
+            "budget_hits": 0
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 820,
+            "changed": 104,
+            "early_stops": 716,
+            "maxed": 3,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 3,
+            "accepted": 1,
+            "rejected_inversion": 2,
+            "rejected_quote": 0,
+            "errors": 0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "",
+            "hd2_ev": "",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 135,
+            "gain": 5287.0,
+            "evals": 78804,
+            "moved_sells": 264,
+            "errors": 0,
+            "budget_hits": 0
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 820,
+            "changed": 104,
+            "early_stops": 716,
+            "maxed": 3,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 3,
+            "accepted": 1,
+            "rejected_inversion": 2,
+            "rejected_quote": 0,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        }
+      ],
+      "final_shops": [
+        "YARN_STORE",
+        "FARMERS_MARKET",
+        "PIZZA_SHOP",
+        "PIZZA_SHOP",
+        "FARMERS_MARKET",
+        "BRUNCH_SPOT",
+        "BAKERY",
+        "FARMERS_MARKET"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930214_seat1.json.gz"
+    },
+    {
+      "seed": 260930215,
+      "candidate_seat": 0,
+      "candidate_money": 65811.0,
+      "opponent_money": 70650.0,
+      "margin": -4839.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 9.41696661900005,
+      "action_sha256": [
+        "ce73da83056f8b92711aca5105f33f691fcbf93742f0700e6d26648516250833",
+        "227c0196ee69cd99962d735cf0d162a3a5dd1fbca03c0ee9257563ab5ad51196"
+      ],
+      "max_agent_seconds": [
+        0.33802670200020657,
+        0.050398217999827466
+      ],
+      "p99_agent_seconds": [
+        0.014496918259374127,
+        0.01734630712000593
+      ],
+      "agent_seconds": [
+        2.2785206430153266,
+        1.797497141005806
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "COW@241",
+            "hd2_ev": "COW:7055,GOOSE:3388,SHEEP:-1450",
+            "hd2_rewrites": 14,
+            "hd2_credit_units": 43,
+            "hd2_sold_units": 43,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 7,
+            "gain": 1885.0,
+            "evals": 3538,
+            "moved_sells": 7,
+            "errors": 0,
+            "budget_hits": 0
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 725,
+            "changed": 6,
+            "early_stops": 719,
+            "maxed": 0,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 0,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 0,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "keep@241",
+            "hd2_ev": "COW:558,GOOSE:3192,SHEEP:-1450",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 13,
+            "gain": 2031.0,
+            "evals": 8558,
+            "moved_sells": 15,
+            "errors": 0,
+            "budget_hits": 0
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 731,
+            "changed": 12,
+            "early_stops": 719,
+            "maxed": 0,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 0,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 0,
+            "errors": 0
+          }
+        }
+      ],
+      "final_shops": [
+        "BAKERY",
+        "SMOOTHIE_SHOP",
+        "PIZZA_SHOP",
+        "BAKERY",
+        "FARMERS_MARKET",
+        "BRUNCH_SPOT",
+        "PET_CAFE",
+        "YARN_STORE"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930215_seat0.json.gz"
+    },
+    {
+      "seed": 260930215,
+      "candidate_seat": 1,
+      "candidate_money": 65811.0,
+      "opponent_money": 70650.0,
+      "margin": -4839.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 9.586426930000016,
+      "action_sha256": [
+        "227c0196ee69cd99962d735cf0d162a3a5dd1fbca03c0ee9257563ab5ad51196",
+        "ce73da83056f8b92711aca5105f33f691fcbf93742f0700e6d26648516250833"
+      ],
+      "max_agent_seconds": [
+        0.34376400699966325,
+        0.18028163700000732
+      ],
+      "p99_agent_seconds": [
+        0.023630577360036223,
+        0.012725749799865314
+      ],
+      "agent_seconds": [
+        2.415500504990632,
+        1.9475685419947695
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "keep@241",
+            "hd2_ev": "COW:558,GOOSE:3192,SHEEP:-1450",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 13,
+            "gain": 2031.0,
+            "evals": 8558,
+            "moved_sells": 15,
+            "errors": 0,
+            "budget_hits": 0
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 731,
+            "changed": 12,
+            "early_stops": 719,
+            "maxed": 0,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 0,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 0,
+            "errors": 0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "COW@241",
+            "hd2_ev": "COW:7055,GOOSE:3388,SHEEP:-1450",
+            "hd2_rewrites": 14,
+            "hd2_credit_units": 43,
+            "hd2_sold_units": 43,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 7,
+            "gain": 1885.0,
+            "evals": 3538,
+            "moved_sells": 7,
+            "errors": 0,
+            "budget_hits": 0
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 725,
+            "changed": 6,
+            "early_stops": 719,
+            "maxed": 0,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 0,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 0,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        }
+      ],
+      "final_shops": [
+        "BAKERY",
+        "SMOOTHIE_SHOP",
+        "PIZZA_SHOP",
+        "BAKERY",
+        "FARMERS_MARKET",
+        "BRUNCH_SPOT",
+        "PET_CAFE",
+        "YARN_STORE"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930215_seat1.json.gz"
+    },
+    {
+      "seed": 260930216,
+      "candidate_seat": 0,
+      "candidate_money": 100154.0,
+      "opponent_money": 100154.0,
+      "margin": 0.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 8.81096400000024,
+      "action_sha256": [
+        "6f5674fec7577f46be25da19f0f6c94a8d3c1fb664462035bf0b05dde263772b",
+        "6f5674fec7577f46be25da19f0f6c94a8d3c1fb664462035bf0b05dde263772b"
+      ],
+      "max_agent_seconds": [
+        0.17162263899990648,
+        0.18371778999971866
+      ],
+      "p99_agent_seconds": [
+        0.02596685486023494,
+        0.027236492280135412
+      ],
+      "agent_seconds": [
+        1.7908716680021826,
+        1.8269662749817144
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "",
+            "hd2_ev": "",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 132,
+            "gain": 7377.0,
+            "evals": 59494,
+            "moved_sells": 262,
+            "errors": 0,
+            "budget_hits": 0
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 818,
+            "changed": 102,
+            "early_stops": 716,
+            "maxed": 3,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 3,
+            "accepted": 1,
+            "rejected_inversion": 1,
+            "rejected_quote": 1,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "",
+            "hd2_ev": "",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 132,
+            "gain": 7377.0,
+            "evals": 59494,
+            "moved_sells": 262,
+            "errors": 0,
+            "budget_hits": 0
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 818,
+            "changed": 102,
+            "early_stops": 716,
+            "maxed": 3,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 3,
+            "accepted": 1,
+            "rejected_inversion": 1,
+            "rejected_quote": 1,
+            "errors": 0
+          }
+        }
+      ],
+      "final_shops": [
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "ICE_CREAM_SHOP",
+        "FARMERS_MARKET",
+        "PIZZA_SHOP",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "PIZZA_SHOP"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930216_seat0.json.gz"
+    },
+    {
+      "seed": 260930216,
+      "candidate_seat": 1,
+      "candidate_money": 100154.0,
+      "opponent_money": 100154.0,
+      "margin": 0.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 9.198353443000087,
+      "action_sha256": [
+        "6f5674fec7577f46be25da19f0f6c94a8d3c1fb664462035bf0b05dde263772b",
+        "6f5674fec7577f46be25da19f0f6c94a8d3c1fb664462035bf0b05dde263772b"
+      ],
+      "max_agent_seconds": [
+        0.14826799300044513,
+        0.16030034400046134
+      ],
+      "p99_agent_seconds": [
+        0.025357634959746564,
+        0.022444399740252596
+      ],
+      "agent_seconds": [
+        1.850915397002609,
+        1.8982270559854442
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "",
+            "hd2_ev": "",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 132,
+            "gain": 7377.0,
+            "evals": 59494,
+            "moved_sells": 262,
+            "errors": 0,
+            "budget_hits": 0
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 818,
+            "changed": 102,
+            "early_stops": 716,
+            "maxed": 3,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 3,
+            "accepted": 1,
+            "rejected_inversion": 1,
+            "rejected_quote": 1,
+            "errors": 0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "",
+            "hd2_ev": "",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 132,
+            "gain": 7377.0,
+            "evals": 59494,
+            "moved_sells": 262,
+            "errors": 0,
+            "budget_hits": 0
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 818,
+            "changed": 102,
+            "early_stops": 716,
+            "maxed": 3,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 3,
+            "accepted": 1,
+            "rejected_inversion": 1,
+            "rejected_quote": 1,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        }
+      ],
+      "final_shops": [
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "ICE_CREAM_SHOP",
+        "FARMERS_MARKET",
+        "PIZZA_SHOP",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "PIZZA_SHOP"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930216_seat1.json.gz"
+    },
+    {
+      "seed": 260930217,
+      "candidate_seat": 0,
+      "candidate_money": 68303.0,
+      "opponent_money": 68303.0,
+      "margin": 0.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 9.25969686299959,
+      "action_sha256": [
+        "29940857b75ed80b60cd40cb4c568875b4464cfb6e12fe9194a80ee618b6e08a",
+        "29940857b75ed80b60cd40cb4c568875b4464cfb6e12fe9194a80ee618b6e08a"
+      ],
+      "max_agent_seconds": [
+        0.05383636900023703,
+        0.05750991300010355
+      ],
+      "p99_agent_seconds": [
+        0.014719809879970918,
+        0.01741541579975116
+      ],
+      "agent_seconds": [
+        1.8765076370036695,
+        1.796260125011031
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "keep@241",
+            "hd2_ev": "COW:307,GOOSE:3307,SHEEP:-1450",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 13,
+            "gain": 486.0,
+            "evals": 15580,
+            "moved_sells": 17,
+            "errors": 0,
+            "budget_hits": 4
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 731,
+            "changed": 12,
+            "early_stops": 719,
+            "maxed": 0,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 0,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 0,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "keep@241",
+            "hd2_ev": "COW:-912,GOOSE:3110,SHEEP:-1450",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 13,
+            "gain": 486.0,
+            "evals": 15580,
+            "moved_sells": 17,
+            "errors": 0,
+            "budget_hits": 4
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 731,
+            "changed": 12,
+            "early_stops": 719,
+            "maxed": 0,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 0,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 0,
+            "errors": 0
+          }
+        }
+      ],
+      "final_shops": [
+        "PIZZA_SHOP",
+        "BAKERY",
+        "PET_CAFE",
+        "YARN_STORE",
+        "ICE_CREAM_SHOP",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "FARMERS_MARKET"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930217_seat0.json.gz"
+    },
+    {
+      "seed": 260930217,
+      "candidate_seat": 1,
+      "candidate_money": 68303.0,
+      "opponent_money": 68303.0,
+      "margin": 0.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 9.045787533999828,
+      "action_sha256": [
+        "29940857b75ed80b60cd40cb4c568875b4464cfb6e12fe9194a80ee618b6e08a",
+        "29940857b75ed80b60cd40cb4c568875b4464cfb6e12fe9194a80ee618b6e08a"
+      ],
+      "max_agent_seconds": [
+        0.08077886000046419,
+        0.05433632400036004
+      ],
+      "p99_agent_seconds": [
+        0.015975789380300014,
+        0.014440524500078036
+      ],
+      "agent_seconds": [
+        1.879016017009235,
+        1.7528836479987149
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "keep@241",
+            "hd2_ev": "COW:-912,GOOSE:3110,SHEEP:-1450",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 13,
+            "gain": 486.0,
+            "evals": 15580,
+            "moved_sells": 17,
+            "errors": 0,
+            "budget_hits": 4
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 731,
+            "changed": 12,
+            "early_stops": 719,
+            "maxed": 0,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 0,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 0,
+            "errors": 0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "keep@241",
+            "hd2_ev": "COW:307,GOOSE:3307,SHEEP:-1450",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 13,
+            "gain": 486.0,
+            "evals": 15580,
+            "moved_sells": 17,
+            "errors": 0,
+            "budget_hits": 4
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 731,
+            "changed": 12,
+            "early_stops": 719,
+            "maxed": 0,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 0,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 0,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        }
+      ],
+      "final_shops": [
+        "PIZZA_SHOP",
+        "BAKERY",
+        "PET_CAFE",
+        "YARN_STORE",
+        "ICE_CREAM_SHOP",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "FARMERS_MARKET"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930217_seat1.json.gz"
+    },
+    {
+      "seed": 260930218,
+      "candidate_seat": 0,
+      "candidate_money": 86826.0,
+      "opponent_money": 86826.0,
+      "margin": 0.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 9.086588563000078,
+      "action_sha256": [
+        "70f6f10a4e166c99e0bf92e7f1fb5c1c810daf996e89a1d3840672824458d71c",
+        "70f6f10a4e166c99e0bf92e7f1fb5c1c810daf996e89a1d3840672824458d71c"
+      ],
+      "max_agent_seconds": [
+        0.20366971699968417,
+        0.15503012200042576
+      ],
+      "p99_agent_seconds": [
+        0.030974123120031765,
+        0.031496015820085106
+      ],
+      "agent_seconds": [
+        2.0353799510021418,
+        1.8530285529923276
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "",
+            "hd2_ev": "",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 93,
+            "gain": 1405.0,
+            "evals": 57693,
+            "moved_sells": 141,
+            "errors": 0,
+            "budget_hits": 7
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 790,
+            "changed": 73,
+            "early_stops": 717,
+            "maxed": 2,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 2,
+            "accepted": 1,
+            "rejected_inversion": 1,
+            "rejected_quote": 0,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "",
+            "hd2_ev": "",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 93,
+            "gain": 1405.0,
+            "evals": 57693,
+            "moved_sells": 141,
+            "errors": 0,
+            "budget_hits": 7
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 790,
+            "changed": 73,
+            "early_stops": 717,
+            "maxed": 2,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 2,
+            "accepted": 1,
+            "rejected_inversion": 1,
+            "rejected_quote": 0,
+            "errors": 0
+          }
+        }
+      ],
+      "final_shops": [
+        "BRUNCH_SPOT",
+        "PET_CAFE",
+        "PET_CAFE",
+        "SMOOTHIE_SHOP",
+        "FARMERS_MARKET",
+        "FARMERS_MARKET",
+        "FARMERS_MARKET",
+        "YARN_STORE"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930218_seat0.json.gz"
+    },
+    {
+      "seed": 260930218,
+      "candidate_seat": 1,
+      "candidate_money": 86826.0,
+      "opponent_money": 86826.0,
+      "margin": 0.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 9.770268196999496,
+      "action_sha256": [
+        "70f6f10a4e166c99e0bf92e7f1fb5c1c810daf996e89a1d3840672824458d71c",
+        "70f6f10a4e166c99e0bf92e7f1fb5c1c810daf996e89a1d3840672824458d71c"
+      ],
+      "max_agent_seconds": [
+        0.22707466899919382,
+        0.21913159900032042
+      ],
+      "p99_agent_seconds": [
+        0.04293703671972274,
+        0.034030222860311
+      ],
+      "agent_seconds": [
+        2.6515671769902838,
+        2.259380994010826
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "",
+            "hd2_ev": "",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 93,
+            "gain": 1405.0,
+            "evals": 57693,
+            "moved_sells": 141,
+            "errors": 0,
+            "budget_hits": 7
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 790,
+            "changed": 73,
+            "early_stops": 717,
+            "maxed": 2,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 2,
+            "accepted": 1,
+            "rejected_inversion": 1,
+            "rejected_quote": 0,
+            "errors": 0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "",
+            "hd2_ev": "",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 93,
+            "gain": 1405.0,
+            "evals": 57693,
+            "moved_sells": 141,
+            "errors": 0,
+            "budget_hits": 7
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 790,
+            "changed": 73,
+            "early_stops": 717,
+            "maxed": 2,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 2,
+            "accepted": 1,
+            "rejected_inversion": 1,
+            "rejected_quote": 0,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        }
+      ],
+      "final_shops": [
+        "BRUNCH_SPOT",
+        "PET_CAFE",
+        "PET_CAFE",
+        "SMOOTHIE_SHOP",
+        "FARMERS_MARKET",
+        "FARMERS_MARKET",
+        "FARMERS_MARKET",
+        "YARN_STORE"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930218_seat1.json.gz"
+    },
+    {
+      "seed": 260930219,
+      "candidate_seat": 0,
+      "candidate_money": 109921.0,
+      "opponent_money": 109921.0,
+      "margin": 0.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 10.664889382999718,
+      "action_sha256": [
+        "83f6f58fa17620dd5130146246f4e14ce033c0706cd4a84e119109f6361adfe7",
+        "83f6f58fa17620dd5130146246f4e14ce033c0706cd4a84e119109f6361adfe7"
+      ],
+      "max_agent_seconds": [
+        0.2471288770002502,
+        0.10073225099949923
+      ],
+      "p99_agent_seconds": [
+        0.03210559460016163,
+        0.03300362443942514
+      ],
+      "agent_seconds": [
+        2.6127449699879435,
+        2.1651501259866563
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "",
+            "hd2_ev": "",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 54,
+            "gain": 787.0,
+            "evals": 38824,
+            "moved_sells": 99,
+            "errors": 0,
+            "budget_hits": 4
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 756,
+            "changed": 38,
+            "early_stops": 718,
+            "maxed": 1,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 1,
+            "accepted": 0,
+            "rejected_inversion": 1,
+            "rejected_quote": 0,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "",
+            "hd2_ev": "",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 54,
+            "gain": 787.0,
+            "evals": 38824,
+            "moved_sells": 99,
+            "errors": 0,
+            "budget_hits": 4
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 756,
+            "changed": 38,
+            "early_stops": 718,
+            "maxed": 1,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 1,
+            "accepted": 0,
+            "rejected_inversion": 1,
+            "rejected_quote": 0,
+            "errors": 0
+          }
+        }
+      ],
+      "final_shops": [
+        "FARMERS_MARKET",
+        "BAKERY",
+        "PIZZA_SHOP",
+        "FARMERS_MARKET",
+        "PIZZA_SHOP",
+        "PIZZA_SHOP",
+        "BRUNCH_SPOT",
+        "FARMERS_MARKET"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930219_seat0.json.gz"
+    },
+    {
+      "seed": 260930219,
+      "candidate_seat": 1,
+      "candidate_money": 109921.0,
+      "opponent_money": 109921.0,
+      "margin": 0.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 10.653665631999502,
+      "action_sha256": [
+        "83f6f58fa17620dd5130146246f4e14ce033c0706cd4a84e119109f6361adfe7",
+        "83f6f58fa17620dd5130146246f4e14ce033c0706cd4a84e119109f6361adfe7"
+      ],
+      "max_agent_seconds": [
+        0.1082203700007085,
+        0.17199950699978217
+      ],
+      "p99_agent_seconds": [
+        0.037074141340090155,
+        0.03182222679994089
+      ],
+      "agent_seconds": [
+        2.3797446460266656,
+        2.371887207002146
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "",
+            "hd2_ev": "",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 54,
+            "gain": 787.0,
+            "evals": 38824,
+            "moved_sells": 99,
+            "errors": 0,
+            "budget_hits": 4
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 756,
+            "changed": 38,
+            "early_stops": 718,
+            "maxed": 1,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 1,
+            "accepted": 0,
+            "rejected_inversion": 1,
+            "rejected_quote": 0,
+            "errors": 0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "",
+            "hd2_ev": "",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 54,
+            "gain": 787.0,
+            "evals": 38824,
+            "moved_sells": 99,
+            "errors": 0,
+            "budget_hits": 4
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 756,
+            "changed": 38,
+            "early_stops": 718,
+            "maxed": 1,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 1,
+            "accepted": 0,
+            "rejected_inversion": 1,
+            "rejected_quote": 0,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        }
+      ],
+      "final_shops": [
+        "FARMERS_MARKET",
+        "BAKERY",
+        "PIZZA_SHOP",
+        "FARMERS_MARKET",
+        "PIZZA_SHOP",
+        "PIZZA_SHOP",
+        "BRUNCH_SPOT",
+        "FARMERS_MARKET"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930219_seat1.json.gz"
+    },
+    {
+      "seed": 260930220,
+      "candidate_seat": 0,
+      "candidate_money": 86036.0,
+      "opponent_money": 86116.0,
+      "margin": -80.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 9.896704533999582,
+      "action_sha256": [
+        "e3eaa89528cea55f3a4a8103c4c59b0b31821ca935ee174c9c618ccad3a64035",
+        "003793d2e3b18ba61630765076a8247a2f1cb3eabfed4aca2f5fa0a23dd14e77"
+      ],
+      "max_agent_seconds": [
+        0.09151247299996612,
+        0.09011547300087841
+      ],
+      "p99_agent_seconds": [
+        0.022952548299836402,
+        0.028704585679862123
+      ],
+      "agent_seconds": [
+        2.1478971969963823,
+        2.083627406001142
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "",
+            "hd2_ev": "",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 52,
+            "gain": 428.0,
+            "evals": 38407,
+            "moved_sells": 99,
+            "errors": 0,
+            "budget_hits": 11
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 759,
+            "changed": 41,
+            "early_stops": 718,
+            "maxed": 1,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 1,
+            "accepted": 0,
+            "rejected_inversion": 1,
+            "rejected_quote": 0,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "",
+            "hd2_ev": "",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 52,
+            "gain": 428.0,
+            "evals": 38407,
+            "moved_sells": 99,
+            "errors": 0,
+            "budget_hits": 11
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 759,
+            "changed": 41,
+            "early_stops": 718,
+            "maxed": 1,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 1,
+            "accepted": 0,
+            "rejected_inversion": 1,
+            "rejected_quote": 0,
+            "errors": 0
+          }
+        }
+      ],
+      "final_shops": [
+        "FARMERS_MARKET",
+        "BAKERY",
+        "ICE_CREAM_SHOP",
+        "PET_CAFE",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "PIZZA_SHOP",
+        "PIZZA_SHOP"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930220_seat0.json.gz"
+    },
+    {
+      "seed": 260930220,
+      "candidate_seat": 1,
+      "candidate_money": 86116.0,
+      "opponent_money": 86036.0,
+      "margin": 80.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 10.379029939000247,
+      "action_sha256": [
+        "e3eaa89528cea55f3a4a8103c4c59b0b31821ca935ee174c9c618ccad3a64035",
+        "003793d2e3b18ba61630765076a8247a2f1cb3eabfed4aca2f5fa0a23dd14e77"
+      ],
+      "max_agent_seconds": [
+        0.08996053899954859,
+        0.1178704870008005
+      ],
+      "p99_agent_seconds": [
+        0.03329950145964225,
+        0.020810896540260866
+      ],
+      "agent_seconds": [
+        2.319096273006835,
+        2.166638296990641
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "",
+            "hd2_ev": "",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 52,
+            "gain": 428.0,
+            "evals": 38407,
+            "moved_sells": 99,
+            "errors": 0,
+            "budget_hits": 11
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 759,
+            "changed": 41,
+            "early_stops": 718,
+            "maxed": 1,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 1,
+            "accepted": 0,
+            "rejected_inversion": 1,
+            "rejected_quote": 0,
+            "errors": 0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "",
+            "hd2_ev": "",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 52,
+            "gain": 428.0,
+            "evals": 38407,
+            "moved_sells": 99,
+            "errors": 0,
+            "budget_hits": 11
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 759,
+            "changed": 41,
+            "early_stops": 718,
+            "maxed": 1,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 1,
+            "accepted": 0,
+            "rejected_inversion": 1,
+            "rejected_quote": 0,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        }
+      ],
+      "final_shops": [
+        "FARMERS_MARKET",
+        "BAKERY",
+        "ICE_CREAM_SHOP",
+        "PET_CAFE",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "PIZZA_SHOP",
+        "PIZZA_SHOP"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930220_seat1.json.gz"
+    },
+    {
+      "seed": 260930221,
+      "candidate_seat": 0,
+      "candidate_money": 123276.0,
+      "opponent_money": 124084.0,
+      "margin": -808.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 10.16789101499944,
+      "action_sha256": [
+        "7ef5c414e77b0cee1eeeb460d2d4e8fddb7bbfc8672ad7007073690b43bd15fe",
+        "349c129069abb1c1990585b0629c6b88a0acd010f04b810c520f9b11910cd382"
+      ],
+      "max_agent_seconds": [
+        0.06012092000037228,
+        0.15300551100062876
+      ],
+      "p99_agent_seconds": [
+        0.01785588530041438,
+        0.03408929438001069
+      ],
+      "agent_seconds": [
+        2.1228164029953405,
+        2.4253617589884016
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "COW@241",
+            "hd2_ev": "COW:6371,GOOSE:2808,SHEEP:-1450",
+            "hd2_rewrites": 14,
+            "hd2_credit_units": 55,
+            "hd2_sold_units": 54,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 46,
+            "gain": 769.0,
+            "evals": 5652,
+            "moved_sells": 88,
+            "errors": 0,
+            "budget_hits": 0
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 754,
+            "changed": 36,
+            "early_stops": 718,
+            "maxed": 1,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 1,
+            "accepted": 1,
+            "rejected_inversion": 0,
+            "rejected_quote": 0,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "keep@241",
+            "hd2_ev": "COW:674,GOOSE:2459,SHEEP:-1450",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 125,
+            "gain": 3848.0,
+            "evals": 68195,
+            "moved_sells": 277,
+            "errors": 0,
+            "budget_hits": 49
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 818,
+            "changed": 102,
+            "early_stops": 716,
+            "maxed": 3,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 3,
+            "accepted": 1,
+            "rejected_inversion": 2,
+            "rejected_quote": 0,
+            "errors": 0
+          }
+        }
+      ],
+      "final_shops": [
+        "ICE_CREAM_SHOP",
+        "FARMERS_MARKET",
+        "SMOOTHIE_SHOP",
+        "SMOOTHIE_SHOP",
+        "FARMERS_MARKET",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "PET_CAFE"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930221_seat0.json.gz"
+    },
+    {
+      "seed": 260930221,
+      "candidate_seat": 1,
+      "candidate_money": 123276.0,
+      "opponent_money": 124084.0,
+      "margin": -808.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 10.607558880000397,
+      "action_sha256": [
+        "349c129069abb1c1990585b0629c6b88a0acd010f04b810c520f9b11910cd382",
+        "7ef5c414e77b0cee1eeeb460d2d4e8fddb7bbfc8672ad7007073690b43bd15fe"
+      ],
+      "max_agent_seconds": [
+        0.13793522199921426,
+        0.1917624990001059
+      ],
+      "p99_agent_seconds": [
+        0.03504706140054665,
+        0.015370537819872049
+      ],
+      "agent_seconds": [
+        2.5525854229972538,
+        2.2730095409906426
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "keep@241",
+            "hd2_ev": "COW:674,GOOSE:2459,SHEEP:-1450",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 125,
+            "gain": 3848.0,
+            "evals": 68195,
+            "moved_sells": 277,
+            "errors": 0,
+            "budget_hits": 49
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 818,
+            "changed": 102,
+            "early_stops": 716,
+            "maxed": 3,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 3,
+            "accepted": 1,
+            "rejected_inversion": 2,
+            "rejected_quote": 0,
+            "errors": 0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "COW@241",
+            "hd2_ev": "COW:6371,GOOSE:2808,SHEEP:-1450",
+            "hd2_rewrites": 14,
+            "hd2_credit_units": 55,
+            "hd2_sold_units": 54,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 46,
+            "gain": 769.0,
+            "evals": 5652,
+            "moved_sells": 88,
+            "errors": 0,
+            "budget_hits": 0
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 754,
+            "changed": 36,
+            "early_stops": 718,
+            "maxed": 1,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 1,
+            "accepted": 1,
+            "rejected_inversion": 0,
+            "rejected_quote": 0,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        }
+      ],
+      "final_shops": [
+        "ICE_CREAM_SHOP",
+        "FARMERS_MARKET",
+        "SMOOTHIE_SHOP",
+        "SMOOTHIE_SHOP",
+        "FARMERS_MARKET",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "PET_CAFE"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930221_seat1.json.gz"
+    },
+    {
+      "seed": 260930222,
+      "candidate_seat": 0,
+      "candidate_money": 101600.0,
+      "opponent_money": 101600.0,
+      "margin": 0.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 10.158934608999516,
+      "action_sha256": [
+        "7e66d39e359d92900a2548fa65624ec08bace0ea25fa68b2b7b9829fda2ccdae",
+        "5a3964cf732d8d7a27684ec6ac079edd5ee89b4e740fb67b2a96cfe9e496bc6d"
+      ],
+      "max_agent_seconds": [
+        0.20753004899961525,
+        0.1852920350002023
+      ],
+      "p99_agent_seconds": [
+        0.016622797820091385,
+        0.026966563299921094
+      ],
+      "agent_seconds": [
+        2.323483202989337,
+        2.3745319689924145
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "keep@241",
+            "hd2_ev": "COW:307,GOOSE:3225,SHEEP:-1450",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 11,
+            "gain": 434.0,
+            "evals": 11228,
+            "moved_sells": 12,
+            "errors": 0,
+            "budget_hits": 8
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 729,
+            "changed": 10,
+            "early_stops": 719,
+            "maxed": 0,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 0,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 0,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "keep@241",
+            "hd2_ev": "COW:-912,GOOSE:3032,SHEEP:-1450",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 11,
+            "gain": 434.0,
+            "evals": 11228,
+            "moved_sells": 12,
+            "errors": 0,
+            "budget_hits": 8
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 729,
+            "changed": 10,
+            "early_stops": 719,
+            "maxed": 0,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 0,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 0,
+            "errors": 0
+          }
+        }
+      ],
+      "final_shops": [
+        "ICE_CREAM_SHOP",
+        "FARMERS_MARKET",
+        "BAKERY",
+        "SMOOTHIE_SHOP",
+        "FARMERS_MARKET",
+        "BAKERY",
+        "PET_CAFE",
+        "PET_CAFE"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930222_seat0.json.gz"
+    },
+    {
+      "seed": 260930222,
+      "candidate_seat": 1,
+      "candidate_money": 101600.0,
+      "opponent_money": 101600.0,
+      "margin": 0.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 10.349045705000208,
+      "action_sha256": [
+        "7e66d39e359d92900a2548fa65624ec08bace0ea25fa68b2b7b9829fda2ccdae",
+        "5a3964cf732d8d7a27684ec6ac079edd5ee89b4e740fb67b2a96cfe9e496bc6d"
+      ],
+      "max_agent_seconds": [
+        0.32090541499928804,
+        0.06520894499954011
+      ],
+      "p99_agent_seconds": [
+        0.016208152640083448,
+        0.016599772599638647
+      ],
+      "agent_seconds": [
+        2.8662314229968615,
+        2.1066786389928893
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "keep@241",
+            "hd2_ev": "COW:-912,GOOSE:3032,SHEEP:-1450",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 11,
+            "gain": 434.0,
+            "evals": 11228,
+            "moved_sells": 12,
+            "errors": 0,
+            "budget_hits": 8
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 729,
+            "changed": 10,
+            "early_stops": 719,
+            "maxed": 0,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 0,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 0,
+            "errors": 0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "keep@241",
+            "hd2_ev": "COW:307,GOOSE:3225,SHEEP:-1450",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 11,
+            "gain": 434.0,
+            "evals": 11228,
+            "moved_sells": 12,
+            "errors": 0,
+            "budget_hits": 8
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 729,
+            "changed": 10,
+            "early_stops": 719,
+            "maxed": 0,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 0,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 0,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        }
+      ],
+      "final_shops": [
+        "ICE_CREAM_SHOP",
+        "FARMERS_MARKET",
+        "BAKERY",
+        "SMOOTHIE_SHOP",
+        "FARMERS_MARKET",
+        "BAKERY",
+        "PET_CAFE",
+        "PET_CAFE"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930222_seat1.json.gz"
+    },
+    {
+      "seed": 260930223,
+      "candidate_seat": 0,
+      "candidate_money": 101592.0,
+      "opponent_money": 103600.0,
+      "margin": -2008.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 10.976535218000208,
+      "action_sha256": [
+        "7ae3452bb0895500c6dabe64777e8b7f28e88cabd47c04d972396d59f44ccb9c",
+        "1fd35a2ec6db8b7c2beaf8bfb4d3b4a6766c0412729efef7d05eb12536d501b9"
+      ],
+      "max_agent_seconds": [
+        0.24260311600028217,
+        0.16431560499950137
+      ],
+      "p99_agent_seconds": [
+        0.024519550959703502,
+        0.030209948860065845
+      ],
+      "agent_seconds": [
+        2.6620632230005867,
+        2.2462547339864614
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "COW@241",
+            "hd2_ev": "COW:6371,GOOSE:3307,SHEEP:-1450",
+            "hd2_rewrites": 14,
+            "hd2_credit_units": 54,
+            "hd2_sold_units": 54,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 44,
+            "gain": 1722.0,
+            "evals": 5730,
+            "moved_sells": 87,
+            "errors": 0,
+            "budget_hits": 4
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 753,
+            "changed": 35,
+            "early_stops": 718,
+            "maxed": 1,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 1,
+            "accepted": 1,
+            "rejected_inversion": 0,
+            "rejected_quote": 0,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "keep@241",
+            "hd2_ev": "COW:674,GOOSE:3110,SHEEP:-1450",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 53,
+            "gain": 3028.0,
+            "evals": 41348,
+            "moved_sells": 124,
+            "errors": 0,
+            "budget_hits": 8
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 758,
+            "changed": 40,
+            "early_stops": 718,
+            "maxed": 1,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 0,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 0,
+            "errors": 0
+          }
+        }
+      ],
+      "final_shops": [
+        "PIZZA_SHOP",
+        "BRUNCH_SPOT",
+        "PIZZA_SHOP",
+        "ICE_CREAM_SHOP",
+        "FARMERS_MARKET",
+        "YARN_STORE",
+        "YARN_STORE",
+        "SMOOTHIE_SHOP"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930223_seat0.json.gz"
+    },
+    {
+      "seed": 260930223,
+      "candidate_seat": 1,
+      "candidate_money": 101592.0,
+      "opponent_money": 103600.0,
+      "margin": -2008.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 11.001571937000335,
+      "action_sha256": [
+        "1fd35a2ec6db8b7c2beaf8bfb4d3b4a6766c0412729efef7d05eb12536d501b9",
+        "7ae3452bb0895500c6dabe64777e8b7f28e88cabd47c04d972396d59f44ccb9c"
+      ],
+      "max_agent_seconds": [
+        0.23541324100006022,
+        0.056382603000201925
+      ],
+      "p99_agent_seconds": [
+        0.03366798630000649,
+        0.014899179420408517
+      ],
+      "agent_seconds": [
+        2.6565759269906266,
+        1.9994411260104243
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "keep@241",
+            "hd2_ev": "COW:674,GOOSE:3110,SHEEP:-1450",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 53,
+            "gain": 3028.0,
+            "evals": 41348,
+            "moved_sells": 124,
+            "errors": 0,
+            "budget_hits": 8
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 758,
+            "changed": 40,
+            "early_stops": 718,
+            "maxed": 1,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 0,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 0,
+            "errors": 0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "COW@241",
+            "hd2_ev": "COW:6371,GOOSE:3307,SHEEP:-1450",
+            "hd2_rewrites": 14,
+            "hd2_credit_units": 54,
+            "hd2_sold_units": 54,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 44,
+            "gain": 1722.0,
+            "evals": 5730,
+            "moved_sells": 87,
+            "errors": 0,
+            "budget_hits": 4
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 753,
+            "changed": 35,
+            "early_stops": 718,
+            "maxed": 1,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 1,
+            "accepted": 1,
+            "rejected_inversion": 0,
+            "rejected_quote": 0,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        }
+      ],
+      "final_shops": [
+        "PIZZA_SHOP",
+        "BRUNCH_SPOT",
+        "PIZZA_SHOP",
+        "ICE_CREAM_SHOP",
+        "FARMERS_MARKET",
+        "YARN_STORE",
+        "YARN_STORE",
+        "SMOOTHIE_SHOP"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930223_seat1.json.gz"
+    },
+    {
+      "seed": 260930224,
+      "candidate_seat": 0,
+      "candidate_money": 93563.0,
+      "opponent_money": 93563.0,
+      "margin": 0.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 9.960605759999453,
+      "action_sha256": [
+        "6989f28de2b064d48c89d24596ddac9349f3988cbbf60adc3a99ffb2c51c54ad",
+        "6989f28de2b064d48c89d24596ddac9349f3988cbbf60adc3a99ffb2c51c54ad"
+      ],
+      "max_agent_seconds": [
+        0.10656467300032091,
+        0.10206355700029235
+      ],
+      "p99_agent_seconds": [
+        0.021929984040344068,
+        0.021222607580075575
+      ],
+      "agent_seconds": [
+        2.151855575011723,
+        2.0895793580148165
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "keep@241",
+            "hd2_ev": "COW:307,GOOSE:3307,SHEEP:-1450",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 6,
+            "gain": 162.0,
+            "evals": 17554,
+            "moved_sells": 7,
+            "errors": 0,
+            "budget_hits": 12
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 722,
+            "changed": 3,
+            "early_stops": 719,
+            "maxed": 0,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 0,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 0,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "keep@241",
+            "hd2_ev": "COW:-912,GOOSE:3110,SHEEP:-1450",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 6,
+            "gain": 162.0,
+            "evals": 17554,
+            "moved_sells": 7,
+            "errors": 0,
+            "budget_hits": 12
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 722,
+            "changed": 3,
+            "early_stops": 719,
+            "maxed": 0,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 0,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 0,
+            "errors": 0
+          }
+        }
+      ],
+      "final_shops": [
+        "PIZZA_SHOP",
+        "BRUNCH_SPOT",
+        "PET_CAFE",
+        "ICE_CREAM_SHOP",
+        "SMOOTHIE_SHOP",
+        "SMOOTHIE_SHOP",
+        "PET_CAFE",
+        "BAKERY"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930224_seat0.json.gz"
+    },
+    {
+      "seed": 260930224,
+      "candidate_seat": 1,
+      "candidate_money": 93563.0,
+      "opponent_money": 93563.0,
+      "margin": 0.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "last_step": 719,
+      "recorded_steps": 720,
+      "calls": [
+        719,
+        719
+      ],
+      "valid": true,
+      "elapsed_seconds": 9.958708243999354,
+      "action_sha256": [
+        "6989f28de2b064d48c89d24596ddac9349f3988cbbf60adc3a99ffb2c51c54ad",
+        "6989f28de2b064d48c89d24596ddac9349f3988cbbf60adc3a99ffb2c51c54ad"
+      ],
+      "max_agent_seconds": [
+        0.1450044520006486,
+        0.07492615099999966
+      ],
+      "p99_agent_seconds": [
+        0.020116934280213435,
+        0.018685404680382066
+      ],
+      "agent_seconds": [
+        2.242705525002748,
+        2.0305543750027937
+      ],
+      "telemetry": [
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "keep@241",
+            "hd2_ev": "COW:-912,GOOSE:3110,SHEEP:-1450",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 6,
+            "gain": 162.0,
+            "evals": 17554,
+            "moved_sells": 7,
+            "errors": 0,
+            "budget_hits": 12
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 722,
+            "changed": 3,
+            "early_stops": 719,
+            "maxed": 0,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 0,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 0,
+            "errors": 0
+          }
+        },
+        {
+          "_HD2_REPORT": {
+            "hd2_decision": "keep@241",
+            "hd2_ev": "COW:307,GOOSE:3307,SHEEP:-1450",
+            "hd2_rewrites": 0,
+            "hd2_credit_units": 0,
+            "hd2_sold_units": 0,
+            "hd2_errors": 0
+          },
+          "_S793_REPORT": {
+            "calls": 719,
+            "turns": 6,
+            "gain": 162.0,
+            "evals": 17554,
+            "moved_sells": 7,
+            "errors": 0,
+            "budget_hits": 12
+          },
+          "_S1002_REPORT": {
+            "calls": 719,
+            "passes": 722,
+            "changed": 3,
+            "early_stops": 719,
+            "maxed": 0,
+            "errors": 0
+          },
+          "_E54_REPORT": {
+            "calls": 719,
+            "proposed": 0,
+            "accepted": 0,
+            "rejected_inversion": 0,
+            "rejected_quote": 0,
+            "errors": 0
+          },
+          "_E67_REPORT": {
+            "calls": 719,
+            "future_demand_multiplier": 1.0
+          }
+        }
+      ],
+      "final_shops": [
+        "PIZZA_SHOP",
+        "BRUNCH_SPOT",
+        "PET_CAFE",
+        "ICE_CREAM_SHOP",
+        "SMOOTHIE_SHOP",
+        "SMOOTHIE_SHOP",
+        "PET_CAFE",
+        "BAKERY"
+      ],
+      "source_sha256": [
+        "144b0b57d71bd660f6629af63893a032083f1d6ebcb255164be69981011df8a5",
+        "3d0002923d42add183e88f912c52b5015639e4386c9a78d7eb3dba91310c33f7"
+      ],
+      "structural_invalid_statuses": 0,
+      "semantic_noop_actions": "not measured; official interpreter silently ignores illegal operations",
+      "trace_file": "reports/replays/exp20260930_dev24/260930224_seat1.json.gz"
+    }
+  ],
+  "errors": [],
+  "summary": {
+    "valid_games": 48,
+    "invalid_games": 0,
+    "wins": 6,
+    "ties": 32,
+    "losses": 10,
+    "points": 0.4583333333333333,
+    "win_rate": 0.125,
+    "mean_margin": -176.5,
+    "median_margin": 0.0,
+    "p10_margin": -2008.0,
+    "min_margin": -4839.0,
+    "max_margin": 5083.0,
+    "margin_variance": 2421146.625,
+    "elapsed_seconds": 477.40009870999984
+  }
+}
