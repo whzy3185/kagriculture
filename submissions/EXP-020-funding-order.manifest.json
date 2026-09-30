@@ -1,0 +1,14 @@
+{
+  "source": "E:\\kaggriculture\\agents\\candidates\\exp020\\main.py",
+  "archive": "E:\\kaggriculture\\submissions\\EXP-020-funding-order.tar.gz",
+  "root_members": [
+    "main.py"
+  ],
+  "main_py_bytes": 1040902,
+  "main_py_sha256": "51E8CF5CB07C28B34DA227F432CBEE83AB1C0E52F7C177341256E14362D246C7",
+  "member_sha256": {
+    "main.py": "51E8CF5CB07C28B34DA227F432CBEE83AB1C0E52F7C177341256E14362D246C7"
+  },
+  "archive_bytes": 631141,
+  "archive_sha256": "B4AFDBC67F1C56C6DBF80F32390B73F8C98AED77D21B2B3E7C60947099FFF4B5"
+}

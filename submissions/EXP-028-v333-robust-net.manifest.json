@@ -1,0 +1,14 @@
+{
+  "source": "E:\\kaggriculture\\agents\\candidates\\exp028\\main.py",
+  "archive": "E:\\kaggriculture\\submissions\\EXP-028-v333-robust-net.tar.gz",
+  "root_members": [
+    "main.py"
+  ],
+  "main_py_bytes": 563191,
+  "main_py_sha256": "4806ED94603EBC19C352FBB9D053387FD87C5D4564765A762419D575D7095111",
+  "member_sha256": {
+    "main.py": "4806ED94603EBC19C352FBB9D053387FD87C5D4564765A762419D575D7095111"
+  },
+  "archive_bytes": 184798,
+  "archive_sha256": "F65CE39F6B81DA4937478AA029A68CFFD4E29BA8E63AC0D1AF6B8FE24F93397F"
+}

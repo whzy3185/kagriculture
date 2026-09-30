@@ -1,0 +1,14 @@
+{
+  "source": "E:\\kaggriculture\\agents\\candidates\\exp045_masterv4_step1002\\main.py",
+  "archive": "E:\\kaggriculture\\submissions\\EXP-045-masterv4-step1002.tar.gz",
+  "root_members": [
+    "main.py"
+  ],
+  "main_py_bytes": 1196674,
+  "main_py_sha256": "6744B67F9491A65404B70B200BD61A0FD588DE513DB4F11B119CA0213493686B",
+  "member_sha256": {
+    "main.py": "6744B67F9491A65404B70B200BD61A0FD588DE513DB4F11B119CA0213493686B"
+  },
+  "archive_bytes": 653807,
+  "archive_sha256": "067A7F7D544509E7E0BFE0E9A1533C25FC12F436D3A5DC6A5C988CDA22749627"
+}

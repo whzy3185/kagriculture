@@ -1,0 +1,14 @@
+{
+  "source": "E:\\kaggriculture\\agents\\candidates\\exp035\\main.py",
+  "archive": "E:\\kaggriculture\\submissions\\EXP-035-day28-late-service.tar.gz",
+  "root_members": [
+    "main.py"
+  ],
+  "main_py_bytes": 569389,
+  "main_py_sha256": "50C800D15377675A224EC2A81EC30BA3D417BD290D1D086C921CE53C1EFAC2C2",
+  "member_sha256": {
+    "main.py": "50C800D15377675A224EC2A81EC30BA3D417BD290D1D086C921CE53C1EFAC2C2"
+  },
+  "archive_bytes": 186186,
+  "archive_sha256": "8E06890EC32F276A0B399333E8C8AB9932B93E8D8E9992E93CEA9F8A9735ACEA"
+}

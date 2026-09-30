@@ -1,0 +1,724 @@
+{
+  "protocol": "paired-seats-current-official-interpreter-round-robin",
+  "complete": true,
+  "seeds": [
+    26093001,
+    26093002,
+    26093003,
+    26093004,
+    26093005,
+    26093006,
+    26093007,
+    26093008,
+    26093009,
+    26093010,
+    26093011,
+    26093012,
+    26093013,
+    26093014,
+    26093015,
+    26093016,
+    26093017,
+    26093018,
+    26093019,
+    26093020
+  ],
+  "agents": {
+    "EXP066_LiquidityWool": {
+      "path": "E:\\Codex\\visualizations\\2026\\09\\29\\01a0ec66-2b7c-78f1-888c-a4efbbd033e9\\fresh-kaggriculture\\experiments\\exp066_liquidity_wool_flush\\main.py",
+      "sha256": "8D2C5D42D492F4C5A38C9736AF5704A80E0F2F415D4D2EC54C01E9D8EA84B640"
+    },
+    "EXP054": {
+      "path": "E:\\Codex\\visualizations\\2026\\09\\29\\01a0ec66-2b7c-78f1-888c-a4efbbd033e9\\fresh-kaggriculture\\benchmark_packages\\EXP-054-highquote-150\\main.py",
+      "sha256": "3D0002923D42ADD183E88F912C52B5015639E4386C9A78D7EB3DBA91310C33F7"
+    }
+  },
+  "expected_games": 40,
+  "completed_games": 40,
+  "standings": [
+    {
+      "agent": "EXP066_LiquidityWool",
+      "games": 40,
+      "wins": 0,
+      "ties": 40,
+      "losses": 0,
+      "match_points": 0.5,
+      "wilson95_low": 0.35199278797099753,
+      "wilson95_high": 0.6480072120290025,
+      "mean_margin": 0.0,
+      "median_margin": 0.0,
+      "rank": 1
+    },
+    {
+      "agent": "EXP054",
+      "games": 40,
+      "wins": 0,
+      "ties": 40,
+      "losses": 0,
+      "match_points": 0.5,
+      "wilson95_low": 0.35199278797099753,
+      "wilson95_high": 0.6480072120290025,
+      "mean_margin": 0.0,
+      "median_margin": -0.0,
+      "rank": 2
+    }
+  ],
+  "pairwise": [
+    {
+      "agent_a": "EXP066_LiquidityWool",
+      "agent_b": "EXP054",
+      "games": 40,
+      "wins_a": 0,
+      "ties": 40,
+      "losses_a": 0,
+      "match_points_a": 0.5,
+      "mean_margin_a": 0.0,
+      "median_margin_a": 0.0,
+      "min_margin_a": 0.0,
+      "max_margin_a": 0.0
+    }
+  ],
+  "games": [
+    {
+      "key": "EXP066_LiquidityWool|EXP054|26093001|0",
+      "agent_a": "EXP066_LiquidityWool",
+      "agent_b": "EXP054",
+      "seed": 26093001,
+      "seat_a": 0,
+      "money_a": 78179.0,
+      "money_b": 78179.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 10.568153199987137
+    },
+    {
+      "key": "EXP066_LiquidityWool|EXP054|26093001|1",
+      "agent_a": "EXP066_LiquidityWool",
+      "agent_b": "EXP054",
+      "seed": 26093001,
+      "seat_a": 1,
+      "money_a": 78179.0,
+      "money_b": 78179.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 10.443340500001796
+    },
+    {
+      "key": "EXP066_LiquidityWool|EXP054|26093002|0",
+      "agent_a": "EXP066_LiquidityWool",
+      "agent_b": "EXP054",
+      "seed": 26093002,
+      "seat_a": 0,
+      "money_a": 59329.0,
+      "money_b": 59329.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.319483400002355
+    },
+    {
+      "key": "EXP066_LiquidityWool|EXP054|26093002|1",
+      "agent_a": "EXP066_LiquidityWool",
+      "agent_b": "EXP054",
+      "seed": 26093002,
+      "seat_a": 1,
+      "money_a": 59329.0,
+      "money_b": 59329.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.379014100006316
+    },
+    {
+      "key": "EXP066_LiquidityWool|EXP054|26093003|0",
+      "agent_a": "EXP066_LiquidityWool",
+      "agent_b": "EXP054",
+      "seed": 26093003,
+      "seat_a": 0,
+      "money_a": 111917.0,
+      "money_b": 111917.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 10.982814899994992
+    },
+    {
+      "key": "EXP066_LiquidityWool|EXP054|26093003|1",
+      "agent_a": "EXP066_LiquidityWool",
+      "agent_b": "EXP054",
+      "seed": 26093003,
+      "seat_a": 1,
+      "money_a": 111917.0,
+      "money_b": 111917.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 10.964791699996567
+    },
+    {
+      "key": "EXP066_LiquidityWool|EXP054|26093004|0",
+      "agent_a": "EXP066_LiquidityWool",
+      "agent_b": "EXP054",
+      "seed": 26093004,
+      "seat_a": 0,
+      "money_a": 107462.0,
+      "money_b": 107462.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 9.957994600001257
+    },
+    {
+      "key": "EXP066_LiquidityWool|EXP054|26093004|1",
+      "agent_a": "EXP066_LiquidityWool",
+      "agent_b": "EXP054",
+      "seed": 26093004,
+      "seat_a": 1,
+      "money_a": 107462.0,
+      "money_b": 107462.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 10.052211200003512
+    },
+    {
+      "key": "EXP066_LiquidityWool|EXP054|26093005|0",
+      "agent_a": "EXP066_LiquidityWool",
+      "agent_b": "EXP054",
+      "seed": 26093005,
+      "seat_a": 0,
+      "money_a": 112842.0,
+      "money_b": 112842.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 9.889414799996302
+    },
+    {
+      "key": "EXP066_LiquidityWool|EXP054|26093005|1",
+      "agent_a": "EXP066_LiquidityWool",
+      "agent_b": "EXP054",
+      "seed": 26093005,
+      "seat_a": 1,
+      "money_a": 112842.0,
+      "money_b": 112842.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 9.875101300000097
+    },
+    {
+      "key": "EXP066_LiquidityWool|EXP054|26093006|0",
+      "agent_a": "EXP066_LiquidityWool",
+      "agent_b": "EXP054",
+      "seed": 26093006,
+      "seat_a": 0,
+      "money_a": 85850.0,
+      "money_b": 85850.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.351714000003994
+    },
+    {
+      "key": "EXP066_LiquidityWool|EXP054|26093006|1",
+      "agent_a": "EXP066_LiquidityWool",
+      "agent_b": "EXP054",
+      "seed": 26093006,
+      "seat_a": 1,
+      "money_a": 85850.0,
+      "money_b": 85850.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.43462620000355
+    },
+    {
+      "key": "EXP066_LiquidityWool|EXP054|26093007|0",
+      "agent_a": "EXP066_LiquidityWool",
+      "agent_b": "EXP054",
+      "seed": 26093007,
+      "seat_a": 0,
+      "money_a": 95451.0,
+      "money_b": 95451.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 10.750236899999436
+    },
+    {
+      "key": "EXP066_LiquidityWool|EXP054|26093007|1",
+      "agent_a": "EXP066_LiquidityWool",
+      "agent_b": "EXP054",
+      "seed": 26093007,
+      "seat_a": 1,
+      "money_a": 95451.0,
+      "money_b": 95451.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 10.84689800000342
+    },
+    {
+      "key": "EXP066_LiquidityWool|EXP054|26093008|0",
+      "agent_a": "EXP066_LiquidityWool",
+      "agent_b": "EXP054",
+      "seed": 26093008,
+      "seat_a": 0,
+      "money_a": 98033.0,
+      "money_b": 98033.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 10.743522800010396
+    },
+    {
+      "key": "EXP066_LiquidityWool|EXP054|26093008|1",
+      "agent_a": "EXP066_LiquidityWool",
+      "agent_b": "EXP054",
+      "seed": 26093008,
+      "seat_a": 1,
+      "money_a": 98033.0,
+      "money_b": 98033.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 10.73211069998797
+    },
+    {
+      "key": "EXP066_LiquidityWool|EXP054|26093009|0",
+      "agent_a": "EXP066_LiquidityWool",
+      "agent_b": "EXP054",
+      "seed": 26093009,
+      "seat_a": 0,
+      "money_a": 108129.0,
+      "money_b": 108129.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 9.89951750000182
+    },
+    {
+      "key": "EXP066_LiquidityWool|EXP054|26093009|1",
+      "agent_a": "EXP066_LiquidityWool",
+      "agent_b": "EXP054",
+      "seed": 26093009,
+      "seat_a": 1,
+      "money_a": 108129.0,
+      "money_b": 108129.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 9.869534899989958
+    },
+    {
+      "key": "EXP066_LiquidityWool|EXP054|26093010|0",
+      "agent_a": "EXP066_LiquidityWool",
+      "agent_b": "EXP054",
+      "seed": 26093010,
+      "seat_a": 0,
+      "money_a": 103583.0,
+      "money_b": 103583.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 10.696549800006323
+    },
+    {
+      "key": "EXP066_LiquidityWool|EXP054|26093010|1",
+      "agent_a": "EXP066_LiquidityWool",
+      "agent_b": "EXP054",
+      "seed": 26093010,
+      "seat_a": 1,
+      "money_a": 103583.0,
+      "money_b": 103583.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 10.757267499997397
+    },
+    {
+      "key": "EXP066_LiquidityWool|EXP054|26093011|0",
+      "agent_a": "EXP066_LiquidityWool",
+      "agent_b": "EXP054",
+      "seed": 26093011,
+      "seat_a": 0,
+      "money_a": 101207.0,
+      "money_b": 101207.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 10.90107480000006
+    },
+    {
+      "key": "EXP066_LiquidityWool|EXP054|26093011|1",
+      "agent_a": "EXP066_LiquidityWool",
+      "agent_b": "EXP054",
+      "seed": 26093011,
+      "seat_a": 1,
+      "money_a": 101207.0,
+      "money_b": 101207.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 10.891763399995398
+    },
+    {
+      "key": "EXP066_LiquidityWool|EXP054|26093012|0",
+      "agent_a": "EXP066_LiquidityWool",
+      "agent_b": "EXP054",
+      "seed": 26093012,
+      "seat_a": 0,
+      "money_a": 105140.0,
+      "money_b": 105140.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 10.689894800001639
+    },
+    {
+      "key": "EXP066_LiquidityWool|EXP054|26093012|1",
+      "agent_a": "EXP066_LiquidityWool",
+      "agent_b": "EXP054",
+      "seed": 26093012,
+      "seat_a": 1,
+      "money_a": 105140.0,
+      "money_b": 105140.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 10.698627699995995
+    },
+    {
+      "key": "EXP066_LiquidityWool|EXP054|26093013|0",
+      "agent_a": "EXP066_LiquidityWool",
+      "agent_b": "EXP054",
+      "seed": 26093013,
+      "seat_a": 0,
+      "money_a": 87386.0,
+      "money_b": 87386.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.472835099993972
+    },
+    {
+      "key": "EXP066_LiquidityWool|EXP054|26093013|1",
+      "agent_a": "EXP066_LiquidityWool",
+      "agent_b": "EXP054",
+      "seed": 26093013,
+      "seat_a": 1,
+      "money_a": 87386.0,
+      "money_b": 87386.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.616999000005308
+    },
+    {
+      "key": "EXP066_LiquidityWool|EXP054|26093014|0",
+      "agent_a": "EXP066_LiquidityWool",
+      "agent_b": "EXP054",
+      "seed": 26093014,
+      "seat_a": 0,
+      "money_a": 106650.0,
+      "money_b": 106650.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 9.718643000000156
+    },
+    {
+      "key": "EXP066_LiquidityWool|EXP054|26093014|1",
+      "agent_a": "EXP066_LiquidityWool",
+      "agent_b": "EXP054",
+      "seed": 26093014,
+      "seat_a": 1,
+      "money_a": 106650.0,
+      "money_b": 106650.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 9.771427500003483
+    },
+    {
+      "key": "EXP066_LiquidityWool|EXP054|26093015|0",
+      "agent_a": "EXP066_LiquidityWool",
+      "agent_b": "EXP054",
+      "seed": 26093015,
+      "seat_a": 0,
+      "money_a": 102632.0,
+      "money_b": 102632.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.308599299998605
+    },
+    {
+      "key": "EXP066_LiquidityWool|EXP054|26093015|1",
+      "agent_a": "EXP066_LiquidityWool",
+      "agent_b": "EXP054",
+      "seed": 26093015,
+      "seat_a": 1,
+      "money_a": 102632.0,
+      "money_b": 102632.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.317572799991467
+    },
+    {
+      "key": "EXP066_LiquidityWool|EXP054|26093016|0",
+      "agent_a": "EXP066_LiquidityWool",
+      "agent_b": "EXP054",
+      "seed": 26093016,
+      "seat_a": 0,
+      "money_a": 79620.0,
+      "money_b": 79620.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.45179890000145
+    },
+    {
+      "key": "EXP066_LiquidityWool|EXP054|26093016|1",
+      "agent_a": "EXP066_LiquidityWool",
+      "agent_b": "EXP054",
+      "seed": 26093016,
+      "seat_a": 1,
+      "money_a": 79620.0,
+      "money_b": 79620.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 11.51242220000131
+    },
+    {
+      "key": "EXP066_LiquidityWool|EXP054|26093017|0",
+      "agent_a": "EXP066_LiquidityWool",
+      "agent_b": "EXP054",
+      "seed": 26093017,
+      "seat_a": 0,
+      "money_a": 65717.0,
+      "money_b": 65717.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 10.769560099986847
+    },
+    {
+      "key": "EXP066_LiquidityWool|EXP054|26093017|1",
+      "agent_a": "EXP066_LiquidityWool",
+      "agent_b": "EXP054",
+      "seed": 26093017,
+      "seat_a": 1,
+      "money_a": 65717.0,
+      "money_b": 65717.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 10.954835900003673
+    },
+    {
+      "key": "EXP066_LiquidityWool|EXP054|26093018|0",
+      "agent_a": "EXP066_LiquidityWool",
+      "agent_b": "EXP054",
+      "seed": 26093018,
+      "seat_a": 0,
+      "money_a": 137430.0,
+      "money_b": 137430.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 9.905673799992655
+    },
+    {
+      "key": "EXP066_LiquidityWool|EXP054|26093018|1",
+      "agent_a": "EXP066_LiquidityWool",
+      "agent_b": "EXP054",
+      "seed": 26093018,
+      "seat_a": 1,
+      "money_a": 137430.0,
+      "money_b": 137430.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 9.920856899989303
+    },
+    {
+      "key": "EXP066_LiquidityWool|EXP054|26093019|0",
+      "agent_a": "EXP066_LiquidityWool",
+      "agent_b": "EXP054",
+      "seed": 26093019,
+      "seat_a": 0,
+      "money_a": 96142.0,
+      "money_b": 96142.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 9.475907800006098
+    },
+    {
+      "key": "EXP066_LiquidityWool|EXP054|26093019|1",
+      "agent_a": "EXP066_LiquidityWool",
+      "agent_b": "EXP054",
+      "seed": 26093019,
+      "seat_a": 1,
+      "money_a": 96142.0,
+      "money_b": 96142.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 9.483408100000815
+    },
+    {
+      "key": "EXP066_LiquidityWool|EXP054|26093020|0",
+      "agent_a": "EXP066_LiquidityWool",
+      "agent_b": "EXP054",
+      "seed": 26093020,
+      "seat_a": 0,
+      "money_a": 123507.0,
+      "money_b": 123507.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 9.528491700009909
+    },
+    {
+      "key": "EXP066_LiquidityWool|EXP054|26093020|1",
+      "agent_a": "EXP066_LiquidityWool",
+      "agent_b": "EXP054",
+      "seed": 26093020,
+      "seat_a": 1,
+      "money_a": 123507.0,
+      "money_b": 123507.0,
+      "margin_a": 0.0,
+      "outcome_a": "T",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "elapsed_seconds": 9.546452599999611
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,72 @@
+{
+  "summary": [
+    {
+      "candidate": "EXP054",
+      "wins": 0,
+      "ties": 0,
+      "losses": 2,
+      "mean_margin": -5009.0
+    },
+    {
+      "candidate": "EXP066_LiquidityWool",
+      "wins": 0,
+      "ties": 0,
+      "losses": 2,
+      "mean_margin": -4343.0
+    }
+  ],
+  "results": [
+    {
+      "episode": 114826333,
+      "seed": 1692335265,
+      "our_seat": 0,
+      "opponent": "Araik Tamazian",
+      "path": "recovered/online_reruns_20260929_selected_opponents/114826333/main.py",
+      "actions": 719,
+      "candidate": "EXP054",
+      "our_reward": 92511.0,
+      "rival_reward": 98182.0,
+      "margin": -5671.0,
+      "outcome": "L"
+    },
+    {
+      "episode": 114826333,
+      "seed": 1692335265,
+      "our_seat": 0,
+      "opponent": "Araik Tamazian",
+      "path": "recovered/online_reruns_20260929_selected_opponents/114826333/main.py",
+      "actions": 719,
+      "candidate": "EXP066_LiquidityWool",
+      "our_reward": 92436.0,
+      "rival_reward": 97075.0,
+      "margin": -4639.0,
+      "outcome": "L"
+    },
+    {
+      "episode": 114924649,
+      "seed": 931849258,
+      "our_seat": 0,
+      "opponent": "ctree4113",
+      "path": "recovered/online_reruns_20260929_selected_opponents/114924649/main.py",
+      "actions": 719,
+      "candidate": "EXP054",
+      "our_reward": 74310.0,
+      "rival_reward": 78657.0,
+      "margin": -4347.0,
+      "outcome": "L"
+    },
+    {
+      "episode": 114924649,
+      "seed": 931849258,
+      "our_seat": 0,
+      "opponent": "ctree4113",
+      "path": "recovered/online_reruns_20260929_selected_opponents/114924649/main.py",
+      "actions": 719,
+      "candidate": "EXP066_LiquidityWool",
+      "our_reward": 74651.0,
+      "rival_reward": 78698.0,
+      "margin": -4047.0,
+      "outcome": "L"
+    }
+  ]
+}

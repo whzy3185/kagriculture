@@ -1,0 +1,14 @@
+{
+  "source": "E:\\kaggriculture\\agents\\candidates\\exp054_highquote_150\\main.py",
+  "archive": "E:\\kaggriculture\\submissions\\EXP-054-highquote-150.tar.gz",
+  "root_members": [
+    "main.py"
+  ],
+  "main_py_bytes": 1203145,
+  "main_py_sha256": "3D0002923D42ADD183E88F912C52B5015639E4386C9A78D7EB3DBA91310C33F7",
+  "member_sha256": {
+    "main.py": "3D0002923D42ADD183E88F912C52B5015639E4386C9A78D7EB3DBA91310C33F7"
+  },
+  "archive_bytes": 655068,
+  "archive_sha256": "86226D1A2F8F7AEB984039E252FB8B65652E42C2963EF23340CB229922FF10D5"
+}

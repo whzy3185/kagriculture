@@ -1,0 +1,14 @@
+{
+  "source": "E:\\kaggriculture\\external\\gold_20260925\\master_engine_v3\\extracted\\main.py",
+  "archive": "E:\\kaggriculture\\submissions\\EXP-040-master-engine-v3.tar.gz",
+  "root_members": [
+    "main.py"
+  ],
+  "main_py_bytes": 501543,
+  "main_py_sha256": "127ED3E62988C0474D386DB6527AE8CA9DE9BB1FE7004128557DDEF67126C652",
+  "member_sha256": {
+    "main.py": "127ED3E62988C0474D386DB6527AE8CA9DE9BB1FE7004128557DDEF67126C652"
+  },
+  "archive_bytes": 178727,
+  "archive_sha256": "63E1554C9330557787462EB875960C8C9C9D52C4830251E657A512881625D86B"
+}

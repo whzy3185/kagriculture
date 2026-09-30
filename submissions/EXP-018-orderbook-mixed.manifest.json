@@ -1,0 +1,14 @@
+{
+  "source": "E:\\kaggriculture\\agents\\candidates\\exp018\\main.py",
+  "archive": "E:\\kaggriculture\\submissions\\EXP-018-orderbook-mixed.tar.gz",
+  "root_members": [
+    "main.py"
+  ],
+  "main_py_bytes": 1039428,
+  "main_py_sha256": "ACB83960BBA31132F33CA61E809EFDF48FE8B13C7D98B2168A8419ACAFF67C10",
+  "member_sha256": {
+    "main.py": "ACB83960BBA31132F33CA61E809EFDF48FE8B13C7D98B2168A8419ACAFF67C10"
+  },
+  "archive_bytes": 630813,
+  "archive_sha256": "5491A2E9C75843784F51D783C74EFF82CF93FC7C9CED472F43DB613EEC625BCE"
+}

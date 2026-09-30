@@ -1,55 +1,41 @@
 # Kaggriculture campaign
 
-Reproducible workspace for the Kaggle **Kaggriculture** simulation competition.
-The project intentionally lives on `E:` and does not write campaign artifacts to
-`C:`.
+Reproducible workspace for the Kaggle **Kaggriculture** simulation competition. Campaign artifacts live on `E:`; the workflow does not use `C:` as its workspace.
 
-## Current challenger
+## Current strategy status
 
-- Experiment: `EXP-010`
-- Agent: `agents/candidates/exp010/main.py`
-- SHA-256: `213E054BEA4AB82C4675BE7C4C9B941E368DCA8C229303C2CF9F5F924F008163`
-- Kaggle submission: `56417558`
-- Initial status: `PENDING`
-- Previous challenger: `EXP-009`, submission `56417069`, rating in progress
+- Stable baseline: `EXP-054-highquote-150`
+- Low-risk experimental candidate: `EXP-066-liquidity-wool-flush`
+- EXP066 improves two known official wool-race loss tapes by `+1,032` and `+300`, preserves EXP054's `134-0-10` result against 12 strong open-source agents on six paired-seat seeds, and ties EXP054 in all 40 games on 20 fresh paired-seat seeds.
+- EXP066 remains experimental because the two official losses were narrowed but not flipped. See `reports/EXP045_EXP054_KAGGLE_FAILURE_OPTIMIZATION_20260930.md`.
 
-EXP-010 combines the public-gold-stack failure-atomic opening and effective
-sale-queue closure with EXP-009's one-more-wheat harvest. It preserves the
-Metav4/Pipe16 production stack and Apache-2.0 notices. See
-`agents/candidates/exp010/PROVENANCE.md`.
+## Submission packages
+
+`submissions/` contains byte-reproducible archives and SHA-256 manifests for:
+
+`EXP-007`, `EXP-008`, `EXP-009`, `EXP-010`, `EXP-011`, `EXP-012`, `EXP-014`, `EXP-015`, `EXP-018`, `EXP-020`, `EXP-028`, `EXP-035`, `EXP-040`, `EXP-045`, `EXP-046`, `EXP-054`, and `EXP-066`.
+
+Each archive has `main.py` at the archive root. Packages are produced with:
+
+```powershell
+python scripts\package_submission.py agents\candidates\<candidate>\main.py `
+  submissions\<package>.tar.gz --manifest submissions\<package>.manifest.json
+```
 
 ## Evaluation contract
 
-The local evaluator pins the current official Kaggriculture interpreter source
-at SHA-256
-`BC8A54879EF02C7EA64B8B333D6A976F0EA65C4949149D01F463F23BCCEE653E`.
-Every comparison uses fixed seeds and both player seats.
+Local comparisons use fixed seeds and both player seats. The principal tools are:
 
-```powershell
-E:\anaconda\python.exe scripts\evaluate_agents.py `
-  agents\candidates\exp010\main.py OPPONENT.py `
-  --seeds 701,809,907 --output reports\example.json
-```
+- `scripts/evaluate_agents.py` for direct paired-seat tests;
+- `scripts/evaluate_round_robin.py` for resumable leagues and anchor screens;
+- `scripts/evaluate_replay_tapes.py` for exact public-opponent action-tape replay;
+- `scripts/package_submission.py` for deterministic packaging and hash verification.
 
-The submitted multi-file archive is pinned byte-for-byte in the manifest:
+## Evidence
 
-```powershell
-Get-FileHash submissions\EXP-010-gold-stack-hybrid.tar.gz -Algorithm SHA256
-```
+- `reports/EXP045_EXP054_VS_CURRENT_OPEN_SOURCE_20260930.md`
+- `reports/EXP045_EXP054_KAGGLE_FAILURE_OPTIMIZATION_20260930.md`
+- machine-readable JSON reports under `reports/`
+- source candidates under `agents/candidates/`
 
-## Decision log
-
-- `EXP-006`: own independent controller, public score `534.3`.
-- V50 screen: rejected at `3-9`, mean margin `-$903` versus V9/4.
-- `EXP-007`: accepted after `6-0`, mean margin `+$24,233` versus the previous
-  strong parent on independent holdout seeds; score `2607.3` when EXP-008 was submitted.
-- `EXP-008`: early-cycle challenger; `31-1` against EXP-007 across ladder and
-  fresh holdout worlds, and improves the matched V50 panel from `5-7 / -$497`
-  to `6-6 / +$323`.
-- `EXP-009`: accepted at `30-2`, mean margin `+$1,775.06` versus EXP-008 over
-  ladder and fresh holdout worlds. Its final one-more-wheat layer is `16-0`,
-  mean `+$27.63`, against the exact direct parent.
-- `EXP-010`: gold-stack hybrid; `16-0`, mean `+$27.63`, versus Farmer John V55
-  and `32` ties versus EXP-009 across fresh and recent-ladder worlds.
-
-Detailed evidence is in `reports/EXP-010.md` and the JSON files under `reports/`.
+The repository contains both promoted and rejected experiments so that strategy decisions remain auditable. Formal Kaggle upload is a separate, explicit action; creating or syncing a package does not submit it.

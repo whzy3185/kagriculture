@@ -1,0 +1,14 @@
+{
+  "source": "E:\\kaggriculture\\agents\\candidates\\exp046_multiroute_mastermarket_d27\\main.py",
+  "archive": "E:\\kaggriculture\\submissions\\EXP-046-multiroute-mastermarket-d27.tar.gz",
+  "root_members": [
+    "main.py"
+  ],
+  "main_py_bytes": 1040742,
+  "main_py_sha256": "F5B812CB5E4CE7A4B387DE6D46DAA4A7DD40BA49817D6098B50B5121A69C5C94",
+  "member_sha256": {
+    "main.py": "F5B812CB5E4CE7A4B387DE6D46DAA4A7DD40BA49817D6098B50B5121A69C5C94"
+  },
+  "archive_bytes": 845423,
+  "archive_sha256": "71CC2196F52351B75C81BB431E18B363438AB5B939743DC7F465CD526FE69700"
+}

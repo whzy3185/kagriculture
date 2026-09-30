@@ -1,0 +1,14 @@
+{
+  "source": "E:\\kaggriculture\\agents\\candidates\\exp066_liquidity_wool_flush\\main.py",
+  "archive": "E:\\kaggriculture\\submissions\\EXP-066-liquidity-wool-flush.tar.gz",
+  "root_members": [
+    "main.py"
+  ],
+  "main_py_bytes": 1208219,
+  "main_py_sha256": "8D2C5D42D492F4C5A38C9736AF5704A80E0F2F415D4D2EC54C01E9D8EA84B640",
+  "member_sha256": {
+    "main.py": "8D2C5D42D492F4C5A38C9736AF5704A80E0F2F415D4D2EC54C01E9D8EA84B640"
+  },
+  "archive_bytes": 656479,
+  "archive_sha256": "7CD90C3B83407AF06A1F5138EDA1DD443C74649E42F19A0B936B2DCB4BB40B13"
+}
